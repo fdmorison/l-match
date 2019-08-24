@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://www.mydomain.com.br/Ontology1211664473.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.mydomain.com.br/Ontology1211664473.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Classics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="College_of_arts_and_sciences"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thai">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#College_of_arts_and_sciences">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Courses"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Vietnamese">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hindi">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LatinClass">
+    <rdfs:subClassOf rdf:resource="#Classics"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sanskrit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Japanese">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="History">
+    <rdfs:subClassOf rdf:resource="#College_of_arts_and_sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GreekClass">
+    <rdfs:subClassOf rdf:resource="#Classics"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Korean">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Material_sciences_and_engineering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="College_of_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Earth_and_atmosferic_sciences">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Geophysics and Geotectonics</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#College_of_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Indonesian">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Asian_Studies"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Civil_and_enviromental_engineering">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Water-Resources Systems Engineering</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#College_of_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Chemical_and_Biomolecular_Engineering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#College_of_engineering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#College_of_engineering">
+    <rdfs:subClassOf rdf:resource="#Courses"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Asian_Studies">
+    <rdfs:subClassOf rdf:resource="#College_of_arts_and_sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Electrical_and_computer_engineering">
+    <rdfs:subClassOf rdf:resource="#College_of_engineering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Chinese">
+    <rdfs:subClassOf rdf:resource="#Asian_Studies"/>
+  </owl:Class>
+  <GreekClass rdf:ID="Greek_Epic_"/>
+  <Material_sciences_and_engineering rdf:ID="Colloids_and_Colloid_Assemblies_for_Advanced_Materials_Applications"/>
+  <History rdf:ID="Ancient_european_history"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Introduction_to_Biomedical_Engineering_"/>
+  <Electrical_and_computer_engineering rdf:ID="Sophomore_Electrical_and_Computer_Engineering_Independent_Project"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Seminar"/>
+  <Civil_and_enviromental_engineering rdf:ID="Water-Resources_Systems_Engineering"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Biomolecular_Engineering_of_Bioprocesses"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Introduction_to_Electronic_Materials_Processing_"/>
+  <Japanese rdf:ID="Intermediate_Japanese_Reading_II_"/>
+  <Electrical_and_computer_engineering rdf:ID="Electric_Power_Systems_I"/>
+  <Japanese rdf:ID="Directed_Readings"/>
+  <Material_sciences_and_engineering rdf:ID="Senior_Thesis_I_and_II"/>
+  <GreekClass rdf:ID="Graduate_Survey_of_Greek_Literature"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Paleobiology_"/>
+  <Electrical_and_computer_engineering rdf:ID="Applied_Systems_Engineering_Ii"/>
+  <GreekClass rdf:ID="Elementary_Ancient_Greek_III_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Introductory_Geological_Sciences_"/>
+  <Material_sciences_and_engineering rdf:ID="Biomaterials_for_the_Skeletal_Systems_"/>
+  <Material_sciences_and_engineering rdf:ID="Physics_of_Soft_Materials"/>
+  <Electrical_and_computer_engineering rdf:ID="Electrical_and_Computer_Engineering_Honors_Seminar"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Advanced_Fluid_Mechanics_and_Heat_Transfer"/>
+  <Electrical_and_computer_engineering rdf:ID="Parallel_Computer_Architecture_"/>
+  <Material_sciences_and_engineering rdf:ID="Research_Involvement_IIIa_and_IIIb"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Fundamentals_of_Energy_and_Mineral_Resources"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Principles_and_Practices_of_Graduate_Research"/>
+  <GreekClass rdf:ID="Greek_Philosophy_and_Rhetoric_"/>
+  <Material_sciences_and_engineering rdf:ID="Electronic_Materials_for_the_Information_Age_"/>
+  <Material_sciences_and_engineering rdf:ID="Nanobiotechnology_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Energy_Economics"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Exploration_Geophysics_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Undergraduate_Engineering_Teaching_in_CEE"/>
+  <Japanese rdf:ID="History_of_the_Japanese_Language_"/>
+  <Material_sciences_and_engineering rdf:ID="Advanced_Inorganic_Chemistry_III_Solid-State_Chemistry_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Uncertainty_Analysis_in_Engineering"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Weather_Forecasting_and_Analysis"/>
+  <Civil_and_enviromental_engineering rdf:ID="Structural_Dynamics_and_Earthquake_Engineering"/>
+  <Material_sciences_and_engineering rdf:ID="Biomedical_Materials_and_Their_Applications"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Engineering_Thermodynamics"/>
+  <Material_sciences_and_engineering rdf:ID="Design_Integration_DVDs_and_iPods"/>
+  <Thai rdf:ID="Thai_Literature_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Analysis_of_Separation_Processes"/>
+  <Korean rdf:ID="Intermediate_Korean_"/>
+  <Electrical_and_computer_engineering rdf:ID="Plasma_Processing_of_Electronic_Materials_">
+    <rdf:type rdf:resource="#Material_sciences_and_engineering"/>
+  </Electrical_and_computer_engineering>
+  <Earth_and_atmosferic_sciences rdf:ID="Special_Topics_in_Oceanography"/>
+  <LatinClass rdf:ID="Roman_Epic_"/>
+  <Electrical_and_computer_engineering rdf:ID="Nonlinear_System_Analysis_and_Computations_"/>
+  <Electrical_and_computer_engineering rdf:ID="Biomedical_System_Design_"/>
+  <Material_sciences_and_engineering rdf:ID="Mechanical_Properties_of_Materials_From_Nanodevices_to_Superstructures_"/>
+  <Electrical_and_computer_engineering rdf:ID="Random_Signals_in_Communications_and_Signal_Processing"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Process_Design"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Mathematical_Methods_of_Chemical_Engineering_Analysis"/>
+  <Hindi rdf:ID="Accelerated_Elementary_Hindi"/>
+  <LatinClass rdf:ID="Latin_Philosophical_Texts_"/>
+  <Indonesian rdf:ID="Elementary_Indonesian"/>
+  <GreekClass rdf:ID="Homer_"/>
+  <Vietnamese rdf:ID="Intermediate_Vietnamese_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Physical_Meteorology"/>
+  <GreekClass rdf:ID="Independent_Study_in_Greek_Undergraduate_Level"/>
+  <Chinese rdf:ID="Elementary_Standard_Chinese_Mandarin"/>
+  <Electrical_and_computer_engineering rdf:ID="Nanoscale_Devices_Circuits_and_Physics"/>
+  <LatinClass rdf:ID="Imperial_Latin_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Marine_Ecosystems_Field_Course_"/>
+  <Vietnamese rdf:ID="Advanced_Vietnamese_"/>
+  <Indonesian rdf:ID="Advanced_Indonesian_"/>
+  <LatinClass rdf:ID="Latin_Prose_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Economic_Methods_for_Engineering_and_Management_"/>
+  <LatinClass rdf:ID="Graduate_Seminar_in_Latin_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Applied_Systems_Engineering_"/>
+  <Electrical_and_computer_engineering rdf:ID="Introduction_to_Microelectronics"/>
+  <Civil_and_enviromental_engineering rdf:ID="Design_of_Steel_Structures"/>
+  <Civil_and_enviromental_engineering rdf:ID="Case_Studies_in_Environmental_Fluid_Mechanics_"/>
+  <Korean rdf:ID="Intermediate_Reading_"/>
+  <Material_sciences_and_engineering rdf:ID="Junior_Laboratory_I"/>
+  <LatinClass rdf:ID="Roman_Letters_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Geochemistry"/>
+  <Civil_and_enviromental_engineering rdf:ID="Hydraulic_Engineering_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Inverse_Methods_in_the_Natural_Sciences"/>
+  <GreekClass rdf:ID="The_Greek_New_Testament_"/>
+  <LatinClass rdf:ID="Advanced_Readings_in_Latin_Literature_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Structural_Geology"/>
+  <Hindi rdf:ID="Elementary_Hindi"/>
+  <LatinClass rdf:ID="Elementary_Latin_III"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Marine_Ecology"/>
+  <Electrical_and_computer_engineering rdf:ID="Fundamentals_of_Quantum_and_Solid-State_Electronics"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Sedimentary_Basins"/>
+  <Electrical_and_computer_engineering rdf:ID="Introduction_to_Controlled_Fusion_Principles_and_Technology"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Mesoscale_Meteorology"/>
+  <Material_sciences_and_engineering rdf:ID="Technologies_for_Making_the_Small"/>
+  <LatinClass rdf:ID="Elementary_Latin_I"/>
+  <College_of_arts_and_sciences rdf:ID="English"/>
+  <Material_sciences_and_engineering rdf:ID="Physical_Metallurgy_and_Applications_"/>
+  <LatinClass rdf:ID="Virgil_"/>
+  <Electrical_and_computer_engineering rdf:ID="Senior_Electrical_and_Computer_Engineering_Group_Project"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Synoptic_Meteorology_I"/>
+  <Japanese rdf:ID="Elementary_Japanese"/>
+  <Electrical_and_computer_engineering rdf:ID="Digital_Communication_Receiver_Design"/>
+  <Hindi rdf:ID="Intermediate_Hindi_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Introduction_to_the_Finite_Element_Method"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Physics_of_Micro-_and_Nanoscale_Fluid_Mechanics_and_Heat_Transfer"/>
+  <Material_sciences_and_engineering rdf:ID="Special_Project"/>
+  <College_of_arts_and_sciences rdf:ID="Computer_science"/>
+  <Electrical_and_computer_engineering rdf:ID="Computer_Networks_and_Telecommunications"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Special_Projects_in_Chemical_Engineering"/>
+  <Civil_and_enviromental_engineering rdf:ID="Design_Project">
+    <rdf:type rdf:resource="#Chemical_and_Biomolecular_Engineering"/>
+  </Civil_and_enviromental_engineering>
+  <Civil_and_enviromental_engineering rdf:ID="Water_Supply_Engineering_"/>
+  <LatinClass rdf:ID="Graduate_Survey_of_Latin_Literature_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Thesis_Research"/>
+  <Civil_and_enviromental_engineering rdf:ID="Civil_and_enviromental_engineeringClass_95"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Environmental_Biophysics_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Engineering_Computation_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Advanced_Chemical_Engineering_Thermodynamics"/>
+  <Japanese rdf:ID="Intermediate_Japanese_Reading_I"/>
+  <Thai rdf:ID="Elementary_Thai"/>
+  <Material_sciences_and_engineering rdf:ID="Composite_Materials_"/>
+  <LatinClass rdf:ID="Independent_Study_in_Latin_Undergraduate_Level"/>
+  <Civil_and_enviromental_engineering rdf:ID="Structural_Modeling_and_Behavior"/>
+  <Electrical_and_computer_engineering rdf:ID="Electric_Power_Systems_II"/>
+  <Electrical_and_computer_engineering rdf:ID="Electric_Systems_Engineering_and_Economics_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Statistical_Methods_in_Meteorology_and_Climatology"/>
+  <Sanskrit rdf:ID="Buddhist_Hybrid_Sanskrit_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Engineers_for_a_Sustainable_World_Engineering_in_International_Development"/>
+  <Civil_and_enviromental_engineering rdf:ID="Experimental_Methods_in_Fluid_Dynamics"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Molecular_Principles_of_Biomedical_Engineering_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Senior_Seminar"/>
+  <Material_sciences_and_engineering rdf:ID="Mechanical_Properties_of_Materials_Processing_and_Design_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Engineering_Management_Methods"/>
+  <Civil_and_enviromental_engineering rdf:ID="LRFD-Based_Engineering_of_Wood_Structures"/>
+  <Material_sciences_and_engineering rdf:ID="Technology_Management_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Aerosols_and_Colloids"/>
+  <Vietnamese rdf:ID="Elementary_Vietnamese"/>
+  <Civil_and_enviromental_engineering rdf:ID="Intermediate_Solid_Mechanics"/>
+  <Thai rdf:ID="Intermediate_Thai_Reading_"/>
+  <Material_sciences_and_engineering rdf:ID="Organic_Optoelectronics_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Civil_Infrastructure_Systems"/>
+  <Chinese rdf:ID="Beginning_Mandarin_Reading_and_Writing_Standard_Chinese"/>
+  <Civil_and_enviromental_engineering rdf:ID="Project_Management"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Turbomachinery_Applications"/>
+  <Civil_and_enviromental_engineering rdf:ID="Fundamentals_of_Structural_Mechanics"/>
+  <Electrical_and_computer_engineering rdf:ID="Introduction_to_Nuclear_Science_and_Engineering_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Introduction_to_Polymer_Processing"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Polymeric_Materials"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Nonresident_Lectures"/>
+  <Material_sciences_and_engineering rdf:ID="Electronic_Properties_of_Materials_"/>
+  <Material_sciences_and_engineering rdf:ID="Analytical_Techniques_for_Material_Science"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Climate_Dynamics"/>
+  <History rdf:ID="Asian_history"/>
+  <Hindi rdf:ID="Advanced_Hindi_Reading_"/>
+  <Electrical_and_computer_engineering rdf:ID="Fundamentals_of_Networks"/>
+  <Material_sciences_and_engineering rdf:ID="Flexible_Electronics_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Environmental_Site_and_Remediation_Engineering_"/>
+  <Electrical_and_computer_engineering rdf:ID="Applications_of_Signal_Processing"/>
+  <Electrical_and_computer_engineering rdf:ID="Silicon_Device_Fundamentals"/>
+  <GreekClass rdf:ID="Elementary_Ancient_Greek_I"/>
+  <Electrical_and_computer_engineering rdf:ID="Theory_of_Linear_Systems_"/>
+  <Japanese rdf:ID="Intermediate_Japanese_Conversation_II_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Selected_Topics_in_Biochemical_Engineering"/>
+  <Japanese rdf:ID="Intermediate_Japanese_at_a_Moderate_Pace_"/>
+  <Material_sciences_and_engineering rdf:ID="Materials_Design_Concepts_II"/>
+  <Material_sciences_and_engineering rdf:ID="Materials_Design_Concepts_I"/>
+  <LatinClass rdf:ID="Intensive_Latin"/>
+  <Electrical_and_computer_engineering rdf:ID="Advanced_Microprocessor_Architecture"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="An_Overview_of_Chemical_Processing"/>
+  <Civil_and_enviromental_engineering rdf:ID="Sustainability_Design_for_Appledore_Island_"/>
+  <Material_sciences_and_engineering rdf:ID="Senior_Materials_Laboratory_I_and_II"/>
+  <Civil_and_enviromental_engineering rdf:ID="Civil_and_enviromental_engineeringClass_59"/>
+  <Material_sciences_and_engineering rdf:ID="Principles_of_Tissue_Engineering_"/>
+  <Sanskrit rdf:ID="Intermediate_Sanskrit_"/>
+  <LatinClass rdf:ID="Latin_in_Review"/>
+  <Electrical_and_computer_engineering rdf:ID="Signals_and_Information"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Volcanology_"/>
+  <Electrical_and_computer_engineering rdf:ID="Introduction_to_Probability_and_Random_Signals"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Heat_and_Mass_Transfer"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Atmospheric_Air_Pollution_"/>
+  <Korean rdf:ID="Elementary_Reading"/>
+  <Vietnamese rdf:ID="Directed_Study">
+    <rdf:type rdf:resource="#Sanskrit"/>
+    <rdf:type rdf:resource="#Thai"/>
+    <rdf:type rdf:resource="#Korean"/>
+    <rdf:type rdf:resource="#Japanese"/>
+    <rdf:type rdf:resource="#Indonesian"/>
+    <rdf:type rdf:resource="#Hindi"/>
+    <rdf:type rdf:resource="#Chinese"/>
+  </Vietnamese>
+  <Electrical_and_computer_engineering rdf:ID="Digital_VLSI_Design"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Earth_in_the_News"/>
+  <Chinese rdf:ID="High_Intermediate_Chinese_"/>
+  <Electrical_and_computer_engineering rdf:ID="Applied_Quantum_Optics_for_Photonics_and_Optoelectronics"/>
+  <Civil_and_enviromental_engineering rdf:ID="Hydrology"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Basic_Meteorology_Lab"/>
+  <Chinese rdf:ID="Elementary_Cantonese_I_and_II"/>
+  <LatinClass rdf:ID="Catullus_"/>
+  <Korean rdf:ID="Elementary_Korean"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Engineering_Principles_for_Drug_Delivery_"/>
+  <Material_sciences_and_engineering rdf:ID="Biomineralization_The_Formation_and_Properties_of_Inorganic_Biomaterials_"/>
+  <Electrical_and_computer_engineering rdf:ID="Fiber_and_Integrated_Optics"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Kinetics_and_Transport"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Stratigraphy_"/>
+  <Electrical_and_computer_engineering rdf:ID="Introduction_to_Circuits_for_Electrical_and_Computer_Engineers_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Special_Topics_in_Civil_and_Environmental_Engineering"/>
+  <History rdf:ID="Latin_american_history"/>
+  <Electrical_and_computer_engineering rdf:ID="Inventing_an_Information_Society_"/>
+  <Electrical_and_computer_engineering rdf:ID="Fundamental_Information_Theory"/>
+  <Material_sciences_and_engineering rdf:ID="Ethics_and_Technology_"/>
+  <Electrical_and_computer_engineering rdf:ID="Nanofabrication_of_Semiconductor_Devices_"/>
+  <Sanskrit rdf:ID="Advanced_Sanskrit_I"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Air_Pollution_Control"/>
+  <Indonesian rdf:ID="Intermediate_Indonesian_"/>
+  <Korean rdf:ID="Structure_of_Korean_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="European_Discovery_of_Impacts_and_Explosive_Volcanism_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Basic_Principles_of_Meteorology"/>
+  <Material_sciences_and_engineering rdf:ID="Thin-Film_Materials_Science"/>
+  <History rdf:ID="Modern_european_history"/>
+  <Electrical_and_computer_engineering rdf:ID="Microwave_Theory_Devices_and_Applications"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Microclimatology"/>
+  <GreekClass rdf:ID="Graduate_Seminar_in_Greek"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Evolution_of_the_Earth_and_Life_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Hydrocarbon_Resource_Exploration_and_Development"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Seminar_on_the_Intergovernmental_Panel_on_Climate_Change_Report"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Paleoclimate_Since_the_Last_Ice_Age"/>
+  <LatinClass rdf:ID="Independent_Study_for_Graduate_Students_in_Latin"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Energy_Engineering"/>
+  <Electrical_and_computer_engineering rdf:ID="Junior_Electrical_and_Computer_Engineering_Independent_Project"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Biogeochemistry_of_the_Hawaiian_Islands"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Kinetics_and_Reactor_Design"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Fortran_Applications_in_Earth_Science"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Evolution_of_the_Earth_System"/>
+  <Electrical_and_computer_engineering rdf:ID="Applied_Systems_Engineering_I"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Physical_Polymer_Science_I"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Fluid_Mechanics"/>
+  <Earth_and_atmosferic_sciences rdf:ID="The_Earth_System"/>
+  <Civil_and_enviromental_engineering rdf:ID="Transportation_Systems_Design_"/>
+  <Material_sciences_and_engineering rdf:ID="Materials_Science_and_Engineering_Colloquium"/>
+  <Civil_and_enviromental_engineering rdf:ID="Design_of_Concrete_Structures"/>
+  <Electrical_and_computer_engineering rdf:ID="Advanced_GPS_Receiver_Design"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Mineralogy"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Cellular_Principles_of_Biomedical_Engineering_"/>
+  <LatinClass rdf:ID="Roman_Historiography_"/>
+  <Electrical_and_computer_engineering rdf:ID="Sophomore_Electrical_and_Computer_Engineering_Group_Projects"/>
+  <Civil_and_enviromental_engineering rdf:ID="Evaluation_and_Failure_of_Structures_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Field_Mapping_in_Argentina"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Biomedical_Engineering_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Engineering_Laboratory"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Introduction_to_Chemical_Engineering"/>
+  <Material_sciences_and_engineering rdf:ID="Undergraduate_Teaching_Involvement"/>
+  <Electrical_and_computer_engineering rdf:ID="MicroElectro_Mechanical_Systems"/>
+  <Chinese rdf:ID="Intermediate_Standard_Chinese_Mandarin"/>
+  <Japanese rdf:ID="Oral_Narration_and_Public_Speaking"/>
+  <Material_sciences_and_engineering rdf:ID="Condensed_Matter_Structure_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Earthquake"/>
+  <GreekClass rdf:ID="Advanced_Readings_in_Greek_Literature_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Microbiology_for_Environmental_Engineering"/>
+  <Civil_and_enviromental_engineering rdf:ID="Laboratory_Research_in_Environmental_Engineering"/>
+  <College_of_arts_and_sciences rdf:ID="Linguistics"/>
+  <Electrical_and_computer_engineering rdf:ID="Digital_Systems_Design_Using_Microcontrollers"/>
+  <Material_sciences_and_engineering rdf:ID="Thermodynamics_of_Materials_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Sustainable_Small-Scale_Water_Supplies"/>
+  <Electrical_and_computer_engineering rdf:ID="Digital_Communications_Over_Packet-Switched_Networks_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Engineering_Tools_and_Equipment"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Late_Quaternary_Paleoecology_"/>
+  <Electrical_and_computer_engineering rdf:ID="Semiconductor_Physics_"/>
+  <LatinClass rdf:ID="Latin_Prose_Composition_"/>
+  <College_of_arts_and_sciences rdf:ID="Mathematics"/>
+  <LatinClass rdf:ID="Survey_of_Medieval_Latin_Literature_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Dinosaurs"/>
+  <Electrical_and_computer_engineering rdf:ID="Radio_Frequency_RF_Circuits_and_Systems"/>
+  <Material_sciences_and_engineering rdf:ID="Introduction_to_Composite_Materials_"/>
+  <Material_sciences_and_engineering rdf:ID="Magnetic_and_Ferroelectric_Materials_"/>
+  <Material_sciences_and_engineering rdf:ID="Kinetics_of_Reactions_in_Condensed_Matter"/>
+  <Electrical_and_computer_engineering rdf:ID="Senior_Electrical_and_Computer_Independent_Engineering_Project"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Feedback_Control_Systems_"/>
+  <Material_sciences_and_engineering rdf:ID="Electronic_Magnetic_and_Dielectric_Properties_of_Materials_"/>
+  <Material_sciences_and_engineering rdf:ID="Research_Involvement_IIa_and_IIb"/>
+  <College_of_arts_and_sciences rdf:ID="Economics"/>
+  <Sanskrit rdf:ID="Elementary_Sanskrit_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Introductory_Oceanography_Lab_"/>
+  <Electrical_and_computer_engineering rdf:ID="Digital_Communications"/>
+  <Electrical_and_computer_engineering rdf:ID="Advanced_Digital_VLSI"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Interior_of_the_Earth"/>
+  <Electrical_and_computer_engineering rdf:ID="Analog_Integrated_Circuit_Design"/>
+  <Chinese rdf:ID="High_Intermediate_Cantonese_I_and_II_"/>
+  <Vietnamese rdf:ID="Intermediate_Vietnamese_Composition_and_Reading_"/>
+  <Thai rdf:ID="Intermediate_Composition_and_Conversation_"/>
+  <Material_sciences_and_engineering rdf:ID="Properties_of_Solid_Polymers"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Senior_Survey_of_Earth_Systems"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Microchemical_and_Microfluidic_Systems"/>
+  <Material_sciences_and_engineering rdf:ID="Materials_Chemistry_"/>
+  <Material_sciences_and_engineering rdf:ID="Research_Involvement_IVa_and_IVb"/>
+  <Civil_and_enviromental_engineering rdf:ID="Remote_Sensing_Resource_Inventory_Methods_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Coastal_Engineering_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Mass_and_Energy_Balances_"/>
+  <Electrical_and_computer_engineering rdf:ID="Signal_Representation_and_Modelling"/>
+  <History rdf:ID="American_history"/>
+  <Chinese rdf:ID="Readings_in_Chinese_History_Culture_and_Society_"/>
+  <Material_sciences_and_engineering rdf:ID="Introduction_to_Ceramics_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Concrete_Materials_and_Construction"/>
+  <Civil_and_enviromental_engineering rdf:ID="Environment_Energy_and_Transportation_Planning_and_Management"/>
+  <Civil_and_enviromental_engineering rdf:ID="Introduction_to_Composite_Materials"/>
+  <Electrical_and_computer_engineering rdf:ID="Telecommunication_Systems"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Geophysical_Field_Methods_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Introduction_to_Groundwater_Hydrology_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Managing_New_Business_Development"/>
+  <Material_sciences_and_engineering rdf:ID="Mechanical_Properties_of_Thin_Films_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Physical_Oceanography_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Undergraduate_Projects_in_Chemical_Engineering"/>
+  <Material_sciences_and_engineering rdf:ID="Colloids_and_Colloid_Assemblies_for_Advanced_Materials_Applications_"/>
+  <Chinese rdf:ID="Business_Chinese_in_Cultural_Context"/>
+  <Electrical_and_computer_engineering rdf:ID="Lasers_and_Optical_Electronics"/>
+  <Material_sciences_and_engineering rdf:ID="Elasticity_Plasticity_and_Fracture_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Renewable_Resources_from_Agricultur_Sugarcane_as_a_Feedstock"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Synoptic_Meteorology_II"/>
+  <Civil_and_enviromental_engineering rdf:ID="Introduction_to_CADD"/>
+  <Civil_and_enviromental_engineering rdf:ID="Foundation_Engineering"/>
+  <Civil_and_enviromental_engineering rdf:ID="Modern_Structures_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Atmospheric_Thermodynamics_and_Hydrostatics"/>
+  <Civil_and_enviromental_engineering rdf:ID="Environmental_Quality_Engineering"/>
+  <Japanese rdf:ID="Intermediate_Japanese_Conversation_I_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Design_of_Chemical_Reactors"/>
+  <Thai rdf:ID="Advanced_Thai_"/>
+  <Material_sciences_and_engineering rdf:ID="Research_in_Materials_Science"/>
+  <Electrical_and_computer_engineering rdf:ID="Junior_Electrical_and_Computer_Engineering_Group_Project"/>
+  <Material_sciences_and_engineering rdf:ID="Kinetics_Diffusion_and_Phase_Transformations_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Senior_Honors_Thesis"/>
+  <Material_sciences_and_engineering rdf:ID="Junior_Laboratory_II"/>
+  <Material_sciences_and_engineering rdf:ID="Nanotechnology_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Geophysics_and_Geotectonics"/>
+  <LatinClass rdf:ID="Advanced_Latin_Prose_Composition_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Synthetic_Polymer_Chemistry_"/>
+  <Electrical_and_computer_engineering rdf:ID="Fundamentals_of_Quantum_and_SolidState_Electronics"/>
+  <Electrical_and_computer_engineering rdf:ID="Digital_Signal_Processing"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Marine_and_Coastal_Geology"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Atmospheric_Dynamics"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Meteorological_Observations_and_Instruments"/>
+  <Civil_and_enviromental_engineering rdf:ID="Retaining_Structures_and_Slopes"/>
+  <Chinese rdf:ID="Intermediate_Mandarin_Reading_and_Writing_"/>
+  <GreekClass rdf:ID="Intensive_Greek"/>
+  <Electrical_and_computer_engineering rdf:ID="Networks_and_Systems"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Petrology_and_Geochemistry_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Introductory_Oceanography_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Process_Control_Strategies"/>
+  <Electrical_and_computer_engineering rdf:ID="Computer_Vision"/>
+  <Electrical_and_computer_engineering rdf:ID="Advanced_Analog_VLSI_Circuit_Design"/>
+  <Civil_and_enviromental_engineering rdf:ID="Engineering_Economics_and_Management_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Dynamics_of_Marine_Ecosystems"/>
+  <Material_sciences_and_engineering rdf:ID="Materials_Science_Research_Seminars"/>
+  <Material_sciences_and_engineering rdf:ID="Materials_for_Energy_Production_Storage_and_Conversion_"/>
+  <Chinese rdf:ID="Intermediate_Cantonese_I_and_II_"/>
+  <College_of_arts_and_sciences rdf:ID="Astronomy"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Field_Study_of_the_Earth_System"/>
+  <Electrical_and_computer_engineering rdf:ID="Computational_Electronics_Electrodynamics_and_Devices_"/>
+  <Electrical_and_computer_engineering rdf:ID="Electromagnetic_Fields_and_Waves"/>
+  <Electrical_and_computer_engineering rdf:ID="Mobile_Communication_Systems_"/>
+  <LatinClass rdf:ID="Ovid_Erotic_Poetry_"/>
+  <GreekClass rdf:ID="Independent_Study_for_Graduate_Students_in_Greek"/>
+  <Civil_and_enviromental_engineering rdf:ID="Engineering_Management_Project"/>
+  <Electrical_and_computer_engineering rdf:ID="GPS_Theory_and_Design_"/>
+  <History rdf:ID="Medieval_renaissance_and_early_modern_european_history"/>
+  <Civil_and_enviromental_engineering rdf:ID="AguaClara_Sustainable_Water_Supply_Project"/>
+  <GreekClass rdf:ID="Euripides_Alcestis_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Introduction_to_Petroleum_Refining"/>
+  <GreekClass rdf:ID="Greek_Prose_"/>
+  <Electrical_and_computer_engineering rdf:ID="Computer_Organization_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Chemical_Processing_of_Electronic_Materials"/>
+  <LatinClass rdf:ID="Roman_Prose_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Heuristic_Methods_for_Optimization_"/>
+  <Chinese rdf:ID="Mandarin_for_Cantonese_Speakers_"/>
+  <Material_sciences_and_engineering rdf:ID="Thermodynamics_of_Condensed_Systems_"/>
+  <Material_sciences_and_engineering rdf:ID="Computational_Materials_Science"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Introduction_to_Biogeochemistry_"/>
+  <Material_sciences_and_engineering rdf:ID="Principles_of_Diffraction_"/>
+  <Chinese rdf:ID="Advanced_Chinese_Fiction_Reportage_Current_Events_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Transportation_and_Information_Technology"/>
+  <Civil_and_enviromental_engineering rdf:ID="Introduction_to_Transportation_Engineering"/>
+  <Material_sciences_and_engineering rdf:ID="Chemistry_of_Materials"/>
+  <Electrical_and_computer_engineering rdf:ID="Technology_in_Society_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Forecast_Competition"/>
+  <LatinClass rdf:ID="Roman_Poetry_"/>
+  <Chinese rdf:ID="Business_Chinese_in_Cultural_Context_"/>
+  <Chinese rdf:ID="Special_Topics_"/>
+  <GreekClass rdf:ID="Elementary_Ancient_Greek_II"/>
+  <Chinese rdf:ID="Historical_Documents_on_Modern_China_"/>
+  <GreekClass rdf:ID="Undergraduate_Seminar_Greek_Drama_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Climate_and_Global_Warming"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Fossil_Preparation"/>
+  <Electrical_and_computer_engineering rdf:ID="Detection_and_Estimation"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Geomorphology"/>
+  <GreekClass rdf:ID="Greek_Philosophical_Texts_"/>
+  <Chemical_and_Biomolecular_Engineering rdf:ID="Introduction_to_Process_Dynamics_and_Control"/>
+  <GreekClass rdf:ID="Greek_Historiography_and_Oratory_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Introduction_to_Geotechnical_Engineering"/>
+  <Material_sciences_and_engineering rdf:ID="Surfaces_and_Interfaces_in_Materials_"/>
+  <Civil_and_enviromental_engineering rdf:ID="Urban_Transportation_Planning_and_Modeling"/>
+  <Material_sciences_and_engineering rdf:ID="Nanofabrication_of_Semiconductor_"/>
+  <Civil_and_enviromental_engineering rdf:ID="System_Architecture_Behavior_and_Optimization_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Seminar_Hawaii_Environment"/>
+  <LatinClass rdf:ID="Roman_Drama_"/>
+  <Electrical_and_computer_engineering rdf:ID="Digital_Image_Processing"/>
+  <Electrical_and_computer_engineering rdf:ID="Foundations_of_ECE_Mathematics"/>
+  <Korean rdf:ID="Advanced_Korean_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Introduction_to_Radar_and_Remote_Sensing_"/>
+  <Earth_and_atmosferic_sciences rdf:ID="Active_Tectonics"/>
+  <LatinClass rdf:ID="Elementary_Latin_II"/>
+  <Electrical_and_computer_engineering rdf:ID="Introduction_to_Digital_Logic_Design_"/>
+  <Electrical_and_computer_engineering rdf:ID="Optimizing_Compilers_"/>
+  <Electrical_and_computer_engineering rdf:ID="Special_Topics_in_Electrical_and_Computer_Engineering"/>
+  <Electrical_and_computer_engineering rdf:ID="Computer_Architecture_"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

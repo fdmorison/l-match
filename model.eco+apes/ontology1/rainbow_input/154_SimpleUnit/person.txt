@@ -1,0 +1,12 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+linearDC unitDC  linearCN unitCN 
+
+
+individualIN
+
+derivedunitPN  =  dimensionlessPV unitPV   :  baseunitPT       
+expressedPN    =  populationPV             :  basedimensionPT  

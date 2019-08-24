@@ -1,0 +1,634 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://ecoinformatics.org/ontologies/observation-@version@#"
+  xml:base="http://ecoinformatics.org/ontologies/observation-@version@">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >'$Id: Observation.owl,v 1.27 2007/05/11 23:57:46 bowers Exp $'</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:ID="FunctionalIndex">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="NumericIndex"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SimpleDerivedUnit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Unit"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasBaseUnit"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:complementOf>
+          <owl:Restriction>
+            <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</owl:hasValue>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:ID="hasPower"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:complementOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A derived unit consists of multiple sub-units, represented by the UnitComponent class.  A UnitComponent constists of a base unit and a power.  A UnitComponent may also refer to the entity (AbstractSubject) being measured by the base unit. For example, the derived unit miles per gallon consists of two unit components: one for the base unit miles (raised to the power 1), and one for the base unit gallon (raised to the power -1).  The derived unit grams of carbon per grams of phosphorous also consists of two unit components: one for grams of carbon, with power 1 and entity carbon, and another for grams of phosphorous, with power -1 and entity phosphorous. The unit components of a derived unit are assumed to be multiplied together.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="#hasPower"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="ComplexDerivedUnit"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="BaseUnit"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#NumericIndex">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Unit"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="DateTime"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="IntervalRatioStandard"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An abstract class representing numerical indices of measurement (e.g., Shannon diversity, pH, Ricker scale).  Indices are typically defined by some mathematical equation and have abstract Dimensions.  NumericIndices are not Concrete Characteristics for which the Dimensions are the same as their constituent parts.  For example, average height is a Concrete Characteristic, whereas the ratio of average height from two populations is a NumericIndex.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="EntityClassificationStandard">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="MeasurementStandard"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="EntityNameStandard"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity classification standard is a measurement standard for classifying entities by their traits. Each entity associated with a classification standard is assumed to have one or more individuals. For example, an ordinal standard for height might include the class TallHeight, which would have as instances all entities having a TallHeight. 
+
+Each entity in the catalog is assumed to be a "singleton", i.e., one-to-one with a class defined by the standard.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Unit">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="forDimension"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#NumericIndex"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IntervalRatioStandard"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An abstract class denoting the various types of units of physical measurement that can exist.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="forEntity"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#DateTime"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Entity">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Characteristic"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#MeasurementStandard"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="UnitConversion"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Observation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Measurement"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any Entity or thing, concrete or conceptual, that has been observed (e.g., a tree, a community, a concept, or even a measurement).  We adopt the distinction between things and properties of M. Bunge (1979): things (i.e., Entities) possess properties (i.e., Characteristics), there are no things without properties, and properties are attached to things.  Entities constitute the focii of Observations, i.e., every Observation is of some Entity.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="EntityClassification">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity classification characteristic is directly measurable or recorded trait (e.g., height, color, etc).</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Characteristic"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BaseDimension">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Dimension"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EntityName">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity name characteristic is used to record the name of individual entities.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Characteristic"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#DateTime">
+    <owl:disjointWith rdf:resource="#NumericIndex"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An abstract class representing nominal data and time (e.g., 14:00, 2006-07-23).</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IntervalRatioStandard"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Unit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#IntervalRatioStandard">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="OrdinalStandard"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OrderedEntity">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Entity classes can be organized into ranks, e.g., when used to define measurement standards.  For example, the entities of class "TallHeight" are ranked higher than the entities of class "MedHeight".</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Entity"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ComplexDerivedUnit">
+    <rdfs:subClassOf rdf:resource="#Unit"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasUnit"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An abstract class denoting a more complex unit composed of base units.</rdfs:comment>
+    <owl:disjointWith rdf:resource="#SimpleDerivedUnit"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#BaseUnit"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="ComplexDerivedDimension">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Dimension"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</owl:minCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasDimension"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="StrongEntityName">
+    <rdfs:subClassOf rdf:resource="#EntityName"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A strong entity name characteristic is used to record names that identify particular entity individuals regardless of observation context.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="WeakEntityName"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Observation">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        ></rdfs:comment>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An assertion that an Entity was observed.  The Entity that was observed is given by the ofEntity property.  An Observation may be composed of Measurements that refer to one or more measured Characteristics of the Entity.  An Observation may also contribute to defining the Context for another Observation.  For example, an Observation "location" might be Context for an Observation "organism". In general, the "hasContext" property asserts a "containment" relationship between the two corresponding Entities, at the time of the Observation.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Measurement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#MeasurementStandard"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#UnitConversion"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Characteristic"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Entity"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="ofEntity"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="NominalStandard">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#EntityClassificationStandard"/>
+  </owl:Class>
+  <owl:Class rdf:about="#MeasurementStandard">
+    <owl:disjointWith rdf:resource="#Entity"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Entity"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasElement"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Characteristic"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#UnitConversion"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#Observation"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="forCharacteristic"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Measurement"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A measurement standard defines a reference for comparing (or naming) entities. A measurement standard can be defined intentionally (e.g., as in the case of units) or extensionally (by listing the domain of the standard, e.g., for color this might be red, blue, yellow, etc). The domain of a measurement standard is given by one or more Entity classes.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Measurement">
+    <owl:disjointWith rdf:resource="#MeasurementStandard"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="ofCharacteristic"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="hasValue"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#UnitConversion"/>
+    </owl:disjointWith>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An assertion that a Characteristic of an Entity was measured and/or recorded.  A named property (Characteristic) is the focus of what was Measured.  A Measurement is also composed of a Value and a MeasurementStandard.  Quantitative Measurements (e.g., height of a tree) have MeasurementPrecision associated with the Measurement Value.  Measurement also encapsulates Characteristics that were recorded, but not necessarily measured in a physical sense.  For example, a name of a location or taxon is a Measurement whose Value maps to a ClassificationDomain.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="isMeasurementFor"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="hasPrecision"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Observation"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#Entity"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Characteristic"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="usesStandard"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#OrdinalStandard">
+    <rdfs:subClassOf rdf:resource="#NominalStandard"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#hasElement"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="#OrderedEntity"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#EntityNameStandard">
+    <rdfs:subClassOf rdf:resource="#MeasurementStandard"/>
+    <owl:disjointWith rdf:resource="#EntityClassificationStandard"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity name standard is a naming scheme for globally identifying individual entities. These standards are defined extensionally (by listing entity classes), where each associated entity class is assumed to be a "singleton", i.e., one-to-one with an individual. For example, a name standard for the set of US might include the entity California, which would have a single instance (representing the state California).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="SimpleDerivedDimension">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasBaseDimension"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Dimension"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:complementOf>
+          <owl:Restriction>
+            <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</owl:hasValue>
+            <owl:onProperty>
+              <owl:DatatypeProperty rdf:about="#hasPower"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:complementOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="#hasPower"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EntityClassificationQualifier">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Characteristic"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classification qualifiers represent generic, derived (e.g., computed) traits of entities.  These characteristics must be combined with classification characteristics (through intersection) to be used for measurement. For example, the qualifier Minimum can be combined with the Depth to create a measurable Maximum Depth characteristic.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Characteristic">
+    <owl:disjointWith rdf:resource="#Observation"/>
+    <owl:disjointWith rdf:resource="#Entity"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#UnitConversion"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Measurement"/>
+    <owl:disjointWith rdf:resource="#MeasurementStandard"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any Characteristic of an Entity that can be measured (e.g., height, length, or color).  We adopt the distinction between things and properties sensu M. Bunge (1979): things (i.e., Entities) possess properties (i.e., Characteristics), there are no things without properties, and properties are attached to things. When a Characteristic is observed, it is Measured, and a Characteristic is the necessary focus of a Measurement (i.e., a Characteristic is a property of an Entity being attributed a value by a Measurement).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Dimension">
+    <rdfs:subClassOf rdf:resource="#EntityClassification"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The set of base quantities (both intensive and extensive) such as length, weight, etc.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#UnitConversion">
+    <owl:disjointWith rdf:resource="#Observation"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasTargetUnit"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="#Entity"/>
+    <owl:disjointWith rdf:resource="#Measurement"/>
+    <owl:disjointWith rdf:resource="#MeasurementStandard"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="hasOffset"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="hasMultiplier"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Characteristic"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasSourceUnit"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#BaseUnit">
+    <owl:disjointWith rdf:resource="#ComplexDerivedUnit"/>
+    <owl:disjointWith rdf:resource="#SimpleDerivedUnit"/>
+    <rdfs:subClassOf rdf:resource="#Unit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#WeakEntityName">
+    <rdfs:subClassOf rdf:resource="#EntityName"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A weak entity name (as opposed to a strong entity name)  is used to record names that uniquely identify particular entities with respect to observation context. For example, plots are often identified within a dataset using numeric values (1, 2, etc) which are unique within a particular site, but not across sites (thus, plot 1 in one site is a different plot from plot 1 in a different site).</rdfs:comment>
+    <owl:disjointWith rdf:resource="#StrongEntityName"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="#ofCharacteristic">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gives the characteristic being measured.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Measurement"/>
+    <rdfs:range rdf:resource="#EntityClassification"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasElement">
+    <rdfs:domain rdf:resource="#MeasurementStandard"/>
+    <rdfs:range rdf:resource="#Entity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasSourceUnit">
+    <rdfs:domain rdf:resource="#UnitConversion"/>
+    <rdfs:range rdf:resource="#Unit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasMeasurement">
+    <rdfs:domain rdf:resource="#Observation"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#isMeasurementFor"/>
+    </owl:inverseOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gives a measured characteristic (or trait) of the entity being observed. The characteristic being measured may or may not be an essential trait of the observed entity.</rdfs:comment>
+    <rdfs:range rdf:resource="#Measurement"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#ofEntity">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relates the observed entity to the observation.</rdfs:comment>
+    <rdfs:range rdf:resource="#Entity"/>
+    <rdfs:domain rdf:resource="#Observation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasContext">
+    <rdfs:domain rdf:resource="#Observation"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >States that one Observation serves as the Context for another Observation. Defines a semantic relationship between two Entities that is a fundamental aspect of the Observations, but not necessarily of the Entities themselves.  For example, most Measurements are accomplished in a spatio-temporal framework that might be valuable Context. A contextual relationship generally specifies a "containment" relation between two observed Entities that existed during the Observation.  Thus, Context is an acyclic and transitive.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:range rdf:resource="#Observation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="higherRankThan">
+    <rdfs:domain rdf:resource="#OrderedEntity"/>
+    <rdfs:range rdf:resource="#OrderedEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasDimension">
+    <rdfs:domain rdf:resource="#ComplexDerivedDimension"/>
+    <rdfs:range rdf:resource="#BaseDimension"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#usesStandard">
+    <rdfs:domain rdf:resource="#Measurement"/>
+    <rdfs:range rdf:resource="#MeasurementStandard"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gives the standard (e.g., unit) used in a measurement.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasBaseDimension">
+    <rdfs:domain rdf:resource="#SimpleDerivedDimension"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="#BaseDimension"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#forDimension">
+    <rdfs:range rdf:resource="#Dimension"/>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#forCharacteristic"/>
+    </rdfs:subPropertyOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relates physical units to their associated dimensions (characteristics), e.g., length is the dimension associated to a meter.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Unit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasUnit">
+    <rdfs:domain rdf:resource="#ComplexDerivedUnit"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#BaseUnit"/>
+          <owl:Class rdf:about="#SimpleDerivedUnit"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >States the Entity that corresponds to the sub-unit (e.g., grams of carbon, where carbon is the Entity).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#isMeasurementFor">
+    <owl:inverseOf rdf:resource="#hasMeasurement"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gives the observation associated to the measurement. An inverse property of hasMeasurement.</rdfs:comment>
+    <rdfs:range rdf:resource="#Observation"/>
+    <rdfs:domain rdf:resource="#Measurement"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#forEntity">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relates Measurement Standards to their associated types of Entities</rdfs:comment>
+    <rdfs:range rdf:resource="#Entity"/>
+    <rdfs:domain rdf:resource="#Unit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#forCharacteristic">
+    <rdfs:domain rdf:resource="#MeasurementStandard"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relates a particular measurement standard to the characteristic it applies to.</rdfs:comment>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#EntityClassification"/>
+          <owl:Class rdf:about="#EntityName"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasTargetUnit">
+    <rdfs:domain rdf:resource="#UnitConversion"/>
+    <rdfs:range rdf:resource="#Unit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasBaseUnit">
+    <rdfs:domain rdf:resource="#SimpleDerivedUnit"/>
+    <rdfs:range rdf:resource="#BaseUnit"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="#hasPrecision">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relates a measurement to the precision of the value (optional)</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#Measurement"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#hasPower">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#SimpleDerivedUnit"/>
+          <owl:Class rdf:about="#SimpleDerivedDimension"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="accordingTo"/>
+  <owl:DatatypeProperty rdf:about="#hasValue">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relates a measurement to its measured valued.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Measurement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasName">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hasName is is used when data about elements (entities) in a calssification domain have different names to the entities they represent.  For example, AHYA may be used in a data set to represent the coral species Acropora hyacinthus that is an element of a taxomonic classification domain.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Entity"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#hasOffset">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#UnitConversion"/>
+  </owl:DatatypeProperty>
+  <owl:TransitiveProperty rdf:ID="surrogateFor">
+    <rdfs:range rdf:resource="#Characteristic"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Characteristic"/>
+    <owl:inverseOf rdf:resource="#surrogateFor"/>
+  </owl:TransitiveProperty>
+  <owl:FunctionalProperty rdf:about="#hasMultiplier">
+    <rdfs:domain rdf:resource="#UnitConversion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 2.2, Build 324)  http://protege.stanford.edu -->

@@ -1,0 +1,16 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+slopeIN aspectIN componentIN hourlyIN 
+
+minimumPN valuePN                =  nbzeroPV nbzeroPV                :                                   
+meterPN samplingPN frequencyPN   =  hourlyPV                         :  meterPT samplingPT frequencyPT   
+defaultPN unitPN                 =  dimensionlessPV unitPV           :  baseunitPT                       
+observationPN                    =  slopePV aspectPV                 :  measurePT                        
+defaultPN valuePN                =  nbonePV nbzeroPV                 :                                   
+spatialPN contextPN              =  itemPV spacePV                   :  onePT dimensionalPT              
+maximumPN valuePN                =  nbthreePV nbzeroPV               :                                   
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV   :  meterPT seriesPT                 

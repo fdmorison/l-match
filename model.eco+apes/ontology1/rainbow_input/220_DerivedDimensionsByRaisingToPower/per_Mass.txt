@@ -1,0 +1,15 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+massIN
+
+derivedPN dimensionPN   =  massPV    :  basedimensionPT  
+powerPN                 =  nbonePV   :                   

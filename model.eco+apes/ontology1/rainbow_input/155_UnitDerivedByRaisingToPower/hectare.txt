@@ -1,0 +1,14 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+hectareIN
+
+derivedunitPN  =  hectometerPV          :  unitPT derivedPT scalePT                    
+expressedPN    =  linearPV durationPV   :  derivedPT dimensionPT elevationPT powerPT   
+powerPN        =  nbtwoPV               :                                              

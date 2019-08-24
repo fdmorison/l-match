@@ -1,0 +1,18 @@
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+dimensionCN 
+areaCN
+ethnicDC ethnicCN
+
+
+tatarIN 
+
+labelPN   =  tatarPV   :    

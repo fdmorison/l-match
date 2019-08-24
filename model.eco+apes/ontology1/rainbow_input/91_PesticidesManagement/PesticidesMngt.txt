@@ -1,0 +1,10 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+pesticideDC manageDC  pesticideCN manageCN 
+
+
+pesticideIN mngtIN 
+

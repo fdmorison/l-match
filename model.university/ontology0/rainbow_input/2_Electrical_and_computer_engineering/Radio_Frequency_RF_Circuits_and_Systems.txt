@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+electricDC engineeringDC  electricCN engineeringCN 
+
+
+radioIN frequencyIN rfIN circuitIN systemsIN 
+

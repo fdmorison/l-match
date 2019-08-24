@@ -1,0 +1,11 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+currentIN 
+
+symbolPN     =  cPV      :              
+expressedPN  =  amperPV  :  baseunitPT  

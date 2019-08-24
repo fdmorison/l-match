@@ -1,0 +1,10 @@
+seamCN coreCN 
+
+ecologicalCN dataCN 
+measureCN
+measureCN dataCN 
+measureDC setDC  measureCN setCN 
+
+
+cropIN climateIN requirementsIN 
+

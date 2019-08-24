@@ -1,0 +1,15 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+musicCN
+existCN musicCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+folkDC musicDC  folkCN musicCN 
+
+
+krisisIN zhanraIN 
+
+labelPN   =  krisisPV zhanraPV   :    

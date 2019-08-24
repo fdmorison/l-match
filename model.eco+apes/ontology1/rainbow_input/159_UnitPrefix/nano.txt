@@ -1,0 +1,11 @@
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+nanoIN
+
+valuePN    =  nbonePV nbzeroPV nbeightPV   :    
+symbolPN   =  nPV                          :    

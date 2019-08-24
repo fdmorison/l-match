@@ -1,0 +1,32 @@
+#@fun: ecolingua X apes
+
+EcologicalEntity                    0,43620 Measurement                        0,37976 ComplexUnit                  
+Event                               0,43748 Quantity                           
+When                                0,26224 ComplexUnit                        0,25850 Measurement                  
+Material                            0,23288 Measurement                        0,22136 ComplexUnit                  0,20095 BiomassEnv             
+Influence                           0,71966 SolarRadiationAct                  0,64437 RainfallAct                  0,63212 WindAct                0,63160 AirAct       0,63078 EvapotranspirationAct  
+WeigthOf                            0,47684 Measurement                        0,43467 Quantity                     
+MaterialDensity                     0,66453 Quantity                           
+AmountOfMoney                       0,33934 Quantity                           0,32658 Measurement                  
+Percentage                          0,40836 Measurement                        
+NumberOf                            0,40892 Measurement                        
+TemperatureOf                       0,41882 Measurement                        
+AbsoluteRate                        0,80453 Quantity                           
+SpecificRate                        0,52424 Quantity                           
+CompositeDimensionByExponentiation  0,56469 DerivedDimensionsByRaisingToPower  
+FundamentalDimension                0,96570 PrimaryDimensions                  
+Operation                           0,56816 Measurement                        
+Sign                                0,46943 Measurement                        
+ScaleOfTemperature                  0,57566 UnitDerivedByScaling               
+UnitByNumberMultiplication          0,47043 UnitDerivedByRaisingToPower        0,44403 ComplexUnit                  
+UnitOfSpecificRate                  0,74730 ComplexUnit                        
+UnitOfDistributedMass               0,57015 ComplexUnit                        
+UnitOfAbsoluteRate                  0,65409 ComplexUnit                        
+UnitOfMassDivision                  0,81509 ComplexUnit                        
+UnitOfVolume                        0,61572 UnitDerivedByRaisingToPower        
+UnitOfArea                          0,66009 UnitDerivedByRaisingToPower        
+DerivedUnitOfFundamentalDimension   0,54546 DerivedDimensionsByRaisingToPower  0,50027 UnitDerivedByScaling         
+UnitOfMass                          0,53282 BaseUnit                           
+UnitOfLength                        0,49766 BaseUnit                           0,41269 UnitDerivedByRaisingToPower  
+UnitOfMoney                         0,57386 BaseUnit                           
+UnitOfTime                          0,48852 BaseUnit                           0,46991 Measurement                  0,42472 TimeSamplingFrequency  0,41805 ComplexUnit  0,41409 TimeSeries             

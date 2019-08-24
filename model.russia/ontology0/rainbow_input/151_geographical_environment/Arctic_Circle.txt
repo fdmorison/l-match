@@ -1,0 +1,17 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+geographicalDC environmentDC  geographicalCN environmentCN 
+
+
+arcticIN circleIN 
+
+labelPN   =  arcticPV circlePV   :    

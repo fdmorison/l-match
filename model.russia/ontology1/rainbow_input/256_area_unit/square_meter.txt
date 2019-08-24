@@ -1,0 +1,12 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+areaunitDC areaunitCN
+
+
+paidIN meterIN 
+
+labelPN   =  paidPV meterPV   :    

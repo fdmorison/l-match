@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN powernbthreeIN 
+
+productPN   =  meterPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV                   :  baseunitPT                             
+prefixPN    =  kiloPV                   :  unitPT prefixPT                        

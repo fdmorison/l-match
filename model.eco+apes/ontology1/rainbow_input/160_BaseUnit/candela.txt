@@ -1,0 +1,10 @@
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+candelaIN
+
+expressedPN  =  luminousPV intensityPV   :  basedimensionPT  

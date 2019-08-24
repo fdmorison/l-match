@@ -1,0 +1,15 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+iceIN skatingIN 
+
+checkPN placePN   =  gorkyPV parkPV    :  parkPT  
+labelPN           =  icePV skatingPV   :          

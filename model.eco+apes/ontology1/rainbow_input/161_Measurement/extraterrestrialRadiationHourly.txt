@@ -1,0 +1,16 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+extraterrestrialIN radiationIN hourlyIN 
+
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+defaultPN valuePN                =  nbfourPV nbtwoPV                          :                                   
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+maximumPN valuePN                =  nbsixPV nbzeroPV                          :                                   
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 

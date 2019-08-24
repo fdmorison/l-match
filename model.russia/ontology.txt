@@ -1,0 +1,3 @@
+##id, name, categoryIdInterval, instanceIdInterval
+0 russia1 0-161 0-238
+1 russia2 162-312 239-395

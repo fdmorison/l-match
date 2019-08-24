@@ -1,0 +1,20 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenboneIN
+
+includePN cityPN   =  vladivostokPV              :  ordinaryPT cityPT   
+labelPN            =  gmtPV utcPV nbonenbonePV   :                      

@@ -1,0 +1,13 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN transmissivityIN 
+
+measuredimensionPN  =  dimensionlessPV                  :  basedimensionPT             
+measurePN           =  albedoPV                         :  measurePT                   
+measurePN           =  clearPV skyPV transmissivityPV   :  measurePT                   
+dataPN typePN       =  doublePV                         :  floatPT                     
+measurePN areaPN    =  solarPV radiationPV              :  solarPT radiationPT actPT   

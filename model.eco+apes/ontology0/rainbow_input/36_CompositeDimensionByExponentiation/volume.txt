@@ -1,0 +1,13 @@
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC exponentiationDC  complexCN dimensionCN exponentiationCN 
+
+
+intensityIN
+
+operationPN   =  exponentiationPV     :  operationPT      
+expoentPN     =  nbthreePV nbzeroPV   :                   
+dimensionPN   =  durationPV           :  basedimensionPT  

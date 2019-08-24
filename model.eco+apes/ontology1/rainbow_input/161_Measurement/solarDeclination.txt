@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+solarIN declinationIN 
+
+interimPN contextPN   =  itemPV meterPV                         :  itemPT                
+defaultPN valuePN     =  nbzeroPV nbzeroPV                      :                        
+observationPN         =  anglePV variablesPV                    :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbfournbzeronbninenbthreePV   :                        
+defaultPN unitPN      =  radianPV                               :  baseunitPT            
+spatialPN contextPN   =  itemPV spacePV                         :  onePT dimensionalPT   
+maximumPN valuePN     =  nbzeroPV nbfournbzeronbninenbthreePV   :                        

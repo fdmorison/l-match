@@ -1,0 +1,26 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+petrodvoretsIN 
+
+durationPN unitPN palacePN            =  kilometerPV            :  durationunitPT  
+areaPN                                =  petrodvoretsPV         :                  
+knownPN publicPN spacePN              =  forestPV sculpturePV   :  othersPT        
+locatablePN stpetersburgPN palacePN   =  westPV                 :  directionPT     
+distancePN stpetersburgPN palacePN    =  nbthreenbtwoPV         :                  
+labelPN                               =  petrodvoretsPV         :                  

@@ -1,0 +1,10 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+whenDC  whenCN 
+
+
+dayIN
+

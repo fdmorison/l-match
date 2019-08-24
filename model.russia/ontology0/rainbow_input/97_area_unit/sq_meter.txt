@@ -1,0 +1,11 @@
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+areaunitDC areaunitCN
+
+
+sqIN meterIN 
+
+labelPN   =  sqPV meterPV   :    

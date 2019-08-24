@@ -1,0 +1,14 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+meterIN
+
+derivedunitPN  =  meterPV               :  baseunitPT                                  
+powerPN        =  nbonePV               :                                              
+expressedPN    =  linearPV durationPV   :  derivedPT dimensionPT elevationPT powerPT   

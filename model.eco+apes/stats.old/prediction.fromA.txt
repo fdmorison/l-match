@@ -1,0 +1,32 @@
+#@fun: ecolingua X apes
+
+EcologicalEntity                    0,37061 Measurement                        
+Event                               0,59296 Quantity                           
+When                                0,17735 MeasurementSet                     
+Material                            0,22504 BiomassEnv                         
+Influence                           0,99916 SolarRadiationAct                  0,95001 RainfallAct  0,92560 AirAct  0,92267 WindAct  0,91969 EvapotranspirationAct  
+WeigthOf                            0,42350 Quantity                           
+MaterialDensity                     0,72654 Quantity                           
+AmountOfMoney                       0,34974 Quantity                           
+Percentage                          0,24536 Measurement                        
+NumberOf                            0,24536 Measurement                        
+TemperatureOf                       0,24372 Measurement                        
+AbsoluteRate                        0,95673 Quantity                           
+SpecificRate                        0,59531 Quantity                           
+CompositeDimensionByExponentiation  0,58855 DerivedDimensionsByRaisingToPower  
+FundamentalDimension                0,93295 PrimaryDimensions                  
+Operation                           0,59094 Measurement                        
+Sign                                0,41511 Measurement                        
+ScaleOfTemperature                  0,83017 UnitDerivedByScaling               
+UnitByNumberMultiplication          0,32415 UnitDerivedByRaisingToPower        
+UnitOfSpecificRate                  0,61369 ComplexUnit                        
+UnitOfDistributedMass               0,37354 ComplexUnit                        
+UnitOfAbsoluteRate                  0,42572 ComplexUnit                        
+UnitOfMassDivision                  0,64166 ComplexUnit                        
+UnitOfVolume                        0,30456 UnitDerivedByRaisingToPower        
+UnitOfArea                          0,36915 UnitDerivedByRaisingToPower        
+DerivedUnitOfFundamentalDimension   0,24246 DerivedDimensionsByRaisingToPower  
+UnitOfMass                          0,38677 BaseUnit                           
+UnitOfLength                        0,33726 BaseUnit                           
+UnitOfMoney                         0,52487 BaseUnit                           
+UnitOfTime                          0,24793 BaseUnit                           

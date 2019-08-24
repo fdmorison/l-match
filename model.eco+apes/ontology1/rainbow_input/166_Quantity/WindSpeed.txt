@@ -1,0 +1,12 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+windIN speedIN 
+
+measuredimensionPN  =  speedPV                 :  derivedPT dimensionPT productPT   
+measurePN areaPN    =  windPV                  :  windPT actPT                      
+dataPN typePN       =  doublePV                :  floatPT                           
+measurePN           =  windPV speedPV cellPV   :  measurePT                         

@@ -1,0 +1,87 @@
+<html>
+<head><title>One Way Similarity: org2 --> org1</title>
+<style>
+th {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:#003399;
+   text-align:left;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+td {
+   font-family:Arial;
+   font-size:11px;
+   color:#333333;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+span {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:red;
+}
+.equivalence { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#0000FF; padding: 0 5; width:20; text-align:center; }
+.moregeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#00CCFF; padding: 0 5; width:20; text-align:center; }
+.lessgeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#33CC00; padding: 0 5; width:20; text-align:center; }
+.overlapping { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#FF9900; padding: 0 5; width:20; text-align:center; }
+.mismatching { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.unknown     { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.eval    { color:#666666  ; padding:0 3; }.maxeval { color:black    ; padding:0 3; }.noeval  { color:lightgray; padding:0 3; }.title   { color:white    ; background-color:#000000; }</style>
+</head>
+<body>
+<table border='1' cellpadding='1' cellspacing='0' bordercolor='#EAEAEA'>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy Employee</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:0;'>|0|--Employee(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Employee</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy Organization</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:0;'>|0|--Organization(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,989</span> <span class='moregeneral'>&Eacute;</span> Laboratory</TD>
+    <TD><span>0,953</span> <span class='moregeneral'>&Eacute;</span> Department</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--Division(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,999</span> <span class='equivalence'>&ordm;  </span> Department</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--Laboratory(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Laboratory</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Global Evaluation</TD>
+    <TD class='title' align='center'>1,00</TD>
+    <TD class='title' align='center'>1,00</TD>
+    <TD class='title' align='center'>1,00</TD>
+  </TR>
+</table>
+</body>
+</html>

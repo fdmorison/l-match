@@ -1,0 +1,25 @@
+measureCN dataCN 
+unitCN measureCN 
+measureCN dataCN 
+derivedunitCN
+unitCN measureCN 
+derivedCN unitCN complexCN dimensionCN 
+mixCN unitCN 
+derivedCN unitCN exponentiationCN 
+unitCN powerCN durationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC areaDC  unitCN areaCN 
+
+
+mnbtwoIN 
+
+operationPN   =  exponentiationPV   :  operationPT                              
+expoentPN     =  nbtwoPV nbzeroPV   :                                           
+dimensionPN   =  areaPV             :  complexPT dimensionPT exponentiationPT   
+unitPN        =  meterPV            :  unitPT durationPT                        

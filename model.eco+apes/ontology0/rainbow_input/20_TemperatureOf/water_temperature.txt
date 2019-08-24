@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+measureCN
+temperatureCN measureCN 
+
+seamCN coreCN 
+measureCN
+temperatureDC temperatureCN
+
+
+waterIN temperatureIN 
+
+measurePN               =  waterPV    :  ecologicalPT entityPT   
+temperaturePN scalePN   =  celsiusPV  :  scalePT temperaturePT   

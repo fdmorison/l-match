@@ -1,0 +1,11 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+referenceIN evapotranspirationIN 
+
+dataPN typePN       =  doublePV               :  floatPT                           
+measuredimensionPN  =  speedPV                :  derivedPT dimensionPT productPT   
+measurePN areaPN    =  evapotranspirationPV   :  evapotranspirationPT actPT        

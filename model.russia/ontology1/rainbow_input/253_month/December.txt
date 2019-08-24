@@ -1,0 +1,16 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+decemberIN
+
+warmestPN   =  falsePV     :    
+holidayPN   =  falsePV     :    
+dampestPN   =  falsePV     :    
+labelPN     =  decemberPV  :    

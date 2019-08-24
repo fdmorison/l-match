@@ -1,0 +1,18 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+populationIN 
+
+durationPN               =  nbzeroPV      :                    
+ePN                      =  nbzeroPV      :                    
+meterPN                  =  nbzeroPV      :                    
+temperaturePN            =  nbzeroPV      :                    
+substancePN              =  nbzeroPV      :                    
+currencyPN               =  nbzeroPV      :                    
+iuminousPN intensityPN   =  nbzeroPV      :                    
+expressedPN              =  individualPV  :  linearPT unitPT   
+massPN                   =  nbzeroPV      :                    

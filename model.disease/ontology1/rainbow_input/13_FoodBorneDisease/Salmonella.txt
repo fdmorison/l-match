@@ -1,0 +1,13 @@
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+salmonellaIN 
+
+causedPN  =  salmonellaPV entericaPV typhimuriumPV dtPV nbonenbzeronbfourPV   :  bacterialPT   

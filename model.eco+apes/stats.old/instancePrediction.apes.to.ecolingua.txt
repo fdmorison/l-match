@@ -1,0 +1,341 @@
++UnknownDomain  0,218591 UnitOfArea  
+@SeamAgDomain   0,218591 UnitOfArea  
+
++NutrientMngt        0,150442 UnitOfArea  
+@NutrientManagement  0,150442 UnitOfArea  
+
++PesticidesMngt        0,150442 UnitOfArea  
+@PesticidesManagement  0,150442 UnitOfArea  
+
++WaterMngt        0,139855 EcologicalEntity  
+@WaterManagement  0,139855 EcologicalEntity  
+
++LandUseMngt        0,121649 UnitOfArea  
+@LandUseManagement  0,121649 UnitOfArea  
+
++SoilTillageMngt        0,150442 UnitOfArea  
+@SoilTillageManagement  0,150442 UnitOfArea  
+
++Evapotranspiration     0,368128 Influence  
+@EvapotranspirationAct  0,368128 Influence  
+
++SolarRadiation     0,465342 Influence  
+@SolarRadiationAct  0,465342 Influence  
+
++Wind     0,368128 Influence  
+@WindAct  0,368128 Influence  
+
++Air     0,364782 Influence  
+@AirAct  0,364782 Influence  
+
++Rainfall     0,368128 Influence  
+@RainfallAct  0,368128 Influence  
+
++Water     0,139855 EcologicalEntity  
+@WaterEnv  0,139855 EcologicalEntity  
+
++Soil     0,201012 Influence  
+@SoilEnv  0,201012 Influence  
+
++NitrogenContent     0,150442 UnitOfArea  
+@NitrogenContentEnv  0,150442 UnitOfArea  
+
++Biomass     0,176968 Material  
+@BiomassEnv  0,176968 Material  
+
++CarbonContent     0,150442 UnitOfArea  
+@CarbonContentEnv  0,150442 UnitOfArea  
+
++Pesticides     0,150442 UnitOfArea  
+@PesticidesEnv  0,150442 UnitOfArea  
+
++Farm     0,150442 UnitOfArea  
+@FarmEnv  0,150442 UnitOfArea  
+
++double  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Float   0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++boolean  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Boolean  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++short    0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
++int      0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Integer  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Monthly                0,403975 UnitOfTime  
++daily                  0,403975 UnitOfTime  
++hourly                 0,403975 UnitOfTime  
++yearly                 0,403975 UnitOfTime  
+@TimeSamplingFrequency  0,873800 UnitOfTime  
+
++Point_in_space   0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@ZeroDimensional  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Axes_NS_Elevation_1  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Axes_NS_Elevation    0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Matrix_NS_10_EW_10  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Axes_NS_EW          0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Vector_NS_10      0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Axis_north_south  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Vector_Elevation_10  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
++Vector_elevation_4   0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Axis_elevation       0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Vector_EW_10    0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Axis_east_west  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++Point_in_time  0,237817 FundamentalDimension  
+@Point          0,237817 FundamentalDimension  
+
++TimeSeries_any  0,369475 UnitOfTime  
++TimeSeries_10   0,369475 UnitOfTime  
++TimeSeries_366  0,369475 UnitOfTime  
++TimeSeries_24   0,369475 UnitOfTime  
+@TimeSeries      0,841945 UnitOfTime  
+
++milliMeter_perDay                         0,331875 UnitOfMassDivision          
++personMonth                               0,123503 UnitOfMassDivision          
++gray                                      0,373529 UnitOfMassDivision          
++hertz                                     0,339612 UnitOfMassDivision          
++kilogram_perHectare_perDay                0,272563 UnitOfAbsoluteRate          
++megaJoule_perMeterToPower3_perCelsius     0,356544 UnitOfMassDivision          
++lux                                       0,232089 UnitOfMassDivision          
++watt_perMeterSquare                       0,175390 UnitOfVolume                0,173895 UnitOfArea    
++kilogram_perMeterToPower3                 0,380517 UnitOfMassDivision          
++siemens_perMeter                          0,175390 UnitOfVolume                0,173895 UnitOfArea    
++henry                                     0,404437 UnitOfMassDivision          
++perKilogram_mole                          0,371535 UnitOfMassDivision          
++weber                                     0,405392 UnitOfMassDivision          
++farad                                     0,405392 UnitOfMassDivision          
++megaJoule_perKilogram                     0,382780 UnitOfMassDivision          
++kilo_meter_perHour                        0,386112 UnitOfMassDivision          
++Euro_perHectare                           0,185340 UnitByNumberMultiplication  
++joule_perKilogram_perKelvin               0,429998 UnitOfMassDivision          
++perKilogram_meterSquare_perSecond_kelvin  0,414721 UnitOfMassDivision          
++joule                                     0,412380 UnitOfMassDivision          
++kiloPascal                                0,232580 UnitOfMassDivision          
++Euro_perTon                               0,115045 UnitOfMoney                 
++tesla                                     0,389346 UnitOfMassDivision          
++meter_perSecond                           0,146962 UnitOfMassDivision          0,145577 UnitOfVolume  0,143828 UnitOfArea  
++volt                                      0,405392 UnitOfMassDivision          
++meterToPower3_perSecond                   0,369102 UnitOfMassDivision          
++amper_perMeter                            0,228752 UnitOfMassDivision          
++newton                                    0,166548 UnitOfVolume                0,166299 UnitOfArea    
++kiloPascal_perCelsius                     0,389733 UnitOfMassDivision          
++pascal_perSecond                          0,251213 UnitOfMassDivision          
++coulomb                                   0,093135 UnitOfMassDivision          0,082551 UnitOfVolume  0,081223 UnitOfArea  0,080162 UnitByNumberMultiplication  
++watt_perMeterSquare_perSteradian          0,336164 UnitOfMassDivision          
++personDay                                 0,213662 UnitOfSpecificRate          
++perHectare_perDay                         0,359226 UnitOfAbsoluteRate          
++kilogram_meter_perSecondSquare            0,169173 UnitOfVolume                0,168684 UnitOfArea    
++kilogram_meter_perSecond                  0,380517 UnitOfMassDivision          
++meterSquare_perSecond                     0,369102 UnitOfMassDivision          
++kilogram_perMeterSquare                   0,380517 UnitOfMassDivision          
++siemens                                   0,432725 UnitOfMassDivision          
++joule_perKilogram                         0,403768 UnitOfMassDivision          
++watt                                      0,383494 UnitOfMassDivision          
++pascal                                    0,383494 UnitOfMassDivision          
++ohm                                       0,405392 UnitOfMassDivision          
++meterSquare_perSecondSquare               0,369102 UnitOfMassDivision          
++megaJoule_perMeterSquare_perDay           0,390817 UnitOfMassDivision          
++meter_perSecondSquare                     0,228752 UnitOfMassDivision          
+@ComplexUnit                               1,000000 UnitOfMassDivision          0,921078 UnitOfVolume  0,916500 UnitOfArea  0,902158 UnitOfAbsoluteRate          0,887544 UnitOfSpecificRate  0,854932 UnitOfTime  0,845898 UnitByNumberMultiplication  
+
++person      0,094760 DerivedUnitOfFundamentalDimension  0,084760 UnitOfTime  0,076176 UnitOfMoney  
+@SimpleUnit  0,094760 DerivedUnitOfFundamentalDimension  0,084760 UnitOfTime  0,076176 UnitOfMoney  
+
++perDay                       0,176285 UnitOfSpecificRate     
++perSecond                    0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perCandela                   0,153117 UnitOfVolume           0,151924 UnitOfArea    
++meterToPower3                0,238049 UnitOfLength           
++perAmper                     0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perHectare                   0,188907 UnitOfDistributedMass  
++secondSquare                 0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perSecondToPower3            0,153117 UnitOfVolume           0,151924 UnitOfArea    
++secondToPower4               0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perHour                      0,176285 UnitOfSpecificRate     
++perSecondSquare              0,210108 UnitOfVolume           0,208993 UnitOfArea    
++perKilogram                  0,364385 UnitOfMassDivision     
++perKelvin                    0,162252 UnitOfVolume           0,160145 UnitOfArea    
++perMole                      0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perRadian                    0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perMeterSquare               0,374215 UnitOfArea             
++secondToPower3               0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perMeter                     0,181256 UnitOfVolume           0,179569 UnitOfArea    
++perCelsius                   0,361872 UnitOfMassDivision     
++SquareMeters                 0,374215 UnitOfArea             
++perMeterToPower3             0,191195 UnitOfVolume           0,190312 UnitOfArea    
++hectare                      0,348077 UnitOfMassDivision     
++perAmperSquare               0,153117 UnitOfVolume           0,151924 UnitOfArea    
++SquareAmper                  0,153117 UnitOfVolume           0,151924 UnitOfArea    
++perSteradian                 0,153117 UnitOfVolume           0,151924 UnitOfArea    
+@UnitDerivedByRaisingToPower  0,984031 UnitOfArea             0,964442 UnitOfVolume  0,893574 UnitOfMassDivision  0,882607 DerivedUnitOfFundamentalDimension  
+
++decade                              0,262265 DerivedUnitOfFundamentalDimension  
++year                                0,262265 DerivedUnitOfFundamentalDimension  
++millimeter                          0,283086 DerivedUnitOfFundamentalDimension  
++kilometer                           0,348667 DerivedUnitOfFundamentalDimension  
++millenium                           0,262265 DerivedUnitOfFundamentalDimension  
++percent                             0,354697 DerivedUnitOfFundamentalDimension  
++degreeCelsiusBy1.8_interimInstance  0,286058 DerivedUnitOfFundamentalDimension  
++hectometer                          0,283086 DerivedUnitOfFundamentalDimension  
++nanometer                           0,283086 DerivedUnitOfFundamentalDimension  
++minute                              0,262265 DerivedUnitOfFundamentalDimension  
++week                                0,262265 DerivedUnitOfFundamentalDimension  
++hour                                0,213817 DerivedUnitOfFundamentalDimension  0,179601 UnitOfTime  
++century                             0,262265 DerivedUnitOfFundamentalDimension  
++degrees                             0,354057 DerivedUnitOfFundamentalDimension  
++day                                 0,165169 DerivedUnitOfFundamentalDimension  
++month                               0,235548 DerivedUnitOfFundamentalDimension  
+@UnitDerivedByScaling                0,994223 DerivedUnitOfFundamentalDimension  
+
++degreeFahrenheit       0,288730 DerivedUnitOfFundamentalDimension  
++degreeCelsius          0,355147 DerivedUnitOfFundamentalDimension  
+@UnitDerivedByShifting  0,541335 DerivedUnitOfFundamentalDimension  
+
++giga        0,088138 UnitOfMass                  0,079122 UnitOfLength  0,071387 UnitOfMoney  
++nano        0,088138 UnitOfMass                  0,079122 UnitOfLength  0,071387 UnitOfMoney  
++kilo        0,201904 UnitOfMass                  
++mega        0,142014 UnitByNumberMultiplication  
++micro       0,088138 UnitOfMass                  0,079122 UnitOfLength  0,071387 UnitOfMoney  
++hecto       0,088138 UnitOfMass                  0,079122 UnitOfLength  0,071387 UnitOfMoney  
++NoPrefix    0,088138 UnitOfMass                  0,079122 UnitOfLength  0,071387 UnitOfMoney  
++deca        0,088138 UnitOfMass                  0,079122 UnitOfLength  0,071387 UnitOfMoney  
++milli       0,142014 UnitByNumberMultiplication  
+@UnitPrefix  0,602280 UnitOfMass                  0,482974 UnitOfLength  
+
++steradian          0,114767 UnitOfMoney         0,095290 UnitOfTime   0,093473 UnitOfMass    
++meter              0,398253 UnitOfLength        
++kelvin             0,261673 ScaleOfTemperature  
++kilogram           0,396433 UnitOfMass          
++second             0,390869 UnitOfTime          
++dimensionlessUnit  0,127965 UnitOfMoney         0,126339 UnitOfTime   
++radian             0,124780 UnitOfMoney         0,124158 UnitOfTime   
++mole               0,114767 UnitOfMoney         0,095290 UnitOfTime   0,093473 UnitOfMass    
++ampere             0,127965 UnitOfMoney         0,126339 UnitOfTime   
++candela            0,120557 UnitOfTime          0,119284 UnitOfMoney  
+@BaseUnit           0,749353 UnitOfTime          0,686242 UnitOfMass   0,666782 UnitOfLength  0,623665 UnitOfMoney  
+
++airTemperatureMinDaily                  0,135193 UnitOfMassDivision    
++airTemperatureDailyAverage              0,135193 UnitOfMassDivision    
++hourSunset                              0,417517 UnitOfTime            
++globalSolarRadiation                    0,193657 UnitOfArea            0,193236 UnitOfVolume  
++angleSlope                              0,153482 UnitOfMassDivision    
++extraterrestrialRadiationHourly         0,141573 UnitOfSpecificRate    0,116655 UnitOfVolume  0,116561 UnitOfArea    
++angleAspect                             0,153482 UnitOfMassDivision    
++parDiffuseHourly                        0,250627 UnitOfSpecificRate    
++hourAngle                               0,217598 UnitOfTime            
++SoilTemperatureDailybyLayer             0,225708 FundamentalDimension  
++clearSkyTransmissivity                  0,124753 UnitOfTime            
++solarElevation                          0,114550 UnitOfTime            
++airTemperatureMonthlyRange              0,135193 UnitOfMassDivision    
++radiationBeamHourly                     0,141573 UnitOfSpecificRate    0,116655 UnitOfVolume  0,116561 UnitOfArea    
++photosynteticallyActiveRadiationHourly  0,187123 UnitOfArea            0,186885 UnitOfVolume  
++radiationReflectedSoilHourly            0,141573 UnitOfSpecificRate    0,116655 UnitOfVolume  0,116561 UnitOfArea    
++ProductionCoefficient                   0,128079 SpecificRate          0,103694 UnitOfTime    
++airTemperatureDailyRange                0,135193 UnitOfMassDivision    
++airTemperatureHourly                    0,231636 UnitOfSpecificRate    
++latitude                                0,220320 UnitOfMassDivision    
++sunshineDuration                        0,157042 UnitOfTime            
++SoilTemperatureDaily                    0,225708 FundamentalDimension  
++WindSpeedAtCell                         0,195561 UnitOfArea            0,194903 UnitOfVolume  
++dayLenght                               0,417517 UnitOfTime            
++parDiffuse                              0,187093 UnitOfArea            0,186471 UnitOfVolume  
++photosynteticallyActiveRadiation        0,193657 UnitOfArea            0,193236 UnitOfVolume  
++radiationDiffuseSkyHourly               0,250627 UnitOfSpecificRate    
++parBeam                                 0,193657 UnitOfArea            0,193236 UnitOfVolume  
++slopeAspectFactor                       0,124753 UnitOfTime            
++parBeamHourly                           0,141573 UnitOfSpecificRate    0,116655 UnitOfVolume  0,116561 UnitOfArea    
++albedo                                  0,124753 UnitOfTime            
++radiationReflectedSoil                  0,193657 UnitOfArea            0,193236 UnitOfVolume  
++hourSunrise                             0,417517 UnitOfTime            
++slopeAspectFactorHourly                 0,240878 UnitOfSpecificRate    
++globalSolarRadiationHourly              0,141573 UnitOfSpecificRate    0,116655 UnitOfVolume  0,116561 UnitOfArea    
++extraTerrestrialRadiationDaily          0,258299 UnitOfSpecificRate    
++airTemperatureMaxDaily                  0,135193 UnitOfMassDivision    
++solarDeclination                        0,114550 UnitOfTime            
++currentDay                              0,417517 UnitOfTime            
++radiationBeam                           0,193657 UnitOfArea            0,193236 UnitOfVolume  
++radiationDiffuseSky                     0,187093 UnitOfArea            0,186471 UnitOfVolume  
+@Measurement                             0,995098 UnitOfTime            0,980540 UnitOfArea    0,980152 UnitOfVolume  0,967727 UnitOfSpecificRate  0,898975 UnitOfAbsoluteRate  0,866966 UnitOfMassDivision  0,821018 FundamentalDimension  
+
++Reference_11  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@Reference     0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++SpaceRef_12  0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+@SpaceRef     0,000000 EcologicalEntity  0,000000 Event  0,000000 When  0,000000 Material  0,000000 Influence  0,000000 WeigthOf  0,000000 MaterialDensity  0,000000 AmountOfMoney  0,000000 Percentage  0,000000 NumberOf  0,000000 TemperatureOf  0,000000 AbsoluteRate  0,000000 SpecificRate  0,000000 CompositeDimensionByExponentiation  0,000000 FundamentalDimension  0,000000 Operation  0,000000 Sign  0,000000 ScaleOfTemperature  0,000000 UnitByNumberMultiplication  0,000000 UnitOfSpecificRate  0,000000 UnitOfDistributedMass  0,000000 UnitOfAbsoluteRate  0,000000 UnitOfMassDivision  0,000000 UnitOfVolume  0,000000 UnitOfArea  0,000000 DerivedUnitOfFundamentalDimension  0,000000 UnitOfMass  0,000000 UnitOfLength  0,000000 UnitOfMoney  0,000000 UnitOfTime  
+
++CropMesuremnentSet       0,113143 Event  
++CropClimateRequirements  0,104843 When   
+@MeasurementSet           0,173820 When   0,152709 Event  
+
++AngleVariables               0,183775 WeigthOf                    0,151781 Influence        
++Precipitation                0,222005 UnitOfMassDivision          
++ReferenceEvapotranspiration  0,222005 UnitOfMassDivision          
++SlopeAspect                  0,118358 MaterialDensity             0,114909 Influence        0,109783 AbsoluteRate  
++SoilTemperature              0,381218 ScaleOfTemperature          
++AirTemperature               0,458532 ScaleOfTemperature          
++SolarIrradiance              0,211076 Influence                   0,195217 MaterialDensity  0,186980 AbsoluteRate  
++AirTransmissivity            0,115039 MaterialDensity             0,101878 AbsoluteRate     
++ProductionEfficiency         0,168513 UnitByNumberMultiplication  0,140940 SpecificRate     
++TimeVariables                0,257874 AbsoluteRate                
++WindSpeed                    0,146408 UnitOfMassDivision          
+@Quantity                     0,732111 ScaleOfTemperature          0,660179 AbsoluteRate     0,618741 Influence     0,603814 MaterialDensity  
+
++Dimensionless       0,498125 FundamentalDimension  
++Luminous-intensity  0,511324 FundamentalDimension  
++Linear_length       0,349737 UnitOfMassDivision    0,302652 FundamentalDimension  
++Time                0,421737 UnitOfMassDivision    
++Information         0,516333 FundamentalDimension  
++Value_equivalent    0,516333 FundamentalDimension  
++Angle               0,490072 FundamentalDimension  
++Temperature         0,401372 FundamentalDimension  
++Mass                0,551837 FundamentalDimension  
++Current             0,511615 FundamentalDimension  
++Population          0,506706 FundamentalDimension  
+@PrimaryDimensions   0,998845 FundamentalDimension  
+
++per_TimeSquare                     0,360627 DerivedUnitOfFundamentalDimension   
++per_Linear-length                  0,268604 DerivedUnitOfFundamentalDimension   
++Area                               0,394570 CompositeDimensionByExponentiation  
++per_Mass                           0,379717 DerivedUnitOfFundamentalDimension   
++per_Area                           0,328909 UnitOfArea                          
++per_Temperature                    0,362145 DerivedUnitOfFundamentalDimension   
++per_Time                           0,271042 DerivedUnitOfFundamentalDimension   
+@DerivedDimensionsByRaisingToPower  0,882767 DerivedUnitOfFundamentalDimension   
+
++Energy_per_Mass             0,263437 UnitOfArea                         
++Energy_per_Mass_per_Temp    0,239946 UnitOfArea                         
++Velocity                    0,221956 UnitOfTime                         0,189347 UnitOfVolume  0,188064 UnitOfArea  
++Energy_per_Area_per_Time    0,358135 UnitOfArea                         
++Energy                      0,277673 DerivedUnitOfFundamentalDimension  
+@DerivedDimensionsByProduct  0,745652 UnitOfArea                         
+
++CrosDuru          0,199955 ScaleOfTemperature  
++ANewDynamicModel  0,198657 Influence           
++Lintul1           0,265359 Influence           
+@Dynamic           0,445220 Influence           
+
++WinslowEtAl                     0,150442 UnitOfArea          
++ThortonRunning                  0,150442 UnitOfArea          
++TestModelABC                    0,199955 ScaleOfTemperature  
++CampbellDonatelli               0,372275 ScaleOfTemperature  
++ExtraterrestrialRadiationModel  0,206874 AbsoluteRate        
++Campbell                        0,372275 ScaleOfTemperature  
++test                            0,150442 UnitOfArea          
++WoodwardEtAl                    0,115614 UnitOfArea          
++SupitVanKappel                  0,199955 ScaleOfTemperature  
++LiuJordan                       0,121221 Influence           0,110232 AbsoluteRate  
++BristowCampbell                 0,199955 ScaleOfTemperature  
++DonatelliBellocchi              0,150442 UnitOfArea          
+@Static                          0,834704 ScaleOfTemperature  0,719794 UnitOfArea    
+
++ModCom            0,150442 UnitOfArea  
+@SystemSimulation  0,150442 UnitOfArea  
+
++GAMS                     0,150442 UnitOfArea  
+@MathematicalProgramming  0,150442 UnitOfArea  
+

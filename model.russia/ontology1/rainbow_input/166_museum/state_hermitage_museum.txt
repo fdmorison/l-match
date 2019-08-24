@@ -1,0 +1,26 @@
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+cultureCN offerCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+museumCN
+cathedralCN
+churchCN
+museumDC museumCN
+
+
+countryIN hermitageIN museumIN 
+
+liePN locatablePN   =  stpetersburgPV                   :  ordinaryPT cityPT   
+nameablePN          =  countryPV hermitagePV museumPV   :                      
+labelPN             =  countryPV hermitagePV museumPV   :                      

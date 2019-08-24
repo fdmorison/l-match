@@ -1,0 +1,10 @@
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+groundCN consumptionCN enviromentCN 
+
+biomassDC enviromentDC  biomassCN enviromentCN 
+
+
+biomassIN
+

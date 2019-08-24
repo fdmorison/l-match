@@ -1,0 +1,22 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+energyIN areaIN meterIN 
+
+productPN dimensionPN   =  meterPV                                   :  derivedPT dimensionPT elevationPT powerPT   
+meterPN                 =  nbthreePV                                 :                                              
+productPN dimensionPN   =  areaPV                                    :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  massPV                                    :  basedimensionPT                             
+expressedPN             =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                            
+productPN dimensionPN   =  meterPV nutrientPV                        :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  areaPV                                    :  derivedPT dimensionPT elevationPT powerPT   
+measurePN               =  solarPV irradiancePV                      :  measurePT                                   
+massPN                  =  nbonePV                                   :                                              

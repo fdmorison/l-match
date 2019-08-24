@@ -1,0 +1,18 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+authorDC authorCN
+
+
+ivanIN goncharevIN 
+
+labelPN   =  ivanPV goncharevPV   :    

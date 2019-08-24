@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+economicDC scienceDC engeneeringDC classDC  economicCN scienceCN engeneeringCN classCN 
+
+
+mechanicalIN economicIN 
+

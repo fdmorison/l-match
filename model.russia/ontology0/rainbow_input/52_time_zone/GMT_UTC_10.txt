@@ -1,0 +1,23 @@
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbzeroIN
+
+countryPN  =  russiaPV                    :  countryPT  
+labelPN    =  gmtPV utcPV nbonenbzeroPV   :             

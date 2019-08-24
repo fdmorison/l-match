@@ -1,0 +1,78 @@
+organizationCN
+
+departmentDC  departmentCN 
+
+
+uscbchemicalengineeringIN
+
+organizationCN
+
+departmentDC  departmentCN 
+
+
+ucsbIN csIN deptIN 
+
+organizationCN
+
+departmentDC  departmentCN 
+
+
+ucsbIN englishIN 
+
+organizationCN
+
+labDC labCN
+
+
+archIN labIN 
+
+affiliatedPN  =  vlPV abPV   :  labPT  
+organizationCN
+
+labDC labCN
+
+
+vlIN abIN 
+
+affiliatedPN  =  ucsbPV csPV deptPV   :  departmentPT   
+
+employeeDC employeeCN
+
+
+johnIN stevensIN 
+
+headPN  =  ucsbPV csPV deptPV   :  departmentPT   
+
+employeeDC employeeCN
+
+
+jIN dIN stevensIN 
+
+
+employeeDC employeeCN
+
+
+danielIN stevensIN 
+
+headPN  =  ucsbPV deptPV sciencePV   :  divisionPT   
+organizationCN
+
+divisionDC  divisionCN 
+
+
+ucsbIN deptIN scienceIN 
+
+organizationCN
+
+divisionDC  divisionCN 
+
+
+uscbchemicalengineeringIN
+
+organizationCN
+
+labDC labCN
+
+
+verificationIN labIN 
+

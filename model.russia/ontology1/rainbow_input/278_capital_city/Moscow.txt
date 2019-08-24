@@ -1,0 +1,37 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+moscowIN
+
+infrastructurePN   =  hiltonPV         :  hotelPT             
+railwayPN          =  warsawPV         :  capitalPT cityPT    
+labelPN            =  moscowPV         :                      
+railwayPN          =  budapestPV       :  capitalPT cityPT    
+isPN               =  falsePV          :                      
+rivertransportPN   =  novgorodPV       :  ordinaryPT cityPT   
+railwayPN          =  praguePV         :  capitalPT cityPT    
+attractionsPN      =  blackpaidPV      :  paidPT              
+attractionsPN      =  kremlinPV        :  palacePT            
+rivertransportPN   =  stpetersburgPV   :  ordinaryPT cityPT   
+cityPN             =  russiaPV         :  countryPT           
+railwayPN          =  vladivostokPV    :  ordinaryPT cityPT   
+rivertransportPN   =  volgogradPV      :  townPT              
+infrastructurePN   =  transsiberianPV  :  railwayPT           
+nameablePN         =  moscowPV         :                      

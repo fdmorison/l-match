@@ -1,0 +1,10 @@
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+eastIN
+
+labelPN   =  eastPV  :    

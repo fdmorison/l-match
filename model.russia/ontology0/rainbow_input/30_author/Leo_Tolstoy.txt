@@ -1,0 +1,32 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+studentDC studentCN
+authorDC authorCN
+
+
+leoIN tolstoyIN 
+
+writtenPN   =  warPV pearcePV         :  novelPT       
+studyPN     =  universityPV kazanPV   :  universityPT  
+labelPN     =  leoPV tolstoyPV        :                

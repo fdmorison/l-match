@@ -1,0 +1,25 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+novosibirskIN 
+
+locatablePN moscowPN cityPN   =  eastPV                                              :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                         :  durationunitPT  
+distancePN moscowPN cityPN    =  nbtwoPV nbeightnbthreenbzeroPV                      :                  
+populationPN valuePN          =  nbonePV nbfournbthreenbsixPV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  novosibirskPV                                       :                  
+countryPN cityPN              =  russiaPV                                            :  countryPT       
+labelPN                       =  novosibirskPV                                       :                  

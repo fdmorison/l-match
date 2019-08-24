@@ -1,0 +1,24 @@
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbnineIN
+
+countryPN  =  japanPV                :  countryPT  
+countryPN  =  russiaPV               :  countryPT  
+labelPN    =  gmtPV utcPV nbninePV   :             

@@ -1,0 +1,12 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+winslowIN alIN 
+
+implementedPN   =  climaPV gsrPV adPV               :  apescPT omponentsPT   
+inputsPN        =  latitudePV                       :  measurePT             
+outputsPN       =  clearPV skyPV transmissivityPV   :  measurePT             

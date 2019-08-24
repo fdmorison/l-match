@@ -1,0 +1,30 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+europeIN 
+
+memberPN   =  francePV    :  countryPT  
+labelPN    =  europaPV    :             
+memberPN   =  germanyPV   :  countryPT  
+memberPN   =  hungaryPV   :  countryPT  
+memberPN   =  russianPV   :  ethnicPT   
+memberPN   =  hollandPV   :  countryPT  
+memberPN   =  belgiumPV   :  countryPT  
+memberPN   =  czechPV     :  countryPT  
+labelPN    =  europePV    :             
+memberPN   =  polandPV    :  countryPT  

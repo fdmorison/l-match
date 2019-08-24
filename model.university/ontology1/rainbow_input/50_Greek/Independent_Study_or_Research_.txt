@@ -1,0 +1,17 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+coursesCN
+collegeartsscienceCN
+classicalCN
+coursesCN
+collegeartsscienceCN
+classicalCN
+
+greekDC  greekCN 
+latinDC  latinCN 
+latinDC linguisticDC  latinCN linguisticCN 
+
+
+autonomousIN fieldIN researchIN 
+

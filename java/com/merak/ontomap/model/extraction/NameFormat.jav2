@@ -1,0 +1,64 @@
+// Package
+///////////////
+package com.merak.ontomap.model.extraction;
+
+// Imports
+///////////////
+import java.io.File;
+import java.util.*;
+import com.merak.core.text.*;
+
+public class NameFormat {
+
+  //~ Attributes ///////////////////////////////////////////////////////////////
+  //****************************************************************************
+  public  final NameTokenizer lexer        = new NameTokenizer();
+  public  final ReductionMap  reductionMap = new ReductionMap();
+  private       char          delimiter    = ' ';
+
+  //~ Constructors /////////////////////////////////////////////////////////////
+  //****************************************************************************
+  public NameFormat(NameTokenizer lexer) {
+
+    this.lexer = lexer;
+
+  }
+
+  //~ Methods //////////////////////////////////////////////////////////////////
+  //****************************************************************************
+  public String setDelimiter(char delimiter) {
+
+    this.delimiter = delimiter;
+
+  }
+  //****************************************************************************
+  public String reduce(String name) {
+
+    // Auxiliar
+    String[] words = getTokens(name);
+
+    // Reduce
+    name = "";
+    for (int i=0; i<words.length; i++) {
+      name += tools.capitalizeIt( reductionMap.reduce(words[i]) );
+    }
+    return name;
+
+  }
+  //****************************************************************************
+  public String format(String name,String prefix) {
+
+    // Auxiliar
+    String[] words = getTokens(name);
+
+    // Format
+    name = "";
+    for (int i=0; i<words.length; i++) {
+      name += tools.prefixIt( reductionMap.reduce(words[i]), prefix ) + delimiter;
+    }
+    return name;
+
+  }
+  //****************************************************************************
+
+}

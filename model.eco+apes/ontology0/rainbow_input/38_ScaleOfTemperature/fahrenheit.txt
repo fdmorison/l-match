@@ -1,0 +1,14 @@
+measureCN dataCN 
+scaleCN measureCN 
+
+seamCN coreCN 
+scaleDC temperatureDC  scaleCN temperatureCN 
+
+
+fahrenheitIN
+
+waterPN meltingPN itemPN     =  nbthreenbtwoPV fPV                                 :                          
+waterPN boilingPN itemPN     =  nbtwonbonenbonePV nbninenbsevennbonenbzeroPV fPV   :                          
+formulaPN correspondencePN   =  fPV cPV nbonePV nbeightPV nbthreenbtwoPV           :                          
+correspondentPN scalePN      =  celsiusPV                                          :  scalePT temperaturePT   
+dimensionPN                  =  temperaturePV                                      :  basedimensionPT         

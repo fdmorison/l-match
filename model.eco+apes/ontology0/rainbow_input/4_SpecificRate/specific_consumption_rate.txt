@@ -1,0 +1,17 @@
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+specificDC rateDC  specificCN rateCN 
+
+
+specificIN consumptionIN rateIN 
+
+unitPN measurePN    =  kiloPV diffusePV kiloPV diffusePV dayPV   :  unitPT specificPT ratePT   
+measurePN           =  rPV wtPV crPV                             :  actPT                      
+measurePN           =  rPV ifwPV crPV                            :  actPT                      
+measurePN           =  rPV apbPV crPV                            :  actPT                      
+materialPN          =  biomassPV                                 :  materialPT                 
+absolutePN ratePN   =  consumptionPV ratePV                      :  absolutePT ratePT          

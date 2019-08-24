@@ -1,0 +1,19 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+boutiqueDC boutiqueCN
+
+
+designerIN boutiqueIN 
+
+labelPN   =  designerPV boutiquePV   :    

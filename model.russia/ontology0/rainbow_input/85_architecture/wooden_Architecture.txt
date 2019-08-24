@@ -1,0 +1,13 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+architectureDC architectureCN
+
+
+birchIN architectureIN 
+
+labelPN   =  birchPV architecturePV   :    

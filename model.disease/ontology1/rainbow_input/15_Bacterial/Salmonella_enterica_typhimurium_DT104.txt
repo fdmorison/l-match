@@ -1,0 +1,7 @@
+pathogenCN 
+
+bacterialDC  bacterialCN 
+
+
+salmonellaIN entericaIN typhimuriumIN dtIN nbonenbzeronbfourIN 
+

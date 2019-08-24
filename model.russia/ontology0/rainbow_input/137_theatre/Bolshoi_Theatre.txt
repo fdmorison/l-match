@@ -1,0 +1,19 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+theatreDC theatreCN
+
+
+bolshoiIN theatreIN 
+
+liePN     =  moscowPV              :  cityPT  
+labelPN   =  bolshoiPV theatrePV   :          

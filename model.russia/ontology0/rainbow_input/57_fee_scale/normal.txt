@@ -1,0 +1,20 @@
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+feeDC scaleDC  feeCN scaleCN 
+
+
+normalIN
+
+labelPN   =  normalPV  :    

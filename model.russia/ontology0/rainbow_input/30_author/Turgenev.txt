@@ -1,0 +1,21 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+authorDC authorCN
+
+
+turgenevIN 
+
+animalPN      =  turgenevPV              :           
+writtenPN     =  aPV monthPV countryPV   :  novelPT  
+birthplacePN  =  orelPV                  :  cityPT   
+labelPN       =  turgenevPV              :           

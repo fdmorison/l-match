@@ -1,0 +1,24 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+hollandIN 
+
+borderPN           =  belgiumPV     :  countryPT          
+capitalPN cityPN   =  amsterdamPV   :  capitalPT cityPT   
+borderPN           =  germanyPV     :  countryPT          
+labelPN            =  hollandPV     :                     

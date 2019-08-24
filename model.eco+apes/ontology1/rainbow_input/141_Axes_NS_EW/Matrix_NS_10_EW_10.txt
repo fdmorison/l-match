@@ -1,0 +1,21 @@
+seamCN coreCN 
+seamCN coreCN 
+seamCN coreCN 
+observationCN contextCN 
+observationCN contextCN 
+observationCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+dimensionalCN 
+dimensionalCN 
+axisCN eastCN westCN 
+axisCN northCN southCN 
+
+measureCN dataCN 
+axesDC nsDC ewDC  axesCN nsCN ewCN 
+
+
+matrixIN nsIN nbonenbzeroIN ewIN nbonenbzeroIN 
+

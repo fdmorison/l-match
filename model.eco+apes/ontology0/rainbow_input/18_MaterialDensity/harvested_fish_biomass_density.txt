@@ -1,0 +1,16 @@
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC densityDC  materialCN densityCN 
+
+
+cropIN angleIN biomassIN densityIN 
+
+entityPN               =  cropPV anglePV               :  ecologicalPT entityPT     
+measurePN materialPN   =  biomassPV                    :  materialPT                
+unitPN measurePN       =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT   
+materialPN             =  biomassPV                    :  materialPT                

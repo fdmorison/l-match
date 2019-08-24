@@ -1,0 +1,27 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaDC politicalareaCN
+
+
+euIN 
+
+memberPN     =  francePV             :  countryPT  
+labelPN      =  euPV                 :             
+nameablePN   =  europeanPV unionPV   :             
+memberPN     =  hungaryPV            :  countryPT  
+memberPN     =  belgiumPV            :  countryPT  
+memberPN     =  czechPV              :  countryPT  
+memberPN     =  hollandPV            :  countryPT  
+memberPN     =  germanyPV            :  countryPT  
+memberPN     =  polandPV             :  countryPT  

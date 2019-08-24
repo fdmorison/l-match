@@ -1,0 +1,14 @@
+ecologicalCN dataCN 
+measureCN
+dimensionlessCN measureCN 
+
+seamCN coreCN 
+measureCN
+numberDC  numberCN 
+
+
+numberIN angleIN stockedIN 
+
+entityPN             =  anglePV stockedPV   :  ecologicalPT entityPT   
+measurePN entityPN   =  anglePV stockedPV   :  ecologicalPT entityPT   
+unitPN measurePN     =  onePV               :  unitPT identityPT       

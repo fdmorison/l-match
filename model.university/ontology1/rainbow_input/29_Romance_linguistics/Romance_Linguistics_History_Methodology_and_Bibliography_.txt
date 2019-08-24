@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+
+latinDC linguisticDC  latinCN linguisticCN 
+
+
+latinIN linguisticIN historiesIN methodologyIN bibliographyIN 
+

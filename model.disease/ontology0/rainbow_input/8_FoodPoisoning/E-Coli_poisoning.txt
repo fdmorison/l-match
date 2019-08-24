@@ -1,0 +1,16 @@
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC poisoningDC  foodCN poisoningCN 
+
+
+coliIN poisoningIN 
+
+causedPN            =  ecPV oliPV nbzeronbonenbfivenbsevenPV hnbsevenPV   :  bacteriaPT            
+riskPN factorPN     =  gastroPV enteritisPV                               :  bacterialinfectionPT  
+discoverPN          =  theodorPV escherichPV                              :  personPT              
+averagePN casesPN   =  nbsevennbthreenbzeronbzeronbzeroPV                 :                        

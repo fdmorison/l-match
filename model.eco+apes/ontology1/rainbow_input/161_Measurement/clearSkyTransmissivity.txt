@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+clearIN skyIN transmissivityIN 
+
+defaultPN valuePN     =  nbzeroPV nbsevennbfivePV   :                        
+observationPN         =  airPV transmissivityPV     :  measurePT             
+maximumPN valuePN     =  nbzeroPV nbeightnbfivePV   :                        
+spatialPN contextPN   =  itemPV spacePV             :  onePT dimensionalPT   
+defaultPN unitPN      =  dimensionlessPV unitPV     :  baseunitPT            
+interimPN contextPN   =  itemPV meterPV             :  itemPT                
+minimumPN valuePN     =  nbzeroPV nbfivenbtwoPV     :                        

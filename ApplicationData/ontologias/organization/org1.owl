@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.mydomain.com.br/Ontology1211767617.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.mydomain.com.br/Ontology1211767617.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Employee"/>
+  <owl:Class rdf:ID="Laboratory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Organization"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Department">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="affiliatedWith">
+    <rdfs:domain rdf:resource="#Organization"/>
+    <rdfs:range rdf:resource="#Organization"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="worksFor">
+    <rdfs:domain rdf:resource="#Employee"/>
+    <rdfs:range rdf:resource="#Organization"/>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:ID="headOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Department"/>
+    <rdfs:domain rdf:resource="#Employee"/>
+  </owl:TransitiveProperty>
+  <Department rdf:ID="UCSB_English"/>
+  <Laboratory rdf:ID="VLab">
+    <affiliatedWith>
+      <Department rdf:ID="UCSB_CS_Dept"/>
+    </affiliatedWith>
+  </Laboratory>
+  <Department rdf:ID="USCB_Chemical_Engineering"/>
+  <Employee rdf:ID="J._D._Stevens"/>
+  <Laboratory rdf:ID="ArchLab">
+    <affiliatedWith rdf:resource="#VLab"/>
+  </Laboratory>
+  <Employee rdf:ID="John_Stevens">
+    <headOf rdf:resource="#UCSB_CS_Dept"/>
+  </Employee>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

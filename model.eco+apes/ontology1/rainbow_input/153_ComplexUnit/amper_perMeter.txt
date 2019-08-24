@@ -1,0 +1,12 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+amperIN meterIN 
+
+productPN   =  amperPV  :  baseunitPT                             
+productPN   =  meterPV  :  unitPT derivedPT elevationPT powerPT   

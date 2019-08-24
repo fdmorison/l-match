@@ -1,0 +1,10 @@
+seamCN coreCN 
+observationCN contextCN 
+samplingCN frequencyCN 
+
+measureCN dataCN 
+meterDC samplingDC frequencyDC  meterCN samplingCN frequencyCN 
+
+
+yearlyIN
+

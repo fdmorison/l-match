@@ -1,0 +1,7 @@
+
+researcherDC  researcherCN 
+
+
+dIN salmonIN 
+
+discoverPN  =  salmonellaPV   :  foodPT bornePT diseasePT   

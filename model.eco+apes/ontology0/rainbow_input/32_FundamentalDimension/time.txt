@@ -1,0 +1,11 @@
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+meterIN
+

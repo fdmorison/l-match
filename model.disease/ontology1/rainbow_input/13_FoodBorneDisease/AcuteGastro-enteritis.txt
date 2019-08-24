@@ -1,0 +1,12 @@
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+acuteIN gastroIN enteritisIN 
+

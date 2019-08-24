@@ -1,0 +1,1 @@
+@createmodel ApplicationData/ontologias/eco_apes/Ecolingua.owl ApplicationData/ontologias/eco_apes/apes.owl model.eco+apes

@@ -1,0 +1,12 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN faeIN 
+
+measurePN     =  excretionPV ratePV   :  absolutePT ratePT   
+directionPN   =  undefinedPV          :  signPT              

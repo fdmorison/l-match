@@ -1,0 +1,21 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+extraterrestrialIN radiationIN modelIN 
+
+outputsPN       =  dayPV lenghtPV                            :  measurePT             
+implementedPN   =  climaPV gsrPV adPV                        :  apescPT omponentsPT   
+outputsPN       =  extraterrestrialPV radiationPV hourlyPV   :  measurePT             
+outputsPN       =  solarPV declinationPV                     :  measurePT             
+outputsPN       =  dayPV sunsetPV                            :  measurePT             
+outputsPN       =  dayPV anglePV                             :  measurePT             
+outputsPN       =  extraPV economicPV radiationPV dailyPV    :  measurePT             
+outputsPN       =  solarPV elevationPV                       :  measurePT             
+outputsPN       =  dayPV sunrisePV                           :  measurePT             
+outputsPN       =  airPV temperaturePV dailyPV averagePV     :  measurePT             
+inputsPN        =  latitudePV                                :  measurePT             
+inputsPN        =  currentPV dayPV                           :  measurePT             

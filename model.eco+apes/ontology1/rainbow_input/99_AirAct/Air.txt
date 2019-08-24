@@ -1,0 +1,14 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+airDC actDC  airCN actCN 
+
+
+airIN 
+
+measurePN measurePN   =  airPV temperaturePV   :  measurePT  

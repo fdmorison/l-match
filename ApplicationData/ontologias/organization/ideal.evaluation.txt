@@ -1,0 +1,12 @@
+@direction org1 -> org2
+
+# Mapeamentos de equivalência
+equivalence Organization                 Organization
+equivalence Employee                     Employee 
+equivalence Department                   Division
+equivalence Laboratory                   Laboratory
+
+# Mapeamentos de mais geral
+# Mapeamentos de menos geral
+# Mapeamentos de sobreposicao
+# Mapeamentos de diferença

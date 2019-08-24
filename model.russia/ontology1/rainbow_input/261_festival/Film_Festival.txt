@@ -1,0 +1,22 @@
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+cinemaIN festivalIN 
+
+nameablePN   =  cinemaPV festivalPV   :                     
+isPN         =  autumnPV              :  seasonPT           
+isPN         =  moscowPV              :  capitalPT cityPT   
+labelPN      =  cinemaPV festivalPV   :                     

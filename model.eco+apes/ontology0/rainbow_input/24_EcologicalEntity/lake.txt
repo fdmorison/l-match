@@ -1,0 +1,12 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+lakeIN
+
+containsPN  =  waterPV    :  ecologicalPT entityPT   
+containsPN  =  biomassPV  :  materialPT              

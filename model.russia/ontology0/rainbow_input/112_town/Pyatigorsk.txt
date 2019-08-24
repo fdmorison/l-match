@@ -1,0 +1,19 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+pyatigorskIN 
+
+labelPN   =  pyatigorskPV   :    

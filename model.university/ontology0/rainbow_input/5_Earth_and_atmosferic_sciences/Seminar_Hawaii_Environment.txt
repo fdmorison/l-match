@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+earthDC atmosfericDC scienceDC  earthCN atmosfericCN scienceCN 
+
+
+seminarIN hawaiiIN environmentIN 
+

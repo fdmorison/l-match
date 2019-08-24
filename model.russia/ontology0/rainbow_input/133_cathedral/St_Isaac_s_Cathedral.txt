@@ -1,0 +1,23 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN isaacIN cathedralIN 
+
+liePN     =  stpetersburgPV             :  cityPT  
+areaPN    =  stPV isaacPV cathedralPV   :          
+labelPN   =  stPV isaacPV cathedralPV   :          

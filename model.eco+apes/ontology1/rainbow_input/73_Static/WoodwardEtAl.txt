@@ -1,0 +1,13 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+woodwardIN alIN 
+
+inputsPN        =  latitudePV                       :  measurePT             
+inputsPN        =  currentPV dayPV                  :  measurePT             
+implementedPN   =  climaPV gsrPV adPV               :  apescPT omponentsPT   
+outputsPN       =  clearPV skyPV transmissivityPV   :  measurePT             

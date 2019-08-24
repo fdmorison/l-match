@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+fortressDC fortressCN
+
+
+peterpaulfortressIN
+
+liePN     =  stpetersburgPV              :  cityPT  
+areaPN    =  peterPV paulPV fortressPV   :          
+labelPN   =  peterpaulfortressPV         :          

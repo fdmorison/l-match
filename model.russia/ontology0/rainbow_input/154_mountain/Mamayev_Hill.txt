@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+mountainDC mountainCN
+
+
+mamayevIN hillIN 
+
+closePN   =  volgogradPV        :  cityPT  
+areaPN    =  mamayevPV          :          
+labelPN   =  mamayevPV hillPV   :          

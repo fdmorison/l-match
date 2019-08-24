@@ -1,0 +1,13 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+levelDC levelCN
+
+
+midIN placeIN 
+
+labelPN   =  midPV placePV   :    

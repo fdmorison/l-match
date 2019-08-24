@@ -1,0 +1,23 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+orelIN 
+
+locatablePN moscowPN cityPN   =  southPV                 :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV             :  durationunitPT  
+distancePN moscowPN cityPN    =  nbthreenbfournbzeroPV   :                  
+countryPN cityPN              =  russiaPV                :  countryPT       
+labelPN                       =  orelPV                  :                  

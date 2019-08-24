@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+vitoslavlitsyIN museumIN 
+
+liePN                      =  novgorodPV                                        :  cityPT          
+knownPN publicPN spacePN   =  birchPV architecturePV                            :  architecturePT  
+areaPN                     =  vitoslavlitsyPV museumPV birchPV architecturePV   :                  
+labelPN                    =  vitoslavlitsyPV museumPV                          :                  

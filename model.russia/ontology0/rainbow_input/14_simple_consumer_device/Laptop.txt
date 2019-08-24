@@ -1,0 +1,18 @@
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+electronicCN deviceCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+simpleDC consumerDC deviceDC  simpleCN consumerCN deviceCN 
+
+
+laptopIN 
+
+labelPN   =  laptopPV   :    

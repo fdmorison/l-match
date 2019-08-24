@@ -1,0 +1,11 @@
+seamCN coreCN 
+
+ecologicalCN dataCN 
+measureCN
+measureCN dataCN 
+measureDC setDC  measureCN setCN 
+
+
+cropIN mesuremnentIN setIN 
+
+consistsPN   =  cropPV climatePV requirementsPV   :  measurePT setPT   

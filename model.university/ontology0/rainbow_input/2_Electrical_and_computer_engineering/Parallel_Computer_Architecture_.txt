@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+electricDC engineeringDC  electricCN engineeringCN 
+
+
+parallelIN architectureIN 
+

@@ -1,0 +1,10 @@
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+kiloIN
+
+expressedPN  =  massPV  :  basedimensionPT  

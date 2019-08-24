@@ -1,0 +1,18 @@
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+electronicCN deviceCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+deviceDC observedDC  deviceCN observedCN 
+
+
+gpsIN 
+
+labelPN   =  gpsPV   :    

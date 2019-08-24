@@ -1,0 +1,19 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+physicianDC physicianCN
+
+
+andreiIN sakharovIN 
+
+existPN   =  novgorodPV            :  cityPT  
+labelPN   =  andreiPV sakharovPV   :          

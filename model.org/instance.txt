@@ -1,0 +1,12 @@
+##id, name
+0 USCB_Chemical_Engineering
+1 UCSB_CS_Dept
+2 UCSB_English
+3 ArchLab
+4 VLab
+5 John_Stevens
+6 J._D._Stevens
+7 Daniel_Stevens
+8 UCSB_Dept_of_Computer_Science
+9 USCB_Chemical_Engineering
+10 Verification_Lab

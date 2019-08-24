@@ -1,0 +1,20 @@
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+openareaDC openareaCN
+
+
+areaIN russiaIN 
+
+valuePN areaPN   =  nbonenbsevenPV nbzeronbfivenbfivePV nbonenbfivenbzeroPV   :    
+labelPN          =  areaPV russiaPV                                           :    

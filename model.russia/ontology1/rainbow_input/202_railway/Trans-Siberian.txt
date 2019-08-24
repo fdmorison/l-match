@@ -1,0 +1,27 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+defaultrootconceptCN
+animalCN
+locatableCN 
+infrastructureCN
+transferCN
+earthCN transferCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+dimensionCN 
+areaCN
+railwayDC railwayCN
+
+
+transsiberianIN
+
+nameablePN     =  transPV siberianPV   :                      
+destinationPN  =  vladivostokPV        :  ordinaryPT cityPT   
+isPN           =  moscowPV             :  capitalPT cityPT    
+labelPN        =  transsiberianPV      :                      

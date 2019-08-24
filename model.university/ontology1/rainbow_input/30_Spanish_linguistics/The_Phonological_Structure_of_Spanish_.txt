@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+
+spanishDC linguisticDC  spanishCN linguisticCN 
+
+
+phonologicalIN constructionIN spanishIN 
+

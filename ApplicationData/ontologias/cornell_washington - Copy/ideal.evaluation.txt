@@ -1,0 +1,14 @@
+@direction cu -> wu
+
+# Mapeamentos de equivalência
+equivalence Courses                      Courses
+equivalence College_of_arts_and_sciences College_of_Arts_and_Sciences
+equivalence Asian_Studies                Asian_Languages_and_Literature
+equivalence Classics                     Classics
+equivalence History                      History
+equivalence College_of_engineering       College_of_Engineering
+
+# Mapeamentos de mais geral
+# Mapeamentos de menos geral
+# Mapeamentos de sobreposicao
+# Mapeamentos de diferença

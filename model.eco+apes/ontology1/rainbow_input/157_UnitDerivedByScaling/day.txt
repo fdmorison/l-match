@@ -1,0 +1,16 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+dayIN
+
+scalePN numberPN   =  nbonenbtwoPV nbzeroPV   :                             
+derivedunitPN      =  dayPV                   :  unitPT derivedPT scalePT   
+expressedPN        =  meterPV                 :  basedimensionPT            

@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+jouleIN kiloIN 
+
+productPN    =  kiloPV            :  unitPT derivedPT elevationPT powerPT   
+productPN    =  joulePV           :  complexPT unitPT                       
+expressedPN  =  energyPV massPV   :  derivedPT dimensionPT productPT        

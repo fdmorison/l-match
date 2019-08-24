@@ -1,0 +1,5 @@
+bacterialinfection <- BacterialInfection BacterialInfection 
+caused <- causedBy causedBy 
+condition <- Condition Condition 
+discover <- discoveredBy discover 
+infection <- Infection Infection 

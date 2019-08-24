@@ -1,0 +1,27 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+warsawIN 
+
+nameablePN   =  warsawPV   :                     
+cityPN       =  polandPV   :  countryPT          
+railwayPN    =  moscowPV   :  capitalPT cityPT   
+railwayPN    =  berlinPV   :  capitalPT cityPT   
+labelPN      =  warsawPV   :                     

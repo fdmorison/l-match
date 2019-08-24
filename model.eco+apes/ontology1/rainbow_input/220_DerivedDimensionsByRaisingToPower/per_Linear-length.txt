@@ -1,0 +1,18 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+linearIN durationIN 
+
+expressedPN             =  hectarePV             :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  meterPV               :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  kiloPV                :  unitPT derivedPT elevationPT powerPT   
+powerPN                 =  nbonePV               :                                         
+derivedPN dimensionPN   =  linearPV durationPV   :  basedimensionPT                        

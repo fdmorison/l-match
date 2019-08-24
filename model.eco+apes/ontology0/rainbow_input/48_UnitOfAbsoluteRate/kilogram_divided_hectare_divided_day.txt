@@ -1,0 +1,20 @@
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC absoluteDC rateDC  unitCN absoluteCN rateCN 
+
+
+kiloIN diffuseIN hectareIN diffuseIN dayIN 
+
+unitPN          =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT            
+grayPN unitPN   =  grayPV                       :  unitPT meterPT                     
+dimensionPN     =  diffusePV productPV ratePV   :  complexPT dimensionPT divisionPT   
+operationPN     =  divisionPV                   :  operationPT                        

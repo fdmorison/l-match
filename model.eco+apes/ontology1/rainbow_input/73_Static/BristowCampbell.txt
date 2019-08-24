@@ -1,0 +1,16 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+bristowIN campbellIN 
+
+implementedPN   =  agroforestryPV                           :  apescPT omponentsPT   
+implementedPN   =  climaPV gsrPV adPV                       :  apescPT omponentsPT   
+inputsPN        =  extraPV economicPV radiationPV dailyPV   :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV             :  measurePT             
+inputsPN        =  airPV temperaturePV dailyPV rangePV      :  measurePT             
+inputsPN        =  clearPV skyPV transmissivityPV           :  measurePT             
+outputsPN       =  globalPV solarPV radiationPV             :  measurePT             

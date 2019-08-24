@@ -1,0 +1,12 @@
+defaultrootconceptCN
+immaterialCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+genderDC genderCN
+
+
+maleIN
+
+labelPN   =  malePV  :    

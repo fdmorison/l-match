@@ -1,0 +1,31 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+novgorodIN
+
+attractionsPN      =  churchPV christPV ilinoPV   :  churchPT           
+nameablePN         =  novgorodPV                  :                     
+cityPN             =  russiaPV                    :  countryPT          
+infrastructurePN   =  kremlinPV                   :  palacePT           
+isPN               =  falsePV                     :                     
+labelPN            =  novgorodPV                  :                     
+attractionsPN      =  cathedralPV stPV sophiaPV   :  cathedralPT        
+attractionsPN      =  millenniumPV russiaPV       :  monumentPT         
+rivertransportPN   =  moscowPV                    :  capitalPT cityPT   

@@ -1,0 +1,26 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+irkutskIN
+
+distancePN unitPN areaPN      =  kilometerPV                                 :  durationunitPT  
+distancePN moscowPN cityPN    =  nbfourPV nbtwonbonenbfivePV                 :                  
+locatablePN moscowPN cityPN   =  eastPV                                      :  directionPT     
+sightPN cityPN                =  museamPV birchPV architecturePV             :  museumPT        
+populationPN valuePN          =  nbsixnbthreenbzeroPV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  irkutskPV                                   :                  
+countryPN cityPN              =  russiaPV                                    :  countryPT       
+labelPN                       =  irkutskPV                                   :                  

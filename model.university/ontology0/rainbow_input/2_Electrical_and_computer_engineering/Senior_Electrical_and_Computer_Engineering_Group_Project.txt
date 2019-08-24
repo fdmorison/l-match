@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+electricDC engineeringDC  electricCN engineeringCN 
+
+
+seniorIN electricIN engineeringIN groupIN imageIN 
+

@@ -1,0 +1,31 @@
+act <- Influence influence 
+angle <- fish Angle 
+area <- area Region per_Area Area 
+basedimension <- FundamentalDimension PrimaryDimensions 
+baseunit <- BasicUnit BaseUnit 
+biomass <- biomass Biomass 
+carboncontent <- carbon_content CarbonContent 
+celsius <- celsius perCelsius 
+contains <- Contains contains 
+crop <- harvest Crop 
+day <- hour day some_day hour day perDay perHour 
+derivedunit <- DerivedUnit DerivedUnit derivedFromUnit 
+dimension <- hasDimension hasFirstDimension Dimension Dimension 
+gray <- second perSecond gray second 
+ground <- soil hasSoil Soil 
+hectare <- hectare perHectare hectare 
+hertz <- hertz hertz 
+kelvin <- kelvins perKelvin kelvin 
+kilo <- kilogram perKilogram kilogram kilo 
+kilometer <- kilometer kilometer 
+mass <- mass per_Mass Mass 
+measure <- hasQuantity hasQuantityFrom isQuantityTo hasQuantityTo measures AmountQuantity Quantity measured Measurement ofMeasurement isMeasured Quantity 
+measuredimension <- hasMeasureProperty measuresDimension 
+meter <- meter time AmountOfTime hasTime every_time perMeter meter Time per_Time 
+min <- minute minute 
+month <- month month forMonth 
+percent <- Percentage percent 
+temperature <- temperature TemperatureOf Temperature per_Temperature 
+unit <- hasFirstUnit Unit 
+water <- water Water 
+year <- year year 

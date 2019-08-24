@@ -1,0 +1,14 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN dayIN 
+
+expressedPN  =  speedPV   :  derivedPT dimensionPT productPT        
+productPN    =  dayPV     :  unitPT derivedPT elevationPT powerPT   
+productPN    =  meterPV   :  baseunitPT                             
+prefixPN     =  kiloPV    :  unitPT prefixPT                        

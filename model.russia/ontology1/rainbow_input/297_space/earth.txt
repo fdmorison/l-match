@@ -1,0 +1,18 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+spaceDC spaceCN
+
+
+earthIN
+
+nameablePN   =  earthPV   :    
+labelPN      =  earthPV   :    

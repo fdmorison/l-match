@@ -1,0 +1,17 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+locatableDC locatableCN
+
+
+northIN poleIN 
+
+nameablePN   =  northPV polePV   :    
+labelPN      =  northPV polePV   :    

@@ -1,0 +1,16 @@
+defaultrootconceptCN
+animalCN
+organisationCN
+artCN organisationCN 
+
+defaultrootconceptCN
+nameableCN 
+balletDC companyDC  balletCN companyCN 
+
+
+mariinskyIN balletIN 
+
+attendPN performancePN   =  mariinskyPV theatrePV          :  theatrePT  
+attendPN performancePN   =  kremlinPV palacePV theatrePV   :  theatrePT  
+animalPN                 =  mariinskyPV balletPV           :             
+labelPN                  =  mariinskyPV balletPV           :             

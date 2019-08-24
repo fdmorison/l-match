@@ -1,0 +1,539 @@
+Usage: rainbow [OPTION...] [ARG...]
+Rainbow -- a document classification front-end to libbow
+
+ Testing documents that are specified on the command line:
+  -x, --test-files           In same format as `-t', output classifications of
+                             documents in the directory ARG  The ARG must have
+                             the same subdir names as the ARG's specified when
+                             --index'ing.
+  -X, --test-files-loo       Same as --test-files, but evaulate the files
+                             assuming that they were part of the training data,
+                             and doing leave-one-out cross-validation.  This
+                             only works with the classification methods that
+                             support leave-one-out evaluation
+
+ Splitting options:
+      --ignore-set=SOURCE    How to select the ignored documents.  Same format
+                             as --test-set.  Default is `0'.
+      --set-files-use-basename[=N]
+                             When using files to specify doc types, compare
+                             only the last N components the doc's pathname.
+                             That is use the filename and the last N-1
+                             directory names.  If N is not specified, it
+                             defaults to 1.
+      --test-set=SOURCE      How to select the testing documents.  A number
+                             between 0 and 1 inclusive with a decimal point
+                             indicates a random fraction of all documents.  The
+                             number of documents selected from each class is
+                             determined by attempting to match the proportions
+                             of the non-ignore documents.  A number with no
+                             decimal point indicates the number of documents to
+                             select randomly.  Alternatively, a suffix of `pc'
+                             indicates the number of documents per-class to
+                             tag.  The suffix 't' for a number or proportion
+                             indicates to tag documents from the pool of
+                             training documents, not the untagged documents.
+                             `remaining' selects all documents that remain
+                             untagged at the end.  Anything else is interpreted
+                             as a filename listing documents to select.
+                             Default is `0.0'.
+      --train-set=SOURCE     How to select the training documents.  Same format
+                             as --test-set.  Default is `remaining'.
+      --unlabeled-set=SOURCE How to select the unlabeled documents.  Same
+                             format as --test-set.  Default is `0'.
+      --validation-set=SOURCE   How to select the validation documents.  Same
+                             format as --test-set.  Default is `0'.
+
+ For building data structures from text files:
+  -i, --index                Tokenize training documents found under
+                             directories ARG... (where each ARG directory
+                             contains documents of a different class), build
+                             token-document matrix, and save it to disk.
+      --index-lines=FILENAME Read documents' contents from the filename
+                             argument, one-per-line.  The first two
+                             space-delimited words on each line are the
+                             document name and class name respectively
+      --index-matrix=FORMAT  Read document/word statistics from a file in the
+                             format produced by --print-matrix=FORMAT.  See
+                             --print-matrix for details about FORMAT.
+
+ For doing document classification using the token-document matrix built with
+ -i:
+      --forking-query-server=PORTNUM
+                             Same as `--query-server', except allow multiple
+                             clients at once by forking for each client.
+      --print-doc-length     When printing the classification scores for each
+                             test document, at the end also print the number of
+                             words in the document.  This only works with the
+                             --test option.
+  -q, --query[=FILE]         Tokenize input from stdin [or FILE], then print
+                             classification scores.
+      --query-server=PORTNUM Run rainbow in server mode, listening on socket
+                             number PORTNUM.  You can try it by executing this
+                             command, then in a different shell window on the
+                             same machine typing `telnet localhost PORTNUM'.
+  -r, --repeat               Prompt for repeated queries.
+
+ Rainbow-specific vocabulary options:
+      --hide-vocab-in-file=FILE   Hide from the vocabulary all words read as
+                             space-separated strings from FILE.  Note that
+                             regular lexing is not done on these strings.
+      --hide-vocab-indices-in-file=FILE
+                             Hide from the vocabulary all words read as
+                             space-separated word integer indices from FILE.
+      --use-vocab-in-file=FILE   Limit vocabulary to just those words read as
+                             space-separated strings from FILE.  Note that
+                             regular lexing is not done on these strings.
+
+ Testing documents that were indexed with `-i':
+  -t, --test=N                                                                                                                                                                                             Perform N test/train splits of the indexed
+                             documents, and output classifications of all test
+                             documents each time.  The parameters of the
+                             test/train splits are determined by the option
+                             `--test-set' and its siblings
+      --test-on-training=N   Like `--test', but instead of classifing the
+                             held-out test documents classify the training data
+                             in leave-one-out fashion.  Perform N trials.
+
+ Diagnostics:
+      --build-and-save       Builds a class model and saves it to disk.  This
+                             option is unstable.
+  -B, --print-matrix[=FORMAT]   Print the word/document count matrix in an awk-
+                             or perl-accessible format.  Format is specified by
+                             the following letters:
+print all vocab or just words in document:
+  a=all OR s=sparse
+print counts as ints or binary:
+  b=binary OR i=integer
+print word as:
+    n=integer index OR w=string OR e=empty OR
+                             c=combination
+                             The default is the last in each list
+  -F, --print-word-foilgain=CLASSNAME
+                             Print the word/foilgain vector for CLASSNAME.  See
+                             Mitchell's Machine Learning textbook for a
+                             description of foilgain.
+  -I, --print-word-infogain=N   Print the N words with the highest information
+                             gain.
+      --print-doc-names[=TAG]   Print the filenames of documents contained in
+                             the model.  If the optional TAG argument is given,
+                             print only the documents that have the specified
+                             tag, where TAG might be `train', `test', etc.
+      --print-log-odds-ratio[=N]   For each class, print the N words with the
+                             highest log odds ratio score.  Default is N=10.
+      --print-word-counts=WORD   Print the number of times WORD occurs in each
+                             class.
+      --print-word-pair-infogain=N
+                             Print the N word-pairs, which when co-occuring in
+                             a document, have the highest information gain.
+                             (Unfinished; ignores N.)
+      --print-word-probabilities=CLASS
+                             Print P(w|CLASS), the probability in class CLASS
+                             of each word in the vocabulary.
+      --test-from-saved      Classify using the class model saved to disk.
+                             This option is unstable.
+      --use-saved-classifier Don't ever re-train the classifier.  Use whatever
+                             class barrel was saved to disk.  This option
+                             designed for use with --query-server
+  -W, --print-word-weights=CLASSNAME
+                             Print the word/weight vector for CLASSNAME, sorted
+                             with high weights first.  The meaning of `weight'
+                             is undefined.
+
+ Probabilistic Indexing options, --method=prind:
+  -G, --prind-no-foilgain-weight-scaling
+                             Don't have PrInd scale its weights by Quinlan's
+                             FoilGain.
+  -N, --prind-no-score-normalization
+                             Don't have PrInd normalize its class scores to sum
+                             to one.
+      --prind-non-uniform-priors   Make PrInd use non-uniform class priors.
+
+ General options
+      --annotations=FILE     The sarray file containing annotations for the
+                             files in the index
+  -b, --no-backspaces        Don't use backspace when verbosifying progress
+                             (good for use in emacs)
+  -d, --data-dir=DIR         Set the directory in which to read/write
+                             word-vector data (default=~/.<program_name>).
+      --random-seed=NUM      The non-negative integer to use for seeding the
+                             random number generator
+      --score-precision=NUM  The number of decimal digits to print when
+                             displaying document scores
+  -v, --verbosity=LEVEL      Set amount of info printed while running;
+                             (0=silent, 1=quiet, 2=show-progess,...5=max)
+
+ Lexing options
+      --append-stoplist-file=FILE
+                             Add words in FILE to the stoplist.
+      --exclude-filename=FILENAME
+                             When scanning directories for text files, skip
+                             files with name matching FILENAME.
+  -g, --gram-size=N          Create tokens for all 1-grams,... N-grams.
+  -h, --skip-header          Avoid lexing news/mail headers by scanning forward
+                             until two newlines.
+      --istext-avoid-uuencode   Check for uuencoded blocks before saying that
+                             the file is text, and say no if there are many
+                             lines of the same length.
+      --lex-pipe-command=SHELLCMD
+                             Pipe files through this shell command before
+                             lexing them.
+      --max-num-words-per-document=N
+                             Only tokenize the first N words in each document.
+      --no-stemming          Do not modify lexed words with a stemming
+                             function. (usually the default, depending on
+                             lexer)
+      --replace-stoplist-file=FILE
+                             Empty the default stoplist, and add
+                             space-delimited words from FILE.
+  -s, --no-stoplist          Do not toss lexed words that appear in the
+                             stoplist.
+      --shortest-word=LENGTH Toss lexed words that are shorter than LENGTH.
+                             Default is usually 2.
+  -S, --use-stemming         Modify lexed words with the `Porter' stemming
+                             function.
+      --use-stoplist         Toss lexed words that appear in the stoplist.
+                             (usually the default SMART stoplist, depending on
+                             lexer)
+      --use-unknown-word     When used in conjunction with -O or -D, captures
+                             all words with occurrence counts below threshold
+                             as the `<unknown>' token
+      --xxx-words-only       Only tokenize words with `xxx' in them
+
+ Mutually exclusive choice of lexers
+      --flex-mail            Use a mail-specific flex lexer
+      --flex-tagged          Use a tagged flex lexer
+  -H, --skip-html            Skip HTML tokens when lexing.
+      --lex-alphanum         Use a special lexer that includes digits in
+                             tokens, delimiting tokens only by non-alphanumeric
+                             characters.
+      --lex-infix-string=ARG Use only the characters after ARG in each word for
+                             stoplisting and stemming.  If a word does not
+                             contain ARG, the entire word is used.
+      --lex-suffixing        Use a special lexer that adds suffixes depending
+                             on Email-style headers.
+      --lex-white            Use a special lexer that delimits tokens by
+                             whitespace only, and does not change the contents
+                             of the token at all---no downcasing, no stemming,
+                             no stoplist, nothing.  Ideal for use with an
+                             externally-written lexer interfaced to rainbow
+                             with --lex-pipe-cmd.
+
+ Feature-selection options
+  -D, --prune-vocab-by-doc-count=N
+                             Remove words that occur in N or fewer documents.
+  -O, --prune-vocab-by-occur-count=N
+                             Remove words that occur less than N times.
+  -T, --prune-vocab-by-infogain=N
+                             Remove all but the top N words by selecting words
+                             with highest information gain.
+
+ Weight-vector setting/scoring method options
+      --binary-word-counts   Instead of using integer occurrence counts of
+                             words to set weights, use binary
+                             absence/presence.
+      --event-document-then-word-document-length=NUM
+                             Set the normalized length of documents when
+                             --event-model=document-then-word
+      --event-model=EVENTNAME   Set what objects will be considered the
+                             `events' of the probabilistic model.  EVENTNAME
+                             can be one of: word, document, document-then-word.
+                              Default is `word'.
+      --infogain-event-model=EVENTNAME
+                             Set what objects will be considered the `events'
+                             when information gain is calculated.  EVENTNAME
+                             can be one of: word, document, document-then-word.
+                              Default is `document'.
+  -m, --method=METHOD        Set the word weight-setting method; METHOD may be
+                             one of: active, em, emsimple, kl, knn, maxent,
+                             naivebayes, nbshrinkage, nbsimple, prind,
+                             tfidf_words, tfidf_log_words, tfidf_log_occur,
+                             tfidf, svm, default=naivebayes.
+      --print-word-scores    During scoring, print the contribution of each
+                             word to each class.
+      --smoothing-dirichlet-filename=FILE
+                             The file containing the alphas for the dirichlet
+                             smoothing.
+      --smoothing-dirichlet-weight=NUM
+                             The weighting factor by which to muliply the
+                             alphas for dirichlet smoothing.
+      --smoothing-goodturing-k=NUM
+                             Smooth word probabilities for words that occur NUM
+                             or less times. The default is 7.
+      --smoothing-method=METHOD   Set the method for smoothing word
+                             probabilities to avoid zeros; METHOD may be one
+                             of: goodturing, laplace, mestimate, wittenbell
+      --uniform-class-priors When setting weights, calculating infogain and
+                             scoring, use equal prior probabilities on
+                             classes.
+
+ Support Vector Machine options, --method=svm:
+      --svm-active-learning= Use active learning to query the labels &
+                             incrementally (by arg_size) build the barrels.
+      --svm-active-learning-baseline=
+                             Incrementally add documents to the training set at
+                             random.
+      --svm-al-transduce     do transduction over the unlabeled data during
+                             active learning.
+      --svm-al_init_tsetsize=   Number of random documents to start with in
+                             active learning.
+      --svm-bsize=           maximum size to construct the subproblems.
+      --svm-cache-size=      Number of kernel evaluations to cache.
+      --svm-cost=            cost to bound the lagrange multipliers by (default
+                             1000).
+      --svm-df-counts=       Set df_counts (0=occurrences, 1=words).
+      --svm-epsilon_a=       tolerance for the bounds of the lagrange
+                             multipliers (default 0.0001).
+      --svm-kernel=          type of kernel to use (0=linear, 1=polynomial,
+                             2=gassian, 3=sigmoid, 4=fisher kernel).
+      --svm-quick-scoring    Turn quick scoring on.
+      --svm-remove-misclassified=
+                             Remove all of the misclassified examples and
+                             retrain (default none (0), 1=bound, 2=wrong.
+      --svm-rseed=           what random seed should be used in the
+                             test-in-train splits
+      --svm-start-at=        which model should be the first generated.
+      --svm-suppress-score-matrix
+                             Do not print the scores of each test document at
+                             each AL iteration.
+      --svm-test-in-train    do active learning testing inside of the
+                             training...  a hack around making code 10 times
+                             more complicated.
+      --svm-tf-transform=    0=raw, 1=log...
+      --svm-trans-cost=      value to assign to C* (default 200).
+      --svm-trans-hyp-refresh=   how often the hyperplane should be recomputed
+                             during transduction.  Only applies to SMO.
+                             (default 40)
+      --svm-trans-nobias     Do not use a bias when marking unlabeled
+                             documents.  Use a threshold of 0 to determine
+                             labels instead of some threshold tomark a certain
+                             number of documents for each class.
+      --svm-trans-npos=      number of unlabeled documents to label as positive
+                             (default: proportional to number of labeled
+                             positive docs).
+      --svm-trans-smart-vals=   use previous problem's as a starting point for
+                             the next. (default true)
+      --svm-transduce-class= override default class(es) (int) to do
+                             transduction with (default bow_doc_unlabeled).
+      --svm-use-smo=         default 1 (use SMO) - PR_LOQO not compiled
+      --svm-vote=            Type of voting to use (0=singular, 1=pairwise;
+                             default 0).
+      --svm-weight=          type of function to use to set the weights of the
+                             documents' words (0=raw_frequency, 1=tfidf,
+                             2=infogain.
+
+ Naive Bayes options, --method=naivebayes:
+      --naivebayes-binary-scoring
+                             When using naivebayes, use hacky scoring to get
+                             good Precision-Recall curves.
+      --naivebayes-m-est-m=M When using `m'-estimates for smoothing in
+                             NaiveBayes, use M as the value for `m'.  The
+                             default is the size of vocabulary.
+      --naivebayes-normalize-log   When using naivebayes, return -1/log(P(C|d),
+                             normalized to sum to one instead of P(C|d).  This
+                             results in values that are not so close to zero
+                             and one.
+
+ Maximum Entropy options, --method=maxent:
+      --maxent-constraint-docs=TYPE
+                             The documents to use for setting the constraints.
+                             The default is train. The other choice is
+                             trainandunlabeled.
+      --maxent-gaussian-prior   Add a Gaussian prior to each word/class feature
+                             constraint.
+      --maxent-gaussian-prior-no-zero-constraints
+                             When using a gaussian prior, do not enforce
+                             constraints that have notraining data.
+      --maxent-halt-by-accuracy=TYPE
+                             When running maxent, halt iterations using the
+                             accuracy of documents.  TYPE is type of
+                             documentsto test.  See
+                             `--em-halt-using-perplexity` for choices for TYPE
+      --maxent-halt-by-logprob=TYPE
+                             When running maxent, halt iterations using the
+                             logprob of documents.  TYPE is type of documentsto
+                             test.  See `--em-halt-using-perplexity` for
+                             choices for TYPE
+      --maxent-iteration-docs=TYPE
+                             The types of documents to use for maxent
+                             iterations.  The default is train.  TYPE is type
+                             of documents to test.  See
+                             `--em-halt-using-perplexity` for choices for TYPE
+      --maxent-iterations=NUM   The number of iterative scaling iterations to
+                             perform.  The default is 40.
+      --maxent-keep-features-by-mi=NUM
+                             The number of top words by mutual information per
+                             class to use as features.  Zeroimplies no pruning
+                             and is the default.
+      --maxent-logprob-constraints
+                             Set constraints to be the log prob of the word.
+      --maxent-print-accuracy=TYPE
+                             When running maximum entropy, print the accuracy
+                             of documents at each round.  TYPE is type of
+                             document to measure perplexity on.  See
+                             `--em-halt-using-perplexity` for choices for TYPE
+      --maxent-prior-variance=NUM
+                             The variance to use for the Gaussian prior.  The
+                             default is 0.01.
+      --maxent-prune-features-by-count=NUM
+                             Prune the word/class feature set, keeping only
+                             those features that haveat least NUM occurrences
+                             in the training set.
+      --maxent-scoring-hack  Use smoothed naive Bayes probability for zero
+                             occuring word/class pairs during scoring
+      --maxent-smooth-counts Add 1 to the count of each word/class pair when
+                             calculating the constraint values.
+      --maxent-vary-prior-by-count
+                             Multiply log (1 + N(w,c)) times variance when
+                             using a gaussian prior.
+      --maxent-vary-prior-by-count-linearly
+                             Mulitple N(w,c) times variance when using a
+                             Gaussian prior.
+
+ K-nearest neighbor options, --method=knn:
+      --knn-k=K              Number of neighbours to use for nearest neighbour.
+                             Defaults to 30.
+      --knn-weighting=xxx.xxx   Weighting scheme to use, coded like SMART.
+                             Defaults to nnn.nnnThe first three chars describe
+                             how the model documents areweighted, the second
+                             three describe how the test document isweighted.
+                             The codes for each position are described in
+                             knn.c.Classification consists of summing the
+                             scores per class for thek nearest neighbour
+                             documents and sorting.
+
+ EMSIMPLE options:
+      --emsimple-no-init     Use this option when using emsimple as the
+                             secondary method for genem
+      --emsimple-num-iterations=NUM
+                             Number of EM iterations to run when building
+                             model.
+      --emsimple-print-accuracy=TYPE
+                             When running emsimple, print the accuracy of
+                             documents at each EM round.  Type can be
+                             validation, train, or test.
+
+ EM options:
+      --em-anneal            Use Deterministic annealing EM.
+      --em-anneal-normalizer When running EM, do deterministic annealing-ish
+                             stuff with the unlabeled normalizer.
+      --em-binary            Do special tricks for the binary case.
+      --em-binary-neg-classname=CLASS
+                             Specify the name of the negative class if building
+                             a binary classifier.
+      --em-binary-pos-classname=CLASS
+                             Specify the name of the positive class if building
+                             a binary classifier.
+      --em-compare-to-nb     When building an EM class barrel, show doc stats
+                             for the naivebayesbarrel equivalent.  Only use in
+                             conjunction with --test.
+      --em-crossentropy      Use crossentropy instead of naivebayes for
+                             scoring.
+      --em-halt-using-accuracy=TYPE
+                             When running EM, halt when accuracy plateaus.
+                             TYPE is type of document to measure perplexity on.
+                              Choices are `validation', `train', `test',
+                             `unlabeled' and `trainandunlabeled' and
+                             `trainandunlabeledloo'
+      --em-halt-using-perplexity=TYPE
+                             When running EM, halt when perplexity plataeus.
+                             TYPE is type of document to measure perplexity on.
+                              Choices are `validation', `train', `test',
+                             `unlabeled',  `trainandunlabeled' and
+                             `trainandunlabeledloo'
+      --em-labeled-for-start-only
+                             Use the labeled documents to set the starting
+                             point for EM, butignore them during the
+                             iterations
+      --em-multi-hump-init=METHOD
+                             When initializing mixture components, how to
+                             assign component probs to documents.  Default is
+                             `spread'.  Other choices are `spiked'.
+      --em-multi-hump-neg=NUM   Use NUM center negative classes. Only use in
+                             binary case.Must be using scoring method
+                             nb_score.
+      --em-num-iterations=NUM   Number of EM iterations to run when building
+                             model.
+      --em-perturb-starting-point=TYPE
+                             Instead of starting EM with P(w|c) from the
+                             labeled training data, start from values that are
+                             randomly sampled from the multinomial specified by
+                             the labeled training data.  TYPE specifies what
+                             distribution to use for the perturbation; choices
+                             are `gaussian' `dirichlet', and `none'.  Default
+                             is `none'.
+      --em-print-accuracy=TYPE   When running EM, print the accuracy of
+                             documents at each round.  TYPE is type of document
+                             to measure perplexity on.  See
+                             `--em-halt-using-perplexity` for choices for TYPE
+      --em-print-perplexity=TYPE   When running EM, print the perplexity of
+                             documents at each round.  TYPE is type of document
+                             to measure perplexity on.  See
+                             `--em-halt-using-perplexity` for choices for TYPE
+      --em-print-top-words   Print the top 10 words per class for each EM
+                             iteration.
+      --em-save-probs        On each EM iteration, save all P(C|w) to a file.
+      --em-set-vocab-from-unlabeled
+                             Remove words from the vocabulary not used in the
+                             unlabeled data
+      --em-stat-method=STAT  The method to convert scores to probabilities.The
+                             default is 'nb_score'.
+      --em-temp-reduce=NUM   Temperature reduction factor for deterministic
+                             annealing.  Default is 0.9.
+      --em-temperature=NUM   Initial temperature for deterministic annealing.
+                             Default is 200.
+      --em-unlabeled-normalizer=NUM
+                             Number of unlabeled docs it takes to equal a
+                             labeled doc.Defaults to one.
+      --em-unlabeled-start=TYPE   When initializing the EM starting point, how
+                             the unlabeled docs contribute.  Default is `zero'.
+                              Other choices are `prior' `random'  and `even'.
+
+ Active Learning options:
+      --active-add-per-round=NUM   Specify the number of documents to label
+                             each round.  The default is 4.
+      --active-beta=NUM      Increase spread of document densities.
+      --active-binary-pos=CLASS   The name of the positive class for binary
+                             classification.  Required forrelevance sampling.
+      --active-committee-size=NUM
+                             The number of committee members to use with QBC.
+                             Default is 1.
+      --active-final-em      Finish with a full round of EM.
+      --active-no-final-em   Finish without a full round of EM.
+      --active-num-rounds=NUM   The number of active learning rounds to
+                             perform.  The default is 10.
+      --active-perturb-after-em   Perturb after running EM to create committee
+                             members.
+      --active-pr-print-stat-summary
+                             Print the precision recall curves used for score
+                             to probability remapping.
+      --active-pr-window-size=NUM
+                             Set the window size for precision-recall score to
+                             probability remapping.The default is 20.
+      --active-print-committee-matrices
+                             Print the confusion matrix for each committee
+                             member at each round.
+      --active-qbc-low-kl    Select documents with the lowest kl-divergence
+                             instead of the highest.
+      --active-remap-scores-pr   Remap scores with sneaky precision-recall
+                             tricks.
+      --active-secondary-method=METHOD
+                             The underlying method for active learning to use.
+                             The default is 'naivebayes'.
+      --active-selection-method=METHOD
+                             Specify the selection method for picking unlabeled
+                             docs. One of uncertainty, relevance, qbc, random.
+                             The default is 'uncertainty'.
+      --active-stream-epsilon=NUM
+                             The rate factor for selecting documents in stream
+                             sampling.
+      --active-test-stats    Generate output for test docs every n rounds.
+
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or optional
+for any corresponding short options.
+
+Report bugs to <mccallum@cs.cmu.edu>.

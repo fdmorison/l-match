@@ -1,0 +1,18 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+documentCN
+writtenCN documentCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+approvalDC approvalCN
+
+
+visaIN
+
+labelPN   =  visaPV  :    

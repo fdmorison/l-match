@@ -1,0 +1,20 @@
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+healthCN 
+cureCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+waterDC cureDC  waterCN cureCN 
+
+
+rainIN massageIN 
+
+labelPN   =  rainPV massagePV   :    

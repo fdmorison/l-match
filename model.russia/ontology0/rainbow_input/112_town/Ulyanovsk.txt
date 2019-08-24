@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+ulyanovskIN
+
+locatablePN moscowPN townPN   =  eastPV                                    :  directionPT     
+distancePN unitPN townPN      =  kilometerPV                               :  durationunitPT  
+distancePN moscowPN           =  nbsevennbonenbfivePV                      :                  
+populationPN valuePN          =  nbsixnbtwonbfivePV nbzeronbzeronbzeroPV   :                  
+countryPN townPN              =  russiaPV                                  :  countryPT       
+labelPN                       =  ulyanovskPV                               :                  

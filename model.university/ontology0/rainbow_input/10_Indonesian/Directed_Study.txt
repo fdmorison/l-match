@@ -1,0 +1,37 @@
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+coursesCN
+collegeartsscienceCN
+asianCN fieldCN 
+
+chineseDC chineseCN
+hindiDC hindiCN
+indonesianDC indonesianCN
+japaneseDC japaneseCN
+koreanDC koreanCN
+thaiDC thaiCN
+sanskritDC sanskritCN
+vietnameseDC vietnameseCN
+
+
+directedIN fieldIN 
+

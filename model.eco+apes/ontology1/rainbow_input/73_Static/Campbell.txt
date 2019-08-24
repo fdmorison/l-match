@@ -1,0 +1,16 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+campbellIN 
+
+outputsPN       =  airPV temperaturePV hourlyPV        :  measurePT             
+inputsPN        =  airPV temperaturePV maxPV dailyPV   :  measurePT             
+inputsPN        =  airPV temperaturePV minPV dailyPV   :  measurePT             
+implementedPN   =  climaPV airPV temperaturePV         :  apescPT omponentsPT   
+implementedPN   =  agroforestryPV                      :  apescPT omponentsPT   
+implementedPN   =  climaPV gsrPV adPV                  :  apescPT omponentsPT   
+implementedPN   =  demoPV componentPV                  :  apescPT omponentsPT   

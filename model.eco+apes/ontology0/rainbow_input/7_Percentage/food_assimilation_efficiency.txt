@@ -1,0 +1,14 @@
+ecologicalCN dataCN 
+measureCN
+dimensionlessCN measureCN 
+
+seamCN coreCN 
+measureCN
+percentDC percentCN
+
+
+foodIN assimilationIN efficiencyIN 
+
+unitPN measurePN       =  onePV            :  unitPT identityPT       
+measurePN materialPN   =  anglePV foodPV   :  materialPT              
+entityPN               =  anglePV          :  ecologicalPT entityPT   

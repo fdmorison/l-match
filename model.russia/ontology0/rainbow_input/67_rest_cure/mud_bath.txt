@@ -1,0 +1,20 @@
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+healthCN 
+cureCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+lieDC cureDC  lieCN cureCN 
+
+
+mudIN bathIN 
+
+labelPN   =  mudPV bathPV   :    

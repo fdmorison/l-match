@@ -1,0 +1,26 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+vladimirIN 
+
+sightPN cityPN                =  stPV demetriusPV cathedralPV                  :  cathedralPT     
+locatablePN moscowPN cityPN   =  northPV                                       :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                   :  durationunitPT  
+distancePN moscowPN cityPN    =  nbonenbsevennbzeroPV                          :                  
+populationPN valuePN          =  nbthreenbfournbthreePV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  vladimirPV                                    :                  
+countryPN cityPN              =  russiaPV                                      :  countryPT       
+labelPN                       =  vladimirPV                                    :                  

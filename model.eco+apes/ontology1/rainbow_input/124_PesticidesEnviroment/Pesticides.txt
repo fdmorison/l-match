@@ -1,0 +1,9 @@
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+
+pesticideDC enviromentDC  pesticideCN enviromentCN 
+
+
+pesticideIN 
+

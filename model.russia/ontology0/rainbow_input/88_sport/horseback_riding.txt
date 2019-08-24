@@ -1,0 +1,14 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+horsebackIN automotiveIN 
+
+labelPN   =  horsebackPV automotivePV   :    

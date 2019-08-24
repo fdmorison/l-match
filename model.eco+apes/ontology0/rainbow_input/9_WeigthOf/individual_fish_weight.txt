@@ -1,0 +1,16 @@
+ecologicalCN dataCN 
+measureCN
+weightCN measureCN 
+
+seamCN coreCN 
+measureCN
+weigthDC  weigthCN 
+
+
+individualIN angleIN weightIN 
+
+entityPN             =  individualPV anglePV   :  ecologicalPT entityPT   
+unitPN measurePN     =  kiloPV                 :  unitPT massPT           
+measurePN entityPN   =  individualPV anglePV   :  ecologicalPT entityPT   
+measurePN            =  rPV nfsPV ifwPV        :  actPT                   
+measurePN            =  rPV fbPV ifwPV         :  actPT                   

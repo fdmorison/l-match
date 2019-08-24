@@ -1,0 +1,19 @@
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+industryCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+timberDC timberCN
+
+
+sawnIN timberIN 
+
+nameablePN   =  sawnPV timberPV   :    
+labelPN      =  sawnPV timberPV   :    

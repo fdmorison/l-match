@@ -1,0 +1,19 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+archipelagoDC archipelagoCN
+
+
+kurilIN islandIN 
+
+labelPN   =  kurilPV islandPV   :    

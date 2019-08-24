@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+slopeIN aspectIN componentIN 
+
+maximumPN valuePN     =  nbthreePV nbzeroPV       :                        
+spatialPN contextPN   =  itemPV spacePV           :  onePT dimensionalPT   
+observationPN         =  slopePV aspectPV         :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbzeroPV        :                        
+interimPN contextPN   =  itemPV meterPV           :  itemPT                
+defaultPN valuePN     =  nbonePV nbzeroPV         :                        
+defaultPN unitPN      =  dimensionlessPV unitPV   :  baseunitPT            

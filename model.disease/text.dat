@@ -1,0 +1,199 @@
+microCN organismCN 
+
+pathogenCN 
+bacterialCN 
+bacteriaDC  bacteriaCN 
+
+
+salmonellaIN entericaIN 
+
+microCN organismCN 
+
+pathogenCN 
+bacterialCN 
+bacteriaDC  bacteriaCN 
+
+
+ecIN oliIN nbzeronbonenbfivenbsevenIN hnbsevenIN 
+
+
+personDC  personCN 
+
+
+theodorIN escherichIN 
+
+
+personDC  personCN 
+
+
+danielIN elmerIN salmonIN 
+
+conditionCN
+infectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionDC bacterialinfectionCN
+
+
+gastroIN enteritisIN 
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC poisoningDC  foodCN poisoningCN 
+
+
+botulismIN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC poisoningDC  foodCN poisoningCN 
+
+
+coliIN poisoningIN 
+
+causedPN            =  ecPV oliPV nbzeronbonenbfivenbsevenPV hnbsevenPV   :  bacteriaPT            
+riskPN factorPN     =  gastroPV enteritisPV                               :  bacterialinfectionPT  
+discoverPN          =  theodorPV escherichPV                              :  personPT              
+averagePN casesPN   =  nbsevennbthreenbzeronbzeronbzeroPV                 :                        
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC poisoningDC  foodCN poisoningCN 
+
+
+salmonellaIN poisoningIN 
+
+averagePN casesPN   =  nbfournbzeronbzeronbzeronbzeroPV   :               
+causedPN            =  salmonellaPV entericaPV            :  bacteriaPT   
+discoverPN          =  danielPV elmerPV salmonPV          :  personPT     
+
+researcherDC  researcherCN 
+
+
+dIN salmonIN 
+
+discoverPN  =  salmonellaPV   :  foodPT bornePT diseasePT   
+
+researcherDC  researcherCN 
+
+
+escherichIN 
+
+discoverPN  =  coliPV   :  foodPT bornePT diseasePT   
+conditionCN
+infectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionDC bacterialinfectionCN
+
+
+bronchitisIN
+
+associatedPN   =  pneumoniaPV  :  bacterialinfectionPT  
+conditionCN
+infectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionDC bacterialinfectionCN
+
+
+pneumoniaIN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+salmonellaIN 
+
+causedPN  =  salmonellaPV entericaPV typhimuriumPV dtPV nbonenbzeronbfourPV   :  bacterialPT   
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+choleraIN 
+
+causedPN  =  salmonellaPV cholerasiusPV   :  bacterialPT   
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+coliIN 
+
+causedPN    =  escherichiaPV coliPV onbonenbfivenbsevenPV hnbsevenPV   :  bacterialPT                
+causedPN    =  escherichiaPV coliPV ltPV                               :  bacterialPT                
+resultsPN   =  acutePV gastroPV enteritisPV                            :  foodPT bornePT diseasePT   
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+acuteIN gastroIN enteritisIN 
+
+pathogenCN 
+
+bacterialDC  bacterialCN 
+
+
+escherichiaIN coliIN onbonenbfivenbsevenIN hnbsevenIN 
+
+pathogenCN 
+
+bacterialDC  bacterialCN 
+
+
+escherichiaIN coliIN ltIN 
+
+pathogenCN 
+
+bacterialDC  bacterialCN 
+
+
+salmonellaIN cholerasiusIN 
+
+pathogenCN 
+
+bacterialDC  bacterialCN 
+
+
+salmonellaIN entericaIN typhimuriumIN dtIN nbonenbzeronbfourIN 
+

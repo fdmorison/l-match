@@ -1,0 +1,22 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+townDC townCN
+
+
+ulyanovskIN
+
+nameablePN   =  ulyanovskPV  :    
+labelPN      =  ulyanovskPV  :    

@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+electricDC engeneeringDC  electricCN engeneeringCN 
+
+
+digitalIN integratedIN circuitIN designIN 
+

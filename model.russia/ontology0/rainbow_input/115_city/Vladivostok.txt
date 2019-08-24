@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+vladivostokIN
+
+locatablePN moscowPN cityPN   =  eastPV                                      :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                 :  durationunitPT  
+distancePN moscowPN cityPN    =  nbsixPV nbfournbzeronbzeroPV                :                  
+populationPN valuePN          =  nbsixnbfournbeightPV nbzeronbzeronbzeroPV   :                  
+countryPN cityPN              =  russiaPV                                    :  countryPT       
+labelPN                       =  vladivostokPV                               :                  

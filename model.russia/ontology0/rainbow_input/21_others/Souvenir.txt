@@ -1,0 +1,17 @@
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+souvenirIN 
+
+labelPN   =  souvenirPV   :    

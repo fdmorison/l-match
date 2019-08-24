@@ -1,0 +1,14 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+meterIN nutrientIN 
+
+powerPN        =  nbtwoPV   :                                              
+derivedunitPN  =  meterPV   :  baseunitPT                                  
+expressedPN    =  areaPV    :  derivedPT dimensionPT elevationPT powerPT   

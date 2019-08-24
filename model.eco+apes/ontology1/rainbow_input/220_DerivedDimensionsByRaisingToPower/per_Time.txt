@@ -1,0 +1,19 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+meterIN
+
+expressedPN             =  grayPV    :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  dayPV     :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  dayPV     :  unitPT derivedPT elevationPT powerPT   
+meterPN                 =  nbonePV   :                                         
+derivedPN dimensionPN   =  meterPV   :  basedimensionPT                        
+powerPN                 =  nbonePV   :                                         

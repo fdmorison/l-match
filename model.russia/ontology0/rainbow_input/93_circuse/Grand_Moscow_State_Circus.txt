@@ -1,0 +1,14 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+nameableCN 
+circuseDC circuseCN
+
+
+grandIN moscowIN countryIN carnivalIN 
+
+labelPN   =  grandPV moscowPV countryPV carnivalPV   :    

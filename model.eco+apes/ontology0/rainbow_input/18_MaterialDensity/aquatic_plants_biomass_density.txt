@@ -1,0 +1,19 @@
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC densityDC  materialCN densityCN 
+
+
+aquaticIN plantIN biomassIN densityIN 
+
+materialPN             =  biomassPV                    :  materialPT                
+measurePN              =  rPV cPV apbPV                :  actPT                     
+measurePN              =  rPV pnmPV apbPV              :  actPT                     
+measurePN              =  rPV ppPV apbPV               :  actPT                     
+measurePN materialPN   =  biomassPV                    :  materialPT                
+unitPN measurePN       =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT   
+entityPN               =  aquaticPV plantPV            :  ecologicalPT entityPT     

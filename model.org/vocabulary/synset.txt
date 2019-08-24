@@ -1,0 +1,26 @@
+ab <- ab 
+affiliated <- affiliatedWith affiliated 
+arch <- arch 
+chemical <- chemical 
+cs <- cs 
+d <- d 
+daniel <- daniel 
+department <- department 
+dept <- dept 
+division <- division 
+employee <- employee Employee 
+engineering <- engineering 
+english <- english 
+head <- headOf head 
+j <- j 
+john <- john 
+lab <- Laboratory lab laboratory 
+organization <- Organization organization 
+science <- science 
+stevens <- stevens 
+ucsb <- ucsb 
+uscb <- uscb 
+uscbchemicalengineering <- USCB_Chemical_Engineering 
+verification <- verification 
+vl <- vl 
+works <- worksFor works 

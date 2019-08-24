@@ -1,0 +1,16 @@
+ecologicalCN dataCN 
+measureCN
+measureCN
+physicalCN measureCN 
+
+seamCN coreCN 
+measureCN
+moneyDC  moneyCN 
+
+
+profitIN
+
+measurePN            =  rPV hfbPV pPV   :  actPT                   
+entityPN             =  pondPV          :  ecologicalPT entityPT   
+measurePN entityPN   =  pondPV          :  ecologicalPT entityPT   
+unitPN measurePN     =  dolarPV         :  unitPT moneyPT          

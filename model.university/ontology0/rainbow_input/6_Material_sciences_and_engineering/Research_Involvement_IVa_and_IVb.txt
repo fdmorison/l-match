@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+economicDC scienceDC engineeringDC  economicCN scienceCN engineeringCN 
+
+
+researchIN involvementIN ivIN aIN ivIN bIN 
+

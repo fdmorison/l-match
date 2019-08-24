@@ -1,0 +1,12 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+agroforestryIN 
+
+consistsPN modelPN   =  lintulnbonePV          :  activePT   
+consistsPN modelPN   =  campbellPV             :  setPT      
+consistsPN modelPN   =  bristowPV campbellPV   :  setPT      
+consistsPN modelPN   =  testPV                 :  setPT      

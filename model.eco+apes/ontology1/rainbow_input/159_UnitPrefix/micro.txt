@@ -1,0 +1,11 @@
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+microIN
+
+symbolPN   =                              :    
+valuePN    =  nbonePV nbzeroPV nbfivePV   :    

@@ -1,0 +1,25 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbtwoIN
+
+includePN cityPN   =  warsawPV       :  capitalPT cityPT   
+includePN cityPN   =  praguePV       :  capitalPT cityPT   
+includePN cityPN   =  parisPV        :  capitalPT cityPT   
+includePN cityPN   =  budapestPV     :  capitalPT cityPT   
+includePN cityPN   =  berlinPV       :  capitalPT cityPT   
+includePN cityPN   =  amsterdamPV    :  capitalPT cityPT   
+labelPN            =  gmtutcnbtwoPV  :                     

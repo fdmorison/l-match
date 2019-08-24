@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+photosynteticallyIN activeIN radiationIN hourlyIN 
+
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbzeroPV                         :                        
+interimPN contextPN   =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT      
+defaultPN valuePN     =  nbthreePV nbzeroPV                        :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      

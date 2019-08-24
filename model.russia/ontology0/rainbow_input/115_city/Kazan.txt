@@ -1,0 +1,27 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+kazanIN
+
+sightPN cityPN                =  kazanPV kremlinPV                                   :  palacePT        
+populationPN valuePN          =  nbonePV nbzeronbninenbfourPV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  kazanPV                                             :                  
+distancePN moscowPN cityPN    =  nbsevennbtwonbfivePV                                :                  
+locatablePN moscowPN cityPN   =  eastPV                                              :  directionPT     
+sightPN cityPN                =  universityPV kazanPV                                :  universityPT    
+labelPN                       =  kazanPV                                             :                  
+distancePN unitPN areaPN      =  kilometerPV                                         :  durationunitPT  
+countryPN cityPN              =  russiaPV                                            :  countryPT       

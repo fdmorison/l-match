@@ -1,0 +1,13 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+summerIN
+
+labelPN   =  summerPV  :    

@@ -1,0 +1,18 @@
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+gramIN
+
+operationPN    =  multiplicationPV                     :  operationPT      
+multiplierPN   =  nbzeroPV nbzeronbzeronbonenbzeroPV   :                   
+dimensionPN    =  massPV                               :  basedimensionPT  
+unitPN         =  kiloPV                               :  unitPT massPT    

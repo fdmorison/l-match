@@ -1,0 +1,23 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+seaDC seaCN
+
+
+whiteIN seaIN 
+
+nameablePN   =  whitePV seaPV   :    
+labelPN      =  whitePV seaPV   :    

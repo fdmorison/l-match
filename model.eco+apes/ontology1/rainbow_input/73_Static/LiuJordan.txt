@@ -1,0 +1,18 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+liuIN jordanIN 
+
+inputsPN        =  globalPV solarPV radiationPV       :  measurePT             
+implementedPN   =  climaPV gsrPV adPV                 :  apescPT omponentsPT   
+outputsPN       =  radiationPV reflectedPV groundPV   :  measurePT             
+inputsPN        =  clearPV skyPV transmissivityPV     :  measurePT             
+inputsPN        =  albedoPV                           :  measurePT             
+outputsPN       =  radiationPV diffusePV skyPV        :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV       :  measurePT             
+inputsPN        =  anglePV slopePV                    :  measurePT             
+outputsPN       =  radiationPV airPV                  :  measurePT             

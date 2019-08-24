@@ -1,0 +1,23 @@
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+currencyDC currencyCN
+
+
+russianIN roubleIN 
+
+labelPN   =  russianPV roublePV   :    

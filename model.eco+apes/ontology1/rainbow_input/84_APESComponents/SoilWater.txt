@@ -1,0 +1,10 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+groundIN waterIN 
+
+consistsPN modelPN   =  lintulnbonePV           :  activePT   
+consistsPN modelPN   =  ewPV activePV modelPV   :  activePT   

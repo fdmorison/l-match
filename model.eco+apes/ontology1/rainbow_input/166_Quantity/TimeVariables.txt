@@ -1,0 +1,16 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+meterIN variablesIN 
+
+measurePN           =  dayPV lenghtPV          :  measurePT                   
+measurePN areaPN    =  solarPV radiationPV     :  solarPT radiationPT actPT   
+measurePN           =  sunshinePV durationPV   :  measurePT                   
+dataPN typePN       =  doublePV                :  floatPT                     
+measuredimensionPN  =  meterPV                 :  basedimensionPT             
+measurePN           =  currentPV dayPV         :  measurePT                   
+measurePN           =  dayPV sunsetPV          :  measurePT                   
+measurePN           =  dayPV sunrisePV         :  measurePT                   

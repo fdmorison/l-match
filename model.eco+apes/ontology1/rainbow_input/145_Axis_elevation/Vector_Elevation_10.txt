@@ -1,0 +1,12 @@
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC elevationDC  axisCN elevationCN 
+
+
+vectorIN elevationIN nbonenbzeroIN 
+
+heightPN   =  nbonenbzeroPV   :    

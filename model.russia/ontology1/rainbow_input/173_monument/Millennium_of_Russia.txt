@@ -1,0 +1,26 @@
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+sightCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+cathedralCN
+publicCN placeCN 
+monumentDC monumentCN
+
+
+millenniumIN russiaIN 
+
+liePN locatablePN   =  novgorodPV                         :  ordinaryPT cityPT   
+nameablePN          =  millenniumPV russiaPV monumentPV   :                      
+labelPN             =  millenniumPV russiaPV              :                      

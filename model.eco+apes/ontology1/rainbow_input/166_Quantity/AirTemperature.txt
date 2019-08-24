@@ -1,0 +1,17 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN 
+
+measurePN           =  airPV temperaturePV monthlyPV rangePV   :  measurePT        
+measuredimensionPN  =  temperaturePV                           :  basedimensionPT  
+measurePN           =  airPV temperaturePV dailyPV averagePV   :  measurePT        
+measurePN           =  airPV temperaturePV hourlyPV            :  measurePT        
+measurePN           =  airPV temperaturePV minPV dailyPV       :  measurePT        
+measurePN           =  airPV temperaturePV maxPV dailyPV       :  measurePT        
+dataPN typePN       =  doublePV                                :  floatPT          
+measurePN           =  airPV temperaturePV dailyPV rangePV     :  measurePT        
+measurePN areaPN    =  airPV                                   :  airPT actPT      

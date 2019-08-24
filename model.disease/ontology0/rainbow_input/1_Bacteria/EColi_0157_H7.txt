@@ -1,0 +1,9 @@
+microCN organismCN 
+
+pathogenCN 
+bacterialCN 
+bacteriaDC  bacteriaCN 
+
+
+ecIN oliIN nbzeronbonenbfivenbsevenIN hnbsevenIN 
+

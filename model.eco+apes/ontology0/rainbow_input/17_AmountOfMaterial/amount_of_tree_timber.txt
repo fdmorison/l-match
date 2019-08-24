@@ -1,0 +1,16 @@
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+treeIN timberIN 
+
+unitPN measurePN       =  kiloPV    :  unitPT massPT           
+measurePN materialPN   =  timberPV  :  materialPT              
+materialPN             =  timberPV  :  materialPT              
+entityPN               =  treePV    :  ecologicalPT entityPT   

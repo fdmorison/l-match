@@ -1,0 +1,25 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+churchDC churchCN
+
+
+birchIN churchIN 
+
+knownPN publicPN spacePN   =  birchPV architecturePV       :  architecturePT  
+areaPN                     =  churchPV transfigurationPV   :                  
+liePN                      =  kizhiPV                      :  cityPT          
+labelPN                    =  birchPV churchPV             :                  

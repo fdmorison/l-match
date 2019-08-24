@@ -1,0 +1,11 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+precipitationIN 
+
+dataPN typePN       =  doublePV  :  floatPT                           
+measurePN areaPN    =  rainPV    :  rainPT actPT                      
+measuredimensionPN  =  speedPV   :  derivedPT dimensionPT productPT   

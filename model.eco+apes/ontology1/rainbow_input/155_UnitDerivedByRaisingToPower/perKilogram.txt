@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+kiloIN
+
+expressedPN    =  linearPV durationPV   :  derivedPT dimensionPT elevationPT powerPT   
+derivedunitPN  =  kiloPV                :  baseunitPT                                  

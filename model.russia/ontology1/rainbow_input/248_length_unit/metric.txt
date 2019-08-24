@@ -1,0 +1,12 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+metricIN
+
+labelPN   =  metricPV  :    

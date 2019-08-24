@@ -1,0 +1,17 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+temperatureIN
+
+expressedPN             =  celsiusPV      :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  kelvinPV       :  unitPT derivedPT elevationPT powerPT   
+derivedPN dimensionPN   =  temperaturePV  :  basedimensionPT                        
+powerPN                 =  nbonePV        :                                         

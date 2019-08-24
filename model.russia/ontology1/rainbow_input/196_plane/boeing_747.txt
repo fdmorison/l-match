@@ -1,0 +1,21 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+defaultrootconceptCN
+animalCN
+locatableCN 
+infrastructureCN
+meansCN shipCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+levelDC levelCN
+
+
+boeingIN nbsevennbfournbsevenIN 
+
+nameablePN   =  boeingPV nbsevennbfournbsevenPV   :    
+labelPN      =  boeingPV nbsevennbfournbsevenPV   :    

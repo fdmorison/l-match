@@ -1,0 +1,11 @@
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+meterIN
+
+labelPN   =  meterPV  :    

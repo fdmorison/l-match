@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="http://www.mydomain.com.br/disease2.owl#"
+  xml:base="http://www.mydomain.com.br/disease2.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Bacterial">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Pathogen"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FoodBorneDisease">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BacterialInfection"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="Infection"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="resultsFrom"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Condition"/>
+  <owl:Class rdf:about="#Infection">
+    <rdfs:subClassOf rdf:resource="#Condition"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:TransitiveProperty rdf:ID="associatedWith"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="#Infection"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#Pathogen"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="causedBy"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Researcher"/>
+  <owl:Class rdf:about="#BacterialInfection">
+    <rdfs:subClassOf rdf:resource="#Infection"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#causedBy"/>
+        <owl:allValuesFrom rdf:resource="#Bacterial"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="discover">
+    <rdfs:domain rdf:resource="#Researcher"/>
+    <rdfs:range rdf:resource="#Infection"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#resultsFrom">
+    <rdfs:subPropertyOf>
+      <owl:TransitiveProperty rdf:about="#associatedWith"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:TransitiveProperty rdf:about="#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:TransitiveProperty>
+  <BacterialInfection rdf:ID="pneumonia"/>
+  <FoodBorneDisease rdf:ID="AcuteGastro-enteritis"/>
+  <Bacterial rdf:ID="Salmonella_enterica_typhimurium_DT104"/>
+  <Bacterial rdf:ID="Salmonella_cholerasius"/>
+  <BacterialInfection rdf:ID="bronchitis">
+    <associatedWith rdf:resource="#pneumonia"/>
+  </BacterialInfection>
+  <FoodBorneDisease rdf:ID="E-Coli">
+    <resultsFrom rdf:resource="#AcuteGastro-enteritis"/>
+    <causedBy>
+      <Bacterial rdf:ID="Escherichia_Coli_LT"/>
+    </causedBy>
+    <causedBy>
+      <Bacterial rdf:ID="Escherichia_Coli_O157_H7"/>
+    </causedBy>
+  </FoodBorneDisease>
+  <FoodBorneDisease rdf:ID="Cholera">
+    <causedBy rdf:resource="#Salmonella_cholerasius"/>
+  </FoodBorneDisease>
+  <FoodBorneDisease rdf:ID="Salmonella">
+    <causedBy rdf:resource="#Salmonella_enterica_typhimurium_DT104"/>
+  </FoodBorneDisease>
+  <Researcher rdf:ID="T_S._Escherich">
+    <discover rdf:resource="#E-Coli"/>
+  </Researcher>
+  <Researcher rdf:ID="D_Salmon">
+    <discover rdf:resource="#Salmonella"/>
+  </Researcher>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

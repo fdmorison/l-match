@@ -1,0 +1,7 @@
+pathogenCN 
+
+bacterialDC  bacterialCN 
+
+
+escherichiaIN coliIN onbonenbfivenbsevenIN hnbsevenIN 
+

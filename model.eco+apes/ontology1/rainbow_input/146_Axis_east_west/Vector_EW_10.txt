@@ -1,0 +1,12 @@
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC eastDC westDC  axisCN eastCN westCN 
+
+
+vectorIN ewIN nbonenbzeroIN 
+
+widthPN   =  nbonenbzeroPV   :    

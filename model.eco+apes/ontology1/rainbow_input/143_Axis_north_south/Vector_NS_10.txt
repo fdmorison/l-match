@@ -1,0 +1,12 @@
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC northDC southDC  axisCN northCN southCN 
+
+
+vectorIN nsIN nbonenbzeroIN 
+
+durationPN  =  nbonenbzeroPV   :    

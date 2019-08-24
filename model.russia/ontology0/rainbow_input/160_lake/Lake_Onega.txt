@@ -1,0 +1,22 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+lakeDC lakeCN
+
+
+lakeIN onegaIN 
+
+closePN   =  kizhiPV          :  cityPT  
+areaPN    =  onegaPV          :          
+labelPN   =  lakePV onegaPV   :          

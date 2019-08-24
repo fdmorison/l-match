@@ -1,0 +1,12 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+electromagneticDC unitDC  electromagneticCN unitCN 
+
+
+voltIN
+
+labelPN   =  voltPV  :    

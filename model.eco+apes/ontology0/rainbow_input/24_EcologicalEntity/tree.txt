@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+treeIN
+
+containsPN  =  timberPV         :  materialPT   
+containsPN  =  biomassPV        :  materialPT   
+containsPN  =  carboncontentPV  :  materialPT   

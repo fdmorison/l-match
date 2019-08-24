@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+amperIN 
+
+derivedunitPN  =  amperPV   :  baseunitPT  
+powerPN        =  nbonePV   :              

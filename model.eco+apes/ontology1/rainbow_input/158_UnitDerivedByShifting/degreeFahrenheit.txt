@@ -1,0 +1,15 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+unitDC derivedDC shiftingDC  unitCN derivedCN shiftingCN 
+
+
+degreeIN fahrenheitIN 
+
+derivedunitPN         =  degreePV celsiusPV bynbonePV nbeightPV interimPV instancePV   :  unitPT derivedPT scalePT   
+expressedPN           =  temperaturePV                                                 :  basedimensionPT            
+shiftingPN numberPN   =  nbthreenbtwoPV nbzeroPV                                       :                             

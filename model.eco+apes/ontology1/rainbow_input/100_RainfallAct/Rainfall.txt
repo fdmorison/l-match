@@ -1,0 +1,14 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+rainDC actDC  rainCN actCN 
+
+
+rainIN 
+
+measurePN measurePN   =  precipitationPV   :  measurePT  

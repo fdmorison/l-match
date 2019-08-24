@@ -1,0 +1,16 @@
+@direction disease1 -> disease2
+
+# Mapeamentos de equivalência
+equivalence Condition          Condition
+equivalence Infection          Infection
+equivalence BacterialInfection BacterialInfection
+equivalence FoodPoisoning      FoodBorneDisease
+equivalence Bacteria           Bacterial
+equivalence Person             Researcher
+
+# Mapeamentos de mais geral
+# Mapeamentos de menos geral
+less_general Micro-Organism Pathogen
+
+# Mapeamentos de sobreposicao
+# Mapeamentos de diferença

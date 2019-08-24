@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+canalDC canalCN
+
+
+griboyedovaIN canalIN 
+
+closePN   =  stpetersburgPV          :  cityPT  
+areaPN    =  griboyedovaPV kanalPV   :          
+labelPN   =  griboyedovaPV canalPV   :          

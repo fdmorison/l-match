@@ -1,0 +1,10 @@
+seamCN coreCN 
+observationCN contextCN 
+interimCN contextCN 
+
+measureCN dataCN 
+itemDC  itemCN 
+
+
+itemIN meterIN 
+

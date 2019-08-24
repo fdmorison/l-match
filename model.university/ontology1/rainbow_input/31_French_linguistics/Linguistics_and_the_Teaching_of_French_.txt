@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+
+frenchDC linguisticDC  frenchCN linguisticCN 
+
+
+linguisticIN teachingIN frenchIN 
+

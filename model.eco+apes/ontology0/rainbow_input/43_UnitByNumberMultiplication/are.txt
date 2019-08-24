@@ -1,0 +1,20 @@
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN multiplicationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC numberDC multiplicationDC  unitCN numberCN multiplicationCN 
+
+
+areIN
+
+multiplierPN   =  nbonenbzeronbzeroPV nbzeroPV   :                                           
+operationPN    =  multiplicationPV               :  operationPT                              
+unitPN         =  mnbtwoPV                       :  unitPT areaPT                            
+dimensionPN    =  areaPV                         :  complexPT dimensionPT exponentiationPT   

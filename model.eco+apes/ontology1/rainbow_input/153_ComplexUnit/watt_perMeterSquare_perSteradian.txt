@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+wattIN meterIN nutrientIN steradianIN 
+
+productPN   =  steradianPV          :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  wattPV               :  complexPT unitPT                       

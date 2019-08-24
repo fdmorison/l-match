@@ -1,0 +1,14 @@
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+dayIN
+

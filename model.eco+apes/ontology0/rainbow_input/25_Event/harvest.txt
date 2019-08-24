@@ -1,0 +1,11 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+eventDC  eventCN 
+
+
+cropIN
+
+meterPN  =  cropPV datePV   :  whenPT   

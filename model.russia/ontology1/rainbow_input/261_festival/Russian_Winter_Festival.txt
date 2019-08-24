@@ -1,0 +1,25 @@
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+russianIN winterIN festivalIN 
+
+nameablePN   =  russianPV winterPV festivalPV   :                      
+isPN         =  januaryPV                       :  monthPT             
+isPN         =  decemberPV                      :  monthPT             
+isPN         =  novgorodPV                      :  ordinaryPT cityPT   
+isPN         =  moscowPV                        :  capitalPT cityPT    
+isPN         =  stpetersburgPV                  :  ordinaryPT cityPT   
+labelPN      =  russianPV winterPV festivalPV   :                      

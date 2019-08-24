@@ -1,0 +1,13 @@
+measureCN dataCN 
+scaleCN measureCN 
+
+seamCN coreCN 
+scaleDC temperatureDC  scaleCN temperatureCN 
+
+
+celsiusIN
+
+dimensionPN                  =  temperaturePV                                 :  basedimensionPT        
+correspondentPN scalePN      =  kelvinPV                                      :  unitPT temperaturePT   
+waterPN meltingPN itemPN     =  nbzeroPV cPV                                  :                         
+formulaPN correspondencePN   =  cPV kPV nbtwonbsevennbthreePV nbonenbfivePV   :                         

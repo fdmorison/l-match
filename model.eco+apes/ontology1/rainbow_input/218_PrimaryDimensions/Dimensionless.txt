@@ -1,0 +1,14 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+dimensionlessIN 
+
+expressedPN  =  percentPV                :  unitPT derivedPT scalePT   
+expressedPN  =  dimensionlessPV unitPV   :  baseunitPT                 
+measurePN    =  airPV transmissivityPV   :  measurePT                  
+measurePN    =  productPV efficiencyPV   :  measurePT                  
+symbolPN     =  nbonePV                  :                             

@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN ifwIN 
+
+directionPN   =  undefinedPV                     :  signPT                 
+measurePN     =  individualPV anglePV weightPV   :  weigthPT               
+measurePN     =  anglePV biomassPV densityPV     :  materialPT densityPT   

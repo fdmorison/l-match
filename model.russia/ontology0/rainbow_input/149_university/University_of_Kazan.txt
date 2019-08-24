@@ -1,0 +1,18 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+universityDC universityCN
+
+
+universityIN kazanIN 
+
+labelPN   =  universityPV kazanPV   :    

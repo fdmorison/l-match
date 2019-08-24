@@ -1,0 +1,19 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+aIN
+
+labelPN   =  aPV  :    

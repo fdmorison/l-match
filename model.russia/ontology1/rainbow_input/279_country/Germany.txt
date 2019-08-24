@@ -1,0 +1,29 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+germanyIN
+
+capitalPN cityPN   =  berlinPV        :  capitalPT cityPT   
+memberPN           =  truePV          :                     
+labelPN            =  germanyPV       :                     
+borderPN           =  belgiumPV       :  countryPT          
+borderPN           =  polandPV        :  countryPT          
+nameablePN         =  deutschlandPV   :                     
+borderPN           =  francePV        :  countryPT          
+borderPN           =  hollandPV       :  countryPT          
+borderPN           =  czechPV         :  countryPT          

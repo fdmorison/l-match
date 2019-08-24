@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ifwIN crIN 
+
+measurePN     =  specificPV consumptionPV ratePV   :  specificPT ratePT   
+measurePN     =  individualPV anglePV weightPV     :  weigthPT            
+directionPN   =  undefinedPV                       :  signPT              

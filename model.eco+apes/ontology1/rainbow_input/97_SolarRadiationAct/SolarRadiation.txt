@@ -1,0 +1,18 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+solarDC radiationDC actDC  solarCN radiationCN actCN 
+
+
+solarIN radiationIN 
+
+measurePN measurePN   =  solarPV irradiancePV     :  measurePT  
+measurePN measurePN   =  meterPV variablesPV      :  measurePT  
+measurePN measurePN   =  slopePV aspectPV         :  measurePT  
+measurePN measurePN   =  anglePV variablesPV      :  measurePT  
+measurePN measurePN   =  airPV transmissivityPV   :  measurePT  

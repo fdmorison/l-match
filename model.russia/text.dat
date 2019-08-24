@@ -1,0 +1,7576 @@
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+instrumentDC instrumentCN
+
+
+balalaikaIN 
+
+labelPN   =  balalaikaPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+handworkDC handworkCN
+
+
+handIN blackIN lacquerwareIN 
+
+labelPN   =  handPV blackPV lacquerwarePV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+electronicCN deviceCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+deviceDC observedDC  deviceCN observedCN 
+
+
+cellularIN phoneIN 
+
+labelPN   =  cellularPV phonePV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+electronicCN deviceCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+deviceDC observedDC  deviceCN observedCN 
+
+
+gpsIN 
+
+labelPN   =  gpsPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+electronicCN deviceCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+simpleDC consumerDC deviceDC  simpleCN consumerCN deviceCN 
+
+
+laptopIN 
+
+labelPN   =  laptopPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+clothesDC clothesCN
+
+
+scarvesIN 
+
+labelPN   =  scarvesPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+clothesDC clothesCN
+
+
+hatIN 
+
+labelPN   =  hatPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+clothesDC clothesCN
+
+
+shirtIN 
+
+labelPN   =  shirtPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+foodDC foodCN
+
+
+breadIN 
+
+labelPN   =  breadPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+foodDC foodCN
+
+
+icecreamIN 
+
+labelPN   =  icecreamPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+foodDC foodCN
+
+
+caviarIN 
+
+labelPN   =  caviarPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+foodCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+drinkDC drinkCN
+
+
+vodkaIN
+
+labelPN   =  vodkaPV  :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+foodCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+vegetableDC vegetableCN
+
+
+potatoIN 
+
+labelPN   =  potatoPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+metaIN sculptureIN 
+
+labelPN   =  metaPV sculpturePV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+souvenirIN 
+
+labelPN   =  souvenirPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+wallIN plaqueIN 
+
+labelPN   =  wallPV plaquePV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+sovietIN armyIN memorabiliaIN 
+
+labelPN   =  sovietPV armyPV memorabiliaPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+antiqueIN
+
+labelPN   =  antiquePV  :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+samovarIN 
+
+labelPN   =  samovarPV   :    
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+othersDC othersCN
+
+
+forestIN sculptureIN 
+
+labelPN   =  forestPV sculpturePV   :    
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+physicianDC physicianCN
+
+
+andreiIN sakharovIN 
+
+existPN   =  novgorodPV            :  cityPT  
+labelPN   =  andreiPV sakharovPV   :          
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+studentDC studentCN
+authorDC authorCN
+
+
+leoIN tolstoyIN 
+
+writtenPN   =  warPV pearcePV         :  novelPT       
+studyPN     =  universityPV kazanPV   :  universityPT  
+labelPN     =  leoPV tolstoyPV        :                
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+authorDC authorCN
+
+
+turgenevIN 
+
+animalPN      =  turgenevPV              :           
+writtenPN     =  aPV monthPV countryPV   :  novelPT  
+birthplacePN  =  orelPV                  :  cityPT   
+labelPN       =  turgenevPV              :           
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+authorDC authorCN
+
+
+ivanIN goncharevIN 
+
+labelPN   =  ivanPV goncharevPV   :    
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+authorDC authorCN
+
+
+dostoyevskyIN 
+
+labelPN   =  dostoyevskyPV   :    
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+authorDC authorCN
+
+
+pushkinIN 
+
+labelPN   =  pushkinPV   :    
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+musicianDC musicianCN
+
+
+tchaikovskyIN 
+
+animalPN      =  tchaikovskyPV   :          
+birthplacePN  =  stpetersburgPV  :  cityPT  
+labelPN       =  tchaikovskyPV   :          
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+studentDC studentCN
+novelDC novelCN
+
+
+leninIN 
+
+existPN       =  stpetersburgPV         :  cityPT        
+animalPN      =  leninPV                :                
+birthplacePN  =  ulyanovskPV            :  townPT        
+studyPN       =  universityPV kazanPV   :  universityPT  
+labelPN       =  leninPV                :                
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+inhabitantCN
+presidentDC presidentCN
+
+
+mikhailIN gorbachevIN 
+
+labelPN   =  mikhailPV gorbachevPV   :    
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+czarDC czarCN
+
+
+peterIN 
+
+labelPN   =  peterPV   :    
+defaultrootconceptCN
+animalCN
+organisationCN
+artCN organisationCN 
+
+defaultrootconceptCN
+nameableCN 
+balletDC companyDC  balletCN companyCN 
+
+
+mariinskyIN balletIN 
+
+attendPN performancePN   =  mariinskyPV theatrePV          :  theatrePT  
+attendPN performancePN   =  kremlinPV palacePV theatrePV   :  theatrePT  
+animalPN                 =  mariinskyPV balletPV           :             
+labelPN                  =  mariinskyPV balletPV           :             
+defaultrootconceptCN
+animalCN
+organisationCN
+artCN organisationCN 
+
+defaultrootconceptCN
+nameableCN 
+balletDC companyDC  balletCN companyCN 
+
+
+bolshoiIN balletIN 
+
+animalPN                 =  bolshoiPV balletPV             :             
+attendPN performancePN   =  kremlinPV palacePV theatrePV   :  theatrePT  
+attendPN performancePN   =  bolshoiPV theatrePV            :  theatrePT  
+labelPN                  =  bolshoiPV balletPV             :             
+defaultrootconceptCN
+animalCN
+organisationCN
+artCN organisationCN 
+
+defaultrootconceptCN
+nameableCN 
+conservatoryDC conservatoryCN
+
+
+moscowIN conservatoryIN 
+
+labelPN   =  moscowPV conservatoryPV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnboneIN
+
+labelPN   =  gmtutcnbonePV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfourIN
+
+labelPN   =  gmtutcnbfourPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbtwoIN
+
+labelPN   =  gmtutcnbonenbtwoPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbeightIN
+
+labelPN   =  gmtutcnbeightPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenboneIN
+
+countryPN  =  russiaPV                   :  countryPT  
+labelPN    =  gmtPV utcPV nbonenbonePV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbeightIN
+
+countryPN  =  chinaPV                 :  countryPT  
+countryPN  =  russiaPV                :  countryPT  
+labelPN    =  gmtPV utcPV nbeightPV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenboneIN
+
+labelPN   =  gmtutcnbonenbonePV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsevenIN
+
+countryPN  =  russiaPV                :  countryPT  
+labelPN    =  gmtPV utcPV nbsevenPV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfourIN
+
+countryPN  =  russiaPV               :  countryPT  
+labelPN    =  gmtPV utcPV nbfourPV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsevenIN
+
+labelPN   =  gmtutcnbsevenPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbtwoIN
+
+countryPN  =  russiaPV              :  countryPT  
+labelPN    =  gmtPV utcPV nbtwoPV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbthreeIN
+
+labelPN   =  gmtutcnbthreePV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbthreeIN
+
+countryPN  =  russiaPV                :  countryPT  
+labelPN    =  gmtPV utcPV nbthreePV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbzeroIN
+
+countryPN  =  russiaPV                    :  countryPT  
+labelPN    =  gmtPV utcPV nbonenbzeroPV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnboneIN
+
+countryPN  =  germanyPV             :  countryPT  
+labelPN    =  gmtPV utcPV nbonePV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbtwoIN
+
+labelPN   =  gmtutcnbtwoPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbthreeIN
+
+labelPN   =  gmtPV utcPV nbonenbthreePV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtIN utcIN 
+
+labelPN   =  gmtPV utcPV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbzeroIN
+
+labelPN   =  gmtutcnbonenbzeroPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsixIN
+
+countryPN  =  russiaPV              :  countryPT  
+labelPN    =  gmtPV utcPV nbsixPV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbnineIN
+
+labelPN   =  gmtutcnbninePV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsixIN
+
+countryPN  =  aPV            :  countryPT  
+countryPN  =  canadaPV       :  countryPT  
+labelPN    =  gmtutcnbsixPV  :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbnineIN
+
+countryPN  =  japanPV                :  countryPT  
+countryPN  =  russiaPV               :  countryPT  
+labelPN    =  gmtPV utcPV nbninePV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfiveIN
+
+labelPN   =  gmtutcnbfivePV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfiveIN
+
+countryPN  =  russiaPV               :  countryPT  
+labelPN    =  gmtPV utcPV nbfivePV   :             
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbtwoIN
+
+countryPN  =  russiaPV                   :  countryPT  
+labelPN    =  gmtPV utcPV nbonenbtwoPV   :             
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+openareaDC openareaCN
+
+
+areaIN russiaIN 
+
+valuePN areaPN   =  nbonenbsevenPV nbzeronbfivenbfivePV nbonenbfivenbzeroPV   :    
+labelPN          =  areaPV russiaPV                                           :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+currencyDC currencyCN
+
+
+russianIN roubleIN 
+
+labelPN   =  russianPV roublePV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+currencyDC currencyCN
+
+
+dollarIN
+
+labelPN   =  dollarPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+feeDC scaleDC  feeCN scaleCN 
+
+
+normalIN
+
+labelPN   =  normalPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+feeDC scaleDC  feeCN scaleCN 
+
+
+higherIN
+
+labelPN   =  higherPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+clockCN slotCN 
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+openDC dayDC  openCN dayCN 
+
+
+shopIN dayIN 
+
+weekdayPN    =  thursdayPV       :  weekdayPT        
+weekdayPN    =  wednsdayPV       :  weekdayPT        
+hasPN        =  nbsevenPV pmPV   :  clockPT headPT   
+clockunitPN  =  clockPV          :  clockunitPT      
+weekdayPN    =  tuesdayPV        :  weekdayPT        
+weekdayPN    =  saturdayPV       :  weekdayPT        
+weekdayPN    =  mondayPV         :  weekdayPT        
+labelPN      =  shopPV dayPV     :                   
+beginnPN     =  nbninePV amPV    :  clockPT headPT   
+weekdayPN    =  fridayPV         :  weekdayPT        
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+clockCN slotCN 
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+openDC dayDC  openCN dayCN 
+
+
+bankIN dayIN normalIN 
+
+weekdayPN    =  fridayPV                :  weekdayPT        
+weekdayPN    =  thursdayPV              :  weekdayPT        
+hasPN        =  nbonePV pmPV            :  clockPT headPT   
+hasPN        =  nbsixPV pmPV            :  clockPT headPT   
+labelPN      =  bankPV dayPV normalPV   :                   
+weekdayPN    =  wednsdayPV              :  weekdayPT        
+weekdayPN    =  tuesdayPV               :  weekdayPT        
+beginnPN     =  nbninePV amPV           :  clockPT headPT   
+beginnPN     =  nbtwoPV pmPV            :  clockPT headPT   
+weekdayPN    =  mondayPV                :  weekdayPT        
+clockunitPN  =  clockPV                 :  clockunitPT      
+hasPN        =  nbsevenPV pmPV          :  clockPT headPT   
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+clockCN slotCN 
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+openDC dayDC  openCN dayCN 
+
+
+bankIN dayIN capitalIN 
+
+weekdayPN    =  saturdayPV               :  weekdayPT        
+clockunitPN  =  clockPV                  :  clockunitPT      
+hasPN        =  nbtwoPV pmPV             :  clockPT headPT   
+beginnPN     =  nbninePV amPV            :  clockPT headPT   
+labelPN      =  bankPV dayPV capitalPV   :                   
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+languageDC languageCN
+
+
+russianIN
+
+labelPN   =  russianPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+languageDC languageCN
+
+
+englishIN
+
+labelPN   =  englishPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+healthCN 
+cureCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+lieDC cureDC  lieCN cureCN 
+
+
+mineralIN bathIN 
+
+labelPN   =  mineralPV bathPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+healthCN 
+cureCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+lieDC cureDC  lieCN cureCN 
+
+
+hydrotherapyIN bathIN 
+
+labelPN   =  hydrotherapyPV bathPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+healthCN 
+cureCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+lieDC cureDC  lieCN cureCN 
+
+
+mudIN bathIN 
+
+labelPN   =  mudPV bathPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+healthCN 
+cureCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+waterDC cureDC  waterCN cureCN 
+
+
+rainIN massageIN 
+
+labelPN   =  rainPV massagePV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+musicCN
+existCN musicCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+folkDC musicDC  folkCN musicCN 
+
+
+krisisIN zhanraIN 
+
+labelPN   =  krisisPV zhanraPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+musicCN
+existCN musicCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+rockDC rockCN
+
+
+hungryIN duckIN 
+
+labelPN   =  hungryPV duckPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+literatureCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+novelDC novelCN
+
+
+warIN pearceIN 
+
+labelPN   =  warPV pearcePV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+literatureCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+novelDC novelCN
+
+
+aIN monthIN countryIN 
+
+labelPN   =  aPV monthPV countryPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+festivalDC festivalCN
+
+
+russianIN winterIN folkIN festivalIN 
+
+placePN   =  suzdalPV                               :  townPT   
+placePN   =  decemberPV                             :  monthPT  
+placePN   =  januaryPV                              :  monthPT  
+labelPN   =  russianPV winterPV folkPV festivalPV   :           
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+festivalDC festivalCN
+
+
+festivalIN northIN 
+
+placePN   =  borderPV             :  monthPT  
+placePN   =  murmanskPV           :  cityPT   
+labelPN   =  festivalPV northPV   :           
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+festivalDC festivalCN
+
+
+carnivalIN 
+
+labelPN   =  carnivalPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+religionCN
+nameableCN 
+singingDC singingCN
+
+
+orthodoxIN folkIN singingIN 
+
+labelPN   =  orthodoxPV folkPV singingPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+architectureDC architectureCN
+
+
+birchIN architectureIN 
+
+labelPN   =  birchPV architecturePV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+architectureDC architectureCN
+
+
+onionIN domIN 
+
+labelPN   =  onionPV domPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+architectureDC architectureCN
+
+
+whiteIN rockIN architectureIN 
+
+labelPN   =  whitePV rockPV architecturePV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+horsebackIN automotiveIN 
+
+labelPN   =  horsebackPV automotivePV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+skiIN
+
+labelPN   =  skiPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+swimmingIN
+
+labelPN   =  swimmingPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+huntingIN
+
+labelPN   =  huntingPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+hikingIN
+
+labelPN   =  hikingPV  :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+sportDC sportCN
+
+
+iceIN skatingIN 
+
+checkPN placePN   =  gorkyPV parkPV    :  parkPT  
+labelPN           =  icePV skatingPV   :          
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+nameableCN 
+entertainmentDC entertainmentCN
+
+
+saunaIN 
+
+labelPN   =  saunaPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+locatableCN 
+infrastructureCN
+transferCN
+earthCN transferCN 
+nameableCN 
+animalCN
+animalCN
+checkDC jauntDC  checkCN jauntCN 
+
+
+transsiberianIN
+
+offerPN        =  novosibirskPV        :  cityPT  
+offerPN        =  irkutskPV            :  cityPT  
+recreationPN   =  transPV siberianPV   :          
+labelPN        =  transsiberianPV      :          
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+nameableCN 
+circuseDC circuseCN
+
+
+grandIN moscowIN countryIN carnivalIN 
+
+labelPN   =  grandPV moscowPV countryPV carnivalPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+nameableCN 
+circuseDC circuseCN
+
+
+antiqueIN carnivalIN 
+
+labelPN   =  antiquePV carnivalPV   :    
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+nameableCN 
+cruiseDC cruiseCN
+
+
+volgaIN cruiseIN 
+
+recreationPN         =  cruisePV volgaPV   :               
+durationPN valuePN   =  nbsevenPV          :               
+durationunitPN       =  dayPV              :  clockunitPT  
+riverPN              =  volgaPV            :  riverPT      
+labelPN              =  volgaPV cruisePV   :               
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+areaunitDC areaunitCN
+
+
+sqIN 
+
+labelPN   =  sqPV   :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+areaunitDC areaunitCN
+
+
+sqIN kmIN 
+
+labelPN   =  sqPV kmPV   :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+areaunitDC areaunitCN
+
+
+sqIN meterIN 
+
+labelPN   =  sqPV meterPV   :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+minuteIN
+
+labelPN   =  minutePV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+dayIN
+
+labelPN   =  dayPV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+dayIN
+
+labelPN   =  dayPV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+clockIN 
+
+labelPN   =  clockPV   :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+secondIN
+
+labelPN   =  secondPV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+weekIN
+
+labelPN   =  weekPV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+inchIN
+
+labelPN   =  inchPV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+mileIN
+
+labelPN   =  milePV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+meterIN
+
+labelPN   =  meterPV  :    
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+kilometerIN
+
+labelPN   =  kilometerPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+westIN
+
+labelPN   =  westPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+eastIN
+
+labelPN   =  eastPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+northIN
+
+labelPN   =  northPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+northIN
+
+labelPN   =  northPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+southIN
+
+labelPN   =  southPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+southIN
+
+labelPN   =  southPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+southIN
+
+labelPN   =  southPV  :    
+defaultrootconceptCN
+dimensionCN 
+
+defaultrootconceptCN
+directionDC directionCN
+
+
+northIN
+
+labelPN   =  northPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+tuesdayIN 
+
+labelPN   =  tuesdayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+thursdayIN 
+
+labelPN   =  thursdayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+mondayIN 
+
+labelPN   =  mondayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+wednsdayIN 
+
+labelPN   =  wednsdayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+sundayIN 
+
+labelPN   =  sundayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+fridayIN 
+
+labelPN   =  fridayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+weekdayDC weekdayCN
+
+
+saturdayIN 
+
+labelPN   =  saturdayPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+autumnIN
+
+labelPN   =  autumnPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+springIN
+
+labelPN   =  springPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+summerIN
+
+labelPN   =  summerPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+winterIN
+
+labelPN   =  winterPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+septemberIN
+
+clockPN jauntPN   =  truePV       :    
+labelPN           =  septemberPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+julyIN
+
+clockPN jauntPN   =  truePV   :    
+labelPN           =  julyPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+mayIN
+
+clockPN jauntPN   =  truePV   :    
+labelPN           =  mayPV    :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+januaryIN
+
+clockPN jauntPN   =  falsePV    :    
+labelPN           =  januaryPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+decemberIN
+
+clockPN jauntPN   =  falsePV     :    
+labelPN           =  decemberPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+juneIN
+
+clockPN jauntPN   =  truePV   :    
+labelPN           =  junePV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+februaryIN
+
+clockPN jauntPN   =  falsePV     :    
+labelPN           =  februaryPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+novemberIN
+
+clockPN jauntPN   =  falsePV     :    
+labelPN           =  novemberPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+aprilIN
+
+clockPN jauntPN   =  falsePV   :    
+labelPN           =  aprilPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+octoberIN
+
+clockPN jauntPN   =  falsePV    :    
+labelPN           =  octoberPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+borderIN
+
+clockPN jauntPN   =  falsePV   :    
+labelPN           =  borderPV  :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbonenbtwoIN amIN 
+
+labelPN   =  nbonenbtwoPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbtwoIN amIN 
+
+labelPN   =  nbtwoPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbonenbtwoIN pmIN 
+
+labelPN   =  nbonenbtwoPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbfourIN amIN 
+
+labelPN   =  nbfourPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbfourIN pmIN 
+
+labelPN   =  nbfourPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbsevenIN amIN 
+
+labelPN   =  nbsevenPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbfiveIN amIN 
+
+labelPN   =  nbfivePV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbtwoIN pmIN 
+
+labelPN   =  nbtwoPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbthreeIN amIN 
+
+labelPN   =  nbthreePV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbeightIN amIN 
+
+labelPN   =  nbeightPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbfiveIN pmIN 
+
+labelPN   =  nbfivePV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nboneIN amIN 
+
+labelPN   =  nbonePV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbsixIN amIN 
+
+labelPN   =  nbsixPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbnineIN amIN 
+
+labelPN   =  nbninePV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbonenbzeroIN amIN 
+
+labelPN   =  nbonenbzeroPV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nboneIN pmIN 
+
+labelPN   =  nbonePV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbsixIN pmIN 
+
+labelPN   =  nbsixPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbsevenIN pmIN 
+
+labelPN   =  nbsevenPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbonenboneIN amIN 
+
+labelPN   =  nbonenbonePV amPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbonenbzeroIN pmIN 
+
+labelPN   =  nbonenbzeroPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbthreeIN pmIN 
+
+labelPN   =  nbthreePV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbeightIN pmIN 
+
+labelPN   =  nbeightPV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbonenboneIN pmIN 
+
+labelPN   =  nbonenbonePV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbnineIN pmIN 
+
+labelPN   =  nbninePV pmPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+ulyanovskIN
+
+locatablePN moscowPN townPN   =  eastPV                                    :  directionPT     
+distancePN unitPN townPN      =  kilometerPV                               :  durationunitPT  
+distancePN moscowPN           =  nbsevennbonenbfivePV                      :                  
+populationPN valuePN          =  nbsixnbtwonbfivePV nbzeronbzeronbzeroPV   :                  
+countryPN townPN              =  russiaPV                                  :  countryPT       
+labelPN                       =  ulyanovskPV                               :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+pyatigorskIN 
+
+labelPN   =  pyatigorskPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+suzdalIN 
+
+distancePN unitPN townPN      =  kilometerPV          :  durationunitPT  
+areaPN                        =  suzdalPV             :                  
+countryPN townPN              =  russiaPV             :  countryPT       
+locatablePN moscowPN townPN   =  northPV              :  directionPT     
+distancePN moscowPN           =  nbtwonbtwonbzeroPV   :                  
+labelPN                       =  suzdalPV             :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+tulaIN 
+
+locatablePN moscowPN townPN   =  southPV                                     :  directionPT     
+distancePN unitPN townPN      =  kilometerPV                                 :  durationunitPT  
+distancePN moscowPN           =  nbonenbeightnbzeroPV                        :                  
+sightPN townPN                =  vosstaniyePV paidPV                         :  paidPT          
+sightPN townPN                =  historyPV armsPV museumPV                   :  museumPT        
+populationPN valuePN          =  nbfivenbfournbzeroPV nbzeronbzeronbzeroPV   :                  
+countryPN townPN              =  russiaPV                                    :  countryPT       
+labelPN                       =  tulaPV                                      :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+chinaIN
+
+codePN    =  nbeightnbsixPV   :    
+labelPN   =  chinaPV          :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+aIN
+
+labelPN   =  aPV  :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+canadaIN 
+
+labelPN   =  canadaPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+japanIN 
+
+labelPN   =  japanPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+russiaIN
+
+codePN                 =  nbsevenPV                                                   :          
+populationPN valuePN   =  nbonenbfournbsixPV nbeightnbsixnbonePV nbzeronbtwonbtwoPV   :          
+capitalPN              =  moscowPV                                                    :  cityPT  
+labelPN                =  russiaPV                                                    :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+germanyIN
+
+codePN    =  nbfournbninePV   :    
+labelPN   =  germanyPV        :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+stpetersburgIN
+
+sightPN cityPN     =  summerPV gardenPV                 :  gardenPT      
+sightPN cityPN     =  stPV peterPV paulPV cathedralPV   :  cathedralPT   
+countryPN cityPN   =  russiaPV                          :  countryPT     
+sightPN cityPN     =  panoramaPV restaurantPV           :  restaurantPT  
+sightPN cityPN     =  nevskyPV prospektPV               :  streetPT      
+sightPN cityPN     =  winterPV palacePV                 :  palacePT      
+labelPN            =  stpetersburgPV                    :                
+codePN             =  nbeightnbonenbtwoPV               :                
+sightPN cityPN     =  peterpaulfortressPV               :  fortressPT    
+sightPN cityPN     =  hermitagePV museumPV              :  museumPT      
+sightPN cityPN     =  stPV isaacPV cathedralPV          :  cathedralPT   
+sightPN cityPN     =  mariinskyPV theatrePV             :  theatrePT     
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+petrozavodskIN 
+
+labelPN   =  petrozavodskPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+kizhiIN 
+
+sightPN cityPN                     =  birchPV churchPV       :  churchPT        
+locatablePN stpetersburgPN         =  northPV                :  directionPT     
+distancePN unitPN areaPN           =  kilometerPV            :  durationunitPT  
+distancePN stpetersburgPN cityPN   =  nbthreenbtwonbzeroPV   :                  
+countryPN cityPN                   =  russiaPV               :  countryPT       
+labelPN                            =  kizhiPV                :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+murmanskIN 
+
+areaPN                             =  murmanskPV                                  :                
+countryPN cityPN                   =  russiaPV                                    :  countryPT     
+sightPN cityPN                     =  panoramaPV restaurantPV                     :  restaurantPT  
+locatablePN stpetersburgPN         =  northPV                                     :  directionPT   
+labelPN                            =  murmanskPV                                  :                
+populationPN valuePN               =  nbfournbfivenbzeroPV nbzeronbzeronbzeroPV   :                
+sightPN cityPN                     =  stPV nicholasPV churchPV                    :  churchPT      
+distancePN stpetersburgPN cityPN   =  nbonePV nbzeronbonenbfivePV                 :                
+sightPN cityPN                     =  gunPV monumentPV                            :  monumentPT    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+irkutskIN
+
+distancePN unitPN areaPN      =  kilometerPV                                 :  durationunitPT  
+distancePN moscowPN cityPN    =  nbfourPV nbtwonbonenbfivePV                 :                  
+locatablePN moscowPN cityPN   =  eastPV                                      :  directionPT     
+sightPN cityPN                =  museamPV birchPV architecturePV             :  museumPT        
+populationPN valuePN          =  nbsixnbthreenbzeroPV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  irkutskPV                                   :                  
+countryPN cityPN              =  russiaPV                                    :  countryPT       
+labelPN                       =  irkutskPV                                   :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+vladivostokIN
+
+locatablePN moscowPN cityPN   =  eastPV                                      :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                 :  durationunitPT  
+distancePN moscowPN cityPN    =  nbsixPV nbfournbzeronbzeroPV                :                  
+populationPN valuePN          =  nbsixnbfournbeightPV nbzeronbzeronbzeroPV   :                  
+countryPN cityPN              =  russiaPV                                    :  countryPT       
+labelPN                       =  vladivostokPV                               :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+moscowIN
+
+labelPN                      =  moscowPV                                    :                          
+sightPN cityPN               =  gorkyPV parkPV                              :  parkPT                  
+sightPN cityPN               =  monumentPV peterPV                          :  monumentPT              
+sightPN cityPN               =  arbatPV                                     :  localPT storePT         
+sightPN cityPN               =  stPV basilPV cathedralPV                    :  cathedralPT             
+areaPN                       =  moscowPV                                    :                          
+sightPN cityPN               =  tretyakovPV galleryPV                       :  museumPT                
+sightPN cityPN               =  manezhPV paidPV                             :  paidPT                  
+sightPN cityPN               =  designerPV boutiquePV                       :  boutiquePT              
+sightPN cityPN               =  kremlinPV                                   :  palacePT                
+countryPN cityPN             =  russiaPV                                    :  countryPT               
+codePN                       =  nbzeronbninenbfivePV                        :                          
+sightPN cityPN               =  izmailovskiPV stadiumPV                     :  marketPT                
+sightPN cityPN               =  christPV christPV cathedralPV               :  cathedralPT             
+sightPN cityPN               =  nbtwonbfourPV dayPV conveniencePV storePV   :  conveniencePT storePT   
+distancePN moscowPN cityPN   =  nbzeroPV                                    :                          
+sightPN cityPN               =  blackpaidPV                                 :  paidPT                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+kazanIN
+
+sightPN cityPN                =  kazanPV kremlinPV                                   :  palacePT        
+populationPN valuePN          =  nbonePV nbzeronbninenbfourPV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  kazanPV                                             :                  
+distancePN moscowPN cityPN    =  nbsevennbtwonbfivePV                                :                  
+locatablePN moscowPN cityPN   =  eastPV                                              :  directionPT     
+sightPN cityPN                =  universityPV kazanPV                                :  universityPT    
+labelPN                       =  kazanPV                                             :                  
+distancePN unitPN areaPN      =  kilometerPV                                         :  durationunitPT  
+countryPN cityPN              =  russiaPV                                            :  countryPT       
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+berlinIN
+
+areaPN             =  berlinPV   :             
+countryPN cityPN   =  germanyPV  :  countryPT  
+labelPN            =  berlinPV   :             
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+volgogradIN
+
+locatablePN moscowPN cityPN   =  southPV                                             :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                         :  durationunitPT  
+distancePN moscowPN cityPN    =  nbninenbzeronbzeroPV                                :                  
+areaPN                        =  volgogradPV                                         :                  
+populationPN valuePN          =  nbonePV nbzeronbzeronbzeroPV nbzeronbzeronbzeroPV   :                  
+countryPN cityPN              =  russiaPV                                            :  countryPT       
+labelPN                       =  volgogradPV                                         :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+yakutskIN 
+
+populationPN valuePN          =  nbonenbeightnbeightPV nbzeronbzeronbzeroPV   :                  
+countryPN cityPN              =  russiaPV                                     :  countryPT       
+locatablePN moscowPN cityPN   =  northPV                                      :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                  :  durationunitPT  
+distancePN moscowPN cityPN    =  nbfourPV nbninenbzeronbzeroPV                :                  
+labelPN                       =  yakutskPV                                    :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+orelIN 
+
+locatablePN moscowPN cityPN   =  southPV                 :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV             :  durationunitPT  
+distancePN moscowPN cityPN    =  nbthreenbfournbzeroPV   :                  
+countryPN cityPN              =  russiaPV                :  countryPT       
+labelPN                       =  orelPV                  :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+beijingIN
+
+codePN             =  nbzeronbzeronbonePV   :             
+areaPN             =  beijingPV             :             
+countryPN cityPN   =  chinaPV               :  countryPT  
+labelPN            =  beijingPV             :             
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+novosibirskIN 
+
+locatablePN moscowPN cityPN   =  eastPV                                              :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                         :  durationunitPT  
+distancePN moscowPN cityPN    =  nbtwoPV nbeightnbthreenbzeroPV                      :                  
+populationPN valuePN          =  nbonePV nbfournbthreenbsixPV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  novosibirskPV                                       :                  
+countryPN cityPN              =  russiaPV                                            :  countryPT       
+labelPN                       =  novosibirskPV                                       :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+vladimirIN 
+
+sightPN cityPN                =  stPV demetriusPV cathedralPV                  :  cathedralPT     
+locatablePN moscowPN cityPN   =  northPV                                       :  directionPT     
+distancePN unitPN areaPN      =  kilometerPV                                   :  durationunitPT  
+distancePN moscowPN cityPN    =  nbonenbsevennbzeroPV                          :                  
+populationPN valuePN          =  nbthreenbfournbthreePV nbzeronbzeronbzeroPV   :                  
+areaPN                        =  vladimirPV                                    :                  
+countryPN cityPN              =  russiaPV                                      :  countryPT       
+labelPN                       =  vladimirPV                                    :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+novgorodIN
+
+sightPN cityPN                     =  vitoslavlitsyPV museumPV                   :  museumPT        
+sightPN cityPN                     =  stPV sofiaPV cathedralPV                   :  cathedralPT     
+locatablePN stpetersburgPN         =  southPV                                    :  directionPT     
+distancePN unitPN areaPN           =  kilometerPV                                :  durationunitPT  
+distancePN stpetersburgPN cityPN   =  nbonenbsixnbzeroPV                         :                  
+populationPN valuePN               =  nbtwonbfournbzeroPV nbzeronbzeronbzeroPV   :                  
+countryPN cityPN                   =  russiaPV                                   :  countryPT       
+labelPN                            =  novgorodPV                                 :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+restaurantDC restaurantCN
+
+
+panoramaIN restaurantIN 
+
+liePN     =  murmanskPV                :  cityPT  
+areaPN    =  panoramaPV restaurantPV   :          
+labelPN   =  panoramaPV restaurantPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+fortressDC fortressCN
+
+
+peterpaulfortressIN
+
+liePN     =  stpetersburgPV              :  cityPT  
+areaPN    =  peterPV paulPV fortressPV   :          
+labelPN   =  peterpaulfortressPV         :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+pushkinIN palaceIN 
+
+areaPN                               =  pushkinPV            :                  
+durationPN unitPN palacePN           =  kilometerPV          :  durationunitPT  
+distancePN stpetersburgPN palacePN   =  nbthreenbzeroPV      :                  
+labelPN                              =  pushkinPV palacePV   :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+kremlinIN
+
+liePN     =  moscowPV   :  cityPT  
+areaPN    =  kremlinPV  :          
+labelPN   =  kremlinPV  :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+kazanIN kremlinIN 
+
+liePN     =  kazanPV             :  cityPT  
+areaPN    =  kremlinPV kazanPV   :          
+labelPN   =  kazanPV kremlinPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+pavlovskIN palaceIN 
+
+locatablePN stpetersburgPN palacePN   =  southPV               :  directionPT     
+durationPN unitPN palacePN            =  kilometerPV           :  durationunitPT  
+distancePN stpetersburgPN palacePN    =  nbthreenbzeroPV       :                  
+areaPN                                =  pavlovskPV palacePV   :                  
+labelPN                               =  pavlovskPV palacePV   :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+winterIN palaceIN 
+
+liePN     =  stpetersburgPV      :  cityPT  
+areaPN    =  winterPV palacePV   :          
+labelPN   =  winterPV palacePV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+palaceDC palaceCN
+
+
+petrodvoretsIN 
+
+durationPN unitPN palacePN            =  kilometerPV            :  durationunitPT  
+areaPN                                =  petrodvoretsPV         :                  
+knownPN publicPN spacePN              =  forestPV sculpturePV   :  othersPT        
+locatablePN stpetersburgPN palacePN   =  westPV                 :  directionPT     
+distancePN stpetersburgPN palacePN    =  nbthreenbtwoPV         :                  
+labelPN                               =  petrodvoretsPV         :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+tretyakovIN galleryIN 
+
+closePN   =  mondayPV                :  weekdayPT  
+areaPN    =  tretyakovPV galleryPV   :             
+liePN     =  moscowPV                :  cityPT     
+labelPN   =  tretyakovPV galleryPV   :             
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+hermitageIN museumIN 
+
+liePN     =  stpetersburgPV         :  cityPT  
+areaPN    =  hermitagePV museumPV   :          
+labelPN   =  hermitagePV museumPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+historyIN armsIN museumIN 
+
+liePN       =  tulaPV                      :  townPT  
+areaPN      =  historyPV armsPV museumPV   :          
+foundedPN   =  peterPV                     :  czarPT  
+labelPN     =  historyPV armsPV museumPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+museamIN birchIN architectureIN 
+
+knownPN publicPN spacePN   =  birchPV architecturePV            :  architecturePT  
+liePN                      =  irkutskPV                         :  cityPT          
+areaPN                     =  museumPV birchPV architecturePV   :                  
+labelPN                    =  museamPV birchPV architecturePV   :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+pushkinIN museumIN 
+
+knownPN publicPN spacePN   =  pushkinPV            :  authorPT   
+closePN                    =  mondayPV             :  weekdayPT  
+liePN                      =  moscowPV             :  cityPT     
+areaPN                     =  pushkinPV museumPV   :             
+labelPN                    =  pushkinPV museumPV   :             
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+vitoslavlitsyIN museumIN 
+
+liePN                      =  novgorodPV                                        :  cityPT          
+knownPN publicPN spacePN   =  birchPV architecturePV                            :  architecturePT  
+areaPN                     =  vitoslavlitsyPV museumPV birchPV architecturePV   :                  
+labelPN                    =  vitoslavlitsyPV museumPV                          :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN basilIN cathedralIN 
+
+knownPN publicPN spacePN   =  onionPV domPV              :  architecturePT  
+liePN                      =  moscowPV                   :  cityPT          
+areaPN                     =  stPV basilPV cathedralPV   :                  
+labelPN                    =  stPV basilPV cathedralPV   :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+christIN christIN cathedralIN 
+
+liePN     =  moscowPV                        :  cityPT  
+areaPN    =  christPV christPV cathedralPV   :          
+labelPN   =  christPV christPV cathedralPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN sofiaIN cathedralIN 
+
+liePN     =  novgorodPV                 :  cityPT  
+areaPN    =  stPV sofiaPV cathedralPV   :          
+labelPN   =  stPV sofiaPV cathedralPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN isaacIN cathedralIN 
+
+liePN     =  stpetersburgPV             :  cityPT  
+areaPN    =  stPV isaacPV cathedralPV   :          
+labelPN   =  stPV isaacPV cathedralPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN demetriusIN cathedralIN 
+
+liePN                      =  vladimirPV                      :  cityPT          
+knownPN publicPN spacePN   =  whitePV rockPV architecturePV   :  architecturePT  
+areaPN                     =  stPV demetriusPV cathedralPV    :                  
+labelPN                    =  stPV demetriusPV cathedralPV    :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN peterIN paulIN cathedralIN 
+
+knownPN publicPN spacePN   =  peterPV                           :  czarPT  
+liePN                      =  stpetersburgPV                    :  cityPT  
+areaPN                     =  stPV peterPV paulPV cathedralPV   :          
+labelPN                    =  stPV peterPV paulPV cathedralPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+concertDC hallDC  concertCN hallCN 
+
+
+tchaikovskyIN concertIN hallIN 
+
+liePN     =  moscowPV                         :  cityPT  
+areaPN    =  tchaikovskyPV concertPV hallPV   :          
+labelPN   =  tchaikovskyPV concertPV hallPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+monumentDC monumentCN
+
+
+gunIN monumentIN 
+
+liePN     =  murmanskPV         :  cityPT  
+areaPN    =  gunPV monumentPV   :          
+labelPN   =  gunPV monumentPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+monumentDC monumentCN
+
+
+monumentIN peterIN 
+
+liePN     =  moscowPV             :  cityPT  
+areaPN    =  monumentPV peterPV   :          
+labelPN   =  monumentPV peterPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+churchDC churchCN
+
+
+birchIN churchIN 
+
+knownPN publicPN spacePN   =  birchPV architecturePV       :  architecturePT  
+areaPN                     =  churchPV transfigurationPV   :                  
+liePN                      =  kizhiPV                      :  cityPT          
+labelPN                    =  birchPV churchPV             :                  
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+churchDC churchCN
+
+
+stIN nicholasIN churchIN 
+
+liePN     =  murmanskPV                 :  cityPT  
+areaPN    =  stPV nicholasPV churchPV   :          
+labelPN   =  stPV nicholasPV churchPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+theatreDC theatreCN
+
+
+mariinskyIN theatreIN 
+
+liePN     =  stpetersburgPV          :  cityPT  
+areaPN    =  theatrePV mariinskyPV   :          
+labelPN   =  mariinskyPV theatrePV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+theatreDC theatreCN
+
+
+kremlinIN palaceIN theatreIN 
+
+liePN     =  moscowPV                       :  cityPT  
+labelPN   =  kremlinPV palacePV theatrePV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+theatreDC theatreCN
+
+
+bolshoiIN theatreIN 
+
+liePN     =  moscowPV              :  cityPT  
+labelPN   =  bolshoiPV theatrePV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+parkDC parkCN
+
+
+gorkyIN parkIN 
+
+liePN     =  moscowPV         :  cityPT  
+areaPN    =  gorkyPV          :          
+labelPN   =  gorkyPV parkPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+parkDC parkCN
+
+
+milkailovskyIN parkIN 
+
+liePN     =  stpetersburgPV          :  cityPT  
+areaPN    =  mikailovskyPV parkPV    :          
+labelPN   =  milkailovskyPV parkPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+gardenDC gardenCN
+
+
+summerIN gardenIN 
+
+liePN     =  stpetersburgPV      :  cityPT  
+areaPN    =  summerPV gardenPV   :          
+labelPN   =  summerPV gardenPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+streetDC streetCN
+
+
+nevskyIN prospektIN 
+
+liePN     =  stpetersburgPV        :  cityPT  
+areaPN    =  nevskyPV prospektPV   :          
+labelPN   =  nevskyPV prospektPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+convenienceDC storeDC  convenienceCN storeCN 
+
+
+nbtwonbfourIN dayIN convenienceIN storeIN 
+
+labelPN   =  nbtwonbfourPV dayPV conveniencePV storePV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+boutiqueDC boutiqueCN
+
+
+designerIN boutiqueIN 
+
+labelPN   =  designerPV boutiquePV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+localDC storeDC  localCN storeCN 
+
+
+arbatIN 
+
+knownPN shopPN placePN   =  scarvesPV                       :  clothesPT  
+knownPN shopPN placePN   =  sovietPV armyPV memorabiliaPV   :  othersPT   
+knownPN shopPN placePN   =  shirtPV                         :  clothesPT  
+liePN                    =  moscowPV                        :  cityPT     
+areaPN                   =  arbatPV                         :             
+labelPN                  =  arbatPV                         :             
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+marketDC marketCN
+
+
+izmailovskiIN stadiumIN 
+
+liePN                    =  moscowPV                  :  cityPT    
+knownPN shopPN placePN   =  souvenirPV                :  othersPT  
+knownPN shopPN placePN   =  antiquePV                 :  othersPT  
+areaPN                   =  izmailovskiPV             :            
+labelPN                  =  izmailovskiPV stadiumPV   :            
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+universityDC universityCN
+
+
+universityIN kazanIN 
+
+labelPN   =  universityPV kazanPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+paidDC paidCN
+
+
+manezhIN paidIN 
+
+liePN     =  moscowPV          :  cityPT  
+areaPN    =  manezhPV paidPV   :          
+labelPN   =  manezhPV paidPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+paidDC paidCN
+
+
+blackpaidIN
+
+liePN     =  moscowPV         :  cityPT  
+areaPN    =  blackPV paidPV   :          
+labelPN   =  blackpaidPV      :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+paidDC paidCN
+
+
+vosstaniyeIN paidIN 
+
+liePN     =  tulaPV                :  townPT  
+areaPN    =  vosstaniyePV paidPV   :          
+labelPN   =  vosstaniyePV paidPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+geographicalDC environmentDC  geographicalCN environmentCN 
+
+
+arcticIN circleIN 
+
+labelPN   =  arcticPV circlePV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+archipelagoDC archipelagoCN
+
+
+kurilIN islandIN 
+
+labelPN   =  kurilPV islandPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+mountainDC mountainCN
+
+
+mamayevIN hillIN 
+
+closePN   =  volgogradPV        :  cityPT  
+areaPN    =  mamayevPV          :          
+labelPN   =  mamayevPV hillPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+canalDC canalCN
+
+
+griboyedovaIN canalIN 
+
+closePN   =  stpetersburgPV          :  cityPT  
+areaPN    =  griboyedovaPV kanalPV   :          
+labelPN   =  griboyedovaPV canalPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+riverDC riverCN
+
+
+volgaIN
+
+closePN    =  volgogradPV     :  cityPT  
+authorPN   =  caspianseaPV    :  seaPT   
+mouthPN    =  stpetersburgPV  :  cityPT  
+closePN    =  kazanPV         :  cityPT  
+areaPN     =  volgaPV         :          
+labelPN    =  volgaPV         :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+riverDC riverCN
+
+
+nevaIN
+
+closePN   =  stpetersburgPV  :  cityPT  
+areaPN    =  nevaPV          :          
+labelPN   =  nevaPV          :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+seaDC seaCN
+
+
+caspianseaIN
+
+labelPN   =  caspianseaPV  :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+peninsulaDC peninsulaCN
+
+
+kamchatkaIN peninsulaIN 
+
+labelPN   =  kamchatkaPV peninsulaPV   :    
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+lakeDC lakeCN
+
+
+lakebaikalIN
+
+closePN   =  irkutskPV     :  cityPT  
+areaPN    =  baikalPV      :          
+labelPN   =  lakebaikalPV  :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+lakeDC lakeCN
+
+
+lakeIN onegaIN 
+
+closePN   =  kizhiPV          :  cityPT  
+areaPN    =  onegaPV          :          
+labelPN   =  lakePV onegaPV   :          
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+valleyDC valleyCN
+
+
+dombaiIN 
+
+labelPN   =  dombaiPV   :    
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+cultureCN offerCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+museumCN
+cathedralCN
+churchCN
+museumDC museumCN
+
+
+countryIN hermitageIN museumIN 
+
+liePN locatablePN   =  stpetersburgPV                   :  ordinaryPT cityPT   
+nameablePN          =  countryPV hermitagePV museumPV   :                      
+labelPN             =  countryPV hermitagePV museumPV   :                      
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+cultureCN offerCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+museumCN
+cathedralCN
+churchCN
+gardenDC gardenCN
+
+
+dachasIN 
+
+labelPN   =  dachasPV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+nameableCN 
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+animalCN
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+partialCN animalCN 
+locatableCN 
+animalCN
+locatableCN 
+attractionsCN cityCN 
+attractionsCN cityCN 
+infrastructureCN
+sightCN
+cultureCN offerCN 
+buildingCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+museumCN
+churchCN
+publicCN placeCN 
+cathedralDC cathedralCN
+
+
+cathedralIN stIN sophiaIN 
+
+liePN locatablePN   =  novgorodPV                  :  ordinaryPT cityPT   
+nameablePN          =  cathedralPV stPV sophiaPV   :                      
+labelPN             =  cathedralPV stPV sophiaPV   :                      
+defaultrootconceptCN
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+nameableCN 
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+animalCN
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+partialCN animalCN 
+locatableCN 
+animalCN
+locatableCN 
+attractionsCN cityCN 
+attractionsCN cityCN 
+infrastructureCN
+sightCN
+cultureCN offerCN 
+buildingCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+museumCN
+cathedralCN
+publicCN placeCN 
+churchDC churchCN
+
+
+churchIN christIN ilinoIN 
+
+liePN locatablePN   =  novgorodPV                  :  ordinaryPT cityPT   
+nameablePN          =  churchPV christPV ilinoPV   :                      
+labelPN             =  churchPV christPV ilinoPV   :                      
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+sightCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+cathedralCN
+publicCN placeCN 
+monumentDC monumentCN
+
+
+millenniumIN russiaIN 
+
+liePN locatablePN   =  novgorodPV                         :  ordinaryPT cityPT   
+nameablePN          =  millenniumPV russiaPV monumentPV   :                      
+labelPN             =  millenniumPV russiaPV              :                      
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+nameableCN 
+defaultrootconceptCN
+animalCN
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+animalCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+sightCN
+buildingCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+cathedralCN
+publicCN placeCN 
+palaceDC palaceCN
+
+
+kremlinIN
+
+liePN locatablePN   =  moscowPV   :  capitalPT cityPT   
+nameablePN          =  kremlinPV  :                     
+labelPN             =  kremlinPV  :                     
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+sightCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+cathedralCN
+publicCN placeCN 
+paidDC paidCN
+
+
+blackpaidIN
+
+liePN locatablePN   =  moscowPV         :  capitalPT cityPT   
+nameablePN          =  blackPV paidPV   :                     
+labelPN             =  blackpaidPV      :                     
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+nameableCN 
+defaultrootconceptCN
+animalCN
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+animalCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+sightCN
+buildingCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+cathedralCN
+publicCN placeCN 
+fortressDC fortressCN
+
+
+peterpaulfortressIN
+
+liePN locatablePN   =  stpetersburgPV              :  ordinaryPT cityPT   
+nameablePN          =  peterPV paulPV fortressPV   :                      
+labelPN             =  peterpaulfortressPV         :                      
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+industryCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+oilDC oilCN
+
+
+lukoilIN 
+
+nameablePN   =  lukoilPV   :    
+labelPN      =  lukoilPV   :    
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+industryCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+timberDC timberCN
+
+
+sawnIN timberIN 
+
+nameablePN   =  sawnPV timberPV   :    
+labelPN      =  sawnPV timberPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+defaultrootconceptCN
+animalCN
+locatableCN 
+infrastructureCN
+meansCN shipCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+levelDC levelCN
+
+
+boeingIN nbsevennbfournbsevenIN 
+
+nameablePN   =  boeingPV nbsevennbfournbsevenPV   :    
+labelPN      =  boeingPV nbsevennbfournbsevenPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+defaultrootconceptCN
+animalCN
+locatableCN 
+infrastructureCN
+transferCN
+earthCN transferCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+dimensionCN 
+areaCN
+railwayDC railwayCN
+
+
+transsiberianIN
+
+nameablePN     =  transPV siberianPV   :                      
+destinationPN  =  vladivostokPV        :  ordinaryPT cityPT   
+isPN           =  moscowPV             :  capitalPT cityPT    
+labelPN        =  transsiberianPV      :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+defaultrootconceptCN
+animalCN
+locatableCN 
+infrastructureCN
+buildingCN
+accomodationCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+hotelDC hotelCN
+
+
+hiltonIN 
+
+liePN locatablePN   =  moscowPV           :  capitalPT cityPT   
+nameablePN          =  hotelPV hiltonPV   :                     
+labelPN             =  hiltonPV           :                     
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+governmentDC governmentCN
+
+
+federationIN 
+
+labelPN   =  federationPV   :    
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+religionDC religionCN
+
+
+islamIN 
+
+labelPN   =  islamPV   :    
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+religionDC religionCN
+
+
+animistIN 
+
+labelPN   =  animistPV   :    
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+religionDC religionCN
+
+
+russianIN orthodoxIN 
+
+labelPN   =  russianPV orthodoxPV   :    
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+languageDC languageCN
+
+
+russianIN
+
+labelPN   =  russianPV  :    
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+languageDC languageCN
+
+
+englishIN
+
+labelPN   =  englishPV  :    
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+languageDC languageCN
+
+
+germanIN 
+
+labelPN   =  germanPV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+metricIN
+
+labelPN   =  metricPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+kilometerIN
+
+labelPN   =  kilometerPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+monetaryDC unitDC  monetaryCN unitCN 
+
+
+roubleIN
+
+labelPN   =  roublePV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+consumptionCN informationCN 
+monetaryDC unitDC  monetaryCN unitCN 
+
+
+dollarIN
+
+labelPN   =  dollarPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+autumnIN
+
+labelPN   =  autumnPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+springIN
+
+labelPN   =  springPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+summerIN
+
+labelPN   =  summerPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+winterIN
+
+labelPN   =  winterPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+borderIN
+
+warmestPN   =  falsePV   :    
+holidayPN   =  falsePV   :    
+dampestPN   =  falsePV   :    
+labelPN     =  borderPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+mayIN
+
+warmestPN   =  falsePV   :    
+holidayPN   =  falsePV   :    
+dampestPN   =  falsePV   :    
+labelPN     =  mayPV     :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+novemberIN
+
+warmestPN   =  falsePV     :    
+holidayPN   =  falsePV     :    
+dampestPN   =  falsePV     :    
+labelPN     =  novemberPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+octoberIN
+
+warmestPN   =  falsePV    :    
+holidayPN   =  falsePV    :    
+dampestPN   =  falsePV    :    
+labelPN     =  octoberPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+augustIN 
+
+warmestPN   =  truePV     :    
+holidayPN   =  truePV     :    
+dampestPN   =  truePV     :    
+labelPN     =  augustPV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+julyIN
+
+warmestPN   =  truePV   :    
+holidayPN   =  truePV   :    
+dampestPN   =  truePV   :    
+labelPN     =  julyPV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+februaryIN
+
+warmestPN   =  falsePV     :    
+holidayPN   =  falsePV     :    
+dampestPN   =  falsePV     :    
+labelPN     =  februaryPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+septemberIN
+
+warmestPN   =  falsePV      :    
+holidayPN   =  falsePV      :    
+dampestPN   =  falsePV      :    
+labelPN     =  septemberPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+januaryIN
+
+warmestPN   =  falsePV    :    
+holidayPN   =  falsePV    :    
+dampestPN   =  falsePV    :    
+labelPN     =  januaryPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+juneIN
+
+warmestPN   =  falsePV   :    
+holidayPN   =  falsePV   :    
+dampestPN   =  falsePV   :    
+labelPN     =  junePV    :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+decemberIN
+
+warmestPN   =  falsePV     :    
+holidayPN   =  falsePV     :    
+dampestPN   =  falsePV     :    
+labelPN     =  decemberPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+aprilIN
+
+warmestPN   =  falsePV   :    
+holidayPN   =  falsePV   :    
+dampestPN   =  falsePV   :    
+labelPN     =  aprilPV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+electromagneticDC unitDC  electromagneticCN unitCN 
+
+
+hertzIN
+
+labelPN   =  hertzPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+electromagneticDC unitDC  electromagneticCN unitCN 
+
+
+voltIN
+
+labelPN   =  voltPV  :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+areaunitDC areaunitCN
+
+
+paidIN meterIN 
+
+labelPN   =  paidPV meterPV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+levelDC levelCN
+
+
+topIN 
+
+labelPN   =  topPV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+levelDC levelCN
+
+
+midIN placeIN 
+
+labelPN   =  midPV placePV   :    
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+levelDC levelCN
+
+
+budgetIN
+
+labelPN   =  budgetPV  :    
+defaultrootconceptCN
+immaterialCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+genderDC genderCN
+
+
+femaleIN
+
+labelPN   =  femalePV  :    
+defaultrootconceptCN
+immaterialCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+genderDC genderCN
+
+
+maleIN
+
+labelPN   =  malePV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+dimensionCN 
+areaCN
+ethnicDC ethnicCN
+
+
+tatarIN 
+
+labelPN   =  tatarPV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+dimensionCN 
+areaCN
+ethnicDC ethnicCN
+
+
+ukrainianIN 
+
+labelPN   =  ukrainianPV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+dimensionCN 
+areaCN
+ethnicDC ethnicCN
+
+
+russianIN
+
+labelPN   =  russianPV  :    
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+musicIN springIN 
+
+nameablePN   =  musicPV springPV   :                      
+isPN         =  aprilPV            :  monthPT             
+isPN         =  stpetersburgPV     :  ordinaryPT cityPT   
+labelPN      =  musicPV springPV   :                      
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+cinemaIN festivalIN 
+
+nameablePN   =  cinemaPV festivalPV   :                     
+isPN         =  autumnPV              :  seasonPT           
+isPN         =  moscowPV              :  capitalPT cityPT   
+labelPN      =  cinemaPV festivalPV   :                     
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+christmasIN 
+
+isPN         =  decemberPV    :  monthPT  
+nameablePN   =  christmasPV   :           
+labelPN      =  christmasPV   :           
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+russianIN winterIN festivalIN 
+
+nameablePN   =  russianPV winterPV festivalPV   :                      
+isPN         =  januaryPV                       :  monthPT             
+isPN         =  decemberPV                      :  monthPT             
+isPN         =  novgorodPV                      :  ordinaryPT cityPT   
+isPN         =  moscowPV                        :  capitalPT cityPT    
+isPN         =  stpetersburgPV                  :  ordinaryPT cityPT   
+labelPN      =  russianPV winterPV festivalPV   :                      
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+easterIN
+
+nameablePN   =  easterPV   :    
+labelPN      =  easterPV   :    
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+whiteIN nightsIN 
+
+nameablePN   =  whitePV nightsPV   :                      
+isPN         =  junePV             :  monthPT             
+isPN         =  stpetersburgPV     :  ordinaryPT cityPT   
+labelPN      =  whitePV nightsPV   :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+paymentDC paymentCN
+
+
+chequeIN
+
+nameablePN   =  chequePV   :    
+labelPN      =  chequePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+paymentDC paymentCN
+
+
+creditcardIN
+
+nameablePN   =  creditPV cardPV   :    
+labelPN      =  creditcardPV      :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+paymentDC paymentCN
+
+
+cashIN
+
+nameablePN   =  cashPV   :    
+labelPN      =  cashPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+causalCN agentCN 
+adventureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+healthDC adventureDC  healthCN adventureCN 
+
+
+typhoidIN 
+
+nameablePN   =  typhoidPV   :            
+existPN      =  russianPV   :  ethnicPT  
+labelPN      =  typhoidPV   :            
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+causalCN agentCN 
+adventureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+healthDC adventureDC  healthCN adventureCN 
+
+
+hepatltisIN 
+
+nameablePN   =  hepatltisPV   :            
+existPN      =  russianPV     :  ethnicPT  
+labelPN      =  hepatltisPV   :            
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+causalCN agentCN 
+adventureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+healthDC adventureDC  healthCN adventureCN 
+
+
+diphtheriaIN 
+
+existPN      =  russianPV      :  ethnicPT  
+nameablePN   =  diphtheriaPV   :            
+labelPN      =  diphtheriaPV   :            
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+causalCN agentCN 
+adventureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+healthDC adventureDC  healthCN adventureCN 
+
+
+encephalitisIN 
+
+nameablePN   =  encephalitisPV   :            
+existPN      =  russianPV        :  ethnicPT  
+labelPN      =  encephalitisPV   :            
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+causalCN agentCN 
+adventureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+healthDC adventureDC  healthCN adventureCN 
+
+
+rabiesIN 
+
+nameablePN   =  rabiesPV   :            
+existPN      =  russianPV  :  ethnicPT  
+labelPN      =  rabiesPV   :            
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+locatableDC locatableCN
+
+
+northIN poleIN 
+
+nameablePN   =  northPV polePV   :    
+labelPN      =  northPV polePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaDC politicalareaCN
+
+
+euIN 
+
+memberPN     =  francePV             :  countryPT  
+labelPN      =  euPV                 :             
+nameablePN   =  europeanPV unionPV   :             
+memberPN     =  hungaryPV            :  countryPT  
+memberPN     =  belgiumPV            :  countryPT  
+memberPN     =  czechPV              :  countryPT  
+memberPN     =  hollandPV            :  countryPT  
+memberPN     =  germanyPV            :  countryPT  
+memberPN     =  polandPV             :  countryPT  
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+townDC townCN
+
+
+ulyanovskIN
+
+nameablePN   =  ulyanovskPV  :    
+labelPN      =  ulyanovskPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+townDC townCN
+
+
+kazanIN
+
+nameablePN   =  kazanPV    :            
+gardenPN     =  dachasPV   :  gardenPT  
+labelPN      =  kazanPV    :            
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+townDC townCN
+
+
+volgogradIN
+
+nameablePN   =  volgogradPV  :                     
+railwayPN    =  beijingPV    :  capitalPT cityPT   
+labelPN      =  volgogradPV  :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+asiaIN 
+
+memberPN   =  chinaPV  :  countryPT  
+labelPN    =  asiaPV   :             
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+oceaniaIN 
+
+labelPN   =  oceaniaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+africaIN 
+
+labelPN   =  africaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+northIN americaIN 
+
+memberPN   =  aPV                 :  countryPT  
+labelPN    =  northPV americaPV   :             
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+antarcticaIN 
+
+labelPN   =  antarcticaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+southIN ameriacaIN 
+
+labelPN   =  southPV ameriacaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+europeIN 
+
+memberPN   =  francePV    :  countryPT  
+labelPN    =  europaPV    :             
+memberPN   =  germanyPV   :  countryPT  
+memberPN   =  hungaryPV   :  countryPT  
+memberPN   =  russianPV   :  ethnicPT   
+memberPN   =  hollandPV   :  countryPT  
+memberPN   =  belgiumPV   :  countryPT  
+memberPN   =  czechPV     :  countryPT  
+labelPN    =  europePV    :             
+memberPN   =  polandPV    :  countryPT  
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+vladivostokIN
+
+nameablePN   =  vladivostokPV  :                     
+isPN         =  falsePV        :                     
+cityPN       =  russiaPV       :  countryPT          
+railwayPN    =  beijingPV      :  capitalPT cityPT   
+labelPN      =  vladivostokPV  :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+stpetersburgIN
+
+isPN               =  falsePV                          :                     
+nameablePN         =  stPV petersburgPV                :                     
+attractionsPN      =  peterpaulfortressPV              :  fortressPT         
+attractionsPN      =  countryPV hermitagePV museumPV   :  museumPT           
+cityPN             =  russiaPV                         :  countryPT          
+rivertransportPN   =  moscowPV                         :  capitalPT cityPT   
+labelPN            =  stpetersburgPV                   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+ulanIN udeIN 
+
+isPN         =  falsePV        :             
+nameablePN   =  ulanPV udePV   :             
+cityPN       =  russiaPV       :  countryPT  
+labelPN      =  ulanPV udePV   :             
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+irkutskIN
+
+nameablePN   =  irkutskPV  :             
+isPN         =  falsePV    :             
+cityPN       =  russiaPV   :  countryPT  
+labelPN      =  irkutskPV  :             
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+novgorodIN
+
+attractionsPN      =  churchPV christPV ilinoPV   :  churchPT           
+nameablePN         =  novgorodPV                  :                     
+cityPN             =  russiaPV                    :  countryPT          
+infrastructurePN   =  kremlinPV                   :  palacePT           
+isPN               =  falsePV                     :                     
+labelPN            =  novgorodPV                  :                     
+attractionsPN      =  cathedralPV stPV sophiaPV   :  cathedralPT        
+attractionsPN      =  millenniumPV russiaPV       :  monumentPT         
+rivertransportPN   =  moscowPV                    :  capitalPT cityPT   
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+odessaIN 
+
+isPN         =  falsePV    :             
+nameablePN   =  odessaPV   :             
+cityPN       =  russiaPV   :  countryPT  
+labelPN      =  odessaPV   :             
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+parisIN 
+
+nameablePN   =  parisPV    :                     
+cityPN       =  francePV   :  countryPT          
+railwayPN    =  berlinPV   :  capitalPT cityPT   
+labelPN      =  parisPV    :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+budapestIN 
+
+nameablePN   =  budapestPV   :                     
+cityPN       =  hungaryPV    :  countryPT          
+railwayPN    =  moscowPV     :  capitalPT cityPT   
+labelPN      =  budapestPV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+warsawIN 
+
+nameablePN   =  warsawPV   :                     
+cityPN       =  polandPV   :  countryPT          
+railwayPN    =  moscowPV   :  capitalPT cityPT   
+railwayPN    =  berlinPV   :  capitalPT cityPT   
+labelPN      =  warsawPV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+beijingIN
+
+nameablePN   =  beijingPV      :                      
+cityPN       =  chinaPV        :  countryPT           
+railwayPN    =  vladivostokPV  :  ordinaryPT cityPT   
+labelPN      =  beijingPV      :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+moscowIN
+
+infrastructurePN   =  hiltonPV         :  hotelPT             
+railwayPN          =  warsawPV         :  capitalPT cityPT    
+labelPN            =  moscowPV         :                      
+railwayPN          =  budapestPV       :  capitalPT cityPT    
+isPN               =  falsePV          :                      
+rivertransportPN   =  novgorodPV       :  ordinaryPT cityPT   
+railwayPN          =  praguePV         :  capitalPT cityPT    
+attractionsPN      =  blackpaidPV      :  paidPT              
+attractionsPN      =  kremlinPV        :  palacePT            
+rivertransportPN   =  stpetersburgPV   :  ordinaryPT cityPT   
+cityPN             =  russiaPV         :  countryPT           
+railwayPN          =  vladivostokPV    :  ordinaryPT cityPT   
+rivertransportPN   =  volgogradPV      :  townPT              
+infrastructurePN   =  transsiberianPV  :  railwayPT           
+nameablePN         =  moscowPV         :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+amsterdamIN 
+
+nameablePN   =  amsterdamPV   :                     
+cityPN       =  hollandPV     :  countryPT          
+railwayPN    =  berlinPV      :  capitalPT cityPT   
+labelPN      =  amsterdamPV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+pragueIN 
+
+nameablePN   =  praguePV   :                     
+cityPN       =  czechPV    :  countryPT          
+railwayPN    =  moscowPV   :  capitalPT cityPT   
+labelPN      =  praguePV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+berlinIN
+
+nameablePN   =  berlinPV      :                     
+cityPN       =  germanyPV     :  countryPT          
+railwayPN    =  parisPV       :  capitalPT cityPT   
+railwayPN    =  amsterdamPV   :  capitalPT cityPT   
+railwayPN    =  warsawPV      :  capitalPT cityPT   
+labelPN      =  berlinPV      :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+polandIN 
+
+capitalPN cityPN   =  warsawPV   :  capitalPT cityPT   
+memberPN           =  truePV     :                     
+borderPN           =  polandPV   :  countryPT          
+borderPN           =  germanyPV  :  countryPT          
+labelPN            =  polandPV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+franceIN 
+
+memberPN           =  truePV     :                     
+capitalPN cityPN   =  parisPV    :  capitalPT cityPT   
+borderPN           =  germanyPV  :  countryPT          
+labelPN            =  francePV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+chinaIN
+
+memberPN           =  falsePV    :                     
+capitalPN cityPN   =  beijingPV  :  capitalPT cityPT   
+borderPN           =  russiaPV   :  countryPT          
+labelPN            =  chinaPV    :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+czechIN 
+
+capitalPN cityPN   =  praguePV   :  capitalPT cityPT   
+memberPN           =  truePV     :                     
+borderPN           =  czechPV    :  countryPT          
+borderPN           =  germanyPV  :  countryPT          
+labelPN            =  czechPV    :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+belgiumIN 
+
+memberPN   =  truePV      :             
+borderPN   =  germanyPV   :  countryPT  
+labelPN    =  belgiumPV   :             
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+russiaIN
+
+majorPN riverPN               =  nevaPV                               :  riverPT            
+majorPN riverPN               =  dneprPV                              :  riverPT            
+majorPN riverPN               =  volgaPV                              :  riverPT            
+majorPN riverPN               =  donPV                                :  riverPT            
+majorPN tradingPN partnerPN   =  aPV                                  :  countryPT          
+memberPN                      =  falsePV                              :                     
+capitalPN cityPN              =  moscowPV                             :  capitalPT cityPT   
+potiticalPN factPN            =  islamPV                              :  religionPT         
+majorPN industryPN            =  sawnPV timberPV                      :  timberPT           
+potiticalPN factPN            =  russianPV                            :  languagePT         
+labelPN                       =  russiaPV                             :                     
+majorPN tradingPN partnerPN   =  euPV                                 :  politicalareaPT    
+presidentPN                   =  vladimirPV vladimirovichPV putinPV   :  presidentPT        
+potiticalPN factPN            =  russianPV orthodoxPV                 :  religionPT         
+majorPN industryPN            =  lukoilPV                             :  oilPT              
+majorPN tradingPN partnerPN   =  chinaPV                              :  countryPT          
+potiticalPN factPN            =  animistPV                            :  religionPT         
+nameablePN                    =  russiaPV                             :                     
+potiticalPN factPN            =  federationPV                         :  governmentPT       
+borderPN                      =  chinaPV                              :  countryPT          
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+hungaryIN 
+
+capitalPN cityPN   =  budapestPV   :  capitalPT cityPT   
+memberPN           =  truePV       :                     
+labelPN            =  hungaryPV    :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+aIN
+
+memberPN     =  falsePV                       :    
+nameablePN   =  unitedPV statesPV americaPV   :    
+labelPN      =  aPV                           :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+germanyIN
+
+capitalPN cityPN   =  berlinPV        :  capitalPT cityPT   
+memberPN           =  truePV          :                     
+labelPN            =  germanyPV       :                     
+borderPN           =  belgiumPV       :  countryPT          
+borderPN           =  polandPV        :  countryPT          
+nameablePN         =  deutschlandPV   :                     
+borderPN           =  francePV        :  countryPT          
+borderPN           =  hollandPV       :  countryPT          
+borderPN           =  czechPV         :  countryPT          
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+hollandIN 
+
+borderPN           =  belgiumPV     :  countryPT          
+capitalPN cityPN   =  amsterdamPV   :  capitalPT cityPT   
+borderPN           =  germanyPV     :  countryPT          
+labelPN            =  hollandPV     :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+districtDC districtCN
+
+
+ingushetiaIN 
+
+labelPN   =  ingushetiaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+districtDC districtCN
+
+
+chechnyaIN 
+
+labelPN   =  chechnyaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+districtDC districtCN
+
+
+dagestanIN 
+
+labelPN   =  dagestanPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+peninsulaDC peninsulaCN
+
+
+kolaIN 
+
+labelPN   =  kolaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+naturDC reserveDC  naturCN reserveCN 
+
+
+ussuriIN naturIN reserveIN 
+
+labelPN   =  ussuriPV naturPV reservePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+mountainDC mountainCN
+
+
+caucasusIN 
+
+closePN   =  blackPV seaPV   :  seaPT  
+labelPN   =  caucasusPV      :         
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+mountainDC mountainCN
+
+
+uralIN 
+
+labelPN   =  uralPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+vacationDC areaDC  vacationCN areaCN 
+
+
+sochiIN 
+
+closePN   =  blackPV seaPV   :  seaPT  
+labelPN   =  sochiPV         :         
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+maritimeDC reserveDC  maritimeCN reserveCN 
+
+
+farIN eastIN maritimeIN reserveIN 
+
+labelPN   =  farPV eastPV maritimePV reservePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+seaDC seaCN
+
+
+blackIN seaIN 
+
+closePN      =  odessaPV        :  ordinaryPT cityPT   
+nameablePN   =  blackPV seaPV   :                      
+backdropPN   =  caucasusPV      :  mountainPT          
+labelPN      =  blackPV seaPV   :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+seaDC seaCN
+
+
+whiteIN seaIN 
+
+nameablePN   =  whitePV seaPV   :    
+labelPN      =  whitePV seaPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+seaDC seaCN
+
+
+caspianseaIN
+
+nameablePN   =  caspianPV     :    
+labelPN      =  caspianseaPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+seaDC seaCN
+
+
+pacificIN 
+
+nameablePN   =  pacificPV   :    
+labelPN      =  pacificPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+seaDC seaCN
+
+
+azovIN seaIN 
+
+closePN      =  volgogradPV    :  townPT  
+nameablePN   =  azovPV         :          
+labelPN      =  azovPV seaPV   :          
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+lakeDC lakeCN
+
+
+lakebaikalIN
+
+nameablePN   =  baikalPV      :    
+labelPN      =  lakebaikalPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+riverDC riverCN
+
+
+dneprIN 
+
+nameablePN   =  dneprPV         :         
+flowPN       =  caspianseaPV    :  seaPT  
+flowPN       =  blackPV seaPV   :  seaPT  
+labelPN      =  dneprPV         :         
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+riverDC riverCN
+
+
+volgaIN
+
+nameablePN      =  volgaPV                        :                  
+flowPN          =  caspianseaPV                   :  seaPT           
+durationunitPN  =  kilometerPV                    :  durationunitPT  
+durationPN      =  nbthreenbsevennbzeronbzeroPV   :                  
+labelPN         =  volgaPV                        :                  
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+riverDC riverCN
+
+
+donIN 
+
+nameablePN   =  donPV          :          
+flowPN       =  azovPV seaPV   :  seaPT   
+closePN      =  kazanPV        :  townPT  
+labelPN      =  donPV          :          
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+riverDC riverCN
+
+
+nevaIN
+
+nameablePN   =  nevaPV  :    
+labelPN      =  nevaPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfourIN
+
+labelPN   =  gmtutcnbfourPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnboneIN
+
+labelPN   =  gmtPV utcPV nbonePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbzeroIN
+
+labelPN   =  gmtutcnbonenbzeroPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbzeroIN
+
+labelPN   =  gmtPV utcPV nbonenbzeroPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsevenIN
+
+labelPN   =  gmtutcnbsevenPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbtwoIN
+
+includePN cityPN   =  warsawPV       :  capitalPT cityPT   
+includePN cityPN   =  praguePV       :  capitalPT cityPT   
+includePN cityPN   =  parisPV        :  capitalPT cityPT   
+includePN cityPN   =  budapestPV     :  capitalPT cityPT   
+includePN cityPN   =  berlinPV       :  capitalPT cityPT   
+includePN cityPN   =  amsterdamPV    :  capitalPT cityPT   
+labelPN            =  gmtutcnbtwoPV  :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbnineIN
+
+includePN cityPN   =  irkutskPV              :  ordinaryPT cityPT   
+labelPN            =  gmtPV utcPV nbninePV   :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbthreeIN
+
+labelPN   =  gmtutcnbthreePV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbeightIN
+
+labelPN   =  gmtPV utcPV nbeightPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnboneIN
+
+labelPN   =  gmtutcnbonePV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfourIN
+
+includePN cityPN   =  moscowPV               :  capitalPT cityPT   
+labelPN            =  gmtPV utcPV nbfourPV   :                     
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsevenIN
+
+labelPN   =  gmtPV utcPV nbsevenPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfiveIN
+
+labelPN   =  gmtPV utcPV nbfivePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtIN utcIN nbzeroIN 
+
+labelPN   =  gmtPV utcPV nbzeroPV   :    
+labelPN   =  gmtPV utcPV nbzeroPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsixIN
+
+labelPN   =  gmtutcnbsixPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbthreeIN
+
+labelPN   =  gmtPV utcPV nbthreePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbnineIN
+
+labelPN   =  gmtutcnbninePV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbtwoIN
+
+labelPN   =  gmtPV utcPV nbonenbtwoPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsixIN
+
+labelPN   =  gmtPV utcPV nbsixPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbtwoIN
+
+labelPN   =  gmtPV utcPV nbtwoPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenboneIN
+
+labelPN   =  gmtutcnbonenbonePV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbfiveIN
+
+labelPN   =  gmtutcnbfivePV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenboneIN
+
+includePN cityPN   =  vladivostokPV              :  ordinaryPT cityPT   
+labelPN            =  gmtPV utcPV nbonenbonePV   :                      
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbonenbthreeIN
+
+labelPN   =  gmtPV utcPV nbonenbthreePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbeightIN
+
+labelPN   =  gmtutcnbeightPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+spaceDC spaceCN
+
+
+outerIN spaceIN 
+
+nameablePN   =  spacePV           :    
+labelPN      =  outerPV spacePV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+spaceDC spaceCN
+
+
+earthIN
+
+nameablePN   =  earthPV   :    
+labelPN      =  earthPV   :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+alcoholDC alcoholCN
+
+
+vodkaIN
+
+nameablePN   =  vodkaPV  :    
+labelPN      =  vodkaPV  :    
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+documentCN
+writtenCN documentCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+approvalDC approvalCN
+
+
+visaIN
+
+labelPN   =  visaPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+animalDC animalCN
+
+
+deerIN
+
+nameablePN   =  deerPV  :    
+labelPN      =  deerPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+animalDC animalCN
+
+
+wolfIN
+
+nameablePN   =  wolfPV  :    
+labelPN      =  wolfPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+animalDC animalCN
+
+
+tigerIN
+
+nameablePN   =  tigerPV  :    
+labelPN      =  tigerPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+animalDC animalCN
+
+
+bearIN
+
+nameablePN   =  bearPV  :    
+labelPN      =  bearPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+plantDC plantCN
+
+
+mushroomIN
+
+nameablePN   =  mushroomPV  :    
+labelPN      =  mushroomPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+plantDC plantCN
+
+
+birchIN
+
+nameablePN   =  birchPV  :    
+labelPN      =  birchPV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+plantDC plantCN
+
+
+pineIN
+
+nameablePN   =  pinePV  :    
+labelPN      =  pinePV  :    
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+inhabitantCN
+
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+presidentDC presidentCN
+
+
+vladimirIN vladimirovichIN putinIN 
+
+nameablePN   =  vladimirPV vlaimirovichPV putinPV    :            
+genderPN     =  malePV                               :  genderPT  
+personPN     =  russianPV                            :  ethnicPT  
+labelPN      =  vladimirPV vladimirovichPV putinPV   :            

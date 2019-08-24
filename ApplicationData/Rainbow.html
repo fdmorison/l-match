@@ -1,0 +1,802 @@
+<html><head><title>Rainbow</title></head><body>
+
+
+<h1>Rainbow</h1>
+
+<i>Rainbow</i> is a program that performs statistical
+text classification.  It is based on the <i>Bow</i> library.  For more
+information about obtaining the source and citing its use, see the <a href="http://www.cs.cmu.edu/%7Emccallum/bow">Bow home page</a>.
+
+<p>This documentation is intended as a brief tutorial for using
+rainbow, version 0.9 or later.  It is not complete documentation.  It
+is not a tutorial on the source code.
+
+</p><p>The examples on this page assume that you have compiled libbow and
+rainbow, and that rainbow is in your path.  Several of the examples
+also assume that you have downloaded the <a href="http://www.cs.cmu.edu/afs/cs/project/theo-11/www/naive-bayes/20_newsgroups.tar.gz">20_newsgroups</a>
+data set, unpacked it in your home directory, and therefore that its
+files are available in the directory <tt>~/20_newsgroups</tt>.
+
+</p><h3>1. Introduction</h3>
+
+The general pattern of rainbow usage is in two steps (1) have rainbow
+read your documents and write to disk a "model" containing their
+statistics, (2) using the model, rainbow performs classification or
+diagnostics.
+
+<p>You can obtain on-line documentation of each rainbow command-line
+option by typing </p><pre> rainbow --help | more </pre> This
+<tt>--help</tt> option is useful checking the latest details of
+particular options, but does not provide a tutorial or an overview of
+rainbow's use.
+
+<p>Command-line options in rainbow and all the <i>Bow</i> library
+frontends are handled by the <tt>libargp</tt> library from the FSF.
+Many command-line options have both long and short forms.  For
+example, to set the verbosity level to 4 (to make rainbow give more
+runtime diagnostic messages than usual), you can type
+"<tt>--verbosity=4</tt>", or "<tt>--verbosity 4</tt>", or "<tt>-v
+4</tt>".  For more detail about the verbosity option, see section 5.1.
+
+
+</p><h3>2. Reading the documents, building a model</h3>
+
+<p>Before performing classification or diagnostics with
+rainbow, you must first have rainbow index your data--that is,
+read your documents and archive a "model" containing their statistics.
+The text indexed for the model must contain all the training data.
+The testing data may also be read as part of the model, or it can be
+left out and read later.
+
+</p><p>The model is placed in the file system location indicated by the
+<tt>-d</tt> option.  If no <tt>-d</tt> option is given, the name
+<tt>~/.rainbow</tt> is used by default.  (The model name is actually a
+file system directory containing separate files for different aspects
+of the model.  If the model directory location does not exist when
+rainbow is invoked, rainbow will create it automatically.)
+
+</p><p>In the most basic setting, the text data should be in plain text
+files, one file per document.  No special tags are needed at the
+beginning or end of documents.  Thus, for example, you should be able
+to index a directory of UseNet articles or MH mailboxes without any
+preprocessing. 
+
+The files should be organized in directories, such that all documents
+with the same class label are contained within a directory.  (Rainbow
+does not directly support classification tasks in which individual
+documents have multiple class labels.  I recommend handling this as a
+series of binary classification tasks.)
+
+</p><p>To build a model, call rainbow with the <tt>--index</tt> (or
+<tt>-i</tt>) option, followed by one directory name for each class.
+For example, to build a model that distinguishes among the three
+<tt>talk.politics</tt> classes of <i>20_newsgroups</i>, (and store
+that model in the directory <tt>~/model</tt>), invoke rainbow like
+this:
+
+</p><pre>   rainbow -d ~/model --index ~/20_newsgroups/talk.politics.*
+</pre>
+
+where <tt>~/20_newsgroups/talk.politics.*</tt> would be expanded by
+the shell like this:
+
+<pre>   ~/20_newsgroups/talk.politics.guns ~/20_newsgroups/talk.politics.mideast ~/20_newsgroups/talk.politics.misc
+</pre>
+
+<p>To build a model containing all 20 newsgroups, type:
+
+</p><pre>   rainbow -d ~/model --index ~/20_newsgroups/*
+</pre>
+
+
+<h4>2.1. Tokenizing Options</h4>
+
+<p>When indexing a file, rainbow turns the file's stream of characters
+into tokens by a process called tokenization or "lexing".
+
+</p><p>By default, rainbow tokenizes all alphabetic sequences of
+characters (that is characters in A-Z and a-z), changing each sequence
+to lowercase and tossing out any token which is on the "stoplist", a
+list of common words such as "the", "of", "is", etc.
+
+<!-- rainbow's tokenizer operates as follows: skip all
+non-alphabetic characters (anything not A-Z or a-z), read characters
+into a buffer until a non-alphabetic characters is reached, turn all
+uppercase letters into lowercase, skip the token in the buffer if it
+is in the "stoplist".  Otherwise, include this token among the
+statistics, and read the next token. -->
+
+</p><p>Rainbow supports several options for tokenizing text.  For example
+the <tt>--skip-headers</tt> (or <tt>-h</tt>) option causes rainbow to
+skip newsgroup or email headers before beginning tokenization.  (Which
+should be used for the <i>20_newsgroups</i> dataset, since the headers
+include the name of the correct newsgroup!)  It does this by scanning
+forward until it finds two newlines in a row.
+
+</p><pre>   rainbow -d ~/model -h --index ~/20_newsgroups/talk.politics/*
+</pre>
+
+<p>Some other examples of handy tokenizing options are:
+
+</p><p><table border="1">
+
+<tbody><tr><td> <tt>--use-stemming</tt></td> 
+<td> Pass all words through the Porter
+stemmer before counting them.  (The default is not to stem.)
+</td></tr>
+
+<tr><td> <tt>--no-stoplist</tt></td>
+<td> Include words in the stoplist among the
+statistics.  The default is to skip them.  The stoplist is the SMART
+system's list of 524 common words, like "the" and "of".)
+</td></tr>
+
+<tr><td> <tt>--istext-avoid-uuencode</tt> </td>
+<td>Attempt to detect when a file mostly consists of a uuencoded block,
+and if so, skip it.  This option is useful for tokenizing UseNet
+articles, because word statistics can be thrown off by repetitive
+tokens found in uuencoded images.
+</td></tr>
+
+<tr><td> <tt>--skip-html</tt> </td>
+<td>Skip all characters between "&lt;" and "&gt;".  Useful for lexing HTML
+files. 
+</td></tr>
+
+<tr><td> <tt>--lex-pipe-command SHELLCMD</tt>  </td>
+<td> Rather than tokenizing the
+file directly, pass the file as standard input into this shell
+command, and tokenize the standard output of the shell command.  For
+example, to index only the first 20 lines of each file, use:<br>
+<tt>rainbow --lex-pipe-command "head -n 20" -d ~/model --index
+~/20_newsgroups/talk.politics/* </tt>
+</td></tr>
+
+<tr><td> <tt>--lex-white</tt>  </td>
+<td> Rather than tokenizing the file with the default rules (skipping
+non-alphabetics, downcasing, etc), instead simply grab space-delimited
+strings, and make no further changes.  This option is useful if you
+want to take complete control of tokenization with your own script, as
+specified by <tt>--lex-pipe-command</tt>, and don't want rainbow to
+make any further changes.
+</td></tr>
+
+</tbody></table>
+
+</p><p>For a complete list of rainbow tokenizing options, see the "Lexing
+options" section in the output of <tt>rainbow --help</tt>.
+
+
+</p><h3>3. Classifying Documents</h3>
+
+<p>Once indexing is performed and a model has been archived to disk,
+rainbow can perform document classification.  Statistics from a
+set of <i>training</i> documents will determine the parameters of the
+classifier; classification of a set of <i>testing</i> documents will
+be output.
+
+</p><p>The <tt>--test</tt> (or <tt>-t</tt>) option performs a specified
+number of trials and prints the classifications of the documents in
+each trial's test-set to standard output.  For example,
+
+</p><pre>   rainbow -d ~/model --test-set=0.4 --test=3
+</pre>
+
+will output the results of three trials, each with a randomized
+test-train split in which 60 percent of the documents are used for
+training, and 40 percent for testing.  Details of the
+<tt>--test-set</tt> option are described in section 3.1.
+
+<p>Classification results are printed as a series of text lines that look
+something like this:
+</p><pre>   /home/mccallum/20_newsgroups/talk.politics.misc/178939 talk.politics.misc talk.politics.misc:0.98 talk.politics.mideast:0.015 talk.politics.guns:0.005
+</pre>
+
+<p>That is, one test file per line, consisting of the following fields:
+</p><pre>   directory/filename TrueClass TopPredictedClass:score1 2ndPredictedClass:score2 ...
+</pre>
+
+<p>The Perl script <tt>rainbow-stats</tt>, which is provided in the
+Bow source distribution, reads lines like this and outputs average
+accuracy, standard error, and a confusion matrix.
+
+</p><p>For example, the command
+
+</p><pre>   rainbow -d ~/model --test-set=0.4 --test=2 | rainbow-stats
+</pre>
+
+will, for a model build from the three <tt>talk.politics</tt> classes,
+print something like the following:
+
+<p>
+</p><dd><table border="1">
+<tbody><tr><td>
+<pre>Trial 0
+
+Correct: 1079 out of 1201 (89.84 percent accuracy)
+
+ - Confusion details, row is actual, column is predicted
+               classname   0   1   2  :total
+ 0    talk.politics.guns 372   2  27  :401  92.77%
+ 1 talk.politics.mideast   6 371  23  :400  92.75%
+ 2    talk.politics.misc  44  20 336  :400  84.00%
+
+Trial 1
+
+Correct: 1086 out of 1201 (90.42 percent accuracy)
+
+ - Confusion details, row is actual, column is predicted
+               classname   0   1   2  :total
+ 0    talk.politics.guns 377   2  22  :401  94.01%
+ 1 talk.politics.mideast   6 371  23  :400  92.75%
+ 2    talk.politics.misc  40  22 338  :400  84.50%
+
+Percent_Accuracy  average 90.13 stderr 0.21
+</pre>
+</td></tr>
+</tbody></table></dd>
+
+<p>(To give you some idea of the speed of rainbow: On a 200 MHz
+Pentium, the above rainbow command finishes in 14 seconds.  The
+command reads the model from disk, and performs two trials--each
+building a model from about 1800 documents and testing on about 1200.
+The rainbow-stats command finishes in 2 seconds.)
+
+</p><p>The Perl script <tt>rainbow-be</tt>, also provided in the Bow
+source distribution, reads lines like this and outputs
+precision-recall breakeven points.
+
+</p><p>You can vary the precision with which classification scores are
+printed using the <tt>--score-precision=NUM</tt> option, where
+<tt>NUM</tt> is the number of digits to print after the decimal point.
+Note, however, that several internal variables are of type
+<i>float</i>, (which has only about 7 digits of resolution) and the
+classification scores are calculated as <i>double</i>'s, (which has
+only about 17 digits of resolution), so precision is inherently
+limited.  The default printed score precision is 10.
+This option works only with the naive Bayes classifier.
+
+</p><h4>3.1. Specifying the Training and Testing Sets</h4>
+
+In cases in which the test documents have been tokenized as part of
+the model, the test set is specified with the <tt>--test-set</tt>
+option.  For example, 
+
+<pre>   rainbow -d ~/model --test-set=0.5 --test=1
+</pre>
+
+will use a pseudo-random number generator to select one-half of the
+documents in the model and place them into the test set, then place
+the remaining documents in the training set.
+
+<p>When the argument to <tt>--test-set</tt> contains no decimal point,
+the number is interpreted as an exact number of documents.  For
+example, 
+
+</p><pre>   rainbow -d ~/model --test-set=30 --test=1
+</pre>
+
+will place 30 documents in the test set, attempting to select a number
+of documents from each class such that the class proportions in the
+test set roughly matches that in the entire model.
+
+<p>If the number argument is followed by "<tt>pc</tt>", then the
+arguments indicates a number of documents <i>per class</i>.  Thus
+
+</p><pre>   rainbow -d ~/model --test-set=200pc --test=1
+</pre>
+
+will place into the test set 200 randomly-selected documents from each
+of the classes in the model, for a total of 600 test documents, if the
+model was build using three classes.
+
+<p>You can also specify exactly which files should be in the test set,
+listing them by name.  If the argument to <tt>--test-set</tt> contains
+non-numeric characters, it is interpreted as a filename, which in turn
+should contain a list of white-space-separated filenames of documents
+indexed in the model.  For example,
+
+</p><pre>   rainbow -d ~/model --test-set=~/filelist1 --test=1
+</pre>
+
+will open the file <tt>~/filelist1</tt> and take from there the list
+of names of files to be place in the test set.  Note that the class
+labels of these documents are already known from when the
+<tt>model</tt> file was built.
+
+<p>The list of filenames should be named as they where then the model
+was built.  A list of all the filenames of documents contained in a
+rainbow model can be obtained with the following command:
+
+</p><pre> 
+   rainbow -d ~/model --print-doc-names
+</pre> 
+
+<p>See section 4.3 for more details on the <tt>--print-doc-names</tt>
+option. 
+
+</p><p>The default value for <tt>--test-set</tt> is 0, indicating the no
+documents are placed in the test set.  Thus, when using the
+<tt>--test</tt> option, you must use the <tt>--test-set</tt> option in
+order to give rainbow some documents to classify.
+
+
+</p><h5>3.1.1. Training Set</h5>
+
+<p>The training set can be specified using the <tt>--train-set</tt>
+option with the same types of arguments described above.  For example,
+
+</p><pre>   rainbow -d ~/model --test-set=~/filelist1 --train-set=~/filelist2 --test=1
+</pre>
+
+will take all test documents from the list in <tt>~/filelist1</tt>,
+all training documents from <tt>~/filelist2</tt>, and ignore all
+documents that don't appear in either list.  It is an error for a
+document to be listed in both the test set and the train set.
+
+<p>The default value for the <tt>--train-set</tt> is the keyword
+<tt>remaining</tt>, which specifies that all documents not placed in
+the test set should be placed in the training set.
+
+</p><p>The keyword <tt>remaining</tt> can also be used for the test set.
+For example,
+
+</p><pre>   rainbow -d ~/model --train-set=1pc --test-set=remaining --test=1
+</pre>
+
+will put one document from each class into the training set, and put
+all the rest of the documents in the testing set.
+
+<h5>3.1.2. Classifying Files not in the Model</h5>
+
+<p>You can classify files that were not indexed into the model by
+replacing the <tt>--test</tt> option with the <tt>--test-files</tt>
+option.  For example,
+
+</p><pre>   rainbow -d ~/model --test-files ~/more-talk.politics/*
+</pre>
+
+will use all the files in the model as the training set, and output
+classifications for all files contained in the subdirectories of
+<tt>~/more-talk.politics/</tt>.  Note that the number and basenames of
+the directories listed must match those given to <tt>--index</tt> when
+the model was built.
+
+<p>You can classify a single file (read from standard input or from a
+specified filename) using the <tt>--query</tt> option.
+
+</p><h4>3.2. Rainbow Classification as a Server</h4>
+
+<p>Rainbow can also efficiently classify individual documents not in
+the model by running as a server.  In this mode, rainbow starts, reads
+the model from disk, then waits for query documents by listening on a
+network socket.
+
+</p><p>To do this, run rainbow with the command line option
+<tt>--query-server=PORT</tt> (where <tt>PORT</tt> is some port number
+larger than 1000).  For example
+
+</p><pre>   rainbow -d ~/model --query-server=1821
+</pre>
+
+<p>In order to test the server, telnet to whatever port you specified
+(e.g. "<tt>telnet localhost 1821</tt>"), type in a document you want
+to classify, then type '<tt>.</tt>' alone on a line, followed by
+Return.  Rainbow will then print back to the socket (and thus to your
+screen) a list of classes and their scores.  If you write your own
+program to connect to a rainbow server (to replace <tt>telnet</tt> in
+this example), make sure to use the sequence "<tt>\r\n</tt>" to send a
+newline.  Thus, to indicate the end of a query document, you should
+send the sequence "<tt>\r\n.\r\n</tt>".
+
+</p><h4>3.2. Feature Selection</h4>
+
+<p>Feature set or "vocabulary" size may be reduced by by occurrence
+counts or by average mutual information with the class variable
+(<i>[Cover &amp; Thomas, "Elements of Information Theory" Wiley &amp; Sons,
+1991]</i>, (which we also call "information gain").
+
+</p><p><table border="1">
+
+<tbody><tr><td> <tt>--prune-vocab-by-infogain=N</tt><br>
+or <tt>-T</tt></td> 
+<td> Remove all but the top <tt>N</tt> words by selecting words with highest
+     average mutual information with the class variable.  Default is
+     <tt>N</tt>=0, which is a special case that removes no words.
+</td></tr>
+
+<tr><td> <tt>--prune-vocab-by-doc-count=N</tt><br>
+or <tt>-D</tt></td> 
+<td> Remove words that occur in <tt>N</tt> or fewer documents.
+</td></tr>
+
+<tr><td> <tt>--prune-vocab-by-occur-count=N</tt><br>
+or <tt>-O</tt></td> 
+<td> Remove words that occur less than <tt>N</tt> times.
+</td></tr>
+
+</tbody></table>
+
+</p><p>For example, to classify using only the 50 words that have the
+highest mutual information with the class variable, type:
+
+</p><pre>   rainbow -d ~/model --prune-vocab-by-infogain=50 --test=1
+</pre>
+
+<p>If you want to see what these 50 words are, type:
+
+</p><pre>   rainbow -d ~/model -I 50
+</pre>
+
+There is more information about <tt>-I</tt> and other
+diagnostic-printing command-line options options in section 4.
+
+<h4>3.3. Selecting the Classification Method</h4>
+
+Rainbow supports several different classification methods, (and the
+code makes it easy to add more).  The default is Naive Bayes, but
+k-nearest neighbor, TFIDF, and probabilistic indexing are all
+available.  These are specified with the <tt>--method</tt> (or
+<tt>-m</tt>) option, followed by one of the following keywords:
+<tt>naivebayes, knn, tfidf, prind</tt>.  For example,
+
+<pre>   rainbow -d ~/model --method=tfidf --test=1
+</pre>
+
+will use TFIDF/Rocchio for classification.
+
+
+<h4>3.4. Naive Bayes Options</h4>
+
+The following options change parameters of Naive Bayes.
+
+<p><table border="1">
+
+<tbody><tr><td> <tt>--smoothing-method=METHOD</tt></td> 
+<td> Set the method for smoothing word probabilities to avoid zeros;
+ <tt>METHOD</tt> may be one of: <tt>goodturing, laplace, mestimate,
+ wittenbell</tt>.  The default is <tt>laplace</tt>, which is a uniform
+ Dirichlet prior with alpha=2.
+</td></tr>
+
+<tr><td> <tt>--event-model=EVENTNAME</tt></td> 
+<td> Set what objects will be considered the `events' of the
+  probabilistic model.  <tt>EVENTNAME</tt> can be one of:
+  <tt>word</tt> (i.e. multinomial, unigram), <tt>document</tt>
+  (i.e. multi-variate Bernoulli, bit vector), or
+  <tt>document-then-word</tt> (i.e. document-length-normalized
+  multinomial).  For more details on these methods, see <i><a href="http://www.cs.cmu.edu/%7Emccallum">A Comparison of Event Models
+  for Naive Bayes Text Classification</a></i>.  The default is
+  <tt>word</tt>. 
+</td></tr>
+
+<tr><td> <tt>--uniform-class-priors</tt></td> 
+<td> When classifying and calculating mutual information, use equal
+ prior probabilities on classes, instead of using the distribution
+ determined from the training data.
+</td></tr>
+
+</tbody></table>
+
+
+</p><h3>4. Diagnostics</h3>
+
+<p>In addition to using a model for document classification, you can
+also print various information about the model.  
+
+</p><h4>4.1. Words by Mutual Information with the Class</h4>
+
+<p>To see a list of the words that have highest average
+mutual information with the class variable (sorted by mutual
+information), use the <tt>--print-word-infogain</tt> (or <tt>-I</tt>)
+option.  For example
+
+</p><pre>   rainbow -d ~/model -I 10
+</pre>
+
+<p>When invoked on a model containing all 20 classes of the
+<i>20_newsgroups</i> dataset, the following is printed to standard
+out:
+
+</p><pre>  0.09381 windows
+  0.09003 god
+  0.07900 dod
+  0.07700 government
+  0.06609 team
+  0.06570 game
+  0.06448 people
+  0.06323 car
+  0.06171 bike
+  0.05609 hockey
+</pre>
+
+The above is calculated using all the training data.  To restrict the
+calculation to a subset of the data, use any of the methods for
+defining the training set described in section 3.1.  For example, to
+calculate mutual information based just on the the documents listed in
+<tt>~/docs1</tt>, type:
+
+<pre>   rainbow -d ~/model --train-set=~/docs1 -I 10
+</pre>
+
+
+<h4>4.2. Words by Probability</h4>
+
+To print the probability of all the words use the
+<tt>--print-word-probabilities</tt> option.  For example, the
+following command will print the word probabilities in the
+<tt>talk.politics.mideast</tt> class, after pruning the vocabulary to
+the ten words that have highest mutual information with the class.
+
+<pre>   rainbow -d ~/model -T 10 --print-word-probabilities=talk.politics.mideast
+</pre>
+
+<p>Here is the output of this command.  Notice that the word
+probabilities correctly sum to one. 
+
+</p><pre>   god                             0.05026782
+   people                          0.64977338
+   government                      0.24062629
+   car                             0.03502266
+   game                            0.00412031
+   team                            0.01030078
+   bike                            0.00041203
+   dod                             0.00041203
+   hockey                          0.00123609
+   windows                         0.00782859
+</pre>
+
+
+<h4>4.3. Word Counts and Probabilities</h4>
+
+<p>To print the number of times a word occurs in each class (as well as
+the total number of words in the class, and the word's probability in
+each class), use the <tt>--print-word-counts</tt> option.  For
+example, the following command prints diagnostics about the word
+<i>team</i>.
+
+</p><pre>   rainbow -d ~/model --print-word-counts=team
+</pre>
+
+<p>Here is the output on the above command, on a model built from
+<i>20_newsgroups</i>.  Note that the word probabilities (in
+parenthesis) may not simply be equal to the ratio of the two previous
+counts because of smoothing.
+
+</p><pre>        2 /    125039  (  0.00002) alt.atheism
+        6 /    119511  (  0.00005) comp.graphics
+        5 /     91147  (  0.00005) comp.os.ms-windows.misc
+        1 /     71002  (  0.00001) comp.sys.mac.hardware
+       12 /    131120  (  0.00009) comp.windows.x
+       15 /     62130  (  0.00024) misc.forsale
+        2 /     83942  (  0.00002) rec.autos
+       10 /     78685  (  0.00013) rec.motorcycles
+      543 /     88623  (  0.00613) rec.sport.baseball
+      970 /    115109  (  0.00843) rec.sport.hockey
+        9 /    136655  (  0.00007) sci.crypt
+        1 /     81206  (  0.00001) sci.electronics
+        8 /    125235  (  0.00006) sci.med
+       71 /    128754  (  0.00055) sci.space
+        2 /    141389  (  0.00001) soc.religion.christian
+       13 /    135054  (  0.00010) talk.politics.guns
+       24 /    208367  (  0.00012) talk.politics.mideast
+       14 /    164266  (  0.00009) talk.politics.misc
+        9 /    130013  (  0.00007) talk.religion.misc
+</pre>
+
+<p>(Note: the probability of the word <i>team</i> is not equal to the
+probability of team from the <tt>--print-word-probabilities</tt>
+command above, because we did not reduce vocabulary size to 10 in this
+example. 
+
+</p><h4>4.4. Document Names</h4>
+
+<p>To print a list of the filenames of all documents, use the
+<tt>--print-doc-names</tt> option.  Document filenames are printed in
+the order in which they were indexed.  Thus all documents of the same
+class appear contiguously.
+
+</p><p>This command is often useful for generating lists of document names
+to be used with the <tt>--test-set</tt> and <tt>--train-set</tt>
+options.
+
+</p><p>For example, the following command prints 10 randomly selected
+documents that were indexed.  In order to obtain a random
+selection, <tt>gawk</tt>, the GNU version of <tt>awk</tt>, is used
+to generate random numbers, and <tt>sort</tt> is used to permute the
+list.  The command <tt>head</tt> is then used to select the first 10
+from the permuted list.
+
+</p><pre>   rainbow -d ~/model --print-doc-names \
+   | gawk '{print rand(), $1}' | sort -n | gawk '{print $2}' | head -n 10
+</pre>
+
+<p>Example output of this command on the <i>20_newsgroups</i> data set
+is:
+
+</p><pre>   ~/20_newsgroups/rec.motorcycles/104735
+   ~/20_newsgroups/comp.windows.x/67345
+   ~/20_newsgroups/sci.med/59555
+   ~/20_newsgroups/talk.politics.misc/178418
+   ~/20_newsgroups/misc.forsale/76867
+   ~/20_newsgroups/rec.sport.hockey/52601
+   ~/20_newsgroups/talk.politics.mideast/77394
+   ~/20_newsgroups/comp.os.ms-windows.misc/9661
+   ~/20_newsgroups/talk.politics.mideast/75947
+   ~/20_newsgroups/talk.politics.misc/179105
+</pre>
+
+<p>You can also print the names of just those documents that fall into
+one of the sets of the test/train split.  For example
+
+</p><pre>   rainbow -d ~/model --train-set=3pc --print-doc-names=train
+</pre>
+
+will select three documents from each class to be in the training set,
+and print just those documents.  The output of this command might be:
+
+<pre>   ~/20_newsgroups/talk.politics.guns/53329
+   ~/20_newsgroups/talk.politics.guns/54704
+   ~/20_newsgroups/talk.politics.guns/54656
+   ~/20_newsgroups/talk.politics.mideast/76420
+   ~/20_newsgroups/talk.politics.mideast/76523
+   ~/20_newsgroups/talk.politics.mideast/77392
+   ~/20_newsgroups/talk.politics.misc/179005
+   ~/20_newsgroups/talk.politics.misc/176939
+   ~/20_newsgroups/talk.politics.misc/179083
+</pre>
+
+<h4>4.5. Printing Entire Word/Document Matrix</h4>
+
+<p>You can print the entire word/document matrix to standard output in
+using the <tt>--print-matrix</tt> option.  Documents are printed one
+to a line.  The first (white-space separated) field is the document
+name; this is followed by entries for the words.
+
+</p><p>There are several different alternatives for the format in which
+the words are printed, and all of them are amenable to processing by
+<tt>perl</tt> or <tt>awk</tt>, and somewhat human-readable.  The
+alternatives are specified by an optional "formatting" argument to the
+<tt>--print-matrix</tt> option.
+
+</p><p>The format is specified as a string of three characters, consisting
+of selections from the following three groups
+
+</p><p><table border="1">
+
+<tbody><tr><td colspan="2">
+Print entries for all words in the vocabulary, or just print the words
+that actually occur in the document.</td></tr>
+
+<tr><td align="center" width="15%"><tt>a</tt></td><td>all</td></tr>
+<tr><td align="center" width="15%"><tt>s</tt></td><td>sparse, (default)</td></tr>
+
+<tr><td colspan="2">
+Print word counts as integers or as binary presence/absence indicators.
+</td></tr>
+
+<tr><td align="center" width="15%"><tt>b</tt></td><td>binary</td></tr>
+<tr><td align="center" width="15%"><tt>i</tt></td><td>integer, (default)</td></tr>
+
+<tr><td colspan="2">
+How to indicate the word itself.
+</td></tr>
+
+<tr><td align="center" width="15%"><tt>n</tt></td><td>integer word index</td></tr>
+<tr><td align="center" width="15%"><tt>w</tt></td><td>word string</td></tr>
+<tr><td align="center" width="15%"><tt>c</tt></td><td>combination of
+   integer word index and word string, (default)</td></tr> 
+<tr><td align="center" width="15%"><tt>e</tt></td><td>empty, don't print
+   anything to indicate the identity of the word</td></tr>
+
+</tbody></table>
+
+</p><p>For example, to print a sparse matrix, in which the word string and
+the word counts for each document are listed, use the format string
+``<tt>siw</tt>''.  The command
+
+</p><pre>   rainbow -d ~/model -T 100 --print-matrix=siw | head -n 10
+</pre>
+
+<p>reduces the vocabulary to only 100 words, then prints 
+
+</p><pre>   ~/20_newsgroups/alt.atheism/53366 alt.atheism  god 2  jesus 1  nasa 2  people 2  
+   ~/20_newsgroups/alt.atheism/53367 alt.atheism  jesus 2  jewish 1  christian 1  
+   ~/20_newsgroups/alt.atheism/51247 alt.atheism  god 4  evidence 2  
+   ~/20_newsgroups/alt.atheism/51248 alt.atheism  
+   ~/20_newsgroups/alt.atheism/51249 alt.atheism  nasa 1  country 2  files 1  law 3  system 1  government 1  
+   ~/20_newsgroups/alt.atheism/51250 alt.atheism  god 3  people 2  evidence 1  law 1  system 1  public 5  rights 1  fact 1  religious 1  
+   ~/20_newsgroups/alt.atheism/51251 alt.atheism  
+   ~/20_newsgroups/alt.atheism/51252 alt.atheism  people 4  evidence 2  system 2  religion 1  
+   ~/20_newsgroups/alt.atheism/51253 alt.atheism  god 19  christian 1  evidence 1  faith 5  car 2  space 1  game 1  
+   ~/20_newsgroups/alt.atheism/51254 alt.atheism  people 1  jewish 3  game 1  bible 7  
+</pre>
+
+<p>To print a non-sparse matrix, indicating the binary
+presence/absence of all words in the vocabulary for each document, use
+the format string 
+``<tt>abe</tt>''.  The command
+
+</p><pre>   rainbow -d ~/model -T 10 --print-matrix=abe | head -n 10
+</pre>
+
+<p>reduces the vocabulary to only 10 words, then prints 
+
+</p><pre>   ~/20_newsgroups/alt.atheism/53366 alt.atheism  1  1  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/53367 alt.atheism  0  0  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51247 alt.atheism  1  0  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51248 alt.atheism  0  0  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51249 alt.atheism  0  0  1  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51250 alt.atheism  1  1  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51251 alt.atheism  0  0  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51252 alt.atheism  0  1  0  0  0  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51253 alt.atheism  1  0  0  1  1  0  0  0  0  0  
+   ~/20_newsgroups/alt.atheism/51254 alt.atheism  0  1  0  0  1  0  0  0  0  0  
+</pre>
+
+<p>
+
+</p><p>For a summary of all the diagnostic options, see the "Diagnostics"
+section of the <tt>rainbow --help</tt> output.
+
+
+</p><h3>5. General options</h3>
+
+<h4>5.1. Verbosity of Progress Messages</h4>
+
+<p>Rainbow prints messages about its progress to standard error as it
+runs.  You can change the verbosity of these progress messages with
+the <tt>--verbosity=LEVEL</tt> (or <tt>-v</tt> option.  The argument
+<tt>LEVEL</tt> should be an integer from 0 to 5, 0 being silent (no
+progress messages printed to standard error), and 5 being most
+verbose.  The default is 2.
+
+</p><p>For example, the following command will print no progress messages.
+
+</p><pre>   rainbow -v 0 -d ~/model -I 10
+</pre>
+
+<p>Some of the progress messages print backspace characters in order
+to show running counters.  When running rainbow with GDB inside an
+Emacs buffer, however, the backspace character is printed as a
+character escape sequence and fills the buffer.  You can avoid
+printing progress messages that contain backspace characters by using
+the <tt>--no-backspaces</tt> (or <tt>-b</tt>) option.
+
+
+</p><h4>5.1. Initializing of the Pseudo-Random Seed</h4>
+
+<p>Rainbow may use a pseudo-random number generator for several tasks,
+including the randomized test-train splits described in section 3.1.
+You can specify the seed for this random number generator using the
+<tt>--random-seed</tt> option.  For example
+
+</p><pre>   rainbow -d ~/model -t 1 --test-set=0.3 --random-seed=2
+</pre>
+
+<p>You can verify that use of the same random seed results in
+identical test/train splits by using the <tt>--print-doc-names</tt>
+option.  For example
+
+</p><pre>   rainbow -d ~/model --random-seed=1 --train-set=4pc --print-doc-names=train
+</pre>
+
+will perform the specified test/train split, then print only the
+training documents.  The above command will produce the same output
+each time it is called.  However, the above command with the
+<tt>--random-seed=1</tt> option removed will print different document
+names each time.
+
+<p>If this option is not given, then the seed is set using the
+computer's real-time clock.
+
+</p><p>
+</p><p>
+
+
+</p><hr>
+Last updated: 30 September 1998,
+<i><a href="mailto:mccallum@cs.cmu.edu">mccallum@cs.cmu.edu</a></i>
+
+
+</body></html>

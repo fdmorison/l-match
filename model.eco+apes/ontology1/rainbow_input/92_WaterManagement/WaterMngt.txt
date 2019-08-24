@@ -1,0 +1,10 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+waterDC manageDC  waterCN manageCN 
+
+
+waterIN mngtIN 
+

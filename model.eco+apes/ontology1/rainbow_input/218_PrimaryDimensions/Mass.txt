@@ -1,0 +1,11 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+massIN
+
+symbolPN     =  mPV     :              
+expressedPN  =  kiloPV  :  baseunitPT  

@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+asianCN languageCN literatureCN 
+
+japaneseDC japaneseCN
+
+
+foreignIN fieldIN elementaryIN japaneseIN 
+

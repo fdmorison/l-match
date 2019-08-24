@@ -1,0 +1,12 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+pascalIN grayIN 
+
+productPN   =  pascalPV  :  complexPT unitPT                       
+productPN   =  grayPV    :  unitPT derivedPT elevationPT powerPT   

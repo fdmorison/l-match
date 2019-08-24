@@ -1,0 +1,13 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+slopeIN aspectIN 
+
+measuredimensionPN  =  anglePV                                 :  basedimensionPT             
+dataPN typePN       =  doublePV                                :  floatPT                     
+measurePN           =  slopePV aspectPV componentPV            :  measurePT                   
+measurePN           =  slopePV aspectPV componentPV hourlyPV   :  measurePT                   
+measurePN areaPN    =  solarPV radiationPV                     :  solarPT radiationPT actPT   

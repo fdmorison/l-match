@@ -1,0 +1,9 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+cropIN
+
+consistsPN modelPN   =  lintulnbonePV   :  activePT   

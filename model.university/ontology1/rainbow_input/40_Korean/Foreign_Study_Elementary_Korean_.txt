@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+asianCN languageCN literatureCN 
+
+koreanDC koreanCN
+
+
+foreignIN fieldIN elementaryIN koreanIN 
+

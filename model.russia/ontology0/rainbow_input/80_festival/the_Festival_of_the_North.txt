@@ -1,0 +1,15 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+festivalDC festivalCN
+
+
+festivalIN northIN 
+
+placePN   =  borderPV             :  monthPT  
+placePN   =  murmanskPV           :  cityPT   
+labelPN   =  festivalPV northPV   :           

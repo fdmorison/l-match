@@ -1,0 +1,16 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+hectometerIN
+
+derivedunitPN  =  meterPV               :  baseunitPT        
+expressedPN    =  linearPV durationPV   :  basedimensionPT   
+prefixPN       =  hectoPV               :  unitPT prefixPT   

@@ -1,0 +1,15 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+megaIN jouleIN meterIN nutrientIN dayIN 
+
+productPN    =  joulePV              :  complexPT unitPT                       
+productPN    =  dayPV                :  unitPT derivedPT elevationPT powerPT   
+productPN    =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+expressedPN  =  energyPV             :  derivedPT dimensionPT productPT        
+prefixPN     =  megaPV               :  unitPT prefixPT                        

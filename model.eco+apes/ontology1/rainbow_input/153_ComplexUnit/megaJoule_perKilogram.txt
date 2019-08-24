@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+megaIN jouleIN kiloIN 
+
+productPN   =  joulePV  :  complexPT unitPT                       
+productPN   =  kiloPV   :  unitPT derivedPT elevationPT powerPT   
+prefixPN    =  megaPV   :  unitPT prefixPT                        

@@ -1,0 +1,12 @@
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC exponentiationDC  complexCN dimensionCN exponentiationCN 
+
+
+frequencyIN
+
+dimensionPN  =  meterPV            :  basedimensionPT  
+expoentPN    =  nbonePV nbzeroPV   :                   

@@ -1,0 +1,26 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+budapestIN 
+
+nameablePN   =  budapestPV   :                     
+cityPN       =  hungaryPV    :  countryPT          
+railwayPN    =  moscowPV     :  capitalPT cityPT   
+labelPN      =  budapestPV   :                     

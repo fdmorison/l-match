@@ -1,0 +1,17 @@
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+plantIN mortalityIN rateIN 
+
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+entityPN               =  aquaticPV plantPV                            :  ecologicalPT entityPT      
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+measurePN              =  rPV apbPV pnmPV                              :  actPT                      
+materialPN             =  biomassPV                                    :  materialPT                 

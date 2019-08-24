@@ -1,0 +1,15 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+materialDC  materialCN 
+
+
+waterIN
+

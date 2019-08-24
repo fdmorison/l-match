@@ -1,0 +1,17 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+paymentDC paymentCN
+
+
+creditcardIN
+
+nameablePN   =  creditPV cardPV   :    
+labelPN      =  creditcardPV      :    

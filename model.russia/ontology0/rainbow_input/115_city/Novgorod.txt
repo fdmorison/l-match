@@ -1,0 +1,26 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+novgorodIN
+
+sightPN cityPN                     =  vitoslavlitsyPV museumPV                   :  museumPT        
+sightPN cityPN                     =  stPV sofiaPV cathedralPV                   :  cathedralPT     
+locatablePN stpetersburgPN         =  southPV                                    :  directionPT     
+distancePN unitPN areaPN           =  kilometerPV                                :  durationunitPT  
+distancePN stpetersburgPN cityPN   =  nbonenbsixnbzeroPV                         :                  
+populationPN valuePN               =  nbtwonbfournbzeroPV nbzeronbzeronbzeroPV   :                  
+countryPN cityPN                   =  russiaPV                                   :  countryPT       
+labelPN                            =  novgorodPV                                 :                  

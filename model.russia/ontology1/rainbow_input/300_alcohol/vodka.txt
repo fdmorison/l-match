@@ -1,0 +1,19 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+alcoholDC alcoholCN
+
+
+vodkaIN
+
+nameablePN   =  vodkaPV  :    
+labelPN      =  vodkaPV  :    

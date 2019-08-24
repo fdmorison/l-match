@@ -1,0 +1,49 @@
+acute <- acute 
+associated <- associated 
+bacteria <- bacteria 
+bacterial <- bacterial 
+bacterialinfection <- BacterialInfection 
+borne <- borne 
+botulism <- botulism 
+bronchitis <- bronchitis 
+caused <- causedBy caused 
+cholera <- cholera 
+cholerasius <- cholerasius 
+coli <- coli 
+condition <- Condition condition 
+d <- d 
+daniel <- daniel 
+discover <- discover discoveredBy discovered 
+disease <- disease 
+dt <- dt 
+ec <- ec 
+elmer <- elmer 
+enterica <- enterica 
+enteritis <- enteritis 
+escherich <- escherich 
+escherichia <- escherichia 
+factor <- factor 
+food <- food 
+gastro <- gastro 
+hnbseven <- hnbseven 
+infection <- Infection infection 
+lt <- lt 
+micro <- micro 
+nbonenbzeronbfour <- nbonenbzeronbfour 
+nbzeronbonenbfivenbseven <- nbzeronbonenbfivenbseven 
+oli <- oli 
+onbonenbfivenbseven <- onbonenbfivenbseven 
+organism <- organism 
+pathogen <- pathogen 
+person <- person 
+pneumonia <- pneumonia 
+poisoning <- poisoning 
+researcher <- researcher 
+results <- results 
+risk <- risk 
+salmon <- salmon 
+salmonella <- salmonella 
+theodor <- theodor 
+typhimurium <- typhimurium 
+viral <- viral 
+virus <- virus 

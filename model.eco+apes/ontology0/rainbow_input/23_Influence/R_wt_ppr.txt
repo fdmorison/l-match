@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN pprIN 
+
+measurePN     =  plantPV productPV ratePV   :  specificPT ratePT   
+measurePN     =  waterPV temperaturePV      :  temperaturePT       
+directionPN   =  undefinedPV                :  signPT              

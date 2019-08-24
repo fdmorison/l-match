@@ -1,0 +1,11 @@
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+megaIN
+
+symbolPN   =  mPV                           :    
+valuePN    =  nbonePV nbzeroPV enbsevenPV   :    

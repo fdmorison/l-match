@@ -1,0 +1,18 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+campbellIN donatelliIN 
+
+inputsPN        =  airPV temperaturePV minPV dailyPV        :  measurePT             
+inputsPN        =  airPV temperaturePV dailyPV averagePV    :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV             :  measurePT             
+outputsPN       =  globalPV solarPV radiationPV             :  measurePT             
+implementedPN   =  climaPV airPV temperaturePV              :  apescPT omponentsPT   
+inputsPN        =  extraPV economicPV radiationPV dailyPV   :  measurePT             
+inputsPN        =  clearPV skyPV transmissivityPV           :  measurePT             
+implementedPN   =  climaPV gsrPV adPV                       :  apescPT omponentsPT   
+inputsPN        =  airPV temperaturePV dailyPV rangePV      :  measurePT             

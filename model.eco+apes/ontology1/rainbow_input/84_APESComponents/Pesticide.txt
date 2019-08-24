@@ -1,0 +1,9 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+pesticideIN 
+
+consistsPN modelPN   =  donatelliPV bellocchiPV   :  setPT   

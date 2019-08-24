@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://www.mydomain.com.br/cornell.catalog.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.mydomain.com.br/cornell.catalog.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Crop_and_Soil_Sciences">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Agriculture_and_Life_Sciences"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Natural_Resources">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Landscape_Architecture">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Industrial_and_Labor_Relations"/>
+  <owl:Class rdf:ID="Law_School"/>
+  <owl:Class rdf:ID="Management"/>
+  <owl:Class rdf:ID="Interdepartmental_intercollege_Courses">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Development_Sociology">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Agricultural_Sciences">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Architecture_and_Art_and_Planning"/>
+  <owl:Class rdf:ID="Physical_Education_and_Athletics"/>
+  <owl:Class rdf:ID="Officer_Education"/>
+  <owl:Class rdf:ID="Biological_and_Environmental_Engineering">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Applied_Economics_and_Management">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Earth_and_Atmospheric_Sciences">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Plant_Breeding_and_Genetics">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Communication">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Education">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Human_Ecology"/>
+  <owl:Class rdf:ID="Nondepartmental_Courses">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Graduate_School"/>
+  <owl:Class rdf:ID="International_Agriculture_and_Rural_Development">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hotel_Administration"/>
+  <owl:Class rdf:ID="Plant_Pathology">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Computing_and_Information_Science"/>
+  <owl:Class rdf:ID="Biological_Sciences"/>
+  <owl:Class rdf:ID="Veterinary_Medicine"/>
+  <owl:Class rdf:ID="Food_Science">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Arts_and_Sciences"/>
+  <owl:Class rdf:ID="Engineering"/>
+  <owl:Class rdf:ID="Entomology">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Horticulture">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nutritional_Sciences"/>
+  <owl:Class rdf:ID="Animal_Science">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Continuing_Education_and_Summer_Sessions"/>
+  <owl:Class rdf:ID="Biometry_and_Statistics">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Science_of_Natural_and_Environmental_Systems">
+    <rdfs:subClassOf rdf:resource="#Agriculture_and_Life_Sciences"/>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

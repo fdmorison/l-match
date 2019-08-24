@@ -1,0 +1,27 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+solarIN irradianceIN 
+
+measurePN           =  diffusePV hourlyPV                                  :  measurePT                         
+measuredimensionPN  =  energyPV areaPV meterPV                             :  derivedPT dimensionPT productPT   
+measurePN           =  airPV hourlyPV                                      :  measurePT                         
+measurePN           =  globalPV solarPV radiationPV hourlyPV               :  measurePT                         
+measurePN           =  photosynteticallyPV activePV radiationPV            :  measurePT                         
+measurePN           =  diffusePV                                           :  measurePT                         
+measurePN           =  radiationPV airPV hourlyPV                          :  measurePT                         
+dataPN typePN       =  doublePV                                            :  floatPT                           
+measurePN           =  extraPV economicPV radiationPV dailyPV              :  measurePT                         
+measurePN areaPN    =  solarPV radiationPV                                 :  solarPT radiationPT actPT         
+measurePN           =  radiationPV reflectedPV groundPV                    :  measurePT                         
+measurePN           =  globalPV solarPV radiationPV                        :  measurePT                         
+measurePN           =  radiationPV reflectedPV groundPV hourlyPV           :  measurePT                         
+measurePN           =  radiationPV airPV                                   :  measurePT                         
+measurePN           =  radiationPV diffusePV skyPV                         :  measurePT                         
+measurePN           =  photosynteticallyPV activePV radiationPV hourlyPV   :  measurePT                         
+measurePN           =  extraterrestrialPV radiationPV hourlyPV             :  measurePT                         
+measurePN           =  radiationPV diffusePV skyPV hourlyPV                :  measurePT                         
+measurePN           =  airPV                                               :  measurePT                         

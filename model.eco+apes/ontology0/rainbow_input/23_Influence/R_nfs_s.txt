@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN nfsIN 
+
+measurePN     =  numberPV anglePV stockedPV   :  numberPT            
+measurePN     =  stockedPV ratePV             :  absolutePT ratePT   
+directionPN   =  undefinedPV                  :  signPT              

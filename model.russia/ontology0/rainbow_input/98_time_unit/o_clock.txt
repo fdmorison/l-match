@@ -1,0 +1,11 @@
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+clockunitDC clockunitCN
+
+
+clockIN 
+
+labelPN   =  clockPV   :    

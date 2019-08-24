@@ -1,0 +1,15 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+musicCN
+existCN musicCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+rockDC rockCN
+
+
+hungryIN duckIN 
+
+labelPN   =  hungryPV duckPV   :    

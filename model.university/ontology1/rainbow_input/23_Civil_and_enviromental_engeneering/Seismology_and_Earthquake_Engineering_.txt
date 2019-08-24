@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+advancedDC enviromentalDC engeneeringDC  advancedCN enviromentalCN engeneeringCN 
+
+
+seismologyIN earthquakeIN engineeringIN 
+

@@ -1,0 +1,23 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+defaultrootconceptCN
+animalCN
+locatableCN 
+infrastructureCN
+buildingCN
+accomodationCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+hotelDC hotelCN
+
+
+hiltonIN 
+
+liePN locatablePN   =  moscowPV           :  capitalPT cityPT   
+nameablePN          =  hotelPV hiltonPV   :                     
+labelPN             =  hiltonPV           :                     

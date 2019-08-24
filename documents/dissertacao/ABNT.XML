@@ -1,0 +1,411 @@
+<?xml version="1.0" ?>
+
+<!-- List of the external resources that we are referencing -->
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt"	xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns:t="http://www.microsoft.com/temp">
+
+<!-- When the bibliography or citation is in your document, it's just HTML -->
+<xsl:output method="html" encoding="us-ascii"/>
+
+<!-- match the root element, and dispatch to its children -->
+<xsl:template match="/">
+    <xsl:apply-templates select="*" />
+</xsl:template>
+
+<!--set an optional version number for this style-->
+<xsl:template match="b:version">
+    <xsl:text>2006.5.07</xsl:text>
+</xsl:template>
+
+<!-- Defines the name of the style in the References dropdown -->
+<xsl:template match="b:StyleName">
+    <xsl:text>ABNT - Two Authors and Date</xsl:text>
+</xsl:template>
+
+<!-- Some global variables -->
+<xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyz'" />
+<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
+
+<!-- Some functions -->
+<xsl:template name="Print">
+	<xsl:param name="text"/>
+	<xsl:param name="prefix"/>
+    <xsl:if test="string-length($text) > 0">
+		<xsl:value-of select="$prefix"/>
+		<xsl:value-of select="$text"  />
+    </xsl:if>
+</xsl:template>
+
+<xsl:template name="PrintWithDot">
+	<xsl:param name="prefix"/>
+	<xsl:param name="text"/>
+	<xsl:variable name="length" select="string-length($text)"/>
+    <xsl:if test="$length > 0">
+		<xsl:value-of select="$prefix"/>
+		<xsl:value-of select="$text"  />
+		<xsl:if test=" substring($text,$length,1) != '.' ">
+			<xsl:text>.</xsl:text>
+		</xsl:if>
+		<xsl:text> </xsl:text>
+    </xsl:if>
+</xsl:template>
+
+<xsl:template name="ListAuthorsInCitation">
+    <!-- Parameters and Variables -->
+    <xsl:param    name="maxAuthors" select="2"/>
+	<xsl:variable name="authorList" select="b:Author/b:Author/b:NameList/b:Person" />
+	<xsl:variable name="length"     select="count($authorList)" />
+    <!-- Print author names -->
+	<xsl:choose>
+		<xsl:when test="$length > $maxAuthors">
+			<xsl:value-of select="translate($authorList/b:Last,$smallcase,$uppercase)"/>
+			<i><xsl:text>, at al.</xsl:text></i>
+		</xsl:when>
+		<xsl:otherwise>
+	    	<xsl:for-each select="$authorList">
+	    		<xsl:value-of select="translate(b:Last,$smallcase,$uppercase)"/>
+	    		<xsl:if test=" $length > position()+1 "><xsl:text>, </xsl:text></xsl:if>
+	    		<xsl:if test=" $length = position()+1 "><xsl:text> e </xsl:text></xsl:if>
+	    	</xsl:for-each>
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:template>
+
+<xsl:template name="ListAuthorsInBibliography">
+    <!-- Parameters and Variables -->
+    <xsl:param    name="maxAuthors" select="3"/>
+	<xsl:param    name="authorList" select="b:Author/b:Author/b:NameList/b:Person" />
+	<xsl:variable name="length"     select="count($authorList)" />
+    <!-- Print author names -->
+	<xsl:choose>
+		<xsl:when test="$length > $maxAuthors">
+			<xsl:value-of select="translate($authorList/b:Last,$smallcase,$uppercase)"/>
+	    	<xsl:text>, </xsl:text>
+	    	<xsl:value-of select="$authorList/b:First"/>
+			<i><xsl:text>, at al. </xsl:text></i>
+		</xsl:when>
+		<xsl:when test="$length > 0">
+	    	<xsl:for-each select="$authorList">
+	    		<xsl:value-of select="translate(b:Last,$smallcase,$uppercase)"/>
+	    		<xsl:text>, </xsl:text>
+	    		<xsl:value-of select="b:First"/>
+	    		<xsl:if test=" $length > position()+1 "><xsl:text>; </xsl:text></xsl:if>
+	    		<xsl:if test=" $length = position()+1 "><xsl:text> e </xsl:text></xsl:if>
+	    	</xsl:for-each>
+	    	<xsl:text>. </xsl:text>
+		</xsl:when>
+	</xsl:choose>
+</xsl:template>
+
+<xsl:template name="FormatBibliographyHeader">
+<xsl:param name="duplicated" select="false()"/>
+<b>
+    <!-- Print Authors -->
+    <xsl:if test="$duplicated = true()">
+    	<xsl:text>---, </xsl:text>
+    </xsl:if>
+    <xsl:if test="$duplicated = false()">
+		<xsl:call-template name="ListAuthorsInBibliography">
+			<xsl:with-param name="authorList" select="b:Author/b:Author/b:NameList/b:Person"/>
+		</xsl:call-template>
+    </xsl:if>
+    <!-- Print Year -->
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="text"  select="b:Year"/>
+    </xsl:call-template>
+</b>
+</xsl:template>
+
+<!-- *********************************************************************** -->
+<!-- ~ IMPORTANT FIELDS **************************************************** -->
+<!-- Specifies which fields should appear in the Create Source dialog when in a collapsed state (The Show All Bibliography Fieldscheckbox is cleared) -->
+<xsl:template match="b:GetImportantFields[b:SourceType = 'Book']">
+    <b:ImportantFields>
+		<b:ImportantField><xsl:text>b:Author/b:Author/b:NameList</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Title</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Year</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:City</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Publisher</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:StandardNumber</xsl:text></b:ImportantField>
+    </b:ImportantFields>
+</xsl:template>
+
+<xsl:template match="b:GetImportantFields[b:SourceType = 'BookSection']">
+    <b:ImportantFields>
+		<b:ImportantField><xsl:text>b:Author/b:Author/b:NameList</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Title</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Author/b:BookAuthor/b:NameList</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:BookTitle</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Year</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:City</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Publisher</xsl:text></b:ImportantField>
+    </b:ImportantFields>
+</xsl:template>
+
+<xsl:template match="b:GetImportantFields[b:SourceType = 'ArticleInAPeriodical']">
+    <b:ImportantFields>
+		<b:ImportantField><xsl:text>b:Author/b:Author/b:NameList</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Title</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:PeriodicalTitle</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Year</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Edition</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Volume</xsl:text></b:ImportantField>
+		<b:ImportantField><xsl:text>b:Issue</xsl:text></b:ImportantField>
+    </b:ImportantFields>
+</xsl:template>
+
+<xsl:template name="getAuthorsAt">
+	<xsl:param name="list"/>
+	<xsl:param name="index"/>
+	<xsl:for-each select="$list">
+    	<xsl:sort select="b:Author/b:Author/b:NameList/b:Person/b:Last"/>
+    	<xsl:if test="position() = $index">
+    		<xsl:value-of select="string(b:Author/b:Author/b:NameList)"/>
+    	</xsl:if>
+    </xsl:for-each>
+</xsl:template>
+
+<!-- *********************************************************************** -->
+<!-- ~ BIBLIOGRAPHY ******************************************************** -->
+<!-- Defines the output of the entire Bibliography -->
+<xsl:template match="b:Bibliography">
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+	  xmlns:w="urn:schemas-microsoft-com:office:word"
+	  xmlns="http://www.w3.org/TR/REC-html40">
+	<head>
+		<style>p.MsoBibliography, li.MsoBibliography, div.MsoBibliography</style>
+	</head>
+    <body>
+
+    	<xsl:variable name="list" select="b:Source"/>
+
+    	<xsl:for-each select="$list">
+    		<xsl:sort select="b:Author/b:Author/b:NameList/b:Person/b:Last"/>
+    		<xsl:choose>
+    			<xsl:when test="position() = 1">
+      				<xsl:apply-templates select ="."/>
+    			</xsl:when>
+    			<xsl:otherwise>
+      				<xsl:variable name="backAuthors">
+      					<xsl:call-template name="getAuthorsAt">
+      						<xsl:with-param name="list"  select="$list"/>
+      						<xsl:with-param name="index" select="position()-1"/>
+      					</xsl:call-template>
+      				</xsl:variable>
+      				<xsl:if test="$backAuthors = string(b:Author/b:Author/b:NameList)">
+      					<xsl:apply-templates select =".">
+      						<xsl:with-param name="duplicated" select="true()"/>
+      					</xsl:apply-templates>
+      				</xsl:if>
+      				<xsl:if test="$backAuthors != string(b:Author/b:Author/b:NameList)">
+      					<xsl:apply-templates select ="."/>
+      				</xsl:if>
+    			</xsl:otherwise>
+    		</xsl:choose>
+    	</xsl:for-each>
+
+        <!-- xsl:apply-templates select ="*">
+	        <xsl:sort select="b:Author/b:Author/b:NameList/b:Person/b:Last"/>
+        </xsl:apply-templates -->
+
+    </body>
+</html>
+</xsl:template>
+
+<!-- *********************************************************************** -->
+<!-- ~ BIBLIOGRAPHY: BOOK ************************************************** -->
+<!-- Defines the output format for a simple Book (in the Bibliography) with important fields defined -->
+<xsl:template match="b:Source[b:SourceType = 'Book']">
+<xsl:param name="duplicated" select="false()"/>
+<p>
+    <!-- Print Header: Authors + Year -->
+    <xsl:call-template name="FormatBibliographyHeader">
+    	<xsl:with-param name="duplicated" select="$duplicated"/>
+    </xsl:call-template>
+
+    <i>
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="text" select="b:Title"/>
+    </xsl:call-template>
+    </i>
+
+    <!-- Print Edition -->
+    <xsl:call-template name="PrintWithDot"><xsl:with-param name="text" select="b:Edition"/></xsl:call-template>
+
+    <!-- Print "City : Publisher" -->
+    <xsl:if test="b:City!='' or b:Publisher!='' ">
+    	<xsl:value-of select="b:City"/>
+    	<xsl:if test="string-length(b:City) = 0">
+    		<xsl:text>s.l.</xsl:text>
+    	</xsl:if>
+    	<xsl:text> : </xsl:text>
+    	<xsl:value-of select="b:Publisher"/>
+    	<xsl:if test="string-length(b:Publisher) = 0">
+    		<xsl:text>s.n.</xsl:text>
+    	</xsl:if>
+    </xsl:if>
+
+    <!-- Print Year -->
+    <xsl:if test="b:Year!='' and (b:City!='' or b:Publisher!='') ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+    <xsl:value-of select="b:Year"/>
+
+    <!-- Print a dot -->
+    <xsl:if test="b:Year!='' or b:City!='' or b:Publisher!='' ">
+    	<xsl:text>. </xsl:text>
+    </xsl:if>
+
+    <!-- Print Pages -->
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="prefix" select="'p. '"/>
+    	<xsl:with-param name="text"   select="b:Pages"/>
+    </xsl:call-template>
+
+    <!-- Print Volume -->
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="prefix" select="'Vol. '"/>
+    	<xsl:with-param name="text"   select="b:Volume"/>
+    </xsl:call-template>
+
+    <!-- Print StandardNumber -->
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="text" select="b:StandardNumber"/>
+    </xsl:call-template>
+</p>
+</xsl:template>
+
+<!-- *********************************************************************** -->
+<!-- ~ BIBLIOGRAPHY: BOOK SECTION ****************************************** -->
+<xsl:template match="b:Source[b:SourceType = 'BookSection']">
+<xsl:param name="duplicated" select="false()"/>
+<p>
+    <!-- Print Header: Section Authors + Year -->
+    <xsl:call-template name="FormatBibliographyHeader">
+    	<xsl:with-param name="duplicated" select="$duplicated"/>
+    </xsl:call-template>
+    <!-- Print Section Title -->
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="text" select="b:Title"/>
+    </xsl:call-template>
+    <!-- Print Book Authors and Book Title -->
+    <xsl:if test="string-length(b:BookTitle)>0">
+    	<xsl:text>In: </xsl:text>
+		<xsl:call-template name="ListAuthorsInBibliography">
+			<xsl:with-param name="authorList" select="b:Author/b:BookAuthor/b:NameList/b:Person"/>
+		</xsl:call-template>
+		<i><xsl:value-of select="b:BookTitle"/></i>
+		<xsl:text>. </xsl:text>
+    </xsl:if>
+    <!-- Print City and Publisher -->
+    <xsl:if test="b:City!='' or b:Publisher!='' ">
+    	<xsl:value-of select="b:City"/>
+    	<xsl:if test="string-length(b:City) = 0">
+    		<xsl:text>s.l.</xsl:text>
+    	</xsl:if>
+    	<xsl:text> : </xsl:text>
+    	<xsl:value-of select="b:Publisher"/>
+    	<xsl:if test="string-length(b:Publisher) = 0">
+    		<xsl:text>s.n.</xsl:text>
+    	</xsl:if>
+    </xsl:if>
+    <!-- Print Year -->
+    <xsl:if test="b:Year!='' and (b:City!='' or b:Publisher!='') ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+    <xsl:value-of select="b:Year"/>
+    <!-- Print Section Page -->
+    <xsl:if test="b:Pages!='' and (b:Year!='' or b:City!='' or b:Publisher!='') ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+    <xsl:call-template name="Print">
+    	<xsl:with-param name="prefix" select="'p. '"/>
+    	<xsl:with-param name="text"   select="b:Pages"/>
+    </xsl:call-template>
+    <xsl:text>. </xsl:text>
+
+</p>
+</xsl:template>
+
+<!-- *********************************************************************** -->
+<!-- ~ BIBLIOGRAPHY: ARTICAL IN PERIODICAL ********************************* -->
+<xsl:template match="b:Source[b:SourceType = 'ArticleInAPeriodical']">
+<xsl:param name="duplicated" select="false()"/>
+<p>
+    <!-- Print Header: Authors + Year -->
+    <xsl:call-template name="FormatBibliographyHeader">
+    	<xsl:with-param name="duplicated" select="$duplicated"/>
+    </xsl:call-template>
+    <xsl:call-template name="PrintWithDot">
+    	<xsl:with-param name="text" select="b:Title"/>
+    </xsl:call-template>
+
+    <!-- Print the Periodical Title -->
+    <xsl:if test="string-length(b:PeriodicalTitle) > 0">
+    	<xsl:text>In: </xsl:text>
+        <i><xsl:call-template name="PrintWithDot"><xsl:with-param name="text" select="b:PeriodicalTitle"/></xsl:call-template></i>
+    </xsl:if>
+
+    <!-- <b>Authors. Year.</b> <i>PeriodicalTitle</i>. Edition, Month Year, Issue, Vol. Volume, pp. Pages -->
+    <!-- Print Edition -->
+    <xsl:call-template name="Print"><xsl:with-param name="text" select="b:Edition"/></xsl:call-template>
+
+    <!-- Print Date: Month+Year -->
+    <xsl:if test="b:Edition!='' and (b:Month!='' or b:Year!='') ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+    <xsl:value-of select="b:Month"/>
+    <xsl:if test="b:Month!='' and b:Year!=''"><xsl:text> </xsl:text></xsl:if>
+    <xsl:value-of select="b:Year"/>
+
+	<!-- Print Issue -->
+    <xsl:if test="(b:Edition!='' or b:Month!='' or b:Year!='') and b:Issue!='' ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+	<xsl:value-of select="b:Issue"/>
+
+	<!-- Print Volume -->
+    <xsl:if test="(b:Edition!='' or b:Month!='' or b:Year!='' or b:Issue!='') and b:Volume!='' ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+    <xsl:call-template name="Print">
+    	<xsl:with-param name="prefix" select="'Vol. '"/>
+    	<xsl:with-param name="text"   select="b:Volume"/>
+    </xsl:call-template>
+
+	<!-- Print Pages -->
+    <xsl:if test="(b:Edition!='' or b:Month!='' or b:Year!='' or b:Issue!='' or b:Volume!='') and b:Pages!='' ">
+    	<xsl:text>, </xsl:text>
+    </xsl:if>
+    <xsl:call-template name="Print">
+    	<xsl:with-param name="prefix" select="'pp. '"/>
+    	<xsl:with-param name="text"   select="b:Pages"/>
+    </xsl:call-template>
+
+	<!-- Print a final dot -->
+    <xsl:if test="b:Edition!='' or b:Month!='' or b:Year!='' or b:Issue!='' or b:Volume!='' or b:Pages!='' ">
+    	<xsl:text>.</xsl:text>
+    </xsl:if>
+</p>
+</xsl:template>
+
+<!-- *********************************************************************** -->
+<!-- ~ CITATIONS *********************************************************** -->
+<!-- Defines the output of Citations, independently of the SourceType -->
+<xsl:template match="b:Citation/b:Source">
+<html xmlns="http://www.w3.org/TR/REC-html40">
+    <body>
+        <!-- Defines the output format as (Authors, Year)-->
+        <xsl:text>(</xsl:text>
+        <xsl:call-template name="ListAuthorsInCitation"/>
+        <xsl:text>, </xsl:text>
+        <xsl:value-of select="b:Year"/>
+        <xsl:text>)</xsl:text>
+    </body>
+</html>
+</xsl:template>
+<!-- *********************************************************************** -->
+
+<xsl:template match="text()" />
+</xsl:stylesheet>
+
+

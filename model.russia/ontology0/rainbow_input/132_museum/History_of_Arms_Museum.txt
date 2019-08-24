@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+historyIN armsIN museumIN 
+
+liePN       =  tulaPV                      :  townPT  
+areaPN      =  historyPV armsPV museumPV   :          
+foundedPN   =  peterPV                     :  czarPT  
+labelPN     =  historyPV armsPV museumPV   :          

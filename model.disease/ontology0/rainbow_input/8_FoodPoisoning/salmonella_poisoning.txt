@@ -1,0 +1,15 @@
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC poisoningDC  foodCN poisoningCN 
+
+
+salmonellaIN poisoningIN 
+
+averagePN casesPN   =  nbfournbzeronbzeronbzeronbzeroPV   :               
+causedPN            =  salmonellaPV entericaPV            :  bacteriaPT   
+discoverPN          =  danielPV elmerPV salmonPV          :  personPT     

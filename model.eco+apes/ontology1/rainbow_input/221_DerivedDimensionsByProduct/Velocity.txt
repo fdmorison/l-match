@@ -1,0 +1,23 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+speedIN 
+
+productPN dimensionPN   =  linearPV durationPV                :  basedimensionPT                             
+measurePN               =  referencePV evapotranspirationPV   :  measurePT                                   
+measurePN               =  windPV speedPV                     :  measurePT                                   
+expressedPN             =  kiloPV meterPV dayPV               :  complexPT unitPT                            
+expressedPN             =  milliPV meterPV dayPV              :  complexPT unitPT                            
+expressedPN             =  meterPV grayPV                     :  complexPT unitPT                            
+meterPN                 =  nbonePV                            :                                              
+measurePN               =  precipitationPV                    :  measurePT                                   
+durationPN              =  nbonePV                            :                                              
+productPN dimensionPN   =  meterPV                            :  derivedPT dimensionPT elevationPT powerPT   

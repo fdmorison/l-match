@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN hIN fbIN 
+
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+directionPN   =  negativePV                    :  signPT                 
+measurePN     =  cropPV ratePV                 :  absolutePT ratePT      

@@ -1,0 +1,40 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+russiaIN
+
+majorPN riverPN               =  nevaPV                               :  riverPT            
+majorPN riverPN               =  dneprPV                              :  riverPT            
+majorPN riverPN               =  volgaPV                              :  riverPT            
+majorPN riverPN               =  donPV                                :  riverPT            
+majorPN tradingPN partnerPN   =  aPV                                  :  countryPT          
+memberPN                      =  falsePV                              :                     
+capitalPN cityPN              =  moscowPV                             :  capitalPT cityPT   
+potiticalPN factPN            =  islamPV                              :  religionPT         
+majorPN industryPN            =  sawnPV timberPV                      :  timberPT           
+potiticalPN factPN            =  russianPV                            :  languagePT         
+labelPN                       =  russiaPV                             :                     
+majorPN tradingPN partnerPN   =  euPV                                 :  politicalareaPT    
+presidentPN                   =  vladimirPV vladimirovichPV putinPV   :  presidentPT        
+potiticalPN factPN            =  russianPV orthodoxPV                 :  religionPT         
+majorPN industryPN            =  lukoilPV                             :  oilPT              
+majorPN tradingPN partnerPN   =  chinaPV                              :  countryPT          
+potiticalPN factPN            =  animistPV                            :  religionPT         
+nameablePN                    =  russiaPV                             :                     
+potiticalPN factPN            =  federationPV                         :  governmentPT       
+borderPN                      =  chinaPV                              :  countryPT          

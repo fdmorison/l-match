@@ -1,0 +1,40 @@
+#@fun: apes X ecolingua
+
+SeamAgDomain                       0,21859 UnitOfArea                         
+NutrientManagement                 0,15044 UnitOfArea                         
+PesticidesManagement               0,15044 UnitOfArea                         
+WaterManagement                    0,13985 EcologicalEntity                   
+LandUseManagement                  0,12165 UnitOfArea                         
+SoilTillageManagement              0,15044 UnitOfArea                         
+EvapotranspirationAct              0,36813 Influence                          
+SolarRadiationAct                  0,46534 Influence                          
+WindAct                            0,36813 Influence                          
+AirAct                             0,36478 Influence                          
+RainfallAct                        0,36813 Influence                          
+WaterEnv                           0,13985 EcologicalEntity                   
+SoilEnv                            0,20101 Influence                          
+NitrogenContentEnv                 0,15044 UnitOfArea                         
+BiomassEnv                         0,17697 Material                           
+CarbonContentEnv                   0,15044 UnitOfArea                         
+PesticidesEnv                      0,15044 UnitOfArea                         
+FarmEnv                            0,15044 UnitOfArea                         
+TimeSamplingFrequency              0,87380 UnitOfTime                         
+Point                              0,23782 FundamentalDimension               
+TimeSeries                         0,84194 UnitOfTime                         
+ComplexUnit                        1,00000 UnitOfMassDivision                 0,92108 UnitOfVolume  0,91650 UnitOfArea          0,90216 UnitOfAbsoluteRate                 0,88754 UnitOfSpecificRate  0,85493 UnitOfTime          0,84590 UnitByNumberMultiplication  
+SimpleUnit                         0,09476 DerivedUnitOfFundamentalDimension  0,08476 UnitOfTime    0,07618 UnitOfMoney         
+UnitDerivedByRaisingToPower        0,98403 UnitOfArea                         0,96444 UnitOfVolume  0,89357 UnitOfMassDivision  0,88261 DerivedUnitOfFundamentalDimension  
+UnitDerivedByScaling               0,99422 DerivedUnitOfFundamentalDimension  
+UnitDerivedByShifting              0,54134 DerivedUnitOfFundamentalDimension  
+UnitPrefix                         0,60228 UnitOfMass                         0,48297 UnitOfLength  
+BaseUnit                           0,74935 UnitOfTime                         0,68624 UnitOfMass    0,66678 UnitOfLength        0,62367 UnitOfMoney                        
+Measurement                        0,99510 UnitOfTime                         0,98054 UnitOfArea    0,98015 UnitOfVolume        0,96773 UnitOfSpecificRate                 0,89898 UnitOfAbsoluteRate  0,86697 UnitOfMassDivision  0,82102 FundamentalDimension        
+MeasurementSet                     0,17382 When                               0,15271 Event         
+Quantity                           0,73211 ScaleOfTemperature                 0,66018 AbsoluteRate  0,61874 Influence           0,60381 MaterialDensity                    
+PrimaryDimensions                  0,99884 FundamentalDimension               
+DerivedDimensionsByRaisingToPower  0,88277 DerivedUnitOfFundamentalDimension  
+DerivedDimensionsByProduct         0,74565 UnitOfArea                         
+Dynamic                            0,44522 Influence                          
+Static                             0,83470 ScaleOfTemperature                 0,71979 UnitOfArea    
+SystemSimulation                   0,15044 UnitOfArea                         
+MathematicalProgramming            0,15044 UnitOfArea                         

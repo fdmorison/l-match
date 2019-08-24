@@ -1,0 +1,17 @@
+##id, name
+0 Micro-Organism
+1 Bacteria
+2 Virus
+3 Person
+4 Condition
+5 Infection
+6 ViralInfection
+7 BacterialInfection
+8 FoodPoisoning
+9 Researcher
+10 Condition
+11 Infection
+12 BacterialInfection
+13 FoodBorneDisease
+14 Pathogen
+15 Bacterial

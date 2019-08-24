@@ -1,0 +1,21 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+peninsulaDC peninsulaCN
+
+
+kolaIN 
+
+labelPN   =  kolaPV   :    

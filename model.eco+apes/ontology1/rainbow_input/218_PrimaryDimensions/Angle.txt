@@ -1,0 +1,13 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+angleIN
+
+expressedPN  =  degreePV              :  unitPT derivedPT scalePT   
+expressedPN  =  radianPV              :  baseunitPT                 
+measurePN    =  slopePV aspectPV      :  measurePT                  
+measurePN    =  anglePV variablesPV   :  measurePT                  

@@ -1,0 +1,3 @@
+##id, name, categoryIdInterval, instanceIdInterval
+0 cu 0-20 0-397
+1 wu 21-51 398-1118

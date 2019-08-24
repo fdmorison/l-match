@@ -1,0 +1,11 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+angleIN stockedIN 
+
+containsPN  =  biomassPV  :  materialPT   

@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+churchDC churchCN
+
+
+stIN nicholasIN churchIN 
+
+liePN     =  murmanskPV                 :  cityPT  
+areaPN    =  stPV nicholasPV churchPV   :          
+labelPN   =  stPV nicholasPV churchPV   :          

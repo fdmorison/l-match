@@ -1,0 +1,25 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+polandIN 
+
+capitalPN cityPN   =  warsawPV   :  capitalPT cityPT   
+memberPN           =  truePV     :                     
+borderPN           =  polandPV   :  countryPT          
+borderPN           =  germanyPV  :  countryPT          
+labelPN            =  polandPV   :                     

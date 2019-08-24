@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN nfsIN ifwIN 
+
+measurePN     =  individualPV anglePV weightPV   :  weigthPT   
+measurePN     =  numberPV anglePV stockedPV      :  numberPT   
+directionPN   =  undefinedPV                     :  signPT     

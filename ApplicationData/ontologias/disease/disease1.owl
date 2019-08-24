@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.mydomain.com.br/disease1.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.mydomain.com.br/disease1.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Condition"/>
+  <owl:Class rdf:ID="Person"/>
+  <owl:Class rdf:ID="Infection">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="averageCases"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="causedBy"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="Micro-Organism"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#Person"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="discoveredBy"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="riskFactor"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="#Infection"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Condition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Virus">
+    <rdfs:subClassOf rdf:resource="#Micro-Organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BacterialInfection">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#causedBy"/>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="Bacteria"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Infection"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FoodPoisoning">
+    <rdfs:subClassOf rdf:resource="#BacterialInfection"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bacteria">
+    <rdfs:subClassOf rdf:resource="#Micro-Organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ViralInfection">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#Virus"/>
+        <owl:onProperty rdf:resource="#causedBy"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Infection"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="#averageCases">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <Person rdf:ID="Daniel_Elmer_Salmon"/>
+  <Bacteria rdf:ID="EColi_0157_H7"/>
+  <Bacteria rdf:ID="salmonella_enterica"/>
+  <FoodPoisoning rdf:ID="salmonella_poisoning">
+    <discoveredBy rdf:resource="#Daniel_Elmer_Salmon"/>
+    <causedBy rdf:resource="#salmonella_enterica"/>
+    <averageCases rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >40000</averageCases>
+  </FoodPoisoning>
+  <FoodPoisoning rdf:ID="E-Coli_poisoning">
+    <averageCases rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73000</averageCases>
+    <discoveredBy>
+      <Person rdf:ID="Theodor_Escherich"/>
+    </discoveredBy>
+    <riskFactor>
+      <BacterialInfection rdf:ID="gastro-enteritis"/>
+    </riskFactor>
+    <causedBy rdf:resource="#EColi_0157_H7"/>
+  </FoodPoisoning>
+  <FoodPoisoning rdf:ID="botulism"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

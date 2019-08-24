@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN 
+
+measurePN     =  excretionPV ratePV            :  absolutePT ratePT      
+directionPN   =  undefinedPV                   :  signPT                 
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   

@@ -1,0 +1,11 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+donatelliIN bellocchiIN 
+
+implementedPN   =  demoPV componentPV   :  apescPT omponentsPT   
+implementedPN   =  pesticidePV          :  apescPT omponentsPT   

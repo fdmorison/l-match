@@ -1,0 +1,13 @@
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+groundDC enviromentDC  groundCN enviromentCN 
+
+
+groundIN
+
+measurePN measurePN   =  groundPV temperaturePV   :  measurePT  

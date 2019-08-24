@@ -1,0 +1,22 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+russiaIN
+
+codePN                 =  nbsevenPV                                                   :          
+populationPN valuePN   =  nbonenbfournbsixPV nbeightnbsixnbonePV nbzeronbtwonbtwoPV   :          
+capitalPN              =  moscowPV                                                    :  cityPT  
+labelPN                =  russiaPV                                                    :          

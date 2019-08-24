@@ -1,0 +1,14 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN grayIN nutrientIN 
+
+prefixPN    =  kiloPV                      :  unitPT prefixPT    
+productPN   =  kiloPV                      :  baseunitPT         
+productPN   =  meterPV grayPV nutrientPV   :  complexPT unitPT   
+productPN   =  meterPV                     :  baseunitPT         

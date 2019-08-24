@@ -1,0 +1,11 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+groundIN
+
+containsPN  =  groundPV  :  materialPT   

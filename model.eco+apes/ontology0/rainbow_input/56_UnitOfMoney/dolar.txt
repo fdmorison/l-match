@@ -1,0 +1,16 @@
+measureCN dataCN 
+unitCN measureCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC moneyDC  unitCN moneyCN 
+
+
+dolarIN
+
+dimensionPN  =  moneyPV  :  basedimensionPT  

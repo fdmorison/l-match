@@ -1,0 +1,16 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN dailyIN rangeIN 
+
+defaultPN valuePN                =  nbonenbfivePV nbzeroPV   :                                   
+defaultPN unitPN                 =  degreePV celsiusPV       :  unitPT derivedPT shiftingPT      
+observationPN                    =  airPV temperaturePV      :  measurePT                        
+spatialPN contextPN              =  itemPV spacePV           :  onePT dimensionalPT              
+meterPN samplingPN frequencyPN   =  dailyPV                  :  meterPT samplingPT frequencyPT   
+minimumPN valuePN                =  nbtwonbfivePV nbzeroPV   :                                   
+maximumPN valuePN                =  nbonePV nbzeroPV         :                                   
+interimPN contextPN              =  itemPV meterPV           :  itemPT                           

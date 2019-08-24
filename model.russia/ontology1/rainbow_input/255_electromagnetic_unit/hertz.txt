@@ -1,0 +1,12 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+
+defaultrootconceptCN
+electromagneticDC unitDC  electromagneticCN unitCN 
+
+
+hertzIN
+
+labelPN   =  hertzPV  :    

@@ -1,0 +1,13 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+pascalIN
+
+productPN   =  grayPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV              :  baseunitPT                             
+productPN   =  meterPV             :  unitPT derivedPT elevationPT powerPT   

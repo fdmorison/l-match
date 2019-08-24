@@ -1,0 +1,11 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN airIN temperatureIN 
+
+consistsPN modelPN   =  testPV modelPV abcPV     :  setPT   
+consistsPN modelPN   =  campbellPV               :  setPT   
+consistsPN modelPN   =  campbellPV donatelliPV   :  setPT   

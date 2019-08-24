@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+localDC storeDC  localCN storeCN 
+
+
+arbatIN 
+
+knownPN shopPN placePN   =  scarvesPV                       :  clothesPT  
+knownPN shopPN placePN   =  sovietPV armyPV memorabiliaPV   :  othersPT   
+knownPN shopPN placePN   =  shirtPV                         :  clothesPT  
+liePN                    =  moscowPV                        :  cityPT     
+areaPN                   =  arbatPV                         :             
+labelPN                  =  arbatPV                         :             

@@ -1,0 +1,30 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+stpetersburgIN
+
+sightPN cityPN     =  summerPV gardenPV                 :  gardenPT      
+sightPN cityPN     =  stPV peterPV paulPV cathedralPV   :  cathedralPT   
+countryPN cityPN   =  russiaPV                          :  countryPT     
+sightPN cityPN     =  panoramaPV restaurantPV           :  restaurantPT  
+sightPN cityPN     =  nevskyPV prospektPV               :  streetPT      
+sightPN cityPN     =  winterPV palacePV                 :  palacePT      
+labelPN            =  stpetersburgPV                    :                
+codePN             =  nbeightnbonenbtwoPV               :                
+sightPN cityPN     =  peterpaulfortressPV               :  fortressPT    
+sightPN cityPN     =  hermitagePV museumPV              :  museumPT      
+sightPN cityPN     =  stPV isaacPV cathedralPV          :  cathedralPT   
+sightPN cityPN     =  mariinskyPV theatrePV             :  theatrePT     

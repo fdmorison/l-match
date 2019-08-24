@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+globalIN solarIN radiationIN 
+
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+maximumPN valuePN     =  nbthreenbeightPV nbzeroPV                 :                        
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+defaultPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+minimumPN valuePN     =  nbzeroPV nbzeronbonePV                    :                        

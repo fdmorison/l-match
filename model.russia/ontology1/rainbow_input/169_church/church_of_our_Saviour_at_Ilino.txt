@@ -1,0 +1,42 @@
+defaultrootconceptCN
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+nameableCN 
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+animalCN
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+partialCN animalCN 
+locatableCN 
+animalCN
+locatableCN 
+attractionsCN cityCN 
+attractionsCN cityCN 
+infrastructureCN
+sightCN
+cultureCN offerCN 
+buildingCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+palaceCN
+museumCN
+cathedralCN
+publicCN placeCN 
+churchDC churchCN
+
+
+churchIN christIN ilinoIN 
+
+liePN locatablePN   =  novgorodPV                  :  ordinaryPT cityPT   
+nameablePN          =  churchPV christPV ilinoPV   :                      
+labelPN             =  churchPV christPV ilinoPV   :                      

@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+latitudeIN
+
+interimPN contextPN   =  itemPV meterPV            :  itemPT                     
+observationPN         =  anglePV variablesPV       :  measurePT                  
+defaultPN valuePN     =  nbfournbfivePV nbzeroPV   :                             
+minimumPN valuePN     =  nbninenbzeroPV nbzeroPV   :                             
+maximumPN valuePN     =  nbninenbzeroPV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV            :  onePT dimensionalPT        
+defaultPN unitPN      =  degreePV                  :  unitPT derivedPT scalePT   

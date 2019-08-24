@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+currentIN dayIN 
+
+defaultPN unitPN      =  dayPV                           :  unitPT derivedPT scalePT   
+interimPN contextPN   =  itemPV meterPV                  :  itemPT                     
+defaultPN valuePN     =  nbonenbeightnbzeroPV nbzeroPV   :                             
+minimumPN valuePN     =  nbonePV nbzeroPV                :                             
+observationPN         =  meterPV variablesPV             :  measurePT                  
+spatialPN contextPN   =  itemPV spacePV                  :  onePT dimensionalPT        
+maximumPN valuePN     =  nbthreenbsixnbfivePV nbzeroPV   :                             

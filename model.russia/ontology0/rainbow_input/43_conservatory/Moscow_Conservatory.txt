@@ -1,0 +1,13 @@
+defaultrootconceptCN
+animalCN
+organisationCN
+artCN organisationCN 
+
+defaultrootconceptCN
+nameableCN 
+conservatoryDC conservatoryCN
+
+
+moscowIN conservatoryIN 
+
+labelPN   =  moscowPV conservatoryPV   :    

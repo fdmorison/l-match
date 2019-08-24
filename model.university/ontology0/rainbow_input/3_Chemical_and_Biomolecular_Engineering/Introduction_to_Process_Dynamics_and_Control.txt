@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+chemicalDC biomolecularDC engineeringDC  chemicalCN biomolecularCN engineeringCN 
+
+
+foundationIN processIN dynamicsIN controlIN 
+

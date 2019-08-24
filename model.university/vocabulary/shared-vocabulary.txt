@@ -1,0 +1,48 @@
+advancedhindireading <- Advanced_Hindi_Reading_ Advanced_Hindi_Readings_ 
+advancedindonesian <- Advanced_Indonesian_ Advanced_Indonesian_ 
+advancedsanskrit <- Advanced_Sanskrit_I Advanced_Sanskrit_ 
+ancienteuropeanhistories <- Ancient_european_history Medieval_European_History_ 
+chemicalengineeringlab <- Chemical_Engineering_Laboratory Chemical_Engineering_Laboratory_ Chemical_Engineering_Laboratory_II_ 
+chemicalengineeringthermodynamics <- Chemical_Engineering_Thermodynamics Chemical_Engineering_Thermodynamics_ 
+chinese <- Chinese Chinese 
+classical <- Classics Classics 
+collegeartsscience <- College_of_arts_and_sciences College_of_Arts_and_Sciences 
+collegeengineering <- College_of_engineering College_of_Engineering 
+courses <- Courses Courses 
+developmentearth <- Evolution_of_the_Earth_System Evolution_of_the_Earth_ 
+dinosaurs <- Dinosaurs Dinosaurs_ 
+earthquake <- Earthquake Earthquakes_ 
+economicchemistry <- Materials_Chemistry_ Materials_Chemistry_ 
+elementaryhindi <- Elementary_Hindi Elementary_Hindi_ 
+elementaryindonesian <- Elementary_Indonesian Elementary_Indonesian_ 
+elementarylatin <- Elementary_Latin_I Elementary_Latin_III Elementary_Latin_II Elementary_Latin_ 
+fluidmechanical <- Fluid_Mechanics Fluid_Mechanics_ 
+foundationbyzantineeconomic <- Introduction_to_Composite_Materials Introduction_to_Composite_Materials_ Introduction_to_Composite_Materials_ 
+geochemistry <- Geochemistry Geochemistry_ 
+geomorphology <- Geomorphology Geomorphology_ Morphology_ 
+greekdeep <- Greek_Epic_ Greek_Epic_ 
+hindi <- Hindi Hindi 
+histories <- History History 
+historiesjapaneselanguage <- History_of_the_Japanese_Language_ History_of_the_Japanese_Language_ 
+homer <- Homer_ Homer_ 
+hydraulicengineering <- Hydraulic_Engineering_ Hydraulic_Engineering_ 
+indonesian <- Indonesian Indonesian 
+intermediatehindi <- Intermediate_Hindi_ Intermediate_Hindi_ 
+intermediateindonesian <- Intermediate_Indonesian_ Intermediate_Indonesian_ 
+intermediatesanskrit <- Intermediate_Sanskrit_ Intermediate_Sanskrit_ 
+japanese <- Japanese Japanese Third-Year_Japanese_ First-Year_Japanese_ 
+korean <- Korean Korean 
+linguistic <- Linguistics linguistics Linguistics 
+mathematical <- Mathematics Mathematics 
+mineralogy <- Mineralogy Mineralogy_ 
+paleobiology <- Paleobiology_ Paleobiology_ 
+randomsigncommunicationsignprocess <- Random_Signals_in_Communications_and_Signal_Processing Random_Signals_for_Communications_and_Signal_Processing_ 
+romandeep <- Roman_Epic_ Roman_Epic 
+romandrama <- Roman_Drama_ Roman_Drama_ 
+sanskrit <- Sanskrit Sanskrit 
+seminar <- Seminar Seminar_ 
+specialtopicselectricengineering <- Special_Topics_in_Electrical_and_Computer_Engineering Special_Topics_in_Electrical_Engineering_ 
+stratigraphy <- Stratigraphy_ Stratigraphy_ 
+thai <- Thai Thai Beginning_Thai_ 
+vergil <- Virgil_ Vergil_ 
+vietnamese <- Vietnamese First-Year_Vietnamese_ Vietnamese 

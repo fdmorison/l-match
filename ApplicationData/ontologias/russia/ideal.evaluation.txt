@@ -1,0 +1,67 @@
+@direction russia1 -> russia2
+
+# Mapeamentos de equivalência
+equivalence DEFAULT_ROOT_CONCEPT DEFAULT_ROOT_CONCEPT
+equivalence Dimension measurement
+equivalence region region
+equivalence geographical_environment nature_area
+#equivalence canal canal
+#equivalence forest forest
+#equivalence island island
+equivalence lake lake
+equivalence mountain mountain
+equivalence peninsula peninsula
+equivalence river river
+equivalence sea sea
+equivalence political_region political_area
+equivalence city city
+equivalence country country
+equivalence town town
+equivalence public_building building
+equivalence public_space space
+equivalence cathedral cathedral
+equivalence church church
+equivalence month month
+equivalence season season
+equivalence time_zone time_zone
+equivalence unit unit
+equivalence area_unit area_unit
+equivalence length_unit length_unit
+equivalence time_unit time_unit
+equivalence Material material_thing
+equivalence drink drink
+equivalence food food
+#equivalence concert_hall theatre
+equivalence fortress fortress
+#equivalence hotel hotel
+equivalence monument monument
+equivalence museum museum
+equivalence palace palace
+#equivalence restaurant restaurant
+#equivalence theatre cinema
+equivalence garden garden
+equivalence square square
+#equivalence document document
+equivalence living_being living_being
+#equivalence animal animal
+equivalence human_being human_being
+equivalence person person
+#equivalence normal_traveler traveller
+equivalence president president
+#equivalence plant plant
+equivalence Spiritual_Product immaterial_thing
+#equivalence architecture architecture
+#equivalence ballet ballet
+equivalence festival festival
+#equivalence literature literature
+#equivalence music music
+equivalence currency monetary__unit
+#equivalence means_of_payment payment
+equivalence language language
+#equivalence religion religion
+#equivalence surface_area surface_area
+
+# Mapeamentos de mais geral
+# Mapeamentos de menos geral
+# Mapeamentos de sobreposicao
+# Mapeamentos de diferença

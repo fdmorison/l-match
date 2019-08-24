@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN hdIN hIN 
+
+measurePN     =  cropPV ratePV   :  absolutePT ratePT   
+measurePN     =  cropPV datePV   :  whenPT              
+directionPN   =  undefinedPV     :  signPT              

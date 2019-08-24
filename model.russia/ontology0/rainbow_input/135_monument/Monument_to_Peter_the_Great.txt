@@ -1,0 +1,20 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+monumentDC monumentCN
+
+
+monumentIN peterIN 
+
+liePN     =  moscowPV             :  cityPT  
+areaPN    =  monumentPV peterPV   :          
+labelPN   =  monumentPV peterPV   :          

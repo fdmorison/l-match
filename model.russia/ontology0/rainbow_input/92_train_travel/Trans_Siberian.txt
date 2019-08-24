@@ -1,0 +1,23 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+locatableCN 
+infrastructureCN
+transferCN
+earthCN transferCN 
+nameableCN 
+animalCN
+animalCN
+checkDC jauntDC  checkCN jauntCN 
+
+
+transsiberianIN
+
+offerPN        =  novosibirskPV        :  cityPT  
+offerPN        =  irkutskPV            :  cityPT  
+recreationPN   =  transPV siberianPV   :          
+labelPN        =  transsiberianPV      :          

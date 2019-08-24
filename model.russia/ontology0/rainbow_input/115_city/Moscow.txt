@@ -1,0 +1,35 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+moscowIN
+
+labelPN                      =  moscowPV                                    :                          
+sightPN cityPN               =  gorkyPV parkPV                              :  parkPT                  
+sightPN cityPN               =  monumentPV peterPV                          :  monumentPT              
+sightPN cityPN               =  arbatPV                                     :  localPT storePT         
+sightPN cityPN               =  stPV basilPV cathedralPV                    :  cathedralPT             
+areaPN                       =  moscowPV                                    :                          
+sightPN cityPN               =  tretyakovPV galleryPV                       :  museumPT                
+sightPN cityPN               =  manezhPV paidPV                             :  paidPT                  
+sightPN cityPN               =  designerPV boutiquePV                       :  boutiquePT              
+sightPN cityPN               =  kremlinPV                                   :  palacePT                
+countryPN cityPN             =  russiaPV                                    :  countryPT               
+codePN                       =  nbzeronbninenbfivePV                        :                          
+sightPN cityPN               =  izmailovskiPV stadiumPV                     :  marketPT                
+sightPN cityPN               =  christPV christPV cathedralPV               :  cathedralPT             
+sightPN cityPN               =  nbtwonbfourPV dayPV conveniencePV storePV   :  conveniencePT storePT   
+distancePN moscowPN cityPN   =  nbzeroPV                                    :                          
+sightPN cityPN               =  blackpaidPV                                 :  paidPT                  

@@ -1,0 +1,14 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+literatureCN
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+novelDC novelCN
+
+
+warIN pearceIN 
+
+labelPN   =  warPV pearcePV   :    

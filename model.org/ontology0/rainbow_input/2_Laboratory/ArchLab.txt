@@ -1,0 +1,8 @@
+organizationCN
+
+labDC labCN
+
+
+archIN labIN 
+
+affiliatedPN  =  vlPV abPV   :  labPT  

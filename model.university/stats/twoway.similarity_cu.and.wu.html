@@ -1,0 +1,246 @@
+<html>
+<head><title>Two Way Similarity: cu <--> wu</title>
+<style>
+th {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:#003399;
+   text-align:left;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+td {
+   font-family:Arial;
+   font-size:11px;
+   color:#333333;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+span {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:red;
+}
+.equivalence { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#0000FF; padding: 0 5; width:20; text-align:center; }
+.moregeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#00CCFF; padding: 0 5; width:20; text-align:center; }
+.lessgeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#33CC00; padding: 0 5; width:20; text-align:center; }
+.overlapping { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#FF9900; padding: 0 5; width:20; text-align:center; }
+.mismatching { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.unknown     { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.eval    { color:#666666  ; padding:0 3; }.maxeval { color:black    ; padding:0 3; }.noeval  { color:lightgray; padding:0 3; }.title   { color:white    ; background-color:#000000; }</style>
+</head>
+<body>
+<table border='1' cellpadding='1' cellspacing='0' bordercolor='#EAEAEA'>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy Courses</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:0;'>|0|--Courses(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,81</TD>
+    <TD class='maxeval'>0,89</TD>
+    <TD><span>0,894</span> <span class='moregeneral'>&Eacute;</span> Civil_and_enviromental_engeneering</TD>
+    <TD><span>0,894</span> <span class='moregeneral'>&Eacute;</span> Earth_and_Space_Sciences</TD>
+    <TD><span>0,894</span> <span class='moregeneral'>&Eacute;</span> Materials_Science_and_EngeneeringClass</TD>
+    <TD><span>0,894</span> <span class='moregeneral'>&Eacute;</span> Electrical_Engeneering</TD>
+    <TD><span>0,893</span> <span class='moregeneral'>&Eacute;</span> Chemical_engeneering</TD>
+    <TD><span>0,886</span> <span class='moregeneral'>&Eacute;</span> College_of_Arts_and_Sciences</TD>
+    <TD><span>0,876</span> <span class='moregeneral'>&Eacute;</span> History_of_Asia</TD>
+    <TD><span>0,873</span> <span class='moregeneral'>&Eacute;</span> Indonesian</TD>
+    <TD><span>0,873</span> <span class='moregeneral'>&Eacute;</span> Ancient_and_medieval_history</TD>
+    <TD><span>0,872</span> <span class='moregeneral'>&Eacute;</span> Chinese</TD>
+    <TD><span>0,871</span> <span class='moregeneral'>&Eacute;</span> Japanese</TD>
+    <TD><span>0,870</span> <span class='moregeneral'>&Eacute;</span> Thai</TD>
+    <TD><span>0,870</span> <span class='moregeneral'>&Eacute;</span> Korean</TD>
+    <TD><span>0,867</span> <span class='moregeneral'>&Eacute;</span> Vietnamese</TD>
+    <TD><span>0,867</span> <span class='moregeneral'>&Eacute;</span> Hindi</TD>
+    <TD><span>0,867</span> <span class='moregeneral'>&Eacute;</span> Sanskrit</TD>
+    <TD><span>0,825</span> <span class='moregeneral'>&Eacute;</span> Latin</TD>
+    <TD><span>0,825</span> <span class='moregeneral'>&Eacute;</span> Greek</TD>
+    <TD><span>0,815</span> <span class='moregeneral'>&Eacute;</span> Histoty_of_the_Americas</TD>
+    <TD><span>0,655</span> <span class='moregeneral'>&Eacute;</span> Modern_European_HistoryClass</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--College_of_engineering(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,970</span> <span class='moregeneral'>&Eacute;</span> Civil_and_enviromental_engeneering</TD>
+    <TD><span>0,970</span> <span class='moregeneral'>&Eacute;</span> Earth_and_Space_Sciences</TD>
+    <TD><span>0,970</span> <span class='moregeneral'>&Eacute;</span> Materials_Science_and_EngeneeringClass</TD>
+    <TD><span>0,969</span> <span class='moregeneral'>&Eacute;</span> Electrical_Engeneering</TD>
+    <TD><span>0,969</span> <span class='moregeneral'>&Eacute;</span> Chemical_engeneering</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Electrical_and_computer_engineering(69)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Electrical_Engeneering</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--Chemical_and_Biomolecular_Engineering(51)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,999</span> <span class='equivalence'>&ordm;  </span> Chemical_engeneering</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Civil_and_enviromental_engineering(54)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Civil_and_enviromental_engeneering</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--Earth_and_atmosferic_sciences(62)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,75</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Earth_and_Space_Sciences</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Material_sciences_and_engineering(58)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Materials_Science_and_EngeneeringClass</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--College_of_arts_and_sciences(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,73</TD>
+    <TD class='maxeval'>0,84</TD>
+    <TD><span>0,960</span> <span class='equivalence'>&ordm;  </span> College_of_Arts_and_Sciences</TD>
+    <TD><span>0,948</span> <span class='moregeneral'>&Eacute;</span> History_of_Asia</TD>
+    <TD><span>0,945</span> <span class='moregeneral'>&Eacute;</span> Indonesian</TD>
+    <TD><span>0,944</span> <span class='moregeneral'>&Eacute;</span> Ancient_and_medieval_history</TD>
+    <TD><span>0,944</span> <span class='moregeneral'>&Eacute;</span> Chinese</TD>
+    <TD><span>0,942</span> <span class='moregeneral'>&Eacute;</span> Japanese</TD>
+    <TD><span>0,941</span> <span class='moregeneral'>&Eacute;</span> Thai</TD>
+    <TD><span>0,941</span> <span class='moregeneral'>&Eacute;</span> Korean</TD>
+    <TD><span>0,938</span> <span class='moregeneral'>&Eacute;</span> Vietnamese</TD>
+    <TD><span>0,937</span> <span class='moregeneral'>&Eacute;</span> Hindi</TD>
+    <TD><span>0,937</span> <span class='moregeneral'>&Eacute;</span> Sanskrit</TD>
+    <TD><span>0,887</span> <span class='moregeneral'>&Eacute;</span> Latin</TD>
+    <TD><span>0,886</span> <span class='moregeneral'>&Eacute;</span> Greek</TD>
+    <TD><span>0,874</span> <span class='moregeneral'>&Eacute;</span> Histoty_of_the_Americas</TD>
+    <TD><span>0,688</span> <span class='moregeneral'>&Eacute;</span> Modern_European_HistoryClass</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Asian_Studies(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD class='maxeval'>0,96</TD>
+    <TD><span>0,982</span> <span class='moregeneral'>&Eacute;</span> Indonesian</TD>
+    <TD><span>0,981</span> <span class='moregeneral'>&Eacute;</span> Chinese</TD>
+    <TD><span>0,979</span> <span class='moregeneral'>&Eacute;</span> Japanese</TD>
+    <TD><span>0,978</span> <span class='moregeneral'>&Eacute;</span> Thai</TD>
+    <TD><span>0,977</span> <span class='moregeneral'>&Eacute;</span> Korean</TD>
+    <TD><span>0,974</span> <span class='moregeneral'>&Eacute;</span> Vietnamese</TD>
+    <TD><span>0,973</span> <span class='moregeneral'>&Eacute;</span> Hindi</TD>
+    <TD><span>0,973</span> <span class='moregeneral'>&Eacute;</span> Sanskrit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--Chinese(16)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,998</span> <span class='equivalence'>&ordm;  </span> Chinese</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--Indonesian(4)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,999</span> <span class='equivalence'>&ordm;  </span> Indonesian</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--Korean(7)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,995</span> <span class='equivalence'>&ordm;  </span> Korean</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--Japanese(10)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,997</span> <span class='equivalence'>&ordm;  </span> Japanese</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--Sanskrit(5)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,990</span> <span class='equivalence'>&ordm;  </span> Sanskrit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--Hindi(5)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,990</span> <span class='equivalence'>&ordm;  </span> Hindi</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--Vietnamese(5)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,991</span> <span class='equivalence'>&ordm;  </span> Vietnamese</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--Thai(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,992</span> <span class='equivalence'>&ordm;  </span> Thai</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--History(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,986</span> <span class='moregeneral'>&Eacute;</span> History_of_Asia</TD>
+    <TD><span>0,982</span> <span class='moregeneral'>&Eacute;</span> Ancient_and_medieval_history</TD>
+    <TD><span>0,904</span> <span class='moregeneral'>&Eacute;</span> Histoty_of_the_Americas</TD>
+    <TD><span>0,703</span> <span class='moregeneral'>&Eacute;</span> Modern_European_HistoryClass</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Classics(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,918</span> <span class='moregeneral'>&Eacute;</span> Latin</TD>
+    <TD><span>0,917</span> <span class='moregeneral'>&Eacute;</span> Greek</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--GreekClass(18)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,998</span> <span class='equivalence'>&ordm;  </span> Greek</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--LatinClass(25)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Latin</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Global Evaluation</TD>
+    <TD class='title' align='center'>1,00</TD>
+    <TD class='title' align='center'>0,90</TD>
+    <TD class='title' align='center'>0,95</TD>
+  </TR>
+</table>
+</body>
+</html>

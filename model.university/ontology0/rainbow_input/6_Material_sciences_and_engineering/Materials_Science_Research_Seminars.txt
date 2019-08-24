@@ -1,0 +1,8 @@
+coursesCN
+collegeengineeringCN
+
+economicDC scienceDC engineeringDC  economicCN scienceCN engineeringCN 
+
+
+economicIN scienceIN researchIN seminarIN 
+

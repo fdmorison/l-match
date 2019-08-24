@@ -1,0 +1,20 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+causalCN agentCN 
+adventureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+healthDC adventureDC  healthCN adventureCN 
+
+
+typhoidIN 
+
+nameablePN   =  typhoidPV   :            
+existPN      =  russianPV   :  ethnicPT  
+labelPN      =  typhoidPV   :            

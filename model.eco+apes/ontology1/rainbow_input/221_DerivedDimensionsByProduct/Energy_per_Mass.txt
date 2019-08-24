@@ -1,0 +1,16 @@
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+energyIN massIN 
+
+expressedPN             =  joulePV kiloPV       :  complexPT unitPT                            
+productPN dimensionPN   =  meterPV nutrientPV   :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  areaPV               :  derivedPT dimensionPT elevationPT powerPT   

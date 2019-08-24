@@ -1,0 +1,26 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+amsterdamIN 
+
+nameablePN   =  amsterdamPV   :                     
+cityPN       =  hollandPV     :  countryPT          
+railwayPN    =  berlinPV      :  capitalPT cityPT   
+labelPN      =  amsterdamPV   :                     

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.mydomain.com.br/Ontology1211665836.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.mydomain.com.br/Ontology1211665836.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="College_of_Engineering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Courses"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Linguistics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="College_of_Arts_and_Sciences"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Asian_Languages_and_Literature">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#College_of_Arts_and_Sciences"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="History">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#College_of_Arts_and_Sciences"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#College_of_Arts_and_Sciences">
+    <rdfs:subClassOf rdf:resource="#Courses"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Classics">
+    <rdfs:subClassOf rdf:resource="#College_of_Arts_and_Sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Earth_and_Space_Sciences">
+    <rdfs:subClassOf rdf:resource="#College_of_Arts_and_Sciences"/>
+  </owl:Class>
+  <Asian_Languages_and_Literature rdf:ID="Hindi"/>
+  <Linguistics rdf:ID="linguistics"/>
+  <Asian_Languages_and_Literature rdf:ID="Vietnamese"/>
+  <Asian_Languages_and_Literature rdf:ID="Chinese"/>
+  <Linguistics rdf:ID="French_linguistics"/>
+  <Asian_Languages_and_Literature rdf:ID="Thai"/>
+  <Asian_Languages_and_Literature rdf:ID="Japanese"/>
+  <College_of_Engineering rdf:ID="Materials_Science_and_Engeneering"/>
+  <College_of_Arts_and_Sciences rdf:ID="Computer_Science_and_Engineering"/>
+  <Earth_and_Space_Sciences rdf:ID="Geological_sciences"/>
+  <History rdf:ID="Modern_European_History"/>
+  <College_of_Engineering rdf:ID="Chemical_engeneering"/>
+  <History rdf:ID="History_of_Asia"/>
+  <Linguistics rdf:ID="Spanish_linguistics"/>
+  <History rdf:ID="Histoty_of_the_Americas"/>
+  <Asian_Languages_and_Literature rdf:ID="Indian"/>
+  <College_of_Engineering rdf:ID="Electrical_Engeneering"/>
+  <Classics rdf:ID="Latin"/>
+  <Asian_Languages_and_Literature rdf:ID="Indonesian"/>
+  <Linguistics rdf:ID="Romance_linguistics"/>
+  <Asian_Languages_and_Literature rdf:ID="Sanskrit"/>
+  <History rdf:ID="Ancient_and_medieval_history"/>
+  <College_of_Arts_and_Sciences rdf:ID="Mathematics"/>
+  <College_of_Engineering rdf:ID="Civil_and_enviromental_engeneering"/>
+  <Earth_and_Space_Sciences rdf:ID="Geophisics"/>
+  <Asian_Languages_and_Literature rdf:ID="Korean"/>
+  <Classics rdf:ID="Greek"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

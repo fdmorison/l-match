@@ -1,0 +1,12 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+hertzIN
+
+productPN   =  dimensionlessPV unitPV   :  baseunitPT                             
+productPN   =  grayPV                   :  unitPT derivedPT elevationPT powerPT   

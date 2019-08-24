@@ -1,0 +1,12 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+productIN coefficientIN 
+
+observationPN                    =  productPV efficiencyPV   :  measurePT                        
+spatialPN contextPN              =  itemPV spacePV           :  onePT dimensionalPT              
+meterPN samplingPN frequencyPN   =  yearlyPV                 :  meterPT samplingPT frequencyPT   
+interimPN contextPN              =  itemPV meterPV           :  itemPT                           

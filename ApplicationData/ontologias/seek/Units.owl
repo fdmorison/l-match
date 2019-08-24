@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rss="http://purl.org/rss/1.0/"
+    xmlns:jms="http://jena.hpl.hp.com/2003/08/jms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:prop="http://wow.sfsu.edu/ontology/rich/Properties.owl#"
+    xmlns="http://wow.sfsu.edu/ontology/rich/Units.owl#"
+  xml:base="http://wow.sfsu.edu/ontology/rich/Units.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://wow.sfsu.edu/ontology/rich/Properties.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="DimensionConcepts">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#UnitConcepts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DerivedDimension">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Dimension"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#BaseDimension"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Unit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#UnitConcepts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BaseDimension">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Dimension"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#DerivedDimension"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DimensionPart">
+    <rdfs:subClassOf rdf:resource="#DimensionConcepts"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FundamentalSIUnit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SIUnit"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#BaseDimension"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#dimension"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SIUnit">
+    <rdfs:subClassOf rdf:resource="#Unit"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#NonSIUnit"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="NonSIUnit">
+    <rdfs:subClassOf rdf:resource="#Unit"/>
+    <owl:disjointWith rdf:resource="#SIUnit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="UnitConcepts">
+    <rdfs:subClassOf rdf:resource="http://wow.sfsu.edu/ontology/rich/Properties.owl#EcoOntThing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Concepts used to define units and dimensions</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Dimension">
+    <rdfs:subClassOf rdf:resource="#DimensionConcepts"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="fundamentalUnit">
+    <rdfs:domain rdf:resource="#BaseDimension"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="#FundamentalSIUnit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="baseDimensionParts"/>
+  <owl:ObjectProperty rdf:ID="siUnit">
+    <rdfs:domain rdf:resource="#NonSIUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="#FundamentalSIUnit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="dimensionParts">
+    <rdfs:range rdf:resource="#DimensionPart"/>
+    <rdfs:domain rdf:resource="#DerivedDimension"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="dimension">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Unit"/>
+          <owl:Class rdf:about="#DimensionPart"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="#Dimension"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="multiplier">
+    <rdfs:domain rdf:resource="#NonSIUnit"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="derivedDimension">
+    <rdfs:range rdf:resource="#DerivedDimension"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="power">
+    <rdfs:domain rdf:resource="#DimensionPart"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="baseDimension">
+    <rdfs:range rdf:resource="#BaseDimension"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="offset">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#NonSIUnit"/>
+  </owl:FunctionalProperty>
+  <FundamentalSIUnit rdf:ID="kilogram">
+    <dimension>
+      <BaseDimension rdf:ID="mass">
+        <fundamentalUnit rdf:resource="#kilogram"/>
+      </BaseDimension>
+    </dimension>
+  </FundamentalSIUnit>
+  <DerivedDimension rdf:ID="Area">
+    <dimensionParts>
+      <DimensionPart rdf:ID="AreaDimensionPart">
+        <dimension>
+          <BaseDimension rdf:ID="length">
+            <fundamentalUnit>
+              <FundamentalSIUnit rdf:ID="meter">
+                <dimension rdf:resource="#length"/>
+              </FundamentalSIUnit>
+            </fundamentalUnit>
+          </BaseDimension>
+        </dimension>
+        <power rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >2.0</power>
+      </DimensionPart>
+    </dimensionParts>
+  </DerivedDimension>
+  <FundamentalSIUnit rdf:ID="kelvin">
+    <dimension>
+      <BaseDimension rdf:ID="temperature">
+        <fundamentalUnit rdf:resource="#kelvin"/>
+      </BaseDimension>
+    </dimension>
+  </FundamentalSIUnit>
+  <FundamentalSIUnit rdf:ID="mole">
+    <dimension>
+      <BaseDimension rdf:ID="amount">
+        <fundamentalUnit rdf:resource="#mole"/>
+      </BaseDimension>
+    </dimension>
+  </FundamentalSIUnit>
+  <BaseDimension rdf:ID="dimensionless"/>
+  <BaseDimension rdf:ID="current">
+    <fundamentalUnit>
+      <FundamentalSIUnit rdf:ID="ampere">
+        <dimension rdf:resource="#current"/>
+      </FundamentalSIUnit>
+    </fundamentalUnit>
+  </BaseDimension>
+  <BaseDimension rdf:ID="time">
+    <fundamentalUnit>
+      <FundamentalSIUnit rdf:ID="second">
+        <dimension rdf:resource="#time"/>
+      </FundamentalSIUnit>
+    </fundamentalUnit>
+  </BaseDimension>
+  <FundamentalSIUnit rdf:ID="candela">
+    <dimension>
+      <BaseDimension rdf:ID="luminosity">
+        <fundamentalUnit rdf:resource="#candela"/>
+      </BaseDimension>
+    </dimension>
+  </FundamentalSIUnit>
+  <DerivedDimension rdf:ID="Volume">
+    <dimensionParts>
+      <DimensionPart rdf:ID="VolumeDimensionPart">
+        <dimension rdf:resource="#length"/>
+        <power rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >3.0</power>
+      </DimensionPart>
+    </dimensionParts>
+  </DerivedDimension>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 1.2 beta, Build 139)  http://protege.stanford.edu -->

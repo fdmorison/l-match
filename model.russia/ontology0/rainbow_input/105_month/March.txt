@@ -1,0 +1,13 @@
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+borderIN
+
+clockPN jauntPN   =  falsePV   :    
+labelPN           =  borderPV  :    

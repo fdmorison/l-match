@@ -1,0 +1,14 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+windDC actDC  windCN actCN 
+
+
+windIN 
+
+measurePN measurePN   =  windPV speedPV   :  measurePT  

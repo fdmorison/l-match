@@ -1,0 +1,7 @@
+
+seamDC agroDC areaDC  seamCN agroCN areaCN 
+
+
+unknownIN areaIN 
+
+measurePN measurePN   =  productPV efficiencyPV   :  measurePT  

@@ -1,0 +1,12 @@
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC divisionDC  complexCN dimensionCN divisionCN 
+
+
+individualIN growthIN 
+
+dimensionPN          =  massPV  :  basedimensionPT  
+grayPN dimensionPN   =  massPV  :  basedimensionPT  

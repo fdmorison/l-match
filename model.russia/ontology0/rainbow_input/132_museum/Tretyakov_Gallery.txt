@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+tretyakovIN galleryIN 
+
+closePN   =  mondayPV                :  weekdayPT  
+areaPN    =  tretyakovPV galleryPV   :             
+liePN     =  moscowPV                :  cityPT     
+labelPN   =  tretyakovPV galleryPV   :             

@@ -1,0 +1,21 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+meterIN
+
+expressedPN  =  dayPV                 :  unitPT derivedPT scalePT   
+expressedPN  =  monthPV               :  unitPT derivedPT scalePT   
+symbolPN     =  tPV                   :                             
+expressedPN  =  dayPV                 :  unitPT derivedPT scalePT   
+expressedPN  =  grayPV                :  baseunitPT                 
+expressedPN  =  yearPV                :  unitPT derivedPT scalePT   
+expressedPN  =  decadePV              :  unitPT derivedPT scalePT   
+expressedPN  =  weekPV                :  unitPT derivedPT scalePT   
+expressedPN  =  milleniumPV           :  unitPT derivedPT scalePT   
+measurePN    =  meterPV variablesPV   :  measurePT                  
+expressedPN  =  minPV                 :  unitPT derivedPT scalePT   
+expressedPN  =  centuryPV             :  unitPT derivedPT scalePT   

@@ -1,0 +1,557 @@
+<html>
+<head><title>One Way Similarity: ecolingua --> apes</title>
+<style>
+th {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:#003399;
+   text-align:left;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+td {
+   font-family:Arial;
+   font-size:11px;
+   color:#333333;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+span {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:red;
+}
+.equivalence { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#0000FF; padding: 0 5; width:20; text-align:center; }
+.moregeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#00CCFF; padding: 0 5; width:20; text-align:center; }
+.lessgeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#33CC00; padding: 0 5; width:20; text-align:center; }
+.overlapping { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#FF9900; padding: 0 5; width:20; text-align:center; }
+.mismatching { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.unknown     { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.eval    { color:#666666  ; padding:0 3; }.maxeval { color:black    ; padding:0 3; }.noeval  { color:lightgray; padding:0 3; }.title   { color:white    ; background-color:#000000; }</style>
+</head>
+<body>
+<table border='1' cellpadding='1' cellspacing='0' bordercolor='#EAEAEA'>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy EcologicalData</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:0;'>|0|--EcologicalData(0)</TH>
+    <TD class='eval'>0,79</TD>
+    <TD class='eval'>0,42</TD>
+    <TD class='eval'>0,55</TD>
+    <TD><span>0,994</span> <span class='moregeneral'>&Eacute;</span> Quantity</TD>
+    <TD><span>0,934</span> <span class='moregeneral'>&Eacute;</span> SolarRadiationAct</TD>
+    <TD><span>0,934</span> <span class='moregeneral'>&Eacute;</span> AirAct</TD>
+    <TD><span>0,930</span> <span class='moregeneral'>&Eacute;</span> RainfallAct</TD>
+    <TD><span>0,907</span> <span class='moregeneral'>&Eacute;</span> EvapotranspirationAct</TD>
+    <TD><span>0,893</span> <span class='unknown'    >?</span> Measurement</TD>
+    <TD><span>0,832</span> <span class='moregeneral'>&Eacute;</span> WindAct</TD>
+    <TD><span>0,790</span> <span class='unknown'    >?</span> PrimaryDimensions</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--ContextualData(0)</TH>
+    <TD class='eval'>0,82</TD>
+    <TD class='eval'>0,38</TD>
+    <TD class='eval'>0,51</TD>
+    <TD><span>0,969</span> <span class='moregeneral'>&Eacute;</span> AirAct</TD>
+    <TD><span>0,964</span> <span class='moregeneral'>&Eacute;</span> SolarRadiationAct</TD>
+    <TD><span>0,955</span> <span class='moregeneral'>&Eacute;</span> RainfallAct</TD>
+    <TD><span>0,930</span> <span class='moregeneral'>&Eacute;</span> EvapotranspirationAct</TD>
+    <TD><span>0,833</span> <span class='moregeneral'>&Eacute;</span> WindAct</TD>
+    <TD><span>0,808</span> <span class='unknown'    >?</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--EcologicalEntity(8)</TH>
+    <TD class='maxeval'>0,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,00</TD>
+    <TD><span>0,500</span> <span class='unknown'    >?</span> AirAct</TD>
+    <TD><span>0,455</span> <span class='unknown'    >?</span> RainfallAct</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--Event(2)</TH>
+    <TD class='maxeval'>0,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,00</TD>
+    <TD><span>0,590</span> <span class='unknown'    >?</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--When(2)</TH>
+    <TD class='maxeval'>0,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,00</TD>
+    <TD><span>0,169</span> <span class='unknown'    >?</span> MeasurementSet</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--Material(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,137</span> <span class='moregeneral'>&Eacute;</span> BiomassEnviroment</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Influence(34)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,989</span> <span class='moregeneral'>&Eacute;</span> SolarRadiationAct</TD>
+    <TD><span>0,988</span> <span class='moregeneral'>&Eacute;</span> AirAct</TD>
+    <TD><span>0,959</span> <span class='moregeneral'>&Eacute;</span> RainfallAct</TD>
+    <TD><span>0,949</span> <span class='moregeneral'>&Eacute;</span> EvapotranspirationAct</TD>
+    <TD><span>0,830</span> <span class='moregeneral'>&Eacute;</span> WindAct</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--Quantity(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,978</span> <span class='equivalence'>&ordm;  </span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--WeightQuantity(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,417</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--WeigthOf(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,417</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--AmountQuantity(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,779</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--MaterialQuantity(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,686</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--AmountOfMaterial(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--MaterialDensity(3)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,723</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--ImmaterialQuantity(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--AmountOfTime(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--NonPhysicalQuantity(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,348</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--AmountOfMoney(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,348</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Constant(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--DimensionlessQuantity(0)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD><span>0,429</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--Percentage(1)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD><span>0,244</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--NumberOf(1)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD><span>0,244</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--TemperatureQuantity(0)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD><span>0,241</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--TemperatureOf(1)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,50</TD>
+    <TD><span>0,241</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--TimeRelatedRateQuantity(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,974</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--AbsoluteRate(7)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,956</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--SpecificRate(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,592</span> <span class='lessgeneral'>&Igrave;</span> Quantity</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy MeasureData</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:0;'>|0|--MeasureData(0)</TH>
+    <TD class='eval'>0,93</TD>
+    <TD class='eval'>0,81</TD>
+    <TD class='eval'>0,87</TD>
+    <TD><span>0,954</span> <span class='moregeneral'>&Eacute;</span> UnitDerivedByScaling</TD>
+    <TD><span>0,938</span> <span class='moregeneral'>&Eacute;</span> ComplexUnit</TD>
+    <TD><span>0,936</span> <span class='moregeneral'>&Eacute;</span> BaseUnit</TD>
+    <TD><span>0,909</span> <span class='moregeneral'>&Eacute;</span> UnitDerivedByRaisingToPower</TD>
+    <TD><span>0,891</span> <span class='moregeneral'>&Eacute;</span> PrimaryDimensions</TD>
+    <TD><span>0,843</span> <span class='unknown'    >?</span> Measurement</TD>
+    <TD><span>0,779</span> <span class='moregeneral'>&Eacute;</span> DerivedDimensionsByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--Dimension(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,50</TD>
+    <TD class='maxeval'>0,67</TD>
+    <TD><span>0,875</span> <span class='moregeneral'>&Eacute;</span> PrimaryDimensions</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--CompositeDimension(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD class='maxeval'>0,89</TD>
+    <TD><span>0,571</span> <span class='moregeneral'>&Eacute;</span> DerivedDimensionsByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--CompositeDimensionByExponentiation(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,585</span> <span class='equivalence'>&ordm;  </span> DerivedDimensionsByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--CompositeDimensionByDivision(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--CompositeDimensionByMultiplication(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--FundamentalDimension(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,932</span> <span class='equivalence'>&ordm;  </span> PrimaryDimensions</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--MatematicalData(0)</TH>
+    <TD class='maxeval'>0,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,00</TD>
+    <TD><span>0,754</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--Operation(5)</TH>
+    <TD class='maxeval'>0,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,00</TD>
+    <TD><span>0,585</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--Sign(3)</TH>
+    <TD class='maxeval'>0,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,00</TD>
+    <TD><span>0,410</span> <span class='unknown'    >?</span> Measurement</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--ScaleOfMeasure(0)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD><span>0,829</span> <span class='unknown'    >?</span> UnitDerivedByScaling</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--ScaleOfTemperature(4)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD><span>0,829</span> <span class='unknown'    >?</span> UnitDerivedByScaling</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--UnitOfMeasure(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,82</TD>
+    <TD class='maxeval'>0,90</TD>
+    <TD><span>0,943</span> <span class='moregeneral'>&Eacute;</span> BaseUnit</TD>
+    <TD><span>0,940</span> <span class='moregeneral'>&Eacute;</span> ComplexUnit</TD>
+    <TD><span>0,912</span> <span class='moregeneral'>&Eacute;</span> UnitDerivedByRaisingToPower</TD>
+    <TD><span>0,768</span> <span class='moregeneral'>&Eacute;</span> UnitDerivedByScaling</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--DerivedUnit(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,75</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD><span>0,866</span> <span class='overlapping'>&Ccedil;</span> ComplexUnit</TD>
+    <TD><span>0,737</span> <span class='moregeneral'>&Eacute;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--DerivedUnitOfCompositeDimension(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,75</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD><span>0,926</span> <span class='overlapping'>&Ccedil;</span> ComplexUnit</TD>
+    <TD><span>0,775</span> <span class='moregeneral'>&Eacute;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--DerivedUnitByMultiplication(0)</TH>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,67</TD>
+    <TD class='eval'>0,73</TD>
+    <TD><span>0,320</span> <span class='unknown'    >?</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--UnitByUnitMultiplication(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--UnitByNumberMultiplication(1)</TH>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,67</TD>
+    <TD class='eval'>0,73</TD>
+    <TD><span>0,324</span> <span class='unknown'    >?</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--DerivedUnitByDivision(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,947</span> <span class='lessgeneral'>&Igrave;</span> ComplexUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--UnitOfSpecificRate(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,609</span> <span class='lessgeneral'>&Igrave;</span> ComplexUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--UnitOfDistributedMass(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,373</span> <span class='lessgeneral'>&Igrave;</span> ComplexUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--UnitOfAbsoluteRate(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,424</span> <span class='lessgeneral'>&Igrave;</span> ComplexUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--UnitOfMassDivision(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,638</span> <span class='lessgeneral'>&Igrave;</span> ComplexUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--DerivedUnitByExponentiation(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,561</span> <span class='equivalence'>&ordm;  </span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--UnitOfVolume(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,304</span> <span class='lessgeneral'>&Igrave;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--UnitOfArea(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,369</span> <span class='lessgeneral'>&Igrave;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--DerivedUnitOfFundamentalDimension(1)</TH>
+    <TD class='eval'>0,25</TD>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,20</TD>
+    <TD><span>0,241</span> <span class='unknown'    >?</span> DerivedDimensionsByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--MixUnit(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>0,641</span> <span class='overlapping'>&Ccedil;</span> UnitDerivedByRaisingToPower</TD>
+    <TD><span>0,596</span> <span class='overlapping'>&Ccedil;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--UnitOfMaterial(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,388</span> <span class='overlapping'>&Ccedil;</span> ComplexUnit</TD>
+    <TD><span>0,384</span> <span class='overlapping'>&Ccedil;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--UnitOfMass(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,387</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--UnitOfDistributedMass(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,373</span> <span class='lessgeneral'>&Igrave;</span> ComplexUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--UnitOfPowerOfLength(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>0,596</span> <span class='overlapping'>&Ccedil;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--UnitOfVolume(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,304</span> <span class='lessgeneral'>&Igrave;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--UnitOfArea(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,369</span> <span class='lessgeneral'>&Igrave;</span> UnitDerivedByRaisingToPower</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--UnitOfLength(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,337</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--BasicUnit(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,903</span> <span class='equivalence'>&ordm;  </span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--UnitOfMoney(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,521</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--UnitOfMass(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,387</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--UnitOfTime(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,246</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--UnitOfIdentity(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,344</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--UnitOfLength(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,337</span> <span class='lessgeneral'>&Igrave;</span> BaseUnit</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Global Evaluation</TD>
+    <TD class='title' align='center'>0,90</TD>
+    <TD class='title' align='center'>0,75</TD>
+    <TD class='title' align='center'>0,82</TD>
+  </TR>
+</table>
+</body>
+</html>

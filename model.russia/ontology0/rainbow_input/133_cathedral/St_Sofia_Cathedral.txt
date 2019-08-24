@@ -1,0 +1,23 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN sofiaIN cathedralIN 
+
+liePN     =  novgorodPV                 :  cityPT  
+areaPN    =  stPV sofiaPV cathedralPV   :          
+labelPN   =  stPV sofiaPV cathedralPV   :          

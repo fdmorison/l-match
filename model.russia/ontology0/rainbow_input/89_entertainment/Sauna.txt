@@ -1,0 +1,13 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+
+defaultrootconceptCN
+nameableCN 
+entertainmentDC entertainmentCN
+
+
+saunaIN 
+
+labelPN   =  saunaPV   :    

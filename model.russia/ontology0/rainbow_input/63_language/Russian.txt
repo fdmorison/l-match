@@ -1,0 +1,22 @@
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+languageDC languageCN
+
+
+russianIN
+
+labelPN   =  russianPV  :    

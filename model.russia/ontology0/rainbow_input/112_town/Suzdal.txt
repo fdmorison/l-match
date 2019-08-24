@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+suzdalIN 
+
+distancePN unitPN townPN      =  kilometerPV          :  durationunitPT  
+areaPN                        =  suzdalPV             :                  
+countryPN townPN              =  russiaPV             :  countryPT       
+locatablePN moscowPN townPN   =  northPV              :  directionPT     
+distancePN moscowPN           =  nbtwonbtwonbzeroPV   :                  
+labelPN                       =  suzdalPV             :                  

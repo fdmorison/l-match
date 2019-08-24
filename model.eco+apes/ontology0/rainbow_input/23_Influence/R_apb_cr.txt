@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN apbIN crIN 
+
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  specificPV consumptionPV ratePV         :  specificPT ratePT      
+directionPN   =  positivePV                              :  signPT                 

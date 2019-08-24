@@ -1,0 +1,15 @@
+conditionCN
+infectionCN
+bacterialinfectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionCN
+foodDC borneDC diseaseDC  foodCN borneCN diseaseCN 
+
+
+coliIN 
+
+causedPN    =  escherichiaPV coliPV onbonenbfivenbsevenPV hnbsevenPV   :  bacterialPT                
+causedPN    =  escherichiaPV coliPV ltPV                               :  bacterialPT                
+resultsPN   =  acutePV gastroPV enteritisPV                            :  foodPT bornePT diseasePT   

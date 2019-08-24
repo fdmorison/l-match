@@ -1,0 +1,25 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+riverDC riverCN
+
+
+volgaIN
+
+closePN    =  volgogradPV     :  cityPT  
+authorPN   =  caspianseaPV    :  seaPT   
+mouthPN    =  stpetersburgPV  :  cityPT  
+closePN    =  kazanPV         :  cityPT  
+areaPN     =  volgaPV         :          
+labelPN    =  volgaPV         :          

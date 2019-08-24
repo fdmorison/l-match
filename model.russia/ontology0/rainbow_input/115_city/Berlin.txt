@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+berlinIN
+
+areaPN             =  berlinPV   :             
+countryPN cityPN   =  germanyPV  :  countryPT  
+labelPN            =  berlinPV   :             

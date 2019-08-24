@@ -1,0 +1,20 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+waterwayCN
+seaDC seaCN
+
+
+caspianseaIN
+
+labelPN   =  caspianseaPV  :    

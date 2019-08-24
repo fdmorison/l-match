@@ -1,0 +1,12 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+productIN efficiencyIN 
+
+measurePN areaPN    =  unknownPV areaPV          :  seamPT agroPT areaPT   
+measurePN           =  productPV coefficientPV   :  measurePT              
+measuredimensionPN  =  dimensionlessPV           :  basedimensionPT        
+dataPN typePN       =  doublePV                  :  floatPT                

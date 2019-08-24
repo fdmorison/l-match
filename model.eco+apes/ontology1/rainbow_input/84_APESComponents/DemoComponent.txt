@@ -1,0 +1,11 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+demoIN componentIN 
+
+consistsPN modelPN   =  donatelliPV bellocchiPV   :  setPT   
+consistsPN modelPN   =  campbellPV                :  setPT   
+consistsPN modelPN   =  testPV                    :  setPT   

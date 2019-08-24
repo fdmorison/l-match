@@ -1,0 +1,16 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+religionCN
+nameableCN 
+singingDC singingCN
+
+
+orthodoxIN folkIN singingIN 
+
+labelPN   =  orthodoxPV folkPV singingPV   :    

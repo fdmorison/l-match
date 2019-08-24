@@ -1,0 +1,26 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+townDC townCN
+
+
+tulaIN 
+
+locatablePN moscowPN townPN   =  southPV                                     :  directionPT     
+distancePN unitPN townPN      =  kilometerPV                                 :  durationunitPT  
+distancePN moscowPN           =  nbonenbeightnbzeroPV                        :                  
+sightPN townPN                =  vosstaniyePV paidPV                         :  paidPT          
+sightPN townPN                =  historyPV armsPV museumPV                   :  museumPT        
+populationPN valuePN          =  nbfivenbfournbzeroPV nbzeronbzeronbzeroPV   :                  
+countryPN townPN              =  russiaPV                                    :  countryPT       
+labelPN                       =  tulaPV                                      :                  

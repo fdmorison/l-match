@@ -1,0 +1,20 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+musicianDC musicianCN
+
+
+tchaikovskyIN 
+
+animalPN      =  tchaikovskyPV   :          
+birthplacePN  =  stpetersburgPV  :  cityPT  
+labelPN       =  tchaikovskyPV   :          

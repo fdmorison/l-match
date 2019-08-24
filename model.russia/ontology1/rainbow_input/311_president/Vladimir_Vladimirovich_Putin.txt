@@ -1,0 +1,25 @@
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+inhabitantCN
+
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+presidentDC presidentCN
+
+
+vladimirIN vladimirovichIN putinIN 
+
+nameablePN   =  vladimirPV vlaimirovichPV putinPV    :            
+genderPN     =  malePV                               :  genderPT  
+personPN     =  russianPV                            :  ethnicPT  
+labelPN      =  vladimirPV vladimirovichPV putinPV   :            

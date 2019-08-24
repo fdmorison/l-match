@@ -1,0 +1,23 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+townDC townCN
+
+
+kazanIN
+
+nameablePN   =  kazanPV    :            
+gardenPN     =  dachasPV   :  gardenPT  
+labelPN      =  kazanPV    :            

@@ -1,0 +1,10 @@
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+groundCN consumptionCN enviromentCN 
+
+nitrogenDC contentDC enviromentDC  nitrogenCN contentCN enviromentCN 
+
+
+nitrogenIN contentIN 
+

@@ -1,0 +1,12 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+activeDC  activeCN 
+
+
+crosIN duruIN 
+
+inputsPN        =  airPV temperaturePV dailyPV averagePV   :  measurePT             
+inputsPN        =  globalPV solarPV radiationPV            :  measurePT             
+implementedPN   =  grassPV                                 :  apescPT omponentsPT   

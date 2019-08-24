@@ -1,0 +1,22 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+pushkinIN museumIN 
+
+knownPN publicPN spacePN   =  pushkinPV            :  authorPT   
+closePN                    =  mondayPV             :  weekdayPT  
+liePN                      =  moscowPV             :  cityPT     
+areaPN                     =  pushkinPV museumPV   :             
+labelPN                    =  pushkinPV museumPV   :             

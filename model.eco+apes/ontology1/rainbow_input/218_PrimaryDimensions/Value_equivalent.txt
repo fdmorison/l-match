@@ -1,0 +1,10 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+valueIN equivalentIN 
+
+symbolPN   =  vPV   :    

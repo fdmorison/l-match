@@ -1,0 +1,118 @@
+a <- U.S.A. U.S.A. 
+animal <- Material animal physical_thing animal material_thing 
+antique <- Antique be_used_for 
+april <- April April 
+architecture <- architecture architecture 
+area <- region area region 
+areaunit <- area_unit area_unit 
+autumn <- Autumn Autumn 
+ballet <- ballet ballet 
+beijing <- Beijing Beijing 
+berlin <- Berlin Berlin 
+birthplace <- has_birthplace has_birthplace 
+blackpaid <- Red_Square Red_Square 
+border <- March has_border March 
+canal <- canal canal 
+cash <- cash cash 
+caspiansea <- Caspian_Sea Caspian_Sea 
+cathedral <- cathedral cathedral 
+china <- China China 
+church <- church church 
+city <- city belong_to___city city 
+clockdistrict <- time_zone time_zone 
+clockunit <- has_time_unit time_unit time_unit has_time_unit 
+close <- is_close_to closed_on is_close_to 
+country <- country has_country country 
+creditcard <- credit_card credit_card 
+day <- hour day day 
+december <- December December 
+defaultrootconcept <- DEFAULT_ROOT_CONCEPT DEFAULT_ROOT_CONCEPT 
+defaultrootrelation <- DEFAULT_ROOT_RELATION DEFAULT_ROOT_RELATION 
+destination <- has_destination has_destination 
+document <- document belong_to___document document 
+dollar <- Dollar us_dollar 
+drink <- drink drink 
+durationunit <- length_unit has_duration_unit has_length_unit length_unit 
+english <- English English 
+exist <- lived_in live_in living_being living_being exist_in 
+february <- February February 
+festival <- festival festival has_festival 
+food <- food food 
+forest <- forest forest 
+fortress <- fortress fortress 
+garden <- garden garden has_garden 
+germany <- Germany Germany 
+gmtutcnbeight <- GMT_UTC-8 GMT_UTC_8 GMT_UTC-8 GMT_UTC_8 
+gmtutcnbfive <- GMT_UTC-5 GMT_UTC_5 GMT_UTC-5 GMT_UTC_5 
+gmtutcnbfour <- GMT_UTC-4 GMT_UTC_4 GMT_UTC-4 GMT_UTC_4 
+gmtutcnbnine <- GMT_UTC-9 GMT_UTC_9 GMT_UTC-9 GMT_UTC_9 
+gmtutcnbone <- GMT_UTC-1 GMT_UTC_1 GMT_UTC-1 GMT_UTC_1 
+gmtutcnbonenbone <- GMT_UTC_11 GMT_UTC-11 GMT_UTC_11 GMT_UTC-11 
+gmtutcnbonenbthree <- GMT_UTC_13 GMT_UTC_13 
+gmtutcnbonenbtwo <- GMT_UTC_12 GMT_UTC-12 GMT_UTC_12 
+gmtutcnbonenbzero <- GMT_UTC_10 GMT_UTC-10 GMT_UTC_10 GMT_UTC-10 
+gmtutcnbseven <- GMT_UTC-7 GMT_UTC_7 GMT_UTC-7 GMT_UTC_7 
+gmtutcnbsix <- GMT_UTC-6 GMT_UTC_6 GMT_UTC-6 GMT_UTC_6 
+gmtutcnbthree <- GMT_UTC-3 GMT_UTC_3 GMT_UTC-3 GMT_UTC_3 
+gmtutcnbtwo <- GMT_UTC-2 GMT_UTC_2 GMT_UTC-2 GMT_UTC_2 
+hiking <- hiking hiking 
+hotel <- hotel hotel 
+human <- human_being human_being 
+irkutsk <- Irkutsk Irkutsk 
+island <- island island 
+january <- January January 
+jauntevent <- travel_event travel_event 
+july <- July July 
+june <- June June 
+kazan <- Kazan Kazan 
+kilometer <- kilo_meter kilometer 
+kremlin <- Kremlin Kremlin 
+lake <- lake lake 
+lakebaikal <- Lake_Baikal Lake_Baikal 
+language <- has_language language language 
+literature <- literature literature 
+may <- May May 
+month <- month month 
+monument <- monument monument 
+moscow <- Moscow Moscow 
+mountain <- mountain mountain mountaineering 
+museum <- museum museum 
+music <- music music 
+neva <- Neva Neva 
+november <- November November 
+novgorod <- Novgorod Novgorod 
+october <- October October 
+offer <- pass_by has_offer 
+openarea <- surface_area surface_area 
+paid <- square be_paid_for square 
+palace <- palace palace 
+peninsula <- peninsula peninsula 
+person <- person person belong_to___person 
+peterpaulfortress <- Peter_and_Paul_Fortress Peter_Paul_fortress 
+place <- take_place_at take_place_on has_place rate 
+plant <- plant plant 
+politicalarea <- political_region political_area 
+president <- president president has_president 
+religion <- religion religion 
+restaurant <- restaurant restaurant 
+river <- along_river river river 
+russia <- Russia Russia 
+russian <- Russian russian Russian 
+sea <- sea sea 
+season <- season season 
+september <- September September 
+ski <- ski skiing 
+spring <- Spring Spring 
+stpetersburg <- St.Petersburg St_Petersburg 
+summer <- Summer Summer 
+theatre <- theatre theatre 
+town <- town town 
+transsiberian <- Trans_Siberian Trans-Siberian 
+ulyanovsk <- Ulyanovsk Ulyanovsk 
+unit <- unit unit 
+visa <- visa Visa 
+vladivostok <- Vladivostok Vladivostok 
+vodka <- Vodka vodka 
+volga <- Volga Volga 
+volgograd <- Volgograd Volgograd 
+winter <- Winter Winter 

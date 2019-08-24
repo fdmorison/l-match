@@ -1,0 +1,13 @@
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+novemberIN
+
+clockPN jauntPN   =  falsePV     :    
+labelPN           =  novemberPV  :    

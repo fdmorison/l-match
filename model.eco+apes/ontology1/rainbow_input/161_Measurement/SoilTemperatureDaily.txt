@@ -1,0 +1,12 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+groundIN temperatureIN dailyIN 
+
+meterPN samplingPN frequencyPN   =  dailyPV                       :  meterPT samplingPT frequencyPT   
+spatialPN contextPN              =  vectorPV nsPV nbonenbzeroPV   :  axisPT northPT southPT           
+observationPN                    =  groundPV temperaturePV        :  measurePT                        
+interimPN contextPN              =  itemPV meterPV                :  itemPT                           

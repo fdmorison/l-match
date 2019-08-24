@@ -1,0 +1,33 @@
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+nameableCN 
+defaultrootconceptCN
+animalCN
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+animalCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+sightCN
+buildingCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+cathedralCN
+publicCN placeCN 
+palaceDC palaceCN
+
+
+kremlinIN
+
+liePN locatablePN   =  moscowPV   :  capitalPT cityPT   
+nameablePN          =  kremlinPV  :                     
+labelPN             =  kremlinPV  :                     

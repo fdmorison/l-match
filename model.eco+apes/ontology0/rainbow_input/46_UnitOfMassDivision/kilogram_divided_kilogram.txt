@@ -1,0 +1,20 @@
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC massDC divisionDC  unitCN massCN divisionCN 
+
+
+kiloIN diffuseIN kiloIN 
+
+operationPN     =  divisionPV              :  operationPT                        
+dimensionPN     =  individualPV growthPV   :  complexPT dimensionPT divisionPT   
+unitPN          =  kiloPV                  :  unitPT massPT                      
+grayPN unitPN   =  kiloPV                  :  unitPT massPT                      

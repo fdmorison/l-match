@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+classicalCN
+
+greekDC  greekCN 
+
+
+foundationIN koineIN greekIN textsIN 
+

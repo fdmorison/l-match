@@ -1,0 +1,13 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+coursesCN
+collegeartsscienceCN
+linguisticCN
+
+linguisticDC linguisticCN
+latinDC linguisticDC  latinCN linguisticCN 
+
+
+problemsIN latinIN linguisticIN 
+

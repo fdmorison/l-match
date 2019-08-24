@@ -1,0 +1,23 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+marketDC marketCN
+
+
+izmailovskiIN stadiumIN 
+
+liePN                    =  moscowPV                  :  cityPT    
+knownPN shopPN placePN   =  souvenirPV                :  othersPT  
+knownPN shopPN placePN   =  antiquePV                 :  othersPT  
+areaPN                   =  izmailovskiPV             :            
+labelPN                  =  izmailovskiPV stadiumPV   :            

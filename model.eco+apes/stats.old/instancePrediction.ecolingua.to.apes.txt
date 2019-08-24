@@ -1,0 +1,160 @@
++individual_fish   0,111543 ComplexUnit     0,097968 SimpleUnit          
++harvested_fish    0,133541 MeasurementSet  0,115854 SeamAgDomain        
++pond_system       0,000000 SeamAgDomain    0,000000 NutrientManagement  0,000000 PesticidesManagement  0,000000 WaterManagement  0,000000 LandUseManagement  0,000000 SoilTillageManagement  0,000000 EvapotranspirationAct  0,000000 SolarRadiationAct  0,000000 WindAct  0,000000 AirAct  0,000000 RainfallAct  0,000000 WaterEnv  0,000000 SoilEnv  0,000000 NitrogenContentEnv  0,000000 BiomassEnv  0,000000 CarbonContentEnv  0,000000 PesticidesEnv  0,000000 FarmEnv  0,000000 Float  0,000000 Boolean  0,000000 Integer  0,000000 TimeSamplingFrequency  0,000000 ZeroDimensional  0,000000 Axes_NS_Elevation  0,000000 Axes_NS_EW  0,000000 Axis_north_south  0,000000 Axis_elevation  0,000000 Axis_east_west  0,000000 Point  0,000000 TimeSeries  0,000000 ComplexUnit  0,000000 SimpleUnit  0,000000 UnitDerivedByRaisingToPower  0,000000 UnitDerivedByScaling  0,000000 UnitDerivedByShifting  0,000000 UnitPrefix  0,000000 BaseUnit  0,000000 Measurement  0,000000 Reference  0,000000 SpaceRef  0,000000 MeasurementSet  0,000000 Quantity  0,000000 PrimaryDimensions  0,000000 DerivedDimensionsByRaisingToPower  0,000000 DerivedDimensionsByProduct  0,000000 Dynamic  0,000000 Static  0,000000 SystemSimulation  0,000000 MathematicalProgramming  
++outside           0,000000 SeamAgDomain    0,000000 NutrientManagement  0,000000 PesticidesManagement  0,000000 WaterManagement  0,000000 LandUseManagement  0,000000 SoilTillageManagement  0,000000 EvapotranspirationAct  0,000000 SolarRadiationAct  0,000000 WindAct  0,000000 AirAct  0,000000 RainfallAct  0,000000 WaterEnv  0,000000 SoilEnv  0,000000 NitrogenContentEnv  0,000000 BiomassEnv  0,000000 CarbonContentEnv  0,000000 PesticidesEnv  0,000000 FarmEnv  0,000000 Float  0,000000 Boolean  0,000000 Integer  0,000000 TimeSamplingFrequency  0,000000 ZeroDimensional  0,000000 Axes_NS_Elevation  0,000000 Axes_NS_EW  0,000000 Axis_north_south  0,000000 Axis_elevation  0,000000 Axis_east_west  0,000000 Point  0,000000 TimeSeries  0,000000 ComplexUnit  0,000000 SimpleUnit  0,000000 UnitDerivedByRaisingToPower  0,000000 UnitDerivedByScaling  0,000000 UnitDerivedByShifting  0,000000 UnitPrefix  0,000000 BaseUnit  0,000000 Measurement  0,000000 Reference  0,000000 SpaceRef  0,000000 MeasurementSet  0,000000 Quantity  0,000000 PrimaryDimensions  0,000000 DerivedDimensionsByRaisingToPower  0,000000 DerivedDimensionsByProduct  0,000000 Dynamic  0,000000 Static  0,000000 SystemSimulation  0,000000 MathematicalProgramming  
++aquatic_plants    0,000000 SeamAgDomain    0,000000 NutrientManagement  0,000000 PesticidesManagement  0,000000 WaterManagement  0,000000 LandUseManagement  0,000000 SoilTillageManagement  0,000000 EvapotranspirationAct  0,000000 SolarRadiationAct  0,000000 WindAct  0,000000 AirAct  0,000000 RainfallAct  0,000000 WaterEnv  0,000000 SoilEnv  0,000000 NitrogenContentEnv  0,000000 BiomassEnv  0,000000 CarbonContentEnv  0,000000 PesticidesEnv  0,000000 FarmEnv  0,000000 Float  0,000000 Boolean  0,000000 Integer  0,000000 TimeSamplingFrequency  0,000000 ZeroDimensional  0,000000 Axes_NS_Elevation  0,000000 Axes_NS_EW  0,000000 Axis_north_south  0,000000 Axis_elevation  0,000000 Axis_east_west  0,000000 Point  0,000000 TimeSeries  0,000000 ComplexUnit  0,000000 SimpleUnit  0,000000 UnitDerivedByRaisingToPower  0,000000 UnitDerivedByScaling  0,000000 UnitDerivedByShifting  0,000000 UnitPrefix  0,000000 BaseUnit  0,000000 Measurement  0,000000 Reference  0,000000 SpaceRef  0,000000 MeasurementSet  0,000000 Quantity  0,000000 PrimaryDimensions  0,000000 DerivedDimensionsByRaisingToPower  0,000000 DerivedDimensionsByProduct  0,000000 Dynamic  0,000000 Static  0,000000 SystemSimulation  0,000000 MathematicalProgramming  
++water             0,130735 WaterEnv        0,109404 WaterManagement     
++fish              0,127290 Measurement     
++fish_stocked      0,127290 Measurement     
+@EcologicalEntity  0,370613 Measurement     
+
++stocking  0,367178 Quantity  
++harvest   0,356778 Quantity  
+@Event     0,592955 Quantity  
+
++stocking_date  0,000000 SeamAgDomain    0,000000 NutrientManagement  0,000000 PesticidesManagement  0,000000 WaterManagement  0,000000 LandUseManagement  0,000000 SoilTillageManagement  0,000000 EvapotranspirationAct  0,000000 SolarRadiationAct  0,000000 WindAct  0,000000 AirAct  0,000000 RainfallAct  0,000000 WaterEnv  0,000000 SoilEnv  0,000000 NitrogenContentEnv  0,000000 BiomassEnv  0,000000 CarbonContentEnv  0,000000 PesticidesEnv  0,000000 FarmEnv  0,000000 Float  0,000000 Boolean  0,000000 Integer  0,000000 TimeSamplingFrequency  0,000000 ZeroDimensional  0,000000 Axes_NS_Elevation  0,000000 Axes_NS_EW  0,000000 Axis_north_south  0,000000 Axis_elevation  0,000000 Axis_east_west  0,000000 Point  0,000000 TimeSeries  0,000000 ComplexUnit  0,000000 SimpleUnit  0,000000 UnitDerivedByRaisingToPower  0,000000 UnitDerivedByScaling  0,000000 UnitDerivedByShifting  0,000000 UnitPrefix  0,000000 BaseUnit  0,000000 Measurement  0,000000 Reference  0,000000 SpaceRef  0,000000 MeasurementSet  0,000000 Quantity  0,000000 PrimaryDimensions  0,000000 DerivedDimensionsByRaisingToPower  0,000000 DerivedDimensionsByProduct  0,000000 Dynamic  0,000000 Static  0,000000 SystemSimulation  0,000000 MathematicalProgramming  
++harvest_date   0,177350 MeasurementSet  
+@When           0,177350 MeasurementSet  
+
++biomass   0,225043 BiomassEnv  
+@Material  0,225043 BiomassEnv  
+
++R_wt_ppr   0,111704 RainfallAct        0,094501 AirAct       0,093582 WindAct  0,093102 EvapotranspirationAct  
++R_wt_pp    0,111704 RainfallAct        0,094501 AirAct       0,093582 WindAct  0,093102 EvapotranspirationAct  
++R_wt_e     0,113891 RainfallAct        0,096712 AirAct       0,095731 WindAct  0,095011 EvapotranspirationAct  
++R_hd_h     0,111968 RainfallAct        0,094709 AirAct       0,093789 WindAct  0,093336 EvapotranspirationAct  
++R_apb_c    0,114863 RainfallAct        0,098001 AirAct       0,097034 WindAct  0,095675 EvapotranspirationAct  
++R_nfs_ifw  0,348135 SolarRadiationAct  
++R_apb_pp   0,112538 RainfallAct        0,095589 AirAct       0,094683 WindAct  0,093676 EvapotranspirationAct  
++R_apb_cr   0,114863 RainfallAct        0,098001 AirAct       0,097034 WindAct  0,095675 EvapotranspirationAct  
++R_c_apb    0,114863 RainfallAct        0,098001 AirAct       0,097034 WindAct  0,095675 EvapotranspirationAct  
++R_fb_e     0,265093 SolarRadiationAct  
++R_apb_pnm  0,114863 RainfallAct        0,098001 AirAct       0,097034 WindAct  0,095675 EvapotranspirationAct  
++R_ifw_cr   0,265093 SolarRadiationAct  
++R_wt_cr    0,113891 RainfallAct        0,096712 AirAct       0,095731 WindAct  0,095011 EvapotranspirationAct  
++R_fb_r     0,265093 SolarRadiationAct  
++R_wt_c     0,113891 RainfallAct        0,096712 AirAct       0,095731 WindAct  0,095011 EvapotranspirationAct  
++R_iifw_s   0,265093 SolarRadiationAct  
++R_ifw_c    0,265093 SolarRadiationAct  
++R_e_fb     0,265093 SolarRadiationAct  
++R_h_fb     0,262324 SolarRadiationAct  
++R_pnm_apb  0,114863 RainfallAct        0,098001 AirAct       0,097034 WindAct  0,095675 EvapotranspirationAct  
++R_fb_h     0,262324 SolarRadiationAct  
++R_wt_r     0,113891 RainfallAct        0,096712 AirAct       0,095731 WindAct  0,095011 EvapotranspirationAct  
++R_pp_apb   0,112538 RainfallAct        0,095589 AirAct       0,094683 WindAct  0,093676 EvapotranspirationAct  
++R_c_fb     0,265093 SolarRadiationAct  
++R_fb_ifw   0,348135 SolarRadiationAct  
++R_ifw_e    0,265093 SolarRadiationAct  
++R_r_fb     0,265093 SolarRadiationAct  
++R_hfb_p    0,265093 SolarRadiationAct  
++R_ifw_r    0,265093 SolarRadiationAct  
++R_fb_c     0,265093 SolarRadiationAct  
++R_fae_e    0,117213 RainfallAct        0,105070 AirAct       0,102813 WindAct  0,101326 EvapotranspirationAct  
++R_nfs_s    0,265093 SolarRadiationAct  
++R_sd_s     0,114863 RainfallAct        0,098001 AirAct       0,097034 WindAct  0,095675 EvapotranspirationAct  
++R_s_fb     0,265093 SolarRadiationAct  
+@Influence  0,999164 SolarRadiationAct  0,950013 RainfallAct  0,925600 AirAct   0,922672 WindAct                0,919695 EvapotranspirationAct  
+
++indiv_fish_weight       0,359181 Quantity     
++init_indiv_fish_weight  0,245364 Measurement  
+@WeigthOf                0,423500 Quantity     
+
++harv_fish_biomass       0,313502 Quantity  
++aquatic_plants_biomass  0,359999 Quantity  
++fish_biomass            0,377598 Quantity  
+@MaterialDensity         0,726542 Quantity  
+
++profit         0,349736 Quantity  
+@AmountOfMoney  0,349736 Quantity  
+
++fish_ass_eff  0,245364 Measurement  
+@Percentage    0,245364 Measurement  
+
++number_fish_stocked  0,245364 Measurement  
+@NumberOf             0,245364 Measurement  
+
++water_temp     0,243716 Measurement  
+@TemperatureOf  0,243716 Measurement  
+
++plant_production          0,365421 Quantity  
++plant_natality_mortality  0,353958 Quantity  
++consumption               0,344587 Quantity  0,317867 PrimaryDimensions  
++excretion                 0,374300 Quantity  
++stocking                  0,367178 Quantity  
++harvest                   0,356778 Quantity  
++respiration               0,367669 Quantity  
+@AbsoluteRate              0,956727 Quantity  
+
++plant_production_rate  0,364893 Quantity  
++consumption_rate       0,362798 Quantity  
+@SpecificRate           0,595309 Quantity  
+
++volume                              0,344215 DerivedDimensionsByRaisingToPower  
++area                                0,372587 DerivedDimensionsByRaisingToPower  
+@CompositeDimensionByExponentiation  0,588552 DerivedDimensionsByRaisingToPower  
+
++money                 0,356869 PrimaryDimensions  
++mass                  0,385207 PrimaryDimensions  
++time                  0,354774 PrimaryDimensions  
++temperature           0,358736 PrimaryDimensions  
++length                0,362757 PrimaryDimensions  
++identity              0,356869 PrimaryDimensions  
+@FundamentalDimension  0,932953 PrimaryDimensions  
+
++subtraction     0,163709 Measurement  
++addition        0,163709 Measurement  
++division        0,163709 Measurement  
++exponentiation  0,163709 Measurement  
++multiplication  0,163709 Measurement  
+@Operation       0,590941 Measurement  
+
++undefined  0,163709 Measurement  
++negative   0,163709 Measurement  
++positive   0,163709 Measurement  
+@Sign       0,415113 Measurement  
+
++Rankine             0,360009 UnitDerivedByScaling  
++Kelvins             0,351524 UnitDerivedByScaling  
++Fahrenheit          0,358448 UnitDerivedByScaling  
++celsius             0,362138 UnitDerivedByScaling  
+@ScaleOfTemperature  0,830165 UnitDerivedByScaling  
+
++hectare                     0,324151 UnitDerivedByRaisingToPower  
+@UnitByNumberMultiplication  0,324151 UnitDerivedByRaisingToPower  
+
++gram_divided_kilogram_divided_day      0,312979 ComplexUnit  
++kilogram_divided_kilogram_divided_day  0,437696 ComplexUnit  
+@UnitOfSpecificRate                     0,613685 ComplexUnit  
+
++kilogram_divided_hectare  0,373545 ComplexUnit  
+@UnitOfDistributedMass     0,373545 ComplexUnit  
+
++kilogram_divided_hectare_divided_day  0,425719 ComplexUnit  
+@UnitOfAbsoluteRate                    0,425719 ComplexUnit  
+
++gram_divided_kilogram      0,377848 ComplexUnit  
++kilogram_divided_kilogram  0,424028 ComplexUnit  
+@UnitOfMassDivision         0,641658 ComplexUnit  
+
++m3            0,304556 UnitDerivedByRaisingToPower  
+@UnitOfVolume  0,304556 UnitDerivedByRaisingToPower  
+
++m2          0,369149 UnitDerivedByRaisingToPower  
+@UnitOfArea  0,369149 UnitDerivedByRaisingToPower  
+
++gram                               0,242463 DerivedDimensionsByRaisingToPower  
+@DerivedUnitOfFundamentalDimension  0,242463 DerivedDimensionsByRaisingToPower  
+
++kilogram    0,386770 BaseUnit  
+@UnitOfMass  0,386770 BaseUnit  
+
++meter         0,337264 BaseUnit  
+@UnitOfLength  0,337264 BaseUnit  
+
++euro         0,272722 BaseUnit  
++dolar        0,346706 BaseUnit  
+@UnitOfMoney  0,524874 BaseUnit  
+
++day         0,247925 BaseUnit  
+@UnitOfTime  0,247925 BaseUnit  
+

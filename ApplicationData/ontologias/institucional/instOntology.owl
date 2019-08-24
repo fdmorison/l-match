@@ -1,0 +1,1209 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:p1="hhtp://localhost/Institute#"
+    xmlns="http://localhost/Institute#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://localhost/Institute">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Junior_Research_Student">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Senior_Research_Student"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Research_Student"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Research_Interest">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="researchInterestOf"/>
+        </owl:onProperty>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="Person"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Course_Name"/>
+  <owl:Class rdf:ID="Professor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Assistant_Professor</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Teacher"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Lecturer"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Associate_Professor"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Centre">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Course_Name"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="listedCourse"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Senior_Research_Student">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Research_Student"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Junior_Research_Student"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Magazine">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Periodical"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Journal"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Qualification"/>
+  <owl:Class rdf:about="#Teacher">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasQualification"/>
+        </owl:onProperty>
+        <owl:hasValue>
+          <Qualification rdf:ID="PhD">
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Bachelors of Commerce</rdfs:comment>
+          </Qualification>
+        </owl:hasValue>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Research_Interest"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasResearchInterest"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Person"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Assistant"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Student"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="AdministrativeStaff"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Research_Topic">
+    <rdfs:comment xml:lang="en">&lt;b&gt;Research topic&lt;/b&gt; refers to the core area in which some one has done 
+    or doing research for his/her PhD degree</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#AdministrativeStaff">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Assistant"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Student"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Teacher"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Workshop">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Events"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Conference"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Thesis">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Proceedings"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Periodical"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Book"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Article"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Publication"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PhD_Programme">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Postgraduate_Course"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Undergraduate_Course"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="PostDoc_Programme"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Course_Name"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Article">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Publication"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Thesis"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Proceedings"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Periodical"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Book"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Person">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasGender"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="affiliatedUnit"/>
+        </owl:onProperty>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="Unit"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="belongsToCentre"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Student">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Assistant"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Teacher"/>
+    <owl:disjointWith rdf:resource="#AdministrativeStaff"/>
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MStat">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Postgraduate_Course"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="ADIS"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="MMath"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="MastersThesis">
+    <rdfs:subClassOf rdf:resource="#Thesis"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="DoctoralThesis"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="ProjectAssistant">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Assistant"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Postgraduate_Course">
+    <owl:disjointWith rdf:resource="#PhD_Programme"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Undergraduate_Course"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#PostDoc_Programme"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Course_Name"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BMath">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="BStat"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Undergraduate_Course"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Research_Student">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Research_Interest"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#hasResearchInterest"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Student"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Postgraduate_Student"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Undergraduate_Student"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Conference">
+    <rdfs:subClassOf rdf:resource="#Events"/>
+    <owl:disjointWith rdf:resource="#Workshop"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ADIS">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This course is equivalent to MLISc degree</rdfs:comment>
+    <owl:disjointWith rdf:resource="#MStat"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#MMath"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Postgraduate_Course"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Director">
+    <rdfs:subClassOf rdf:resource="#AdministrativeStaff"/>
+  </owl:Class>
+  <owl:Class rdf:about="#BStat">
+    <owl:disjointWith rdf:resource="#BMath"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Undergraduate_Course"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Project">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >List of on going or finished projects</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#MMath">
+    <rdfs:subClassOf rdf:resource="#Postgraduate_Course"/>
+    <owl:disjointWith rdf:resource="#ADIS"/>
+    <owl:disjointWith rdf:resource="#MStat"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Book">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Publication"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Thesis"/>
+    <owl:disjointWith rdf:resource="#Article"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Periodical"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Proceedings"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Postgraduate_Student">
+    <rdfs:subClassOf rdf:resource="#Student"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Postgraduate_Course"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="pgStudent"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Research_Student"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Undergraduate_Student"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Proceedings">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Publication"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Thesis"/>
+    <owl:disjointWith rdf:resource="#Article"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Periodical"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Book"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Gender">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Programes offered by the Institute</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Course Name</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Journal">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Periodical"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Magazine"/>
+  </owl:Class>
+  <owl:Class rdf:about="#DoctoralThesis">
+    <rdfs:subClassOf rdf:resource="#Thesis"/>
+    <owl:disjointWith rdf:resource="#MastersThesis"/>
+  </owl:Class>
+  <owl:Class rdf:about="#PostDoc_Programme">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Post Doctoral Programme</rdfs:label>
+    <owl:disjointWith rdf:resource="#PhD_Programme"/>
+    <owl:disjointWith rdf:resource="#Postgraduate_Course"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Undergraduate_Course"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Course_Name"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Periodical">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Publication"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Thesis"/>
+    <owl:disjointWith rdf:resource="#Article"/>
+    <owl:disjointWith rdf:resource="#Proceedings"/>
+    <owl:disjointWith rdf:resource="#Book"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Discipline"/>
+  <owl:Class rdf:about="#Lecturer">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Associate_Professor"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Professor"/>
+    <rdfs:subClassOf rdf:resource="#Teacher"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ConferenceArticle">
+    <rdfs:subClassOf rdf:resource="#Article"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="WorkshopArticle"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="JournalArticle"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="BookArticle"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Undergraduate_Student">
+    <rdfs:subClassOf rdf:resource="#Student"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="#Undergraduate_Course"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="ugStudent"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Postgraduate_Student"/>
+    <owl:disjointWith rdf:resource="#Research_Student"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Undergraduate_Course">
+    <rdfs:subClassOf rdf:resource="#Course_Name"/>
+    <owl:disjointWith rdf:resource="#PhD_Programme"/>
+    <owl:disjointWith rdf:resource="#Postgraduate_Course"/>
+    <owl:disjointWith rdf:resource="#PostDoc_Programme"/>
+  </owl:Class>
+  <owl:Class rdf:about="#WorkshopArticle">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#JournalArticle"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#ConferenceArticle"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#BookArticle"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Article"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Associate_Professor">
+    <rdfs:subClassOf rdf:resource="#Teacher"/>
+    <owl:disjointWith rdf:resource="#Lecturer"/>
+    <owl:disjointWith rdf:resource="#Professor"/>
+  </owl:Class>
+  <owl:Class rdf:about="#JournalArticle">
+    <rdfs:subClassOf rdf:resource="#Article"/>
+    <owl:disjointWith rdf:resource="#WorkshopArticle"/>
+    <owl:disjointWith rdf:resource="#ConferenceArticle"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#BookArticle"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#BookArticle">
+    <owl:disjointWith rdf:resource="#WorkshopArticle"/>
+    <owl:disjointWith rdf:resource="#JournalArticle"/>
+    <owl:disjointWith rdf:resource="#ConferenceArticle"/>
+    <rdfs:subClassOf rdf:resource="#Article"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Assistant">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+    <owl:disjointWith rdf:resource="#Teacher"/>
+    <owl:disjointWith rdf:resource="#Student"/>
+    <owl:disjointWith rdf:resource="#AdministrativeStaff"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Publication">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasAuthor"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#Person"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="eventsEditor">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="editorOfEvents"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Teacher"/>
+    <rdfs:domain rdf:resource="#Events"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="researchArea">
+    <rdfs:range rdf:resource="#Research_Topic"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#pgStudent">
+    <rdfs:domain rdf:resource="#Postgraduate_Student"/>
+    <rdfs:range rdf:resource="#Postgraduate_Course"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="guide">
+    <rdfs:range rdf:resource="#Teacher"/>
+    <rdfs:domain rdf:resource="#Student"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="guideOf"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="projectAssistantOf">
+    <rdfs:domain rdf:resource="#ProjectAssistant"/>
+    <rdfs:range rdf:resource="#Project"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasBookPublication">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="#Book"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="centretHead">
+    <rdfs:range rdf:resource="#Teacher"/>
+    <rdfs:domain rdf:resource="#Centre"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasResearchInterest">
+    <rdfs:range rdf:resource="#Research_Interest"/>
+    <rdfs:domain rdf:resource="#Person"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#researchInterestOf"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#ugStudent">
+    <rdfs:range rdf:resource="#Undergraduate_Course"/>
+    <rdfs:domain rdf:resource="#Undergraduate_Student"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasGender">
+    <rdfs:range rdf:resource="#Gender"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasQualification">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="#Qualification"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasAuthor">
+    <rdfs:range rdf:resource="#Person"/>
+    <rdfs:domain rdf:resource="#Publication"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="projectAdvisor">
+    <rdfs:domain rdf:resource="#Project"/>
+    <rdfs:range rdf:resource="#Teacher"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#belongsToCentre">
+    <rdfs:range rdf:resource="#Centre"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasDiscipline">
+    <rdfs:domain rdf:resource="#Student"/>
+    <rdfs:range rdf:resource="#Discipline"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#affiliatedUnit">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="affiliatedOf"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Unit"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#researchInterestOf">
+    <rdfs:range rdf:resource="#Person"/>
+    <owl:inverseOf rdf:resource="#hasResearchInterest"/>
+    <rdfs:domain rdf:resource="#Research_Interest"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#affiliatedOf">
+    <rdfs:domain rdf:resource="#Unit"/>
+    <rdfs:range rdf:resource="#Person"/>
+    <owl:inverseOf rdf:resource="#affiliatedUnit"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#editorOfEvents">
+    <owl:inverseOf rdf:resource="#eventsEditor"/>
+    <rdfs:range rdf:resource="#Events"/>
+    <rdfs:domain rdf:resource="#Teacher"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasArticlePublication">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="#Article"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#listedCourse">
+    <rdfs:domain rdf:resource="#Centre"/>
+    <rdfs:range rdf:resource="#Course_Name"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#guideOf">
+    <owl:inverseOf rdf:resource="#guide"/>
+    <rdfs:domain rdf:resource="#Teacher"/>
+    <rdfs:range rdf:resource="#Student"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="unitHead">
+    <rdfs:range rdf:resource="#Teacher"/>
+    <rdfs:domain rdf:resource="#Unit"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="firstName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >First Name</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="projectEnds">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:domain rdf:resource="#Project"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="rollNo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Roll Number</rdfs:label>
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institutional Roll Number of a person</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="phoneNo">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="award">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Award received by a person</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Award</rdfs:label>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="homepage">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="city">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="resourcePersonOf">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A person being invited as a resource person to deliver lectures, etc.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="lastName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="email">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="eventsAttended">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A person attended national and internatinal events, for example, Seminars, Conferences, Symposiums, Workshops, etc.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Events Attended</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="publicationDate">
+    <rdfs:domain rdf:resource="#Publication"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="ZIP">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasTeachingExperience">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Teacher"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="grossSalary">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Teacher"/>
+          <owl:Class rdf:about="#AdministrativeStaff"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="projectDuration">
+    <rdfs:domain rdf:resource="#Project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="heldOn">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Events"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The conference, seminar, symposium or workshop held on the year</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="state">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dateOfBirth">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="country">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="topicOf">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The topic of the conference, symposium, seminar or workshop</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Events"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="basicSalary">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Teacher"/>
+          <owl:Class rdf:about="#AdministrativeStaff"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="projectStarted">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:domain rdf:resource="#Project"/>
+  </owl:DatatypeProperty>
+  <BMath rdf:ID="BMath_1st_year"/>
+  <Discipline rdf:ID="Computer_Science"/>
+  <Junior_Research_Student rdf:ID="Anand_Kumar_Pandey">
+    <city xml:lang="en">Beneras</city>
+    <hasQualification>
+      <Qualification rdf:ID="BCom"/>
+    </hasQualification>
+    <guide>
+      <Lecturer rdf:ID="Devika_P_Madalli">
+        <editorOfEvents>
+          <Conference rdf:ID="NC2005">
+            <topicOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >National Seminar on Consortia</topicOf>
+            <heldOn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >22-24 Feb 2005</heldOn>
+            <eventsEditor rdf:resource="#Devika_P_Madalli"/>
+          </Conference>
+        </editorOfEvents>
+        <hasResearchInterest>
+          <Research_Interest rdf:ID="Ontology">
+            <researchInterestOf>
+              <Associate_Professor rdf:ID="A.R.D._Prasad">
+                <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >ARD</firstName>
+                <hasResearchInterest rdf:resource="#Ontology"/>
+                <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >India</country>
+                <rollNo xml:lang="en">ASSP039</rollNo>
+                <city xml:lang="en">Bangalore</city>
+                <hasQualification>
+                  <Qualification rdf:ID="MPhil"/>
+                </hasQualification>
+                <affiliatedUnit>
+                  <Unit rdf:ID="DRTC">
+                    <affiliatedOf>
+                      <Assistant rdf:ID="Manju_M">
+                        <affiliatedUnit rdf:resource="#DRTC"/>
+                        <email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >manju@drtc.isibang.ac.in</email>
+                        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >M.</lastName>
+                        <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Kerala</state>
+                        <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Manju</firstName>
+                        <hasGender>
+                          <Gender rdf:ID="female"/>
+                        </hasGender>
+                        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Manju M.</rdfs:label>
+                        <hasQualification>
+                          <Qualification rdf:ID="BA"/>
+                        </hasQualification>
+                        <belongsToCentre>
+                          <Centre rdf:ID="ISIBC">
+                            <centretHead>
+                              <Professor rdf:ID="TSSK_Rao">
+                                <hasGender>
+                                  <Gender rdf:ID="male"/>
+                                </hasGender>
+                                <affiliatedUnit>
+                                  <Unit rdf:ID="SMU">
+                                    <affiliatedOf rdf:resource="#TSSK_Rao"/>
+                                  </Unit>
+                                </affiliatedUnit>
+                                <belongsToCentre rdf:resource="#ISIBC"/>
+                                <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                >Rao</lastName>
+                                <hasResearchInterest>
+                                  <Research_Interest rdf:ID="Geometry">
+                                    <researchInterestOf rdf:resource="#TSSK_Rao"/>
+                                  </Research_Interest>
+                                </hasResearchInterest>
+                                <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                >TSSK</firstName>
+                              </Professor>
+                            </centretHead>
+                            <listedCourse>
+                              <ADIS rdf:ID="ADIS_2nd_year"/>
+                            </listedCourse>
+                            <listedCourse>
+                              <ADIS rdf:ID="ADIS_1st_year"/>
+                            </listedCourse>
+                            <listedCourse>
+                              <MMath rdf:ID="MMath_2nd_year"/>
+                            </listedCourse>
+                            <listedCourse>
+                              <MMath rdf:ID="MMath_1st_year"/>
+                            </listedCourse>
+                            <listedCourse>
+                              <BMath rdf:ID="BMath_3rd_year"/>
+                            </listedCourse>
+                            <listedCourse>
+                              <BMath rdf:ID="BMath_2nd_year"/>
+                            </listedCourse>
+                            <listedCourse rdf:resource="#BMath_1st_year"/>
+                          </Centre>
+                        </belongsToCentre>
+                        <hasQualification>
+                          <Qualification rdf:ID="MLISc">
+                            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                            >Equivalent to ADIS</rdfs:comment>
+                          </Qualification>
+                        </hasQualification>
+                      </Assistant>
+                    </affiliatedOf>
+                  </Unit>
+                </affiliatedUnit>
+                <email xml:lang="en">ard@drtc.isibang.ac.in</email>
+                <hasResearchInterest>
+                  <Research_Interest rdf:ID="AI">
+                    <researchInterestOf rdf:resource="#A.R.D._Prasad"/>
+                  </Research_Interest>
+                </hasResearchInterest>
+                <guideOf>
+                  <Senior_Research_Student rdf:ID="Biswanath_Dutta">
+                    <email xml:lang="en">bisu@drtc.isibang.ac.in</email>
+                    <hasResearchInterest rdf:resource="#Ontology"/>
+                    <homepage xml:lang="en">http://drtc.isibang.ac.in/~bisu</homepage>
+                    <city rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Kolkata</city>
+                    <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Dutta</lastName>
+                    <hasResearchInterest>
+                      <Research_Interest rdf:ID="SWS">
+                        <researchInterestOf rdf:resource="#Biswanath_Dutta"/>
+                      </Research_Interest>
+                    </hasResearchInterest>
+                    <belongsToCentre rdf:resource="#ISIBC"/>
+                    <researchArea>
+                      <Research_Topic rdf:ID="Semantic_Web_based_e-Government_services"/>
+                    </researchArea>
+                    <guide rdf:resource="#A.R.D._Prasad"/>
+                    <hasQualification rdf:resource="#MLISc"/>
+                    <hasDiscipline>
+                      <Discipline rdf:ID="Library_and_Information_Science"/>
+                    </hasDiscipline>
+                    <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >India</country>
+                    <hasQualification>
+                      <Qualification rdf:ID="BSc"/>
+                    </hasQualification>
+                    <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Biswanath</firstName>
+                    <hasGender rdf:resource="#male"/>
+                    <affiliatedUnit rdf:resource="#DRTC"/>
+                    <rollNo xml:lang="en">RS039</rollNo>
+                  </Senior_Research_Student>
+                </guideOf>
+                <homepage xml:lang="en">http://drtc.isibang.ac.in/~ard</homepage>
+                <guideOf>
+                  <Postgraduate_Student rdf:ID="Sanjeev_Kumar_Sunny">
+                    <guide rdf:resource="#A.R.D._Prasad"/>
+                    <email xml:lang="en">sanjeev@drtc.isibang.ac.in</email>
+                    <affiliatedUnit rdf:resource="#DRTC"/>
+                    <hasDiscipline rdf:resource="#Library_and_Information_Science"/>
+                    <hasQualification rdf:resource="#BA"/>
+                    <firstName xml:lang="en">Sanjeev kumar</firstName>
+                    <hasDiscipline>
+                      <Discipline rdf:ID="History"/>
+                    </hasDiscipline>
+                    <pgStudent rdf:resource="#ADIS_2nd_year"/>
+                    <city xml:lang="en">Patna</city>
+                    <rollNo xml:lang="en">ADIS0605</rollNo>
+                    <homepage xml:lang="en">http;//drtc.isibang.ac.in/~bisu</homepage>
+                    <lastName xml:lang="en">Sunny</lastName>
+                    <hasGender rdf:resource="#male"/>
+                    <belongsToCentre rdf:resource="#ISIBC"/>
+                    <dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                    >1980-12-08</dateOfBirth>
+                  </Postgraduate_Student>
+                </guideOf>
+                <hasTeachingExperience xml:lang="en">10</hasTeachingExperience>
+                <belongsToCentre rdf:resource="#ISIBC"/>
+                <hasGender rdf:resource="#male"/>
+                <hasQualification rdf:resource="#MLISc"/>
+                <hasResearchInterest>
+                  <Research_Interest rdf:ID="NLP">
+                    <researchInterestOf rdf:resource="#A.R.D._Prasad"/>
+                  </Research_Interest>
+                </hasResearchInterest>
+                <editorOfEvents>
+                  <Conference rdf:ID="ICSD2007">
+                    <eventsEditor rdf:resource="#A.R.D._Prasad"/>
+                    <topicOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >International Conference on Semantic Web and Digital Libraries</topicOf>
+                    <heldOn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >21-23 Feb 2007</heldOn>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >International Conference on Semantic Web and Digital Libraries</rdfs:label>
+                  </Conference>
+                </editorOfEvents>
+                <hasResearchInterest>
+                  <Research_Interest rdf:ID="Digital_library">
+                    <researchInterestOf>
+                      <Junior_Research_Student rdf:ID="Vinit_Kumar">
+                        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Kumar</lastName>
+                        <hasQualification rdf:resource="#MLISc"/>
+                        <ZIP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >233305</ZIP>
+                        <email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >vinit@drtc.isibang.ac.in</email>
+                        <hasDiscipline rdf:resource="#Library_and_Information_Science"/>
+                        <hasQualification rdf:resource="#BSc"/>
+                        <affiliatedUnit rdf:resource="#DRTC"/>
+                        <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >UP</state>
+                        <hasResearchInterest rdf:resource="#Digital_library"/>
+                        <phoneNo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >9986180163</phoneNo>
+                        <dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                        >1984-08-02</dateOfBirth>
+                        <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Vinit</firstName>
+                        <rollNo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >RS065</rollNo>
+                        <belongsToCentre rdf:resource="#ISIBC"/>
+                        <hasGender rdf:resource="#male"/>
+                        <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >India</country>
+                        <city rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >Ghazipur city</city>
+                        <homepage xml:lang="en">http://drtc.isibang.ac.in/~vinit</homepage>
+                      </Junior_Research_Student>
+                    </researchInterestOf>
+                    <researchInterestOf rdf:resource="#A.R.D._Prasad"/>
+                  </Research_Interest>
+                </hasResearchInterest>
+                <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Prasad</lastName>
+                <editorOfEvents>
+                  <Workshop rdf:ID="DL2005">
+                    <heldOn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >21-24 Mar 2004</heldOn>
+                    <topicOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Workshop on Digital Libraries</topicOf>
+                    <eventsEditor rdf:resource="#A.R.D._Prasad"/>
+                  </Workshop>
+                </editorOfEvents>
+                <guideOf>
+                  <Senior_Research_Student rdf:ID="Nabonita_Guha">
+                    <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Jharkhand</state>
+                    <city xml:lang="en">Ranchi</city>
+                    <email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    ></email>
+                    <rollNo xml:lang="en">RS031</rollNo>
+                    <hasQualification rdf:resource="#MLISc"/>
+                    <homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >http://drtc.isibang.ac.in/~guha</homepage>
+                    <affiliatedUnit rdf:resource="#DRTC"/>
+                    <hasGender rdf:resource="#female"/>
+                    <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >India</country>
+                    <lastName xml:lang="en">Guha</lastName>
+                    <belongsToCentre rdf:resource="#ISIBC"/>
+                    <hasResearchInterest rdf:resource="#Ontology"/>
+                    <researchArea>
+                      <Research_Topic rdf:ID="Faceted_ontology"/>
+                    </researchArea>
+                    <guide rdf:resource="#A.R.D._Prasad"/>
+                    <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Nabonita</firstName>
+                    <hasQualification rdf:resource="#BA"/>
+                    <hasDiscipline rdf:resource="#Library_and_Information_Science"/>
+                    <hasResearchInterest rdf:resource="#Digital_library"/>
+                  </Senior_Research_Student>
+                </guideOf>
+              </Associate_Professor>
+            </researchInterestOf>
+            <researchInterestOf rdf:resource="#Biswanath_Dutta"/>
+          </Research_Interest>
+        </hasResearchInterest>
+        <editorOfEvents>
+          <Conference rdf:ID="ICT2006">
+            <heldOn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >11-14 Mar 2006</heldOn>
+            <eventsEditor rdf:resource="#Devika_P_Madalli"/>
+            <topicOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >National Conference on Information Communication and Technology</topicOf>
+          </Conference>
+        </editorOfEvents>
+        <homepage xml:lang="en">http://drtc.isibang.ac.in/~devika</homepage>
+        <guideOf rdf:resource="#Anand_Kumar_Pandey"/>
+        <firstName xml:lang="en">Devika P.</firstName>
+        <hasResearchInterest>
+          <Research_Interest rdf:ID="Automatic_classification">
+            <researchInterestOf rdf:resource="#Devika_P_Madalli"/>
+          </Research_Interest>
+        </hasResearchInterest>
+        <hasGender rdf:resource="#female"/>
+        <email xml:lang="en">devika@drtc.isibang.ac.in</email>
+        <rollNo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Lec003</rollNo>
+        <city xml:lang="en">Bangalore</city>
+        <affiliatedUnit rdf:resource="#DRTC"/>
+        <guideOf>
+          <Postgraduate_Student rdf:ID="Mithun_Raj_M">
+            <guide rdf:resource="#Devika_P_Madalli"/>
+            <hasDiscipline>
+              <Discipline rdf:ID="Physics"/>
+            </hasDiscipline>
+            <hasQualification rdf:resource="#BSc"/>
+            <hasGender rdf:resource="#male"/>
+            <city rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Trichur</city>
+            <belongsToCentre rdf:resource="#ISIBC"/>
+            <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Mithun Raj</firstName>
+            <homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >http://drtc.isibang.ac.in/~mithun</homepage>
+            <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >India</country>
+            <affiliatedUnit rdf:resource="#DRTC"/>
+            <pgStudent rdf:resource="#ADIS_2nd_year"/>
+            <email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >mithun@drtc.isibang.ac.in</email>
+            <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Kerala</state>
+            <hasDiscipline rdf:resource="#Library_and_Information_Science"/>
+            <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Mithun Raj M.</rdfs:label>
+            <ZIP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            ></ZIP>
+          </Postgraduate_Student>
+        </guideOf>
+        <belongsToCentre rdf:resource="#ISIBC"/>
+        <lastName xml:lang="en">Madalli</lastName>
+        <hasTeachingExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >5</hasTeachingExperience>
+      </Lecturer>
+    </guide>
+    <homepage xml:lang="en">http://drtc.isibang.ac.in/~anand</homepage>
+    <hasResearchInterest rdf:resource="#Digital_library"/>
+    <belongsToCentre rdf:resource="#ISIBC"/>
+    <firstName xml:lang="en">Anand</firstName>
+    <lastName xml:lang="en">Pandey</lastName>
+    <hasDiscipline rdf:resource="#Library_and_Information_Science"/>
+    <rollNo xml:lang="en">RS075</rollNo>
+    <hasQualification rdf:resource="#MLISc"/>
+    <affiliatedUnit rdf:resource="#DRTC"/>
+    <hasGender rdf:resource="#male"/>
+    <email xml:lang="en">anand@drtc.isibang.ac.in</email>
+  </Junior_Research_Student>
+  <Research_Topic rdf:ID="Quantitative_analysis"/>
+  <Unit rdf:ID="SQC"/>
+  <Research_Interest rdf:ID="Data_mining">
+    <researchInterestOf>
+      <Professor rdf:ID="I.K._Ravichandra_Rao">
+        <lastName xml:lang="en">Rao</lastName>
+        <homepage xml:lang="en">http://drtc.isibang.ac.in/~ikr</homepage>
+        <hasTeachingExperience xml:lang="en">17</hasTeachingExperience>
+        <belongsToCentre rdf:resource="#ISIBC"/>
+        <hasGender rdf:resource="#male"/>
+        <affiliatedUnit rdf:resource="#DRTC"/>
+        <hasArticlePublication>
+          <Book rdf:ID="Library_automation">
+            <hasAuthor rdf:resource="#I.K._Ravichandra_Rao"/>
+            <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Library Automation</rdfs:label>
+          </Book>
+        </hasArticlePublication>
+        <firstName xml:lang="en">IK Ravichandra</firstName>
+        <city xml:lang="en">Mangalore</city>
+        <researchArea rdf:resource="#Quantitative_analysis"/>
+        <email xml:lang="en">akr@drtc.isibang.ac.in</email>
+        <rollNo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Prof003</rollNo>
+        <hasResearchInterest rdf:resource="#Data_mining"/>
+        <hasResearchInterest>
+          <Research_Interest rdf:ID="Bibliometrics">
+            <researchInterestOf rdf:resource="#I.K._Ravichandra_Rao"/>
+          </Research_Interest>
+        </hasResearchInterest>
+        <hasArticlePublication>
+          <Book rdf:ID="Elementary_statistics">
+            <hasAuthor rdf:resource="#I.K._Ravichandra_Rao"/>
+            <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Elementary Statistics</rdfs:label>
+          </Book>
+        </hasArticlePublication>
+      </Professor>
+    </researchInterestOf>
+  </Research_Interest>
+  <Qualification rdf:ID="MCom"/>
+  <BStat rdf:ID="BStat_3rd_year"/>
+  <BStat rdf:ID="BStat_2nd_year"/>
+  <BStat rdf:ID="BStat_1st_year"/>
+  <Project rdf:ID="Digital_Library">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Digital Library</rdfs:label>
+    <projectAdvisor rdf:resource="#Devika_P_Madalli"/>
+    <projectDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >12 months</projectDuration>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></rdfs:comment>
+    <projectStarted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2006-03-02</projectStarted>
+  </Project>
+  <Centre rdf:ID="ISIDC"/>
+  <Qualification rdf:ID="HigherSecondary"/>
+  <Professor rdf:ID="KS_Raghavan">
+    <hasResearchInterest>
+      <Research_Interest rdf:ID="Knowledge_Management">
+        <researchInterestOf rdf:resource="#KS_Raghavan"/>
+      </Research_Interest>
+    </hasResearchInterest>
+    <affiliatedUnit rdf:resource="#DRTC"/>
+    <dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2007-11-24</dateOfBirth>
+    <rollNo xml:lang="en">Prof01102005</rollNo>
+    <hasGender rdf:resource="#male"/>
+    <hasTeachingExperience xml:lang="en">30</hasTeachingExperience>
+    <email xml:lang="en">ksraghavan@drtc.isibang.ac.in</email>
+    <city xml:lang="en">Bangalore</city>
+    <homepage xml:lang="en">http://drtc.isibang.ac.in/~ksr</homepage>
+    <guideOf>
+      <Postgraduate_Student rdf:ID="Radharani_Rit">
+        <email xml:lang="en">radha@drtc.isibang.ac.in</email>
+        <guide rdf:resource="#KS_Raghavan"/>
+        <hasGender rdf:resource="#female"/>
+        <hasDiscipline>
+          <Discipline rdf:ID="Commerce"/>
+        </hasDiscipline>
+        <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >West Bengal</state>
+        <pgStudent rdf:resource="#ADIS_2nd_year"/>
+        <belongsToCentre rdf:resource="#ISIBC"/>
+        <lastName xml:lang="en">Rit</lastName>
+        <homepage xml:lang="en">http://drtc.isibang.ac.in/~radha</homepage>
+        <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >India</country>
+        <hasDiscipline rdf:resource="#Library_and_Information_Science"/>
+        <dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2007-11-22</dateOfBirth>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Radharani Rit</rdfs:label>
+        <hasQualification rdf:resource="#BCom"/>
+        <city xml:lang="en">Kolkata</city>
+        <rollNo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >ADIS0607</rollNo>
+        <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Radharani</firstName>
+        <affiliatedUnit rdf:resource="#DRTC"/>
+      </Postgraduate_Student>
+    </guideOf>
+    <firstName xml:lang="en">KS</firstName>
+    <belongsToCentre rdf:resource="#ISIBC"/>
+    <lastName xml:lang="en">Raghavan</lastName>
+  </Professor>
+  <Qualification rdf:ID="MA"/>
+  <Research_Interest rdf:ID="Agrometry">
+    <researchInterestOf>
+      <Professor rdf:ID="SS_Panza">
+        <belongsToCentre>
+          <Centre rdf:ID="ISICC">
+            <listedCourse rdf:resource="#BStat_2nd_year"/>
+            <listedCourse rdf:resource="#BStat_3rd_year"/>
+            <listedCourse rdf:resource="#BStat_1st_year"/>
+            <centretHead rdf:resource="#SS_Panza"/>
+          </Centre>
+        </belongsToCentre>
+        <hasGender rdf:resource="#male"/>
+        <affiliatedUnit>
+          <Unit rdf:ID="EMU">
+            <affiliatedOf rdf:resource="#SS_Panza"/>
+          </Unit>
+        </affiliatedUnit>
+        <hasResearchInterest rdf:resource="#Agrometry"/>
+      </Professor>
+    </researchInterestOf>
+  </Research_Interest>
+  <owl:AllDifferent>
+    <owl:distinctMembers rdf:parseType="Collection">
+      <Unit rdf:about="#DRTC"/>
+      <Unit rdf:about="#SMU"/>
+      <Unit rdf:about="#EMU"/>
+      <Unit rdf:about="#SQC"/>
+    </owl:distinctMembers>
+  </owl:AllDifferent>
+  <Research_Topic rdf:ID="Next_generation_catalogue"/>
+  <Discipline rdf:ID="Statistics"/>
+  <Discipline rdf:ID="Mathematics"/>
+  <Qualification rdf:ID="Metrics"/>
+  <Undergraduate_Student rdf:ID="Pradip_Patra">
+    <ugStudent rdf:resource="#BStat_2nd_year"/>
+    <email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pradip@isical.ac.in</email>
+    <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >India</country>
+    <firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pradip</firstName>
+    <homepage xml:lang="en">http://isical.ac.in/~pradip</homepage>
+    <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Patra</lastName>
+    <hasGender rdf:resource="#male"/>
+    <affiliatedUnit rdf:resource="#SMU"/>
+    <belongsToCentre rdf:resource="#ISICC"/>
+    <city rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kolkata</city>
+    <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >West Bengal</state>
+    <ZIP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >100008</ZIP>
+  </Undergraduate_Student>
+  <Discipline rdf:ID="Anthropology"/>
+  <Qualification rdf:ID="MSc"/>
+  <Discipline rdf:ID="Operations_Research"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4, Build 120)  http://protege.stanford.edu -->

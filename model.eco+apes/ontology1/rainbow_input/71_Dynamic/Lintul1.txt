@@ -1,0 +1,13 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+activeDC  activeCN 
+
+
+lintulnboneIN 
+
+implementedPN   =  groundPV waterPV   :  apescPT omponentsPT   
+implementedPN   =  cropPV             :  apescPT omponentsPT   
+implementedPN   =  agroforestryPV     :  apescPT omponentsPT   
+implementedPN   =  orchardPV          :  apescPT omponentsPT   

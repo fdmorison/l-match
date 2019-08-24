@@ -1,0 +1,11 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+luminousIN intensityIN 
+
+symbolPN     =  iPV        :              
+expressedPN  =  candelaPV  :  baseunitPT  

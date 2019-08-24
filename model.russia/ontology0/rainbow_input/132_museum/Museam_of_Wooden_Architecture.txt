@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+museamIN birchIN architectureIN 
+
+knownPN publicPN spacePN   =  birchPV architecturePV            :  architecturePT  
+liePN                      =  irkutskPV                         :  cityPT          
+areaPN                     =  museumPV birchPV architecturePV   :                  
+labelPN                    =  museamPV birchPV architecturePV   :                  

@@ -1,0 +1,18 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+nameableCN 
+cruiseDC cruiseCN
+
+
+volgaIN cruiseIN 
+
+recreationPN         =  cruisePV volgaPV   :               
+durationPN valuePN   =  nbsevenPV          :               
+durationunitPN       =  dayPV              :  clockunitPT  
+riverPN              =  volgaPV            :  riverPT      
+labelPN              =  volgaPV cruisePV   :               

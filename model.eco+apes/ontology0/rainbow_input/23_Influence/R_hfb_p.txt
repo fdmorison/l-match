@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN hfbIN pIN 
+
+measurePN     =  profitPV                             :  moneyPT                
+measurePN     =  cropPV anglePV biomassPV densityPV   :  materialPT densityPT   
+directionPN   =  positivePV                           :  signPT                 

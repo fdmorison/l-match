@@ -1,0 +1,22 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+continentDC continentCN
+
+
+asiaIN 
+
+memberPN   =  chinaPV  :  countryPT  
+labelPN    =  asiaPV   :             

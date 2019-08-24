@@ -1,0 +1,11 @@
+conditionCN
+infectionCN
+
+conditionCN
+infectionCN
+bacterialinfectionDC bacterialinfectionCN
+
+
+bronchitisIN
+
+associatedPN   =  pneumoniaPV  :  bacterialinfectionPT  

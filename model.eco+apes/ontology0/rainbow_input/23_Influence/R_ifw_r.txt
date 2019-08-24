@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ifwIN rIN 
+
+measurePN     =  respirationPV ratePV            :  absolutePT ratePT   
+measurePN     =  individualPV anglePV weightPV   :  weigthPT            
+directionPN   =  undefinedPV                     :  signPT              

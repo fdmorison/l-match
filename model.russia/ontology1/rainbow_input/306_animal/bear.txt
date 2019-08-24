@@ -1,0 +1,18 @@
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+
+defaultrootconceptCN
+animalCN
+existCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+animalDC animalCN
+
+
+bearIN
+
+nameablePN   =  bearPV  :    
+labelPN      =  bearPV  :    

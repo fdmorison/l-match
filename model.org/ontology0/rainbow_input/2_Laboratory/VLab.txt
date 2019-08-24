@@ -1,0 +1,8 @@
+organizationCN
+
+labDC labCN
+
+
+vlIN abIN 
+
+affiliatedPN  =  ucsbPV csPV deptPV   :  departmentPT   

@@ -1,0 +1,16 @@
+defaultrootconceptCN
+immaterialCN productCN 
+cultureCN artCN 
+
+defaultrootconceptCN
+immaterialCN 
+nameableCN 
+festivalDC festivalCN
+
+
+russianIN winterIN folkIN festivalIN 
+
+placePN   =  suzdalPV                               :  townPT   
+placePN   =  decemberPV                             :  monthPT  
+placePN   =  januaryPV                              :  monthPT  
+labelPN   =  russianPV winterPV folkPV festivalPV   :           

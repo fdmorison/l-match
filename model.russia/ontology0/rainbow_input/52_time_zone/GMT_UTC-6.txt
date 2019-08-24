@@ -1,0 +1,24 @@
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+clockdistrictDC clockdistrictCN
+
+
+gmtutcnbsixIN
+
+countryPN  =  aPV            :  countryPT  
+countryPN  =  canadaPV       :  countryPT  
+labelPN    =  gmtutcnbsixPV  :             

@@ -1,0 +1,22 @@
+seamCN coreCN 
+seamCN coreCN 
+seamCN coreCN 
+observationCN contextCN 
+observationCN contextCN 
+observationCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+dimensionalCN 
+dimensionalCN 
+axisCN northCN southCN 
+axisCN elevationCN 
+
+measureCN dataCN 
+axesDC nsDC elevationDC  axesCN nsCN elevationCN 
+
+
+axesIN nsIN elevationIN nboneIN 
+
+durationPN  =  nbtwonbthreePV   :    

@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+measureCN
+weightCN measureCN 
+
+seamCN coreCN 
+measureCN
+weigthDC  weigthCN 
+
+
+angleIN cropIN weightIN 
+
+measurePN eventPN   =  cropPV ratePV   :  absolutePT ratePT   
+unitPN measurePN    =  kiloPV          :  unitPT massPT       

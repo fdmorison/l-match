@@ -1,0 +1,10 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+activeDC  activeCN 
+
+
+ewIN activeIN modelIN 
+
+implementedPN   =  groundPV waterPV   :  apescPT omponentsPT   

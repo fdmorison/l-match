@@ -1,0 +1,7 @@
+
+employeeDC employeeCN
+
+
+johnIN stevensIN 
+
+headPN  =  ucsbPV csPV deptPV   :  departmentPT   

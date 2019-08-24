@@ -1,0 +1,10 @@
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+hectoIN
+
+valuePN   =  nbonenbzeronbzeronbzeroPV nbzeroPV   :    

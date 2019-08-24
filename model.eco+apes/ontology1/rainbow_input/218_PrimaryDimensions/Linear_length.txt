@@ -1,0 +1,15 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+linearIN durationIN 
+
+expressedPN  =  nanometerPV   :  unitPT derivedPT scalePT   
+expressedPN  =  kilometerPV   :  unitPT derivedPT scalePT   
+expressedPN  =  hectometerPV  :  unitPT derivedPT scalePT   
+expressedPN  =  meterPV       :  baseunitPT                 
+expressedPN  =  millimeterPV  :  unitPT derivedPT scalePT   
+symbolPN     =  lPV           :                             

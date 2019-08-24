@@ -1,0 +1,14 @@
+defaultrootconceptCN
+immaterialCN productCN 
+recreationCN sportCN 
+activeCN
+jaunteventCN
+
+defaultrootconceptCN
+nameableCN 
+circuseDC circuseCN
+
+
+antiqueIN carnivalIN 
+
+labelPN   =  antiquePV carnivalPV   :    

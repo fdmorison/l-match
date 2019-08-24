@@ -1,0 +1,20 @@
+measureCN dataCN 
+measureCN dataCN 
+unitCN measureCN 
+unitCN measureCN 
+mixCN unitCN 
+baseunitCN
+unitCN powerCN durationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC durationDC  unitCN durationCN 
+
+
+meterIN
+
+dimensionPN  =  durationPV  :  basedimensionPT  

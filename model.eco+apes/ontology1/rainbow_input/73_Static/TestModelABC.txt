@@ -1,0 +1,11 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+testIN modelIN abcIN 
+
+implementedPN   =  climaPV airPV temperaturePV    :  apescPT omponentsPT   
+inputsPN        =  airPV temperaturePV hourlyPV   :  measurePT             

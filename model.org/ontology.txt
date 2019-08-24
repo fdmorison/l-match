@@ -1,0 +1,3 @@
+##id, name, categoryIdInterval, instanceIdInterval
+0 org1 0-3 0-6
+1 org2 4-7 7-10

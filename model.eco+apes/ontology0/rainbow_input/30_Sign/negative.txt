@@ -1,0 +1,9 @@
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+signDC  signCN 
+
+
+negativeIN
+

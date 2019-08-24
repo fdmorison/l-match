@@ -1,0 +1,118 @@
+<html>
+<head><title>One Way Similarity: disease2 --> disease1</title>
+<style>
+th {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:#003399;
+   text-align:left;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+td {
+   font-family:Arial;
+   font-size:11px;
+   color:#333333;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+span {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:red;
+}
+.equivalence { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#0000FF; padding: 0 5; width:20; text-align:center; }
+.moregeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#00CCFF; padding: 0 5; width:20; text-align:center; }
+.lessgeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#33CC00; padding: 0 5; width:20; text-align:center; }
+.overlapping { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#FF9900; padding: 0 5; width:20; text-align:center; }
+.mismatching { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.unknown     { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.eval    { color:#666666  ; padding:0 3; }.maxeval { color:black    ; padding:0 3; }.noeval  { color:lightgray; padding:0 3; }.title   { color:white    ; background-color:#000000; }</style>
+</head>
+<body>
+<table border='1' cellpadding='1' cellspacing='0' bordercolor='#EAEAEA'>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy Researcher</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:0;'>|0|--Researcher(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,999</span> <span class='equivalence'>&ordm;  </span> Person</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy Condition</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:0;'>|0|--Condition(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD class='maxeval'>0,89</TD>
+    <TD><span>1,000</span> <span class='moregeneral'>&Eacute;</span> BacterialInfection</TD>
+    <TD><span>0,901</span> <span class='moregeneral'>&Eacute;</span> FoodPoisoning</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--Infection(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD class='maxeval'>0,89</TD>
+    <TD><span>1,000</span> <span class='moregeneral'>&Eacute;</span> BacterialInfection</TD>
+    <TD><span>0,901</span> <span class='moregeneral'>&Eacute;</span> FoodPoisoning</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--BacterialInfection(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> BacterialInfection</TD>
+    <TD><span>0,901</span> <span class='moregeneral'>&Eacute;</span> FoodPoisoning</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--FoodBorneDisease(4)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>0,978</span> <span class='equivalence'>&ordm;  </span> FoodPoisoning</TD>
+    <TD><span>0,961</span> <span class='lessgeneral'>&Igrave;</span> BacterialInfection</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Query: Taxonomy Pathogen</TD>
+    <TD class='title' align='center'>P</TD>
+    <TD class='title' align='center'>R</TD>
+    <TD class='title' align='center'>F</TD>
+    <TD class='title' align='left'  >Rank</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:0;'>|0|--Pathogen(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,67</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD><span>1,000</span> <span class='moregeneral'>&Eacute;</span> Bacteria</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--Bacterial(4)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1,000</span> <span class='equivalence'>&ordm;  </span> Bacteria</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Global Evaluation</TD>
+    <TD class='title' align='center'>1,00</TD>
+    <TD class='title' align='center'>0,88</TD>
+    <TD class='title' align='center'>0,93</TD>
+  </TR>
+</table>
+</body>
+</html>

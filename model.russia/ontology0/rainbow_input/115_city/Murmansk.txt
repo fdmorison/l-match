@@ -1,0 +1,27 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+murmanskIN 
+
+areaPN                             =  murmanskPV                                  :                
+countryPN cityPN                   =  russiaPV                                    :  countryPT     
+sightPN cityPN                     =  panoramaPV restaurantPV                     :  restaurantPT  
+locatablePN stpetersburgPN         =  northPV                                     :  directionPT   
+labelPN                            =  murmanskPV                                  :                
+populationPN valuePN               =  nbfournbfivenbzeroPV nbzeronbzeronbzeroPV   :                
+sightPN cityPN                     =  stPV nicholasPV churchPV                    :  churchPT      
+distancePN stpetersburgPN cityPN   =  nbonePV nbzeronbonenbfivePV                 :                
+sightPN cityPN                     =  gunPV monumentPV                            :  monumentPT    

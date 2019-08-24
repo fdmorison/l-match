@@ -1,0 +1,41 @@
+@direction ecolingua -> apes 
+
+# Mapeamentos de equivalência
+equivalence MeasureData                         SeamCore
+equivalence Dimension                           Dimension
+equivalence CompositeDimension                  DerivedDimensions
+equivalence CompositeDimensionByDivision        DerivedDimensionsByProduct
+equivalence FundamentalDimension                PrimaryDimensions 
+equivalence CompositeDimensionByExponentiation  DerivedDimensionsByRaisingToPower
+equivalence UnitOfMeasure                       Unit
+equivalence DerivedUnit                         DerivedUnit
+equivalence DerivedUnitByExponentiation         UnitDerivedByRaisingToPower
+equivalence BasicUnit                           BaseUnit 
+equivalence ScaleOfTemperature                  UnitDerivedByShifting
+
+equivalence DerivedUnitOfFundamentalDimension   UnitDerivedByScaling
+equivalence ContextualData                      SeamAgroDomain
+equivalence Material                            AgroEnviroment
+
+# Mapeamentos de mais geral
+more_general EcologicalData                     Actions
+more_general EcologicalData                     Environment
+more_general EcologicalData                     BiophysicalModel
+#more_general Material                           AgroEnviroment
+#more_general EcologicalEntity                   AgroEnviroment
+more_general Influence                          AgroActions
+more_general UnitOfFrequency                    TimeSamplingFrequency
+
+# Mapeamentos de menos geral
+less_general Quantity                           Quantity
+less_general DerivedUnitByDivision              ComplexUnit
+#less_general DerivedUnitOfFundamentalDimension  UnitDerivedByScaling  
+less_general UnitByNumberMultiplication         UnitDerivedByScaling  
+
+# Mapeamentos de sobreposicao
+overlapping UnitOfMaterial       ComplexUnit
+overlapping UnitOfMaterial       BaseUnit
+overlapping UnitOfPowerOfLength  UnitDerivedByRaisingToPower
+overlapping UnitOfPowerOfLength  BaseUnit
+
+# Mapeamentos de diferença

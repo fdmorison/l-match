@@ -1,0 +1,15 @@
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+religionDC religionCN
+
+
+islamIN 
+
+labelPN   =  islamPV   :    

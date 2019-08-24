@@ -1,0 +1,16 @@
+defaultrootconceptCN
+immaterialCN 
+measurementCN
+unitCN
+clockunitCN
+
+defaultrootconceptCN
+monthDC monthCN
+
+
+juneIN
+
+warmestPN   =  falsePV   :    
+holidayPN   =  falsePV   :    
+dampestPN   =  falsePV   :    
+labelPN     =  junePV    :    

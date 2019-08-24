@@ -1,0 +1,5345 @@
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+plantIN natalityIN rateIN 
+
+entityPN               =  aquaticPV plantPV                            :  ecologicalPT entityPT      
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+materialPN             =  biomassPV                                    :  materialPT                 
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+plantIN mortalityIN rateIN 
+
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+entityPN               =  aquaticPV plantPV                            :  ecologicalPT entityPT      
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+measurePN              =  rPV apbPV pnmPV                              :  actPT                      
+materialPN             =  biomassPV                                    :  materialPT                 
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+productIN rateIN 
+
+materialPN             =  biomassPV                                    :  materialPT                 
+measurePN              =  rPV wtPV ppPV                                :  actPT                      
+measurePN              =  rPV apbPV ppPV                               :  actPT                      
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+entityPN               =  aquaticPV plantPV                            :  ecologicalPT entityPT      
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+excretionIN rateIN 
+
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+measurePN              =  rPV wtPV                                     :  actPT                      
+measurePN              =  rPV fbPV                                     :  actPT                      
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+measurePN              =  rPV faePV                                    :  actPT                      
+entityPN               =  anglePV                                      :  ecologicalPT entityPT      
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+materialPN             =  biomassPV                                    :  materialPT                 
+measurePN              =  rPV ifwPV                                    :  actPT                      
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+cropIN rateIN 
+
+entityPN               =  cropPV anglePV                               :  ecologicalPT entityPT      
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+materialPN             =  biomassPV                                    :  materialPT                 
+measurePN              =  rPV hdPV hPV                                 :  actPT                      
+measurePN              =  rPV fbPV hPV                                 :  actPT                      
+meterPN                =  cropPV datePV                                :  whenPT                     
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+entityPN               =  anglePV                                      :  ecologicalPT entityPT      
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+stockedIN rateIN 
+
+materialPN             =  biomassPV                                    :  materialPT                 
+measurePN              =  rPV nfsPV                                    :  actPT                      
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+measurePN              =  rPV sdPV                                     :  actPT                      
+measurePN              =  rPV iifwPV                                   :  actPT                      
+entityPN               =  anglePV                                      :  ecologicalPT entityPT      
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+meterPN                =  stockedPV datePV                             :  whenPT                     
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+respirationIN rateIN 
+
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+entityPN               =  enviromentPV                                 :  ecologicalPT entityPT      
+measurePN              =  rPV fbPV rPV                                 :  actPT                      
+measurePN              =  rPV wtPV rPV                                 :  actPT                      
+measurePN              =  rPV ifwPV rPV                                :  actPT                      
+materialPN             =  biomassPV                                    :  materialPT                 
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+entityPN               =  anglePV                                      :  ecologicalPT entityPT      
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+absoluteDC rateDC  absoluteCN rateCN 
+
+
+consumptionIN rateIN 
+
+measurePN              =  rPV wtPV cPV                                 :  actPT                      
+measurePN              =  rPV apbPV cPV                                :  actPT                      
+measurePN              =  rPV fbPV cPV                                 :  actPT                      
+entityPN               =  anglePV                                      :  ecologicalPT entityPT      
+measurePN              =  rPV ifwPV cPV                                :  actPT                      
+unitPN measurePN       =  kiloPV diffusePV hectarePV diffusePV dayPV   :  unitPT absolutePT ratePT   
+entityPN               =  aquaticPV plantPV                            :  ecologicalPT entityPT      
+measurePN materialPN   =  biomassPV                                    :  materialPT                 
+materialPN             =  biomassPV                                    :  materialPT                 
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+specificDC rateDC  specificCN rateCN 
+
+
+plantIN productIN rateIN 
+
+unitPN measurePN    =  gramPV diffusePV kiloPV diffusePV dayPV   :  unitPT specificPT ratePT   
+measurePN           =  rPV wtPV pprPV                            :  actPT                      
+materialPN          =  biomassPV                                 :  materialPT                 
+absolutePN ratePN   =  productPV ratePV                          :  absolutePT ratePT          
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+specificDC rateDC  specificCN rateCN 
+
+
+specificIN consumptionIN rateIN 
+
+unitPN measurePN    =  kiloPV diffusePV kiloPV diffusePV dayPV   :  unitPT specificPT ratePT   
+measurePN           =  rPV wtPV crPV                             :  actPT                      
+measurePN           =  rPV ifwPV crPV                            :  actPT                      
+measurePN           =  rPV apbPV crPV                            :  actPT                      
+materialPN          =  biomassPV                                 :  materialPT                 
+absolutePN ratePN   =  consumptionPV ratePV                      :  absolutePT ratePT          
+ecologicalCN dataCN 
+measureCN
+dimensionlessCN measureCN 
+
+seamCN coreCN 
+measureCN
+numberDC  numberCN 
+
+
+numberIN angleIN stockedIN 
+
+entityPN             =  anglePV stockedPV   :  ecologicalPT entityPT   
+measurePN entityPN   =  anglePV stockedPV   :  ecologicalPT entityPT   
+unitPN measurePN     =  onePV               :  unitPT identityPT       
+ecologicalCN dataCN 
+measureCN
+dimensionlessCN measureCN 
+
+seamCN coreCN 
+measureCN
+percentDC percentCN
+
+
+foodIN assimilationIN efficiencyIN 
+
+unitPN measurePN       =  onePV            :  unitPT identityPT       
+measurePN materialPN   =  anglePV foodPV   :  materialPT              
+entityPN               =  anglePV          :  ecologicalPT entityPT   
+ecologicalCN dataCN 
+measureCN
+weightCN measureCN 
+
+seamCN coreCN 
+measureCN
+weigthDC  weigthCN 
+
+
+angleIN cropIN weightIN 
+
+measurePN eventPN   =  cropPV ratePV   :  absolutePT ratePT   
+unitPN measurePN    =  kiloPV          :  unitPT massPT       
+ecologicalCN dataCN 
+measureCN
+weightCN measureCN 
+
+seamCN coreCN 
+measureCN
+weigthDC  weigthCN 
+
+
+individualIN angleIN weightIN 
+
+entityPN             =  individualPV anglePV   :  ecologicalPT entityPT   
+unitPN measurePN     =  kiloPV                 :  unitPT massPT           
+measurePN entityPN   =  individualPV anglePV   :  ecologicalPT entityPT   
+measurePN            =  rPV nfsPV ifwPV        :  actPT                   
+measurePN            =  rPV fbPV ifwPV         :  actPT                   
+ecologicalCN dataCN 
+measureCN
+measureCN
+physicalCN measureCN 
+
+seamCN coreCN 
+measureCN
+moneyDC  moneyCN 
+
+
+profitIN
+
+measurePN            =  rPV hfbPV pPV   :  actPT                   
+entityPN             =  pondPV          :  ecologicalPT entityPT   
+measurePN entityPN   =  pondPV          :  ecologicalPT entityPT   
+unitPN measurePN     =  dolarPV         :  unitPT moneyPT          
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+treeIN timberIN 
+
+unitPN measurePN       =  kiloPV    :  unitPT massPT           
+measurePN materialPN   =  timberPV  :  materialPT              
+materialPN             =  timberPV  :  materialPT              
+entityPN               =  treePV    :  ecologicalPT entityPT   
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC densityDC  materialCN densityCN 
+
+
+cropIN angleIN biomassIN densityIN 
+
+entityPN               =  cropPV anglePV               :  ecologicalPT entityPT     
+measurePN materialPN   =  biomassPV                    :  materialPT                
+unitPN measurePN       =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT   
+materialPN             =  biomassPV                    :  materialPT                
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC densityDC  materialCN densityCN 
+
+
+aquaticIN plantIN biomassIN densityIN 
+
+materialPN             =  biomassPV                    :  materialPT                
+measurePN              =  rPV cPV apbPV                :  actPT                     
+measurePN              =  rPV pnmPV apbPV              :  actPT                     
+measurePN              =  rPV ppPV apbPV               :  actPT                     
+measurePN materialPN   =  biomassPV                    :  materialPT                
+unitPN measurePN       =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT   
+entityPN               =  aquaticPV plantPV            :  ecologicalPT entityPT     
+ecologicalCN dataCN 
+measureCN
+measureCN
+materialCN measureCN 
+
+seamCN coreCN 
+measureCN
+materialDC densityDC  materialCN densityCN 
+
+
+angleIN biomassIN densityIN 
+
+measurePN              =  rPV fbPV                     :  actPT                     
+measurePN              =  rPV hPV fbPV                 :  actPT                     
+measurePN materialPN   =  biomassPV                    :  materialPT                
+materialPN             =  biomassPV                    :  materialPT                
+measurePN              =  rPV cPV fbPV                 :  actPT                     
+unitPN measurePN       =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT   
+measurePN              =  rPV fbPV                     :  actPT                     
+entityPN               =  anglePV                      :  ecologicalPT entityPT     
+measurePN              =  rPV rPV fbPV                 :  actPT                     
+ecologicalCN dataCN 
+measureCN
+temperatureCN measureCN 
+
+seamCN coreCN 
+measureCN
+temperatureDC temperatureCN
+
+
+angleIN temperatureIN 
+
+measurePN entityPN      =  anglePV    :  ecologicalPT entityPT   
+temperaturePN scalePN   =  celsiusPV  :  scalePT temperaturePT   
+ecologicalCN dataCN 
+measureCN
+temperatureCN measureCN 
+
+seamCN coreCN 
+measureCN
+temperatureDC temperatureCN
+
+
+waterIN temperatureIN 
+
+measurePN               =  waterPV    :  ecologicalPT entityPT   
+temperaturePN scalePN   =  celsiusPV  :  scalePT temperaturePT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+biomassIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+carboncontentIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+groundIN
+
+containsPN  =  groundPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+materialDC  materialCN 
+
+
+waterIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+chemicalsIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+angleIN foodIN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+materialDC  materialCN 
+
+
+timberIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN 
+
+measurePN     =  excretionPV ratePV      :  absolutePT ratePT   
+measurePN     =  waterPV temperaturePV   :  temperaturePT       
+directionPN   =  undefinedPV             :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN pprIN 
+
+measurePN     =  plantPV productPV ratePV   :  specificPT ratePT   
+measurePN     =  waterPV temperaturePV      :  temperaturePT       
+directionPN   =  undefinedPV                :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN hfbIN pIN 
+
+measurePN     =  profitPV                             :  moneyPT                
+measurePN     =  cropPV anglePV biomassPV densityPV   :  materialPT densityPT   
+directionPN   =  positivePV                           :  signPT                 
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ifwIN crIN 
+
+measurePN     =  specificPV consumptionPV ratePV   :  specificPT ratePT   
+measurePN     =  individualPV anglePV weightPV     :  weigthPT            
+directionPN   =  undefinedPV                       :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN apbIN pnmIN 
+
+directionPN   =  undefinedPV                             :  signPT                 
+measurePN     =  plantPV mortalityPV ratePV              :  absolutePT ratePT      
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN ppIN 
+
+measurePN     =  waterPV temperaturePV   :  temperaturePT       
+measurePN     =  productPV ratePV        :  absolutePT ratePT   
+directionPN   =  undefinedPV             :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ifwIN rIN 
+
+measurePN     =  respirationPV ratePV            :  absolutePT ratePT   
+measurePN     =  individualPV anglePV weightPV   :  weigthPT            
+directionPN   =  undefinedPV                     :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN rIN fbIN 
+
+directionPN   =  negativePV                    :  signPT                 
+measurePN     =  respirationPV ratePV          :  absolutePT ratePT      
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN iifwIN 
+
+measurePN     =  stockedPV ratePV   :  absolutePT ratePT   
+directionPN   =  undefinedPV        :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN 
+
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+directionPN   =  negativePV                    :  signPT                 
+measurePN     =  excretionPV ratePV            :  absolutePT ratePT      
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN hdIN hIN 
+
+measurePN     =  cropPV ratePV   :  absolutePT ratePT   
+measurePN     =  cropPV datePV   :  whenPT              
+directionPN   =  undefinedPV     :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN nfsIN ifwIN 
+
+measurePN     =  individualPV anglePV weightPV   :  weigthPT   
+measurePN     =  numberPV anglePV stockedPV      :  numberPT   
+directionPN   =  undefinedPV                     :  signPT     
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN hIN fbIN 
+
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+directionPN   =  negativePV                    :  signPT                 
+measurePN     =  cropPV ratePV                 :  absolutePT ratePT      
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN cIN 
+
+directionPN   =  undefinedPV                   :  signPT                 
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  consumptionPV ratePV          :  absolutePT ratePT      
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN ifwIN 
+
+directionPN   =  undefinedPV                     :  signPT                 
+measurePN     =  individualPV anglePV weightPV   :  weigthPT               
+measurePN     =  anglePV biomassPV densityPV     :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN apbIN ppIN 
+
+directionPN   =  undefinedPV                             :  signPT                 
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  productPV ratePV                        :  absolutePT ratePT      
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN apbIN cIN 
+
+directionPN   =  undefinedPV                             :  signPT                 
+measurePN     =  consumptionPV ratePV                    :  absolutePT ratePT      
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ppIN apbIN 
+
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  productPV ratePV                        :  absolutePT ratePT      
+directionPN   =  positivePV                              :  signPT                 
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN hIN 
+
+directionPN   =  undefinedPV                   :  signPT                 
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  cropPV ratePV                 :  absolutePT ratePT      
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ifwIN cIN 
+
+measurePN     =  consumptionPV ratePV            :  absolutePT ratePT   
+measurePN     =  individualPV anglePV weightPV   :  weigthPT            
+directionPN   =  undefinedPV                     :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN apbIN crIN 
+
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  specificPV consumptionPV ratePV         :  specificPT ratePT      
+directionPN   =  positivePV                              :  signPT                 
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN 
+
+measurePN     =  excretionPV ratePV            :  absolutePT ratePT      
+directionPN   =  undefinedPV                   :  signPT                 
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN rIN 
+
+directionPN   =  undefinedPV             :  signPT              
+measurePN     =  waterPV temperaturePV   :  temperaturePT       
+measurePN     =  respirationPV ratePV    :  absolutePT ratePT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN cIN 
+
+measurePN     =  consumptionPV ratePV    :  absolutePT ratePT   
+directionPN   =  undefinedPV             :  signPT              
+measurePN     =  waterPV temperaturePV   :  temperaturePT       
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN crIN 
+
+measurePN     =  specificPV consumptionPV ratePV   :  specificPT ratePT   
+measurePN     =  waterPV temperaturePV             :  temperaturePT       
+directionPN   =  undefinedPV                       :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN 
+
+measurePN     =  stockedPV ratePV              :  absolutePT ratePT      
+directionPN   =  positivePV                    :  signPT                 
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN fbIN rIN 
+
+directionPN   =  undefinedPV                   :  signPT                 
+measurePN     =  respirationPV ratePV          :  absolutePT ratePT      
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN nfsIN 
+
+measurePN     =  numberPV anglePV stockedPV   :  numberPT            
+measurePN     =  stockedPV ratePV             :  absolutePT ratePT   
+directionPN   =  undefinedPV                  :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN cIN apbIN 
+
+directionPN   =  negativePV                              :  signPT                 
+measurePN     =  consumptionPV ratePV                    :  absolutePT ratePT      
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN cIN fbIN 
+
+directionPN   =  positivePV                    :  signPT                 
+measurePN     =  anglePV biomassPV densityPV   :  materialPT densityPT   
+measurePN     =  consumptionPV ratePV          :  absolutePT ratePT      
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN pnmIN apbIN 
+
+measurePN     =  plantPV mortalityPV ratePV              :  absolutePT ratePT      
+directionPN   =  negativePV                              :  signPT                 
+measurePN     =  aquaticPV plantPV biomassPV densityPV   :  materialPT densityPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN faeIN 
+
+measurePN     =  excretionPV ratePV   :  absolutePT ratePT   
+directionPN   =  undefinedPV          :  signPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN ifwIN 
+
+measurePN     =  individualPV anglePV weightPV   :  weigthPT            
+directionPN   =  undefinedPV                     :  signPT              
+measurePN     =  excretionPV ratePV              :  absolutePT ratePT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN sdIN 
+
+measurePN     =  stockedPV ratePV   :  absolutePT ratePT   
+directionPN   =  undefinedPV        :  signPT              
+measurePN     =  stockedPV datePV   :  whenPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+cropIN angleIN 
+
+containsPN  =  biomassPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+treeIN
+
+containsPN  =  timberPV         :  materialPT   
+containsPN  =  biomassPV        :  materialPT   
+containsPN  =  carboncontentPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+pondIN 
+
+containsPN  =  waterPV    :  ecologicalPT entityPT   
+containsPN  =  biomassPV  :  materialPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+enviromentIN
+
+containsPN  =  groundPV   :  materialPT              
+containsPN  =  waterPV    :  ecologicalPT entityPT   
+containsPN  =  biomassPV  :  materialPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+vegetationIN
+
+containsPN  =  biomassPV        :  materialPT   
+containsPN  =  carboncontentPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+angleIN
+
+containsPN  =  biomassPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+aquaticIN plantIN 
+
+containsPN  =  biomassPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+angleIN stockedIN 
+
+containsPN  =  biomassPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+individualIN angleIN 
+
+containsPN  =  biomassPV  :  materialPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+ecologicalDC entityDC  ecologicalCN entityCN 
+
+
+lakeIN
+
+containsPN  =  waterPV    :  ecologicalPT entityPT   
+containsPN  =  biomassPV  :  materialPT              
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+eventDC  eventCN 
+
+
+rainyIN seasonIN 
+
+meterPN  =  decemberPV   :  whenPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+eventDC  eventCN 
+
+
+loggingIN
+
+meterPN  =  dayPV  :  whenPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+eventDC  eventCN 
+
+
+stockedIN
+
+meterPN  =  stockedPV datePV   :  whenPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+eventDC  eventCN 
+
+
+cropIN
+
+meterPN  =  cropPV datePV   :  whenPT   
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+whenDC  whenCN 
+
+
+meterIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+whenDC  whenCN 
+
+
+decemberIN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+whenDC  whenCN 
+
+
+dayIN
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+whenDC  whenCN 
+
+
+cropIN dateIN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+whenDC  whenCN 
+
+
+stockedIN dateIN 
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+operationDC  operationCN 
+
+
+subtractionIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+operationDC  operationCN 
+
+
+additionIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+operationDC  operationCN 
+
+
+multiplicationIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+operationDC  operationCN 
+
+
+divisionIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+operationDC  operationCN 
+
+
+exponentiationIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+signDC  signCN 
+
+
+undefinedIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+signDC  signCN 
+
+
+negativeIN
+
+measureCN dataCN 
+matematicalCN dataCN 
+
+seamCN coreCN 
+signDC  signCN 
+
+
+positiveIN
+
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+moneyIN
+
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+massIN
+
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+meterIN
+
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+durationIN
+
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+identityIN
+
+measureCN dataCN 
+dimensionCN
+
+seamCN coreCN 
+dimensionCN
+basedimensionCN
+basedimensionDC basedimensionCN
+
+
+temperatureIN
+
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC divisionDC  complexCN dimensionCN divisionCN 
+
+
+individualIN growthIN rateIN 
+
+grayPN dimensionPN   =  meterPV                 :  basedimensionPT                    
+dimensionPN          =  individualPV growthPV   :  complexPT dimensionPT divisionPT   
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC divisionDC  complexCN dimensionCN divisionCN 
+
+
+individualIN growthIN 
+
+dimensionPN          =  massPV  :  basedimensionPT  
+grayPN dimensionPN   =  massPV  :  basedimensionPT  
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC divisionDC  complexCN dimensionCN divisionCN 
+
+
+diffuseIN productIN 
+
+dimensionPN          =  massPV  :  basedimensionPT                          
+grayPN dimensionPN   =  areaPV  :  complexPT dimensionPT exponentiationPT   
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC divisionDC  complexCN dimensionCN divisionCN 
+
+
+diffuseIN productIN rateIN 
+
+grayPN dimensionPN   =  meterPV               :  basedimensionPT                    
+dimensionPN          =  diffusePV productPV   :  complexPT dimensionPT divisionPT   
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC exponentiationDC  complexCN dimensionCN exponentiationCN 
+
+
+intensityIN
+
+operationPN   =  exponentiationPV     :  operationPT      
+expoentPN     =  nbthreePV nbzeroPV   :                   
+dimensionPN   =  durationPV           :  basedimensionPT  
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC exponentiationDC  complexCN dimensionCN exponentiationCN 
+
+
+frequencyIN
+
+dimensionPN  =  meterPV            :  basedimensionPT  
+expoentPN    =  nbonePV nbzeroPV   :                   
+measureCN dataCN 
+dimensionCN
+complexCN dimensionCN 
+
+seamCN coreCN 
+complexDC dimensionDC exponentiationDC  complexCN dimensionCN exponentiationCN 
+
+
+areaIN
+
+dimensionPN   =  durationPV         :  basedimensionPT  
+expoentPN     =  nbtwoPV nbzeroPV   :                   
+operationPN   =  exponentiationPV   :  operationPT      
+measureCN dataCN 
+scaleCN measureCN 
+
+seamCN coreCN 
+scaleDC temperatureDC  scaleCN temperatureCN 
+
+
+fahrenheitIN
+
+waterPN meltingPN itemPN     =  nbthreenbtwoPV fPV                                 :                          
+waterPN boilingPN itemPN     =  nbtwonbonenbonePV nbninenbsevennbonenbzeroPV fPV   :                          
+formulaPN correspondencePN   =  fPV cPV nbonePV nbeightPV nbthreenbtwoPV           :                          
+correspondentPN scalePN      =  celsiusPV                                          :  scalePT temperaturePT   
+dimensionPN                  =  temperaturePV                                      :  basedimensionPT         
+measureCN dataCN 
+scaleCN measureCN 
+
+seamCN coreCN 
+scaleDC temperatureDC  scaleCN temperatureCN 
+
+
+celsiusIN
+
+dimensionPN                  =  temperaturePV                                 :  basedimensionPT        
+correspondentPN scalePN      =  kelvinPV                                      :  unitPT temperaturePT   
+waterPN meltingPN itemPN     =  nbzeroPV cPV                                  :                         
+formulaPN correspondencePN   =  cPV kPV nbtwonbsevennbthreePV nbonenbfivePV   :                         
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN multiplicationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC numberDC multiplicationDC  unitCN numberCN multiplicationCN 
+
+
+areIN
+
+multiplierPN   =  nbonenbzeronbzeroPV nbzeroPV   :                                           
+operationPN    =  multiplicationPV               :  operationPT                              
+unitPN         =  mnbtwoPV                       :  unitPT areaPT                            
+dimensionPN    =  areaPV                         :  complexPT dimensionPT exponentiationPT   
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN multiplicationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC numberDC multiplicationDC  unitCN numberCN multiplicationCN 
+
+
+megahertzIN
+
+multiplierPN   =  nbonenbzeronbzeronbzeronbzeronbzeronbzeroPV nbzeroPV   :                                           
+unitPN         =  hertzPV                                                :  unitPT frequencyPT                       
+dimensionPN    =  frequencyPV                                            :  complexPT dimensionPT exponentiationPT   
+operationPN    =  multiplicationPV                                       :  operationPT                              
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN multiplicationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC numberDC multiplicationDC  unitCN numberCN multiplicationCN 
+
+
+acreIN
+
+unitPN         =  mnbtwoPV                                               :  unitPT areaPT                            
+operationPN    =  multiplicationPV                                       :  operationPT                              
+multiplierPN   =  nbfournbzeronbfournbsixPV nbeightnbfivenbsixnbfourPV   :                                           
+dimensionPN    =  areaPV                                                 :  complexPT dimensionPT exponentiationPT   
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN multiplicationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC numberDC multiplicationDC  unitCN numberCN multiplicationCN 
+
+
+hectareIN
+
+unitPN         =  mnbtwoPV                                   :  unitPT areaPT                            
+operationPN    =  multiplicationPV                           :  operationPT                              
+multiplierPN   =  nbonenbzeronbzeronbzeronbzeroPV nbzeroPV   :                                           
+dimensionPN    =  areaPV                                     :  complexPT dimensionPT exponentiationPT   
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC massDC divisionDC  unitCN massCN divisionCN 
+
+
+gramIN diffuseIN kiloIN 
+
+operationPN     =  divisionPV              :  operationPT                           
+dimensionPN     =  individualPV growthPV   :  complexPT dimensionPT divisionPT      
+unitPN          =  gramPV                  :  derivedPT unitPT basePT dimensionPT   
+grayPN unitPN   =  kiloPV                  :  unitPT massPT                         
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC massDC divisionDC  unitCN massCN divisionCN 
+
+
+kiloIN diffuseIN kiloIN 
+
+operationPN     =  divisionPV              :  operationPT                        
+dimensionPN     =  individualPV growthPV   :  complexPT dimensionPT divisionPT   
+unitPN          =  kiloPV                  :  unitPT massPT                      
+grayPN unitPN   =  kiloPV                  :  unitPT massPT                      
+measureCN dataCN 
+unitCN measureCN 
+measureCN dataCN 
+derivedunitCN
+unitCN measureCN 
+derivedCN unitCN complexCN dimensionCN 
+mixCN unitCN 
+derivedCN unitCN divisionCN 
+unitCN materialCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC diffuseDC massDC  unitCN diffuseCN massCN 
+
+
+kiloIN diffuseIN hectareIN 
+
+grayPN unitPN   =  hectarePV             :  unitPT numberPT multiplicationPT   
+dimensionPN     =  diffusePV productPV   :  complexPT dimensionPT divisionPT   
+unitPN          =  kiloPV                :  unitPT massPT                      
+operationPN     =  divisionPV            :  operationPT                        
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC absoluteDC rateDC  unitCN absoluteCN rateCN 
+
+
+kiloIN diffuseIN hectareIN diffuseIN dayIN 
+
+unitPN          =  kiloPV diffusePV hectarePV   :  unitPT diffusePT massPT            
+grayPN unitPN   =  grayPV                       :  unitPT meterPT                     
+dimensionPN     =  diffusePV productPV ratePV   :  complexPT dimensionPT divisionPT   
+operationPN     =  divisionPV                   :  operationPT                        
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC specificDC rateDC  unitCN specificCN rateCN 
+
+
+gramIN diffuseIN kiloIN diffuseIN dayIN 
+
+unitPN          =  gramPV diffusePV kiloPV        :  unitPT massPT divisionPT           
+grayPN unitPN   =  grayPV                         :  unitPT meterPT                     
+operationPN     =  divisionPV                     :  operationPT                        
+dimensionPN     =  individualPV growthPV ratePV   :  complexPT dimensionPT divisionPT   
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN divisionCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC specificDC rateDC  unitCN specificCN rateCN 
+
+
+kiloIN diffuseIN kiloIN diffuseIN dayIN 
+
+unitPN          =  kiloPV diffusePV kiloPV   :  unitPT massPT divisionPT   
+grayPN unitPN   =  grayPV                    :  unitPT meterPT             
+operationPN     =  divisionPV                :  operationPT                
+measureCN dataCN 
+unitCN measureCN 
+measureCN dataCN 
+derivedunitCN
+unitCN measureCN 
+derivedCN unitCN complexCN dimensionCN 
+mixCN unitCN 
+derivedCN unitCN exponentiationCN 
+unitCN powerCN durationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC intensityDC  unitCN intensityCN 
+
+
+mnbthreeIN 
+
+unitPN        =  meterPV              :  unitPT durationPT                        
+dimensionPN   =  intensityPV          :  complexPT dimensionPT exponentiationPT   
+expoentPN     =  nbthreePV nbzeroPV   :                                           
+operationPN   =  exponentiationPV     :  operationPT                              
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN exponentiationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC frequencyDC  unitCN frequencyCN 
+
+
+hertzIN
+
+operationPN   =  exponentiationPV   :  operationPT                              
+unitPN        =  grayPV             :  unitPT meterPT                           
+expoentPN     =  nbonePV nbzeroPV   :                                           
+dimensionPN   =  frequencyPV        :  complexPT dimensionPT exponentiationPT   
+measureCN dataCN 
+unitCN measureCN 
+measureCN dataCN 
+derivedunitCN
+unitCN measureCN 
+derivedCN unitCN complexCN dimensionCN 
+mixCN unitCN 
+derivedCN unitCN exponentiationCN 
+unitCN powerCN durationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC areaDC  unitCN areaCN 
+
+
+mnbtwoIN 
+
+operationPN   =  exponentiationPV   :  operationPT                              
+expoentPN     =  nbtwoPV nbzeroPV   :                                           
+dimensionPN   =  areaPV             :  complexPT dimensionPT exponentiationPT   
+unitPN        =  meterPV            :  unitPT durationPT                        
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+dayIN
+
+dimensionPN    =  meterPV                  :  basedimensionPT                       
+unitPN         =  minPV                    :  derivedPT unitPT basePT dimensionPT   
+multiplierPN   =  nbtwonbfourPV nbzeroPV   :                                        
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+monthIN
+
+dimensionPN    =  meterPV                    :  basedimensionPT                       
+unitPN         =  dayPV                      :  derivedPT unitPT basePT dimensionPT   
+multiplierPN   =  nbthreenbzeroPV nbzeroPV   :                                        
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+yearIN
+
+multiplierPN   =  nbonenbtwoPV nbzeroPV   :                                        
+dimensionPN    =  meterPV                 :  basedimensionPT                       
+unitPN         =  monthPV                 :  derivedPT unitPT basePT dimensionPT   
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+kilometerIN
+
+multiplierPN   =  nbonenbzeronbzeronbzeroPV nbzeroPV   :                      
+unitPN         =  meterPV                              :  unitPT durationPT   
+dimensionPN    =  durationPV                           :  basedimensionPT     
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+brlIN materialIN 
+
+multiplierPN   =  nbzeroPV nbfivenbsevenPV   :                   
+unitPN         =  dolarPV                    :  unitPT moneyPT   
+dimensionPN    =  moneyPV                    :  basedimensionPT  
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+miligramIN
+
+dimensionPN    =  durationPV                           :  basedimensionPT                       
+unitPN         =  gramPV                               :  derivedPT unitPT basePT dimensionPT   
+multiplierPN   =  nbzeroPV nbzeronbzeronbonenbzeroPV   :                                        
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+gramIN
+
+operationPN    =  multiplicationPV                     :  operationPT      
+multiplierPN   =  nbzeroPV nbzeronbzeronbonenbzeroPV   :                   
+dimensionPN    =  massPV                               :  basedimensionPT  
+unitPN         =  kiloPV                               :  unitPT massPT    
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+milimeterIN
+
+unitPN         =  meterPV                              :  unitPT durationPT   
+dimensionPN    =  durationPV                           :  basedimensionPT     
+multiplierPN   =  nbzeroPV nbzeronbzeronbonenbzeroPV   :                      
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+minIN
+
+unitPN         =  grayPV                   :  unitPT meterPT   
+multiplierPN   =  nbsixnbzeroPV nbzeroPV   :                   
+dimensionPN    =  meterPV                  :  basedimensionPT  
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+dayIN
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+centimeterIN
+
+unitPN         =  meterPV                  :  unitPT durationPT   
+multiplierPN   =  nbzeroPV nbzeronbonePV   :                      
+dimensionPN    =  durationPV               :  basedimensionPT     
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+semesterIN
+
+multiplierPN   =  nbsixPV nbzeroPV   :                                        
+dimensionPN    =  meterPV            :  basedimensionPT                       
+unitPN         =  monthPV            :  derivedPT unitPT basePT dimensionPT   
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+derivedDC unitDC baseDC dimensionDC  derivedCN unitCN baseCN dimensionCN 
+
+
+mileIN
+
+multiplierPN   =  nbonenbsixnbzeronbninenbthreenbfournbfourPV nbzeroPV   :                      
+unitPN         =  meterPV                                                :  unitPT durationPT   
+dimensionPN    =  durationPV                                             :  basedimensionPT     
+measureCN dataCN 
+unitCN measureCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC moneyDC  unitCN moneyCN 
+
+
+dolarIN
+
+dimensionPN  =  moneyPV  :  basedimensionPT  
+measureCN dataCN 
+unitCN measureCN 
+measureCN dataCN 
+mixCN unitCN 
+unitCN measureCN 
+unitCN materialCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC massDC  unitCN massCN 
+
+
+kiloIN
+
+dimensionPN  =  massPV  :  basedimensionPT  
+measureCN dataCN 
+unitCN measureCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC meterDC  unitCN meterCN 
+
+
+grayIN
+
+dimensionPN  =  meterPV  :  basedimensionPT  
+measureCN dataCN 
+measureCN dataCN 
+unitCN measureCN 
+unitCN measureCN 
+mixCN unitCN 
+baseunitCN
+unitCN powerCN durationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC durationDC  unitCN durationCN 
+
+
+meterIN
+
+dimensionPN  =  durationPV  :  basedimensionPT  
+measureCN dataCN 
+unitCN measureCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC identityDC  unitCN identityCN 
+
+
+oneIN
+
+dimensionPN  =  identityPV  :  basedimensionPT  
+measureCN dataCN 
+unitCN measureCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC temperatureDC  unitCN temperatureCN 
+
+
+kelvinIN
+
+waterPN boilingPN itemPN     =  nbthreenbsevennbthreePV nbonenbthreenbthreenbninePV kPV   :                   
+formulaPN correspondencePN   =                                                            :                   
+dimensionPN                  =  temperaturePV                                             :  basedimensionPT  
+waterPN meltingPN itemPN     =  nbtwonbsevennbthreePV nbonenbfivePV kPV                   :                   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+activeDC  activeCN 
+
+
+crosIN duruIN 
+
+inputsPN        =  airPV temperaturePV dailyPV averagePV   :  measurePT             
+inputsPN        =  globalPV solarPV radiationPV            :  measurePT             
+implementedPN   =  grassPV                                 :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+activeDC  activeCN 
+
+
+ewIN activeIN modelIN 
+
+implementedPN   =  groundPV waterPV   :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+activeDC  activeCN 
+
+
+lintulnboneIN 
+
+implementedPN   =  groundPV waterPV   :  apescPT omponentsPT   
+implementedPN   =  cropPV             :  apescPT omponentsPT   
+implementedPN   =  agroforestryPV     :  apescPT omponentsPT   
+implementedPN   =  orchardPV          :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+winslowIN alIN 
+
+implementedPN   =  climaPV gsrPV adPV               :  apescPT omponentsPT   
+inputsPN        =  latitudePV                       :  measurePT             
+outputsPN       =  clearPV skyPV transmissivityPV   :  measurePT             
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+thortonIN constantIN 
+
+outputsPN       =  clearPV skyPV transmissivityPV   :  measurePT             
+inputsPN        =  solarPV elevationPV              :  measurePT             
+implementedPN   =  climaPV gsrPV adPV               :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+testIN modelIN abcIN 
+
+implementedPN   =  climaPV airPV temperaturePV    :  apescPT omponentsPT   
+inputsPN        =  airPV temperaturePV hourlyPV   :  measurePT             
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+campbellIN donatelliIN 
+
+inputsPN        =  airPV temperaturePV minPV dailyPV        :  measurePT             
+inputsPN        =  airPV temperaturePV dailyPV averagePV    :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV             :  measurePT             
+outputsPN       =  globalPV solarPV radiationPV             :  measurePT             
+implementedPN   =  climaPV airPV temperaturePV              :  apescPT omponentsPT   
+inputsPN        =  extraPV economicPV radiationPV dailyPV   :  measurePT             
+inputsPN        =  clearPV skyPV transmissivityPV           :  measurePT             
+implementedPN   =  climaPV gsrPV adPV                       :  apescPT omponentsPT   
+inputsPN        =  airPV temperaturePV dailyPV rangePV      :  measurePT             
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+extraterrestrialIN radiationIN modelIN 
+
+outputsPN       =  dayPV lenghtPV                            :  measurePT             
+implementedPN   =  climaPV gsrPV adPV                        :  apescPT omponentsPT   
+outputsPN       =  extraterrestrialPV radiationPV hourlyPV   :  measurePT             
+outputsPN       =  solarPV declinationPV                     :  measurePT             
+outputsPN       =  dayPV sunsetPV                            :  measurePT             
+outputsPN       =  dayPV anglePV                             :  measurePT             
+outputsPN       =  extraPV economicPV radiationPV dailyPV    :  measurePT             
+outputsPN       =  solarPV elevationPV                       :  measurePT             
+outputsPN       =  dayPV sunrisePV                           :  measurePT             
+outputsPN       =  airPV temperaturePV dailyPV averagePV     :  measurePT             
+inputsPN        =  latitudePV                                :  measurePT             
+inputsPN        =  currentPV dayPV                           :  measurePT             
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+campbellIN 
+
+outputsPN       =  airPV temperaturePV hourlyPV        :  measurePT             
+inputsPN        =  airPV temperaturePV maxPV dailyPV   :  measurePT             
+inputsPN        =  airPV temperaturePV minPV dailyPV   :  measurePT             
+implementedPN   =  climaPV airPV temperaturePV         :  apescPT omponentsPT   
+implementedPN   =  agroforestryPV                      :  apescPT omponentsPT   
+implementedPN   =  climaPV gsrPV adPV                  :  apescPT omponentsPT   
+implementedPN   =  demoPV componentPV                  :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+testIN
+
+implementedPN   =  demoPV componentPV   :  apescPT omponentsPT   
+implementedPN   =  agroforestryPV       :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+woodwardIN alIN 
+
+inputsPN        =  latitudePV                       :  measurePT             
+inputsPN        =  currentPV dayPV                  :  measurePT             
+implementedPN   =  climaPV gsrPV adPV               :  apescPT omponentsPT   
+outputsPN       =  clearPV skyPV transmissivityPV   :  measurePT             
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+supitIN vanIN kappelIN 
+
+inputsPN        =  extraPV economicPV radiationPV dailyPV   :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV             :  measurePT             
+inputsPN        =  airPV temperaturePV dailyPV rangePV      :  measurePT             
+outputsPN       =  globalPV solarPV radiationPV             :  measurePT             
+implementedPN   =  orchardPV                                :  apescPT omponentsPT   
+implementedPN   =  climaPV gsrPV adPV                       :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+liuIN jordanIN 
+
+inputsPN        =  globalPV solarPV radiationPV       :  measurePT             
+implementedPN   =  climaPV gsrPV adPV                 :  apescPT omponentsPT   
+outputsPN       =  radiationPV reflectedPV groundPV   :  measurePT             
+inputsPN        =  clearPV skyPV transmissivityPV     :  measurePT             
+inputsPN        =  albedoPV                           :  measurePT             
+outputsPN       =  radiationPV diffusePV skyPV        :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV       :  measurePT             
+inputsPN        =  anglePV slopePV                    :  measurePT             
+outputsPN       =  radiationPV airPV                  :  measurePT             
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+donatelliIN bellocchiIN 
+
+implementedPN   =  demoPV componentPV   :  apescPT omponentsPT   
+implementedPN   =  pesticidePV          :  apescPT omponentsPT   
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+bristowIN campbellIN 
+
+implementedPN   =  agroforestryPV                           :  apescPT omponentsPT   
+implementedPN   =  climaPV gsrPV adPV                       :  apescPT omponentsPT   
+inputsPN        =  extraPV economicPV radiationPV dailyPV   :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV             :  measurePT             
+inputsPN        =  airPV temperaturePV dailyPV rangePV      :  measurePT             
+inputsPN        =  clearPV skyPV transmissivityPV           :  measurePT             
+outputsPN       =  globalPV solarPV radiationPV             :  measurePT             
+modelCN areaCN 
+toolCN 
+
+modelDC  modelCN 
+
+
+modIN 
+
+modelCN areaCN 
+toolCN 
+
+mathematicalDC programmingDC  mathematicalCN programmingCN 
+
+
+gamsIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+orchardIN 
+
+consistsPN modelPN   =  lintulnbonePV            :  activePT   
+consistsPN modelPN   =  supitPV vanPV kappelPV   :  setPT      
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+demoIN componentIN 
+
+consistsPN modelPN   =  donatelliPV bellocchiPV   :  setPT   
+consistsPN modelPN   =  campbellPV                :  setPT   
+consistsPN modelPN   =  testPV                    :  setPT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+groundIN carbonIN nitrogenIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+groundIN waterIN 
+
+consistsPN modelPN   =  lintulnbonePV           :  activePT   
+consistsPN modelPN   =  ewPV activePV modelPV   :  activePT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+cropIN
+
+consistsPN modelPN   =  lintulnbonePV   :  activePT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+groundIN erosionIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN gsrIN adIN 
+
+consistsPN modelPN   =  liuPV jordanPV                           :  setPT   
+consistsPN modelPN   =  extraterrestrialPV radiationPV modelPV   :  setPT   
+consistsPN modelPN   =  supitPV vanPV kappelPV                   :  setPT   
+consistsPN modelPN   =  winslowPV alPV                           :  setPT   
+consistsPN modelPN   =  campbellPV donatelliPV                   :  setPT   
+consistsPN modelPN   =  thortonPV constantPV                     :  setPT   
+consistsPN modelPN   =  bristowPV campbellPV                     :  setPT   
+consistsPN modelPN   =  campbellPV                               :  setPT   
+consistsPN modelPN   =  woodwardPV alPV                          :  setPT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+agroforestryIN 
+
+consistsPN modelPN   =  lintulnbonePV          :  activePT   
+consistsPN modelPN   =  campbellPV             :  setPT      
+consistsPN modelPN   =  bristowPV campbellPV   :  setPT      
+consistsPN modelPN   =  testPV                 :  setPT      
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+groundIN structureIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+grassIN 
+
+consistsPN modelPN   =  crosPV duruPV   :  activePT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+pesticideIN 
+
+consistsPN modelPN   =  donatelliPV bellocchiPV   :  setPT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+manageIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN airIN temperatureIN 
+
+consistsPN modelPN   =  testPV modelPV abcPV     :  setPT   
+consistsPN modelPN   =  campbellPV               :  setPT   
+consistsPN modelPN   =  campbellPV donatelliPV   :  setPT   
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+indicatorsIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+cropIN mlIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN rainIN 
+
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN windIN 
+
+
+seamDC agroDC areaDC  seamCN agroCN areaCN 
+
+
+unknownIN areaIN 
+
+measurePN measurePN   =  productPV efficiencyPV   :  measurePT  
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+nutrientDC manageDC  nutrientCN manageCN 
+
+
+nutrientIN mngtIN 
+
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+pesticideDC manageDC  pesticideCN manageCN 
+
+
+pesticideIN mngtIN 
+
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+waterDC manageDC  waterCN manageCN 
+
+
+waterIN mngtIN 
+
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+groundDC consumptionDC manageDC  groundCN consumptionCN manageCN 
+
+
+groundIN consumptionIN mngtIN 
+
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+groundDC tillageDC manageDC  groundCN tillageCN manageCN 
+
+
+groundIN tillageIN mngtIN 
+
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+evapotranspirationDC actDC  evapotranspirationCN actCN 
+
+
+evapotranspirationIN 
+
+measurePN measurePN   =  referencePV evapotranspirationPV   :  measurePT  
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+solarDC radiationDC actDC  solarCN radiationCN actCN 
+
+
+solarIN radiationIN 
+
+measurePN measurePN   =  solarPV irradiancePV     :  measurePT  
+measurePN measurePN   =  meterPV variablesPV      :  measurePT  
+measurePN measurePN   =  slopePV aspectPV         :  measurePT  
+measurePN measurePN   =  anglePV variablesPV      :  measurePT  
+measurePN measurePN   =  airPV transmissivityPV   :  measurePT  
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+windDC actDC  windCN actCN 
+
+
+windIN 
+
+measurePN measurePN   =  windPV speedPV   :  measurePT  
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+airDC actDC  airCN actCN 
+
+
+airIN 
+
+measurePN measurePN   =  airPV temperaturePV   :  measurePT  
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+climateCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+rainDC actDC  rainCN actCN 
+
+
+rainIN 
+
+measurePN measurePN   =  precipitationPV   :  measurePT  
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+
+ecologicalCN dataCN 
+contextualCN dataCN 
+actCN
+groundDC enviromentDC  groundCN enviromentCN 
+
+
+groundIN
+
+measurePN measurePN   =  groundPV temperaturePV   :  measurePT  
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+groundCN consumptionCN enviromentCN 
+
+biomassDC enviromentDC  biomassCN enviromentCN 
+
+
+biomassIN
+
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+groundCN consumptionCN enviromentCN 
+
+nitrogenDC contentDC enviromentDC  nitrogenCN contentCN enviromentCN 
+
+
+nitrogenIN contentIN 
+
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+groundCN consumptionCN enviromentCN 
+
+carbonDC contentDC enviromentDC  carbonCN contentCN enviromentCN 
+
+
+carboncontentIN
+
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+
+waterDC enviromentDC  waterCN enviromentCN 
+
+
+waterIN
+
+seamCN agroCN areaCN 
+environmentCN 
+agroCN enviromentCN 
+
+pesticideDC enviromentDC  pesticideCN enviromentCN 
+
+
+pesticideIN 
+
+seamCN coreCN 
+observationCN contextCN 
+clearCN typeCN contextCN 
+
+measureCN dataCN 
+floatDC  floatCN 
+
+
+doubleIN
+
+seamCN coreCN 
+observationCN contextCN 
+clearCN typeCN contextCN 
+
+measureCN dataCN 
+booleanDC  booleanCN 
+
+
+booleanIN
+
+seamCN coreCN 
+observationCN contextCN 
+clearCN typeCN contextCN 
+
+measureCN dataCN 
+integerDC  integerCN 
+
+
+shortIN
+
+seamCN coreCN 
+observationCN contextCN 
+clearCN typeCN contextCN 
+
+measureCN dataCN 
+integerDC  integerCN 
+
+
+intIN
+
+seamCN coreCN 
+observationCN contextCN 
+samplingCN frequencyCN 
+
+measureCN dataCN 
+meterDC samplingDC frequencyDC  meterCN samplingCN frequencyCN 
+
+
+monthlyIN 
+
+seamCN coreCN 
+observationCN contextCN 
+samplingCN frequencyCN 
+
+measureCN dataCN 
+meterDC samplingDC frequencyDC  meterCN samplingCN frequencyCN 
+
+
+dailyIN
+
+seamCN coreCN 
+observationCN contextCN 
+samplingCN frequencyCN 
+
+measureCN dataCN 
+meterDC samplingDC frequencyDC  meterCN samplingCN frequencyCN 
+
+
+hourlyIN
+
+seamCN coreCN 
+observationCN contextCN 
+samplingCN frequencyCN 
+
+measureCN dataCN 
+meterDC samplingDC frequencyDC  meterCN samplingCN frequencyCN 
+
+
+yearlyIN
+
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+
+measureCN dataCN 
+oneDC dimensionalDC  oneCN dimensionalCN 
+
+
+itemIN spaceIN 
+
+seamCN coreCN 
+seamCN coreCN 
+seamCN coreCN 
+observationCN contextCN 
+observationCN contextCN 
+observationCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+dimensionalCN 
+dimensionalCN 
+axisCN northCN southCN 
+axisCN elevationCN 
+
+measureCN dataCN 
+axesDC nsDC elevationDC  axesCN nsCN elevationCN 
+
+
+axesIN nsIN elevationIN nboneIN 
+
+durationPN  =  nbtwonbthreePV   :    
+seamCN coreCN 
+seamCN coreCN 
+seamCN coreCN 
+observationCN contextCN 
+observationCN contextCN 
+observationCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+dimensionalCN 
+dimensionalCN 
+axisCN eastCN westCN 
+axisCN northCN southCN 
+
+measureCN dataCN 
+axesDC nsDC ewDC  axesCN nsCN ewCN 
+
+
+matrixIN nsIN nbonenbzeroIN ewIN nbonenbzeroIN 
+
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC northDC southDC  axisCN northCN southCN 
+
+
+vectorIN nsIN nbonenbzeroIN 
+
+durationPN  =  nbonenbzeroPV   :    
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC elevationDC  axisCN elevationCN 
+
+
+vectorIN elevationIN nbonenbzeroIN 
+
+heightPN   =  nbonenbzeroPV   :    
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC elevationDC  axisCN elevationCN 
+
+
+vectorIN elevationIN nbfourIN 
+
+heightPN   =  nbonenbzeroPV   :    
+seamCN coreCN 
+observationCN contextCN 
+spatialCN contextCN 
+dimensionalCN 
+
+measureCN dataCN 
+axisDC eastDC westDC  axisCN eastCN westCN 
+
+
+vectorIN ewIN nbonenbzeroIN 
+
+widthPN   =  nbonenbzeroPV   :    
+seamCN coreCN 
+observationCN contextCN 
+interimCN contextCN 
+
+measureCN dataCN 
+itemDC  itemCN 
+
+
+itemIN meterIN 
+
+seamCN coreCN 
+observationCN contextCN 
+interimCN contextCN 
+
+measureCN dataCN 
+meterDC seriesDC  meterCN seriesCN 
+
+
+meterIN seriesIN 
+
+seamCN coreCN 
+observationCN contextCN 
+interimCN contextCN 
+
+measureCN dataCN 
+meterDC seriesDC  meterCN seriesCN 
+
+
+meterIN seriesIN nbonenbzeroIN 
+
+durationPN  =  nbtwonbfourPV   :    
+seamCN coreCN 
+observationCN contextCN 
+interimCN contextCN 
+
+measureCN dataCN 
+meterDC seriesDC  meterCN seriesCN 
+
+
+meterIN seriesIN nbthreenbsixnbsixIN 
+
+durationPN  =  nbthreenbsixnbsixPV   :    
+seamCN coreCN 
+observationCN contextCN 
+interimCN contextCN 
+
+measureCN dataCN 
+meterDC seriesDC  meterCN seriesCN 
+
+
+meterIN seriesIN nbtwonbfourIN 
+
+durationPN  =  nbtwonbfourPV   :    
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+milliIN meterIN dayIN 
+
+productPN   =  millimeterPV  :  unitPT derivedPT scalePT               
+productPN   =  dayPV         :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+individualIN monthIN 
+
+productPN   =  individualPV  :  linearPT unitPT            
+productPN   =  monthPV       :  unitPT derivedPT scalePT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+grayIN
+
+productPN   =  grayPV nutrientPV    :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+hertzIN
+
+productPN   =  dimensionlessPV unitPV   :  baseunitPT                             
+productPN   =  grayPV                   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN hectareIN dayIN 
+
+prefixPN    =  kiloPV     :  unitPT prefixPT                        
+productPN   =  hectarePV  :  unitPT derivedPT elevationPT powerPT   
+productPN   =  dayPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV     :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+megaIN jouleIN meterIN powernbthreeIN celsiusIN 
+
+prefixPN    =  megaPV                   :  unitPT prefixPT                        
+productPN   =  celsiusPV                :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  joulePV                  :  complexPT unitPT                       
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+luxIN
+
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  candelaPV            :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+wattIN meterIN nutrientIN 
+
+productPN   =  wattPV               :  complexPT unitPT                       
+productPN   =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN powernbthreeIN 
+
+productPN   =  meterPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV                   :  baseunitPT                             
+prefixPN    =  kiloPV                   :  unitPT prefixPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+siemensIN meterIN 
+
+productPN   =  meterPV    :  unitPT derivedPT elevationPT powerPT   
+productPN   =  siemensPV  :  complexPT unitPT                       
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+henryIN
+
+productPN   =  grayPV nutrientPV    :  unitPT derivedPT elevationPT powerPT   
+productPN   =  amperPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV               :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN moleIN 
+
+productPN   =  kiloPV  :  unitPT derivedPT elevationPT powerPT   
+productPN   =  molePV  :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+weberIN
+
+productPN   =  grayPV nutrientPV    :  unitPT derivedPT elevationPT powerPT   
+productPN   =  amperPV              :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV               :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+faradIN
+
+productPN   =  nutrientPV amperPV     :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV nutrientPV     :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV                 :  baseunitPT                             
+productPN   =  grayPV powernbfourPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+megaIN jouleIN kiloIN 
+
+productPN   =  joulePV  :  complexPT unitPT                       
+productPN   =  kiloPV   :  unitPT derivedPT elevationPT powerPT   
+prefixPN    =  megaPV   :  unitPT prefixPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN dayIN 
+
+expressedPN  =  speedPV   :  derivedPT dimensionPT productPT        
+productPN    =  dayPV     :  unitPT derivedPT elevationPT powerPT   
+productPN    =  meterPV   :  baseunitPT                             
+prefixPN     =  kiloPV    :  unitPT prefixPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+euroIN hectareIN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+jouleIN kiloIN kelvinIN 
+
+productPN    =  joulePV                  :  complexPT unitPT                       
+productPN    =  kelvinPV                 :  unitPT derivedPT elevationPT powerPT   
+productPN    =  kiloPV                   :  unitPT derivedPT elevationPT powerPT   
+expressedPN  =  energyPV massPV tempPV   :  derivedPT dimensionPT productPT        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN nutrientIN grayIN kelvinIN 
+
+productPN   =  kelvinPV             :  baseunitPT                             
+productPN   =  grayPV               :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV               :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+jouleIN
+
+productPN    =  grayPV nutrientPV    :  unitPT derivedPT elevationPT powerPT   
+productPN    =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+productPN    =  kiloPV               :  baseunitPT                             
+expressedPN  =  energyPV             :  derivedPT dimensionPT productPT        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN pascalIN 
+
+prefixPN    =  kiloPV    :  unitPT prefixPT    
+productPN   =  pascalPV  :  complexPT unitPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+euroIN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+teslaIN
+
+productPN   =  kiloPV              :  baseunitPT                             
+productPN   =  amperPV             :  unitPT derivedPT elevationPT powerPT   
+productPN   =  grayPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+meterIN grayIN 
+
+expressedPN  =  speedPV   :  derivedPT dimensionPT productPT   
+productPN    =  grayPV    :  baseunitPT                        
+productPN    =  meterPV   :  baseunitPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+voltIN
+
+productPN   =  kiloPV                  :  baseunitPT                             
+productPN   =  grayPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  amperPV                 :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV      :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+meterIN powernbthreeIN grayIN 
+
+productPN   =  grayPV                   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+amperIN meterIN 
+
+productPN   =  amperPV  :  baseunitPT                             
+productPN   =  meterPV  :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+newtonIN
+
+productPN   =  grayPV nutrientPV                  :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV                            :  baseunitPT                             
+productPN   =  kiloPV                             :  baseunitPT                             
+samePN      =  kiloPV meterPV grayPV nutrientPV   :  complexPT unitPT                       
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN pascalIN celsiusIN 
+
+productPN   =  celsiusPV         :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV pascalPV   :  complexPT unitPT                       
+prefixPN    =  kiloPV            :  unitPT prefixPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+pascalIN grayIN 
+
+productPN   =  pascalPV  :  complexPT unitPT                       
+productPN   =  grayPV    :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+coulombIN
+
+productPN   =  grayPV   :  baseunitPT  
+productPN   =  amperPV  :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+wattIN meterIN nutrientIN steradianIN 
+
+productPN   =  steradianPV          :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  wattPV               :  complexPT unitPT                       
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+individualIN dayIN 
+
+productPN   =  individualPV  :  linearPT unitPT            
+productPN   =  dayPV         :  unitPT derivedPT scalePT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+hectareIN dayIN 
+
+productPN   =  dayPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  hectarePV  :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN grayIN nutrientIN 
+
+prefixPN    =  kiloPV                      :  unitPT prefixPT    
+productPN   =  kiloPV                      :  baseunitPT         
+productPN   =  meterPV grayPV nutrientPV   :  complexPT unitPT   
+productPN   =  meterPV                     :  baseunitPT         
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN grayIN 
+
+productPN   =  grayPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV  :  baseunitPT                             
+productPN   =  kiloPV   :  baseunitPT                             
+prefixPN    =  kiloPV   :  unitPT prefixPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+meterIN nutrientIN grayIN 
+
+productPN   =  grayPV               :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+kiloIN meterIN nutrientIN 
+
+prefixPN    =  kiloPV               :  unitPT prefixPT                        
+productPN   =  kiloPV               :  baseunitPT                             
+productPN   =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+siemensIN
+
+productPN   =  grayPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV amperPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV nutrientPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV                  :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+jouleIN kiloIN 
+
+productPN    =  kiloPV            :  unitPT derivedPT elevationPT powerPT   
+productPN    =  joulePV           :  complexPT unitPT                       
+expressedPN  =  energyPV massPV   :  derivedPT dimensionPT productPT        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+wattIN
+
+productPN   =  grayPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV                  :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+pascalIN
+
+productPN   =  grayPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV              :  baseunitPT                             
+productPN   =  meterPV             :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+ohmIN
+
+productPN   =  grayPV powernbthreePV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  kiloPV                  :  baseunitPT                             
+productPN   =  amperPV nutrientPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  nutrientPV meterPV      :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+meterIN nutrientIN grayIN nutrientIN 
+
+productPN   =  nutrientPV meterPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  grayPV nutrientPV    :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+megaIN jouleIN meterIN nutrientIN dayIN 
+
+productPN    =  joulePV              :  complexPT unitPT                       
+productPN    =  dayPV                :  unitPT derivedPT elevationPT powerPT   
+productPN    =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+expressedPN  =  energyPV             :  derivedPT dimensionPT productPT        
+prefixPN     =  megaPV               :  unitPT prefixPT                        
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+meterIN grayIN nutrientIN 
+
+productPN   =  grayPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+productPN   =  meterPV             :  baseunitPT                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+linearDC unitDC  linearCN unitCN 
+
+
+individualIN
+
+derivedunitPN  =  dimensionlessPV unitPV   :  baseunitPT       
+expressedPN    =  populationPV             :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+dayIN
+
+powerPN        =  nbonePV   :                             
+derivedunitPN  =  dayPV     :  unitPT derivedPT scalePT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+grayIN
+
+powerPN        =  nbtwoPV   :              
+derivedunitPN  =  grayPV    :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+candelaIN 
+
+derivedunitPN  =  candelaPV  :  baseunitPT  
+powerPN        =  nbonePV    :              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+meterIN powernbthreeIN 
+
+powerPN   =  nbthreePV   :    
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+amperIN 
+
+derivedunitPN  =  amperPV   :  baseunitPT  
+powerPN        =  nbonePV   :              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+hectareIN
+
+powerPN        =  nbonePV    :                                         
+derivedunitPN  =  hectarePV  :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+grayIN nutrientIN 
+
+derivedunitPN  =  grayPV    :  baseunitPT  
+powerPN        =  nbtwoPV   :              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+grayIN powernbthreeIN 
+
+powerPN   =  nbthreePV   :    
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+grayIN powernbfourIN 
+
+powerPN        =  nbthreePV   :              
+derivedunitPN  =  grayPV      :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+dayIN
+
+derivedunitPN  =  dayPV     :  unitPT derivedPT scalePT   
+powerPN        =  nbonePV   :                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+grayIN nutrientIN 
+
+expressedPN    =  meterPV nutrientPV   :  derivedPT dimensionPT elevationPT powerPT   
+derivedunitPN  =  grayPV               :  baseunitPT                                  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+kiloIN
+
+expressedPN    =  linearPV durationPV   :  derivedPT dimensionPT elevationPT powerPT   
+derivedunitPN  =  kiloPV                :  baseunitPT                                  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+kelvinIN
+
+powerPN        =  nbonePV        :                                              
+derivedunitPN  =  kelvinPV       :  baseunitPT                                  
+expressedPN    =  temperaturePV  :  derivedPT dimensionPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+moleIN 
+
+powerPN        =  nbonePV   :              
+derivedunitPN  =  molePV    :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+radianIN 
+
+derivedunitPN  =  radianPV  :  baseunitPT  
+powerPN        =  nbonePV   :              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+meterIN nutrientIN 
+
+powerPN        =  nbtwoPV   :                                              
+derivedunitPN  =  meterPV   :  baseunitPT                                  
+expressedPN    =  areaPV    :  derivedPT dimensionPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+grayIN powernbthreeIN 
+
+powerPN        =  nbthreePV   :              
+derivedunitPN  =  grayPV      :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+meterIN
+
+derivedunitPN  =  meterPV               :  baseunitPT                                  
+powerPN        =  nbonePV               :                                              
+expressedPN    =  linearPV durationPV   :  derivedPT dimensionPT elevationPT powerPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+celsiusIN
+
+expressedPN    =  temperaturePV        :  derivedPT dimensionPT elevationPT powerPT   
+derivedunitPN  =  degreePV celsiusPV   :  unitPT derivedPT shiftingPT                 
+powerPN        =  nbonePV              :                                              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+nutrientIN meterIN 
+
+expressedPN    =  areaPV    :  derivedPT dimensionPT elevationPT powerPT   
+derivedunitPN  =  meterPV   :  baseunitPT                                  
+powerPN        =  nbtwoPV   :                                              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+meterIN powernbthreeIN 
+
+powerPN        =  nbthreePV   :              
+derivedunitPN  =  meterPV     :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+hectareIN
+
+derivedunitPN  =  hectometerPV          :  unitPT derivedPT scalePT                    
+expressedPN    =  linearPV durationPV   :  derivedPT dimensionPT elevationPT powerPT   
+powerPN        =  nbtwoPV               :                                              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+amperIN nutrientIN 
+
+derivedunitPN  =  amperPV  :  baseunitPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+nutrientIN amperIN 
+
+derivedunitPN  =  amperPV   :  baseunitPT  
+powerPN        =  nbtwoPV   :              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+
+measureCN dataCN 
+unitDC derivedDC elevationDC powerDC  unitCN derivedCN elevationCN powerCN 
+
+
+steradianIN 
+
+derivedunitPN  =  steradianPV  :  baseunitPT  
+powerPN        =  nbonePV      :              
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+decadeIN
+
+expressedPN        =  meterPV                                                                 :  basedimensionPT  
+scalePN numberPN   =  nbthreePV nbonenbfivenbfivenbsixnbninenbtwonbfournbeightPV enbeightPV   :                   
+derivedunitPN      =  grayPV                                                                  :  baseunitPT       
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+yearIN
+
+scalePN numberPN   =  nbthreePV nbonenbfivenbfivenbsixnbninenbtwonbsixPV enbsevenPV   :                   
+derivedunitPN      =  grayPV                                                          :  baseunitPT       
+expressedPN        =  meterPV                                                         :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+millimeterIN
+
+expressedPN    =  linearPV durationPV   :  basedimensionPT   
+prefixPN       =  milliPV               :  unitPT prefixPT   
+derivedunitPN  =  meterPV               :  baseunitPT        
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+kilometerIN
+
+prefixPN       =  kiloPV                :  unitPT prefixPT   
+derivedunitPN  =  meterPV               :  baseunitPT        
+expressedPN    =  linearPV durationPV   :  basedimensionPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+milleniumIN
+
+derivedunitPN      =  grayPV                                                                     :  baseunitPT       
+scalePN numberPN   =  nbthreePV nbonenbfivenbfivenbsixnbninenbtwonbfivenbfourPV enbonenbzeroPV   :                   
+expressedPN        =  meterPV                                                                    :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+percentIN
+
+derivedunitPN      =  dimensionlessPV unitPV   :  baseunitPT       
+scalePN numberPN   =  nbzeroPV nbzeronbonePV   :                   
+expressedPN        =  dimensionlessPV          :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+degreeIN celsiusIN bynboneIN nbeightIN interimIN instanceIN 
+
+expressedPN        =  temperaturePV        :  basedimensionPT               
+scalePN numberPN   =  nbonePV nbeightPV    :                                
+derivedunitPN      =  degreePV celsiusPV   :  unitPT derivedPT shiftingPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+hectometerIN
+
+derivedunitPN  =  meterPV               :  baseunitPT        
+expressedPN    =  linearPV durationPV   :  basedimensionPT   
+prefixPN       =  hectoPV               :  unitPT prefixPT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+minIN
+
+expressedPN        =  meterPV                  :  basedimensionPT  
+scalePN numberPN   =  nbsixnbzeroPV nbzeroPV   :                   
+derivedunitPN      =  grayPV                   :  baseunitPT       
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+nanometerIN
+
+prefixPN       =  nanoPV                :  unitPT prefixPT   
+expressedPN    =  linearPV durationPV   :  basedimensionPT   
+derivedunitPN  =  meterPV               :  baseunitPT        
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+weekIN
+
+scalePN numberPN   =  nbsixnbzeronbfournbeightnbzeronbzeroPV nbzeroPV   :                   
+derivedunitPN      =  grayPV                                            :  baseunitPT       
+expressedPN        =  meterPV                                           :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+dayIN
+
+scalePN numberPN   =  nbthreenbsixnbzeronbzeroPV nbzeroPV   :                   
+derivedunitPN      =  grayPV                                :  baseunitPT       
+expressedPN        =  meterPV                               :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+centuryIN
+
+derivedunitPN      =  grayPV                                                                :  baseunitPT       
+scalePN numberPN   =  nbthreePV nbonenbfivenbfivenbsixnbninenbtwonbfivenbfourPV enbninePV   :                   
+expressedPN        =  meterPV                                                               :  basedimensionPT  
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+degreeIN
+
+expressedPN        =  anglePV                                                            :  basedimensionPT  
+scalePN numberPN   =  nbzeroPV nbzeronbonenbsevennbfournbfivenbthreenbtwonbninenbtwoPV   :                   
+derivedunitPN      =  radianPV                                                           :  baseunitPT       
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+dayIN
+
+scalePN numberPN   =  nbonenbtwoPV nbzeroPV   :                             
+derivedunitPN      =  dayPV                   :  unitPT derivedPT scalePT   
+expressedPN        =  meterPV                 :  basedimensionPT            
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+derivedunitCN
+unitDC derivedDC scaleDC  unitCN derivedCN scaleCN 
+
+
+monthIN
+
+expressedPN        =  meterPV           :  basedimensionPT            
+scalePN numberPN   =  nbthreenbzeroPV   :                             
+derivedunitPN      =  dayPV             :  unitPT derivedPT scalePT   
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+unitDC derivedDC shiftingDC  unitCN derivedCN shiftingCN 
+
+
+degreeIN fahrenheitIN 
+
+derivedunitPN         =  degreePV celsiusPV bynbonePV nbeightPV interimPV instancePV   :  unitPT derivedPT scalePT   
+expressedPN           =  temperaturePV                                                 :  basedimensionPT            
+shiftingPN numberPN   =  nbthreenbtwoPV nbzeroPV                                       :                             
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+
+measureCN dataCN 
+unitDC derivedDC shiftingDC  unitCN derivedCN shiftingCN 
+
+
+degreeIN celsiusIN 
+
+expressedPN           =  temperaturePV                    :  basedimensionPT  
+derivedunitPN         =  kelvinPV                         :  baseunitPT       
+shiftingPN numberPN   =  nbtwonbsevennbthreePV nbzeroPV   :                   
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+gigaIN
+
+symbolPN   =  gPV                               :    
+valuePN    =  nbonePV nbzeroPV enbonenbzeroPV   :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+nanoIN
+
+valuePN    =  nbonePV nbzeroPV nbeightPV   :    
+symbolPN   =  nPV                          :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+kiloIN
+
+valuePN    =  nbonenbzeronbzeronbzeronbzeroPV nbzeroPV   :    
+symbolPN   =  kPV                                        :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+megaIN
+
+symbolPN   =  mPV                           :    
+valuePN    =  nbonePV nbzeroPV enbsevenPV   :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+microIN
+
+symbolPN   =                              :    
+valuePN    =  nbonePV nbzeroPV nbfivePV   :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+hectoIN
+
+valuePN   =  nbonenbzeronbzeronbzeroPV nbzeroPV   :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+noIN prefixIN 
+
+valuePN   =  nbonePV nbzeroPV   :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+decaIN
+
+valuePN    =  nbonenbzeroPV nbzeroPV   :    
+symbolPN   =  daPV                     :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+unitDC prefixDC  unitCN prefixCN 
+
+
+milliIN
+
+symbolPN   =  mPV                      :    
+valuePN    =  nbzeroPV nbzeronbonePV   :    
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+steradianIN
+
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+meterIN
+
+expressedPN  =  linearPV durationPV   :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+kelvinIN
+
+expressedPN  =  temperaturePV  :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+kiloIN
+
+expressedPN  =  massPV  :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+grayIN
+
+expressedPN  =  meterPV  :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+dimensionlessIN unitIN 
+
+expressedPN  =  dimensionlessPV   :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+radianIN
+
+expressedPN  =  anglePV  :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+moleIN
+
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+amperIN
+
+expressedPN  =  currentPV   :  basedimensionPT  
+seamCN coreCN 
+unitCN
+
+measureCN dataCN 
+baseunitDC baseunitCN
+
+
+candelaIN
+
+expressedPN  =  luminousPV intensityPV   :  basedimensionPT  
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN minIN dailyIN 
+
+maximumPN valuePN                =  nbthreenbfivePV nbzeroPV   :                                   
+spatialPN contextPN              =  itemPV spacePV             :  onePT dimensionalPT              
+interimPN contextPN              =  itemPV meterPV             :  itemPT                           
+observationPN                    =  airPV temperaturePV        :  measurePT                        
+meterPN samplingPN frequencyPN   =  dailyPV                    :  meterPT samplingPT frequencyPT   
+defaultPN unitPN                 =  degreePV celsiusPV         :  unitPT derivedPT shiftingPT      
+defaultPN valuePN                =  nbfivePV nbzeroPV          :                                   
+minimumPN valuePN                =  nbtwonbfivePV nbzeroPV     :                                   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN dailyIN averageIN 
+
+meterPN samplingPN frequencyPN   =  dailyPV                    :  meterPT samplingPT frequencyPT   
+defaultPN valuePN                =  nbonenbfivePV nbzeroPV     :                                   
+maximumPN valuePN                =  nbfournbthreePV nbzeroPV   :                                   
+spatialPN contextPN              =  itemPV spacePV             :  onePT dimensionalPT              
+minimumPN valuePN                =  nbonenbsevenPV nbzeroPV    :                                   
+defaultPN unitPN                 =  degreePV celsiusPV         :  unitPT derivedPT shiftingPT      
+observationPN                    =  airPV temperaturePV        :  measurePT                        
+interimPN contextPN              =  itemPV meterPV             :  itemPT                           
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+dayIN sunsetIN 
+
+minimumPN valuePN     =  nbonenbtwoPV nbzeroPV     :                             
+observationPN         =  meterPV variablesPV       :  measurePT                  
+maximumPN valuePN     =  nbtwonbthreePV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV            :  onePT dimensionalPT        
+defaultPN valuePN     =  nbonenbeightPV nbzeroPV   :                             
+defaultPN unitPN      =  dayPV                     :  unitPT derivedPT scalePT   
+interimPN contextPN   =  itemPV meterPV            :  itemPT                     
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+globalIN solarIN radiationIN 
+
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+maximumPN valuePN     =  nbthreenbeightPV nbzeroPV                 :                        
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+defaultPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+minimumPN valuePN     =  nbzeroPV nbzeronbonePV                    :                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+angleIN slopeIN 
+
+interimPN contextPN   =  itemPV meterPV            :  itemPT                     
+minimumPN valuePN     =  nbzeroPV nbzeroPV         :                             
+defaultPN valuePN     =  nbzeroPV nbzeroPV         :                             
+maximumPN valuePN     =  nbninenbzeroPV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV            :  onePT dimensionalPT        
+observationPN         =  anglePV variablesPV       :  measurePT                  
+defaultPN unitPN      =  degreePV                  :  unitPT derivedPT scalePT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+extraterrestrialIN radiationIN hourlyIN 
+
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+defaultPN valuePN                =  nbfourPV nbtwoPV                          :                                   
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+maximumPN valuePN                =  nbsixPV nbzeroPV                          :                                   
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+angleIN aspectIN 
+
+observationPN         =  anglePV variablesPV              :  measurePT                  
+maximumPN valuePN     =  nbthreenbfivenbninePV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV                   :  onePT dimensionalPT        
+minimumPN valuePN     =  nbzeroPV nbzeroPV                :                             
+defaultPN unitPN      =  degreePV                         :  unitPT derivedPT scalePT   
+interimPN contextPN   =  itemPV meterPV                   :  itemPT                     
+defaultPN valuePN     =  nbzeroPV nbzeroPV                :                             
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+diffuseIN hourlyIN 
+
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+maximumPN valuePN                =  nbtwonbzeroPV nbzeroPV                    :                                   
+defaultPN valuePN                =  nbonePV nbfivePV                          :                                   
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+dayIN angleIN 
+
+observationPN         =  anglePV variablesPV             :  measurePT                  
+spatialPN contextPN   =  itemPV spacePV                  :  onePT dimensionalPT        
+maximumPN valuePN     =  nbonenbsixnbfivePV nbzeroPV     :                             
+defaultPN unitPN      =  degreePV                        :  unitPT derivedPT scalePT   
+defaultPN valuePN     =  nbzeroPV nbzeroPV               :                             
+interimPN contextPN   =  itemPV meterPV                  :  itemPT                     
+minimumPN valuePN     =  nbonenbeightnbzeroPV nbzeroPV   :                             
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+groundIN temperatureIN dailybyIN layerIN 
+
+meterPN samplingPN frequencyPN   =  dailyPV                  :  meterPT samplingPT frequencyPT   
+spatialPN contextPN              =  itemPV spacePV           :  onePT dimensionalPT              
+observationPN                    =  groundPV temperaturePV   :  measurePT                        
+interimPN contextPN              =  itemPV meterPV           :  itemPT                           
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+clearIN skyIN transmissivityIN 
+
+defaultPN valuePN     =  nbzeroPV nbsevennbfivePV   :                        
+observationPN         =  airPV transmissivityPV     :  measurePT             
+maximumPN valuePN     =  nbzeroPV nbeightnbfivePV   :                        
+spatialPN contextPN   =  itemPV spacePV             :  onePT dimensionalPT   
+defaultPN unitPN      =  dimensionlessPV unitPV     :  baseunitPT            
+interimPN contextPN   =  itemPV meterPV             :  itemPT                
+minimumPN valuePN     =  nbzeroPV nbfivenbtwoPV     :                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+solarIN elevationIN 
+
+defaultPN unitPN      =  radianPV                       :  baseunitPT            
+minimumPN valuePN     =  nbzeroPV nbzeroPV              :                        
+interimPN contextPN   =  itemPV meterPV                 :  itemPT                
+observationPN         =  anglePV variablesPV            :  measurePT             
+defaultPN valuePN     =  nbzeroPV nbfivePV              :                        
+spatialPN contextPN   =  itemPV spacePV                 :  onePT dimensionalPT   
+maximumPN valuePN     =  nbonePV nbfivenbsevennbonePV   :                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN monthlyIN rangeIN 
+
+defaultPN valuePN                =  nbonenbfivePV nbzeroPV   :                                   
+defaultPN unitPN                 =  degreePV celsiusPV       :  unitPT derivedPT shiftingPT      
+interimPN contextPN              =  itemPV meterPV           :  itemPT                           
+observationPN                    =  airPV temperaturePV      :  measurePT                        
+spatialPN contextPN              =  itemPV spacePV           :  onePT dimensionalPT              
+maximumPN valuePN                =  nbtwonbfivePV nbzeroPV   :                                   
+meterPN samplingPN frequencyPN   =  monthlyPV                :  meterPT samplingPT frequencyPT   
+minimumPN valuePN                =  nbonePV nbzeroPV         :                                   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+radiationIN airIN hourlyIN 
+
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+maximumPN valuePN                =  nbfourPV nbzeroPV                         :                                   
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+defaultPN valuePN                =  nbthreePV nbzeroPV                        :                                   
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+photosynteticallyIN activeIN radiationIN hourlyIN 
+
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbzeroPV                         :                        
+interimPN contextPN   =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT      
+defaultPN valuePN     =  nbthreePV nbzeroPV                        :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+radiationIN reflectedIN groundIN hourlyIN 
+
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+minimumPN valuePN                =  nbtwoPV nbzeroPV                          :                                   
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+maximumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+defaultPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+productIN coefficientIN 
+
+observationPN                    =  productPV efficiencyPV   :  measurePT                        
+spatialPN contextPN              =  itemPV spacePV           :  onePT dimensionalPT              
+meterPN samplingPN frequencyPN   =  yearlyPV                 :  meterPT samplingPT frequencyPT   
+interimPN contextPN              =  itemPV meterPV           :  itemPT                           
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN dailyIN rangeIN 
+
+defaultPN valuePN                =  nbonenbfivePV nbzeroPV   :                                   
+defaultPN unitPN                 =  degreePV celsiusPV       :  unitPT derivedPT shiftingPT      
+observationPN                    =  airPV temperaturePV      :  measurePT                        
+spatialPN contextPN              =  itemPV spacePV           :  onePT dimensionalPT              
+meterPN samplingPN frequencyPN   =  dailyPV                  :  meterPT samplingPT frequencyPT   
+minimumPN valuePN                =  nbtwonbfivePV nbzeroPV   :                                   
+maximumPN valuePN                =  nbonePV nbzeroPV         :                                   
+interimPN contextPN              =  itemPV meterPV           :  itemPT                           
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN hourlyIN 
+
+maximumPN valuePN                =  nbfivenbzeroPV nbzeroPV          :                                   
+minimumPN valuePN                =  nbtwonbfivePV nbzeroPV           :                                   
+observationPN                    =  airPV temperaturePV              :  measurePT                        
+meterPN samplingPN frequencyPN   =  hourlyPV                         :  meterPT samplingPT frequencyPT   
+spatialPN contextPN              =  itemPV spacePV                   :  onePT dimensionalPT              
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV   :  meterPT seriesPT                 
+defaultPN valuePN                =  nbonenbzeroPV nbzeroPV           :                                   
+defaultPN unitPN                 =  degreePV celsiusPV               :  unitPT derivedPT shiftingPT      
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+latitudeIN
+
+interimPN contextPN   =  itemPV meterPV            :  itemPT                     
+observationPN         =  anglePV variablesPV       :  measurePT                  
+defaultPN valuePN     =  nbfournbfivePV nbzeroPV   :                             
+minimumPN valuePN     =  nbninenbzeroPV nbzeroPV   :                             
+maximumPN valuePN     =  nbninenbzeroPV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV            :  onePT dimensionalPT        
+defaultPN unitPN      =  degreePV                  :  unitPT derivedPT scalePT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+sunshineIN durationIN 
+
+maximumPN valuePN     =  nbtwonbfourPV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV           :  onePT dimensionalPT        
+observationPN         =  meterPV variablesPV      :  measurePT                  
+defaultPN unitPN      =  dayPV                    :  unitPT derivedPT scalePT   
+interimPN contextPN   =  itemPV meterPV           :  itemPT                     
+defaultPN valuePN     =  nbsixPV nbzeroPV         :                             
+minimumPN valuePN     =  nbzeroPV nbzeroPV        :                             
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+groundIN temperatureIN dailyIN 
+
+meterPN samplingPN frequencyPN   =  dailyPV                       :  meterPT samplingPT frequencyPT   
+spatialPN contextPN              =  vectorPV nsPV nbonenbzeroPV   :  axisPT northPT southPT           
+observationPN                    =  groundPV temperaturePV        :  measurePT                        
+interimPN contextPN              =  itemPV meterPV                :  itemPT                           
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+windIN speedIN cellIN 
+
+minimumPN valuePN     =  nbzeroPV nbzeroPV        :                        
+interimPN contextPN   =  itemPV meterPV           :  itemPT                
+defaultPN unitPN      =  meterPV grayPV           :  complexPT unitPT      
+defaultPN valuePN     =  nbzeroPV nbfivePV        :                        
+spatialPN contextPN   =  itemPV spacePV           :  onePT dimensionalPT   
+maximumPN valuePN     =  nbonenbzeroPV nbzeroPV   :                        
+observationPN         =  windPV speedPV           :  measurePT             
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+dayIN lenghtIN 
+
+defaultPN valuePN     =  nbeightPV nbzeroPV       :                             
+observationPN         =  meterPV variablesPV      :  measurePT                  
+interimPN contextPN   =  itemPV meterPV           :  itemPT                     
+spatialPN contextPN   =  itemPV spacePV           :  onePT dimensionalPT        
+minimumPN valuePN     =  nbzeroPV nbzeroPV        :                             
+maximumPN valuePN     =  nbtwonbfourPV nbzeroPV   :                             
+defaultPN unitPN      =  dayPV                    :  unitPT derivedPT scalePT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+diffuseIN 
+
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbonenbzeroPV nbzeroPV                    :                        
+defaultPN valuePN     =  nbfivePV nbzeroPV                         :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+minimumPN valuePN     =  nbzeroPV nbonePV                          :                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+photosynteticallyIN activeIN radiationIN 
+
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+defaultPN valuePN     =  nbonenbzeroPV nbzeroPV                    :                        
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+minimumPN valuePN     =  nbonePV nbzeroPV                          :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+radiationIN diffuseIN skyIN hourlyIN 
+
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+maximumPN valuePN                =  nbtwoPV nbzeroPV                          :                                   
+defaultPN valuePN                =  nbzeroPV nbfivePV                         :                                   
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN 
+
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+defaultPN valuePN     =  nbonenbzeroPV nbzeroPV                    :                        
+minimumPN valuePN     =  nbzeroPV nbonePV                          :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+slopeIN aspectIN componentIN 
+
+maximumPN valuePN     =  nbthreePV nbzeroPV       :                        
+spatialPN contextPN   =  itemPV spacePV           :  onePT dimensionalPT   
+observationPN         =  slopePV aspectPV         :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbzeroPV        :                        
+interimPN contextPN   =  itemPV meterPV           :  itemPT                
+defaultPN valuePN     =  nbonePV nbzeroPV         :                        
+defaultPN unitPN      =  dimensionlessPV unitPV   :  baseunitPT            
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN hourlyIN 
+
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+maximumPN valuePN                =  nbtwonbzeroPV nbzeroPV                    :                                   
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+defaultPN valuePN                =  nbthreePV nbzeroPV                        :                                   
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+albedoIN
+
+interimPN contextPN   =  itemPV meterPV            :  itemPT                
+defaultPN valuePN     =  nbzeroPV nbtwoPV          :                        
+observationPN         =  airPV transmissivityPV    :  measurePT             
+spatialPN contextPN   =  itemPV spacePV            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbzeroPV nbninePV         :                        
+minimumPN valuePN     =  nbzeroPV nbzeronbfivePV   :                        
+defaultPN unitPN      =  dimensionlessPV unitPV    :  baseunitPT            
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+radiationIN reflectedIN groundIN 
+
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+maximumPN valuePN     =  nbonenbfivePV nbzeroPV                    :                        
+minimumPN valuePN     =  nbzeroPV nbzeroPV                         :                        
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+defaultPN valuePN     =  nbonePV nbzeroPV                          :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+dayIN sunriseIN 
+
+defaultPN valuePN     =  nbsixPV nbzeroPV        :                             
+observationPN         =  meterPV variablesPV     :  measurePT                  
+minimumPN valuePN     =  nbzeroPV nbzeroPV       :                             
+interimPN contextPN   =  itemPV meterPV          :  itemPT                     
+defaultPN unitPN      =  dayPV                   :  unitPT derivedPT scalePT   
+maximumPN valuePN     =  nbonenbtwoPV nbzeroPV   :                             
+spatialPN contextPN   =  itemPV spacePV          :  onePT dimensionalPT        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+slopeIN aspectIN componentIN hourlyIN 
+
+minimumPN valuePN                =  nbzeroPV nbzeroPV                :                                   
+meterPN samplingPN frequencyPN   =  hourlyPV                         :  meterPT samplingPT frequencyPT   
+defaultPN unitPN                 =  dimensionlessPV unitPV           :  baseunitPT                       
+observationPN                    =  slopePV aspectPV                 :  measurePT                        
+defaultPN valuePN                =  nbonePV nbzeroPV                 :                                   
+spatialPN contextPN              =  itemPV spacePV                   :  onePT dimensionalPT              
+maximumPN valuePN                =  nbthreePV nbzeroPV               :                                   
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV   :  meterPT seriesPT                 
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+globalIN solarIN radiationIN hourlyIN 
+
+interimPN contextPN              =  meterPV seriesPV nbtwonbfourPV            :  meterPT seriesPT                 
+meterPN samplingPN frequencyPN   =  hourlyPV                                  :  meterPT samplingPT frequencyPT   
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+maximumPN valuePN                =  nbsixPV nbzeroPV                          :                                   
+minimumPN valuePN                =  nbzeroPV nbzeroPV                         :                                   
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+defaultPN valuePN                =  nbthreePV nbzeroPV                        :                                   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+extraIN economicIN radiationIN dailyIN 
+
+outputsPN                        =  solarPV declinationPV                     :  measurePT                        
+outputsPN                        =  dayPV sunrisePV                           :  measurePT                        
+minimumPN valuePN                =  nbzeroPV nbzeronbfivePV                   :                                   
+defaultPN valuePN                =  nbtwonbfivePV nbzeroPV                    :                                   
+outputsPN                        =  extraterrestrialPV radiationPV hourlyPV   :  measurePT                        
+inputsPN                         =  currentPV dayPV                           :  measurePT                        
+inputsPN                         =  latitudePV                                :  measurePT                        
+maximumPN valuePN                =  nbfournbtwoPV nbzeroPV                    :                                   
+interimPN contextPN              =  itemPV meterPV                            :  itemPT                           
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+outputsPN                        =  dayPV lenghtPV                            :  measurePT                        
+outputsPN                        =  dayPV anglePV                             :  measurePT                        
+outputsPN                        =  solarPV elevationPV                       :  measurePT                        
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+outputsPN                        =  extraPV economicPV radiationPV dailyPV    :  measurePT                        
+meterPN samplingPN frequencyPN   =  dailyPV                                   :  meterPT samplingPT frequencyPT   
+implementedPN                    =  climaPV gsrPV adPV                        :  apescPT omponentsPT              
+outputsPN                        =  dayPV sunsetPV                            :  measurePT                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN maxIN dailyIN 
+
+defaultPN valuePN                =  nbonenbfivePV nbzeroPV    :                                   
+defaultPN unitPN                 =  degreePV celsiusPV        :  unitPT derivedPT shiftingPT      
+spatialPN contextPN              =  itemPV spacePV            :  onePT dimensionalPT              
+interimPN contextPN              =  itemPV meterPV            :  itemPT                           
+maximumPN valuePN                =  nbfivenbzeroPV nbzeroPV   :                                   
+observationPN                    =  airPV temperaturePV       :  measurePT                        
+minimumPN valuePN                =  nbonenbzeroPV nbzeroPV    :                                   
+meterPN samplingPN frequencyPN   =  dailyPV                   :  meterPT samplingPT frequencyPT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+solarIN declinationIN 
+
+interimPN contextPN   =  itemPV meterPV                         :  itemPT                
+defaultPN valuePN     =  nbzeroPV nbzeroPV                      :                        
+observationPN         =  anglePV variablesPV                    :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbfournbzeronbninenbthreePV   :                        
+defaultPN unitPN      =  radianPV                               :  baseunitPT            
+spatialPN contextPN   =  itemPV spacePV                         :  onePT dimensionalPT   
+maximumPN valuePN     =  nbzeroPV nbfournbzeronbninenbthreePV   :                        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+currentIN dayIN 
+
+defaultPN unitPN      =  dayPV                           :  unitPT derivedPT scalePT   
+interimPN contextPN   =  itemPV meterPV                  :  itemPT                     
+defaultPN valuePN     =  nbonenbeightnbzeroPV nbzeroPV   :                             
+minimumPN valuePN     =  nbonePV nbzeroPV                :                             
+observationPN         =  meterPV variablesPV             :  measurePT                  
+spatialPN contextPN   =  itemPV spacePV                  :  onePT dimensionalPT        
+maximumPN valuePN     =  nbthreenbsixnbfivePV nbzeroPV   :                             
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+radiationIN airIN 
+
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+maximumPN valuePN     =  nbthreenbfivePV nbzeroPV                  :                        
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+minimumPN valuePN     =  nbzeroPV nbonePV                          :                        
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+defaultPN valuePN     =  nbtwonbzeroPV nbzeroPV                    :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+radiationIN diffuseIN skyIN 
+
+interimPN contextPN   =  itemPV meterPV                            :  itemPT                
+minimumPN valuePN     =  nbzeroPV nbonePV                          :                        
+defaultPN valuePN     =  nbonePV nbzeroPV                          :                        
+defaultPN unitPN      =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT      
+maximumPN valuePN     =  nbonenbfivePV nbzeroPV                    :                        
+spatialPN contextPN   =  itemPV spacePV                            :  onePT dimensionalPT   
+observationPN         =  solarPV irradiancePV                      :  measurePT             
+seamCN coreCN 
+
+ecologicalCN dataCN 
+measureCN
+measureCN dataCN 
+measureDC setDC  measureCN setCN 
+
+
+cropIN mesuremnentIN setIN 
+
+consistsPN   =  cropPV climatePV requirementsPV   :  measurePT setPT   
+seamCN coreCN 
+
+ecologicalCN dataCN 
+measureCN
+measureCN dataCN 
+measureDC setDC  measureCN setCN 
+
+
+cropIN climateIN requirementsIN 
+
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+angleIN variablesIN 
+
+dataPN typePN       =  doublePV                :  floatPT                     
+measurePN areaPN    =  solarPV radiationPV     :  solarPT radiationPT actPT   
+measurePN           =  anglePV aspectPV        :  measurePT                   
+measurePN           =  solarPV declinationPV   :  measurePT                   
+measuredimensionPN  =  anglePV                 :  basedimensionPT             
+measurePN           =  latitudePV              :  measurePT                   
+measurePN           =  solarPV elevationPV     :  measurePT                   
+measurePN           =  anglePV slopePV         :  measurePT                   
+measurePN           =  dayPV anglePV           :  measurePT                   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+precipitationIN 
+
+dataPN typePN       =  doublePV  :  floatPT                           
+measurePN areaPN    =  rainPV    :  rainPT actPT                      
+measuredimensionPN  =  speedPV   :  derivedPT dimensionPT productPT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+referenceIN evapotranspirationIN 
+
+dataPN typePN       =  doublePV               :  floatPT                           
+measuredimensionPN  =  speedPV                :  derivedPT dimensionPT productPT   
+measurePN areaPN    =  evapotranspirationPV   :  evapotranspirationPT actPT        
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+slopeIN aspectIN 
+
+measuredimensionPN  =  anglePV                                 :  basedimensionPT             
+dataPN typePN       =  doublePV                                :  floatPT                     
+measurePN           =  slopePV aspectPV componentPV            :  measurePT                   
+measurePN           =  slopePV aspectPV componentPV hourlyPV   :  measurePT                   
+measurePN areaPN    =  solarPV radiationPV                     :  solarPT radiationPT actPT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+groundIN temperatureIN 
+
+measurePN areaPN    =  groundPV                                   :  groundPT enviromentPT   
+measurePN           =  groundPV temperaturePV dailyPV             :  measurePT               
+measurePN           =  groundPV temperaturePV dailybyPV layerPV   :  measurePT               
+dataPN typePN       =  doublePV                                   :  floatPT                 
+measuredimensionPN  =  temperaturePV                              :  basedimensionPT         
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN temperatureIN 
+
+measurePN           =  airPV temperaturePV monthlyPV rangePV   :  measurePT        
+measuredimensionPN  =  temperaturePV                           :  basedimensionPT  
+measurePN           =  airPV temperaturePV dailyPV averagePV   :  measurePT        
+measurePN           =  airPV temperaturePV hourlyPV            :  measurePT        
+measurePN           =  airPV temperaturePV minPV dailyPV       :  measurePT        
+measurePN           =  airPV temperaturePV maxPV dailyPV       :  measurePT        
+dataPN typePN       =  doublePV                                :  floatPT          
+measurePN           =  airPV temperaturePV dailyPV rangePV     :  measurePT        
+measurePN areaPN    =  airPV                                   :  airPT actPT      
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+solarIN irradianceIN 
+
+measurePN           =  diffusePV hourlyPV                                  :  measurePT                         
+measuredimensionPN  =  energyPV areaPV meterPV                             :  derivedPT dimensionPT productPT   
+measurePN           =  airPV hourlyPV                                      :  measurePT                         
+measurePN           =  globalPV solarPV radiationPV hourlyPV               :  measurePT                         
+measurePN           =  photosynteticallyPV activePV radiationPV            :  measurePT                         
+measurePN           =  diffusePV                                           :  measurePT                         
+measurePN           =  radiationPV airPV hourlyPV                          :  measurePT                         
+dataPN typePN       =  doublePV                                            :  floatPT                           
+measurePN           =  extraPV economicPV radiationPV dailyPV              :  measurePT                         
+measurePN areaPN    =  solarPV radiationPV                                 :  solarPT radiationPT actPT         
+measurePN           =  radiationPV reflectedPV groundPV                    :  measurePT                         
+measurePN           =  globalPV solarPV radiationPV                        :  measurePT                         
+measurePN           =  radiationPV reflectedPV groundPV hourlyPV           :  measurePT                         
+measurePN           =  radiationPV airPV                                   :  measurePT                         
+measurePN           =  radiationPV diffusePV skyPV                         :  measurePT                         
+measurePN           =  photosynteticallyPV activePV radiationPV hourlyPV   :  measurePT                         
+measurePN           =  extraterrestrialPV radiationPV hourlyPV             :  measurePT                         
+measurePN           =  radiationPV diffusePV skyPV hourlyPV                :  measurePT                         
+measurePN           =  airPV                                               :  measurePT                         
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+airIN transmissivityIN 
+
+measuredimensionPN  =  dimensionlessPV                  :  basedimensionPT             
+measurePN           =  albedoPV                         :  measurePT                   
+measurePN           =  clearPV skyPV transmissivityPV   :  measurePT                   
+dataPN typePN       =  doublePV                         :  floatPT                     
+measurePN areaPN    =  solarPV radiationPV              :  solarPT radiationPT actPT   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+productIN efficiencyIN 
+
+measurePN areaPN    =  unknownPV areaPV          :  seamPT agroPT areaPT   
+measurePN           =  productPV coefficientPV   :  measurePT              
+measuredimensionPN  =  dimensionlessPV           :  basedimensionPT        
+dataPN typePN       =  doublePV                  :  floatPT                
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+meterIN variablesIN 
+
+measurePN           =  dayPV lenghtPV          :  measurePT                   
+measurePN areaPN    =  solarPV radiationPV     :  solarPT radiationPT actPT   
+measurePN           =  sunshinePV durationPV   :  measurePT                   
+dataPN typePN       =  doublePV                :  floatPT                     
+measuredimensionPN  =  meterPV                 :  basedimensionPT             
+measurePN           =  currentPV dayPV         :  measurePT                   
+measurePN           =  dayPV sunsetPV          :  measurePT                   
+measurePN           =  dayPV sunrisePV         :  measurePT                   
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+windIN speedIN 
+
+measuredimensionPN  =  speedPV                 :  derivedPT dimensionPT productPT   
+measurePN areaPN    =  windPV                  :  windPT actPT                      
+dataPN typePN       =  doublePV                :  floatPT                           
+measurePN           =  windPV speedPV cellPV   :  measurePT                         
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+dimensionlessIN 
+
+expressedPN  =  percentPV                :  unitPT derivedPT scalePT   
+expressedPN  =  dimensionlessPV unitPV   :  baseunitPT                 
+measurePN    =  airPV transmissivityPV   :  measurePT                  
+measurePN    =  productPV efficiencyPV   :  measurePT                  
+symbolPN     =  nbonePV                  :                             
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+luminousIN intensityIN 
+
+symbolPN     =  iPV        :              
+expressedPN  =  candelaPV  :  baseunitPT  
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+linearIN durationIN 
+
+expressedPN  =  nanometerPV   :  unitPT derivedPT scalePT   
+expressedPN  =  kilometerPV   :  unitPT derivedPT scalePT   
+expressedPN  =  hectometerPV  :  unitPT derivedPT scalePT   
+expressedPN  =  meterPV       :  baseunitPT                 
+expressedPN  =  millimeterPV  :  unitPT derivedPT scalePT   
+symbolPN     =  lPV           :                             
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+meterIN
+
+expressedPN  =  dayPV                 :  unitPT derivedPT scalePT   
+expressedPN  =  monthPV               :  unitPT derivedPT scalePT   
+symbolPN     =  tPV                   :                             
+expressedPN  =  dayPV                 :  unitPT derivedPT scalePT   
+expressedPN  =  grayPV                :  baseunitPT                 
+expressedPN  =  yearPV                :  unitPT derivedPT scalePT   
+expressedPN  =  decadePV              :  unitPT derivedPT scalePT   
+expressedPN  =  weekPV                :  unitPT derivedPT scalePT   
+expressedPN  =  milleniumPV           :  unitPT derivedPT scalePT   
+measurePN    =  meterPV variablesPV   :  measurePT                  
+expressedPN  =  minPV                 :  unitPT derivedPT scalePT   
+expressedPN  =  centuryPV             :  unitPT derivedPT scalePT   
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+dataIN 
+
+symbolPN   =  iPV   :    
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+valueIN equivalentIN 
+
+symbolPN   =  vPV   :    
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+angleIN
+
+expressedPN  =  degreePV              :  unitPT derivedPT scalePT   
+expressedPN  =  radianPV              :  baseunitPT                 
+measurePN    =  slopePV aspectPV      :  measurePT                  
+measurePN    =  anglePV variablesPV   :  measurePT                  
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+temperatureIN
+
+expressedPN    =  kelvinPV                                                      :  baseunitPT                    
+expressedPN    =  degreePV fahrenheitPV                                         :  unitPT derivedPT shiftingPT   
+expressedPN    =  degreePV celsiusPV                                            :  unitPT derivedPT shiftingPT   
+expressedPN    =  degreePV celsiusPV bynbonePV nbeightPV interimPV instancePV   :  unitPT derivedPT scalePT      
+symbolPN       =  tPV                                                           :                                
+measurePN      =  airPV temperaturePV                                           :  measurePT                     
+measurePN      =  groundPV temperaturePV                                        :  measurePT                     
+temperaturePN  =  nbonePV                                                       :                                
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+massIN
+
+symbolPN     =  mPV     :              
+expressedPN  =  kiloPV  :  baseunitPT  
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+currentIN 
+
+symbolPN     =  cPV      :              
+expressedPN  =  amperPV  :  baseunitPT  
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+populationIN 
+
+durationPN               =  nbzeroPV      :                    
+ePN                      =  nbzeroPV      :                    
+meterPN                  =  nbzeroPV      :                    
+temperaturePN            =  nbzeroPV      :                    
+substancePN              =  nbzeroPV      :                    
+currencyPN               =  nbzeroPV      :                    
+iuminousPN intensityPN   =  nbzeroPV      :                    
+expressedPN              =  individualPV  :  linearPT unitPT   
+massPN                   =  nbzeroPV      :                    
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+meterIN nutrientIN 
+
+powerPN                 =  nbtwoPV             :                                         
+derivedPN dimensionPN   =  meterPV             :  basedimensionPT                        
+expressedPN             =  grayPV nutrientPV   :  unitPT derivedPT elevationPT powerPT   
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+linearIN durationIN 
+
+expressedPN             =  hectarePV             :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  meterPV               :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  kiloPV                :  unitPT derivedPT elevationPT powerPT   
+powerPN                 =  nbonePV               :                                         
+derivedPN dimensionPN   =  linearPV durationPV   :  basedimensionPT                        
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+areaIN
+
+expressedPN             =  nutrientPV meterPV    :  unitPT derivedPT elevationPT powerPT   
+derivedPN dimensionPN   =  linearPV durationPV   :  basedimensionPT                        
+powerPN                 =  nbtwoPV               :                                         
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+massIN
+
+derivedPN dimensionPN   =  massPV    :  basedimensionPT  
+powerPN                 =  nbonePV   :                   
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+areaIN
+
+durationPN              =  nbtwoPV              :                                              
+expressedPN             =  meterPV nutrientPV   :  unitPT derivedPT elevationPT powerPT        
+derivedPN dimensionPN   =  areaPV               :  derivedPT dimensionPT elevationPT powerPT   
+powerPN                 =  nbtwoPV              :                                              
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+temperatureIN
+
+expressedPN             =  celsiusPV      :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  kelvinPV       :  unitPT derivedPT elevationPT powerPT   
+derivedPN dimensionPN   =  temperaturePV  :  basedimensionPT                        
+powerPN                 =  nbonePV        :                                         
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC elevationDC powerDC  derivedCN dimensionCN elevationCN powerCN 
+
+
+meterIN
+
+expressedPN             =  grayPV    :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  dayPV     :  unitPT derivedPT elevationPT powerPT   
+expressedPN             =  dayPV     :  unitPT derivedPT elevationPT powerPT   
+meterPN                 =  nbonePV   :                                         
+derivedPN dimensionPN   =  meterPV   :  basedimensionPT                        
+powerPN                 =  nbonePV   :                                         
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+energyIN massIN 
+
+expressedPN             =  joulePV kiloPV       :  complexPT unitPT                            
+productPN dimensionPN   =  meterPV nutrientPV   :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  areaPV               :  derivedPT dimensionPT elevationPT powerPT   
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+energyIN massIN tempIN 
+
+productPN dimensionPN   =  meterPV nutrientPV        :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  temperaturePV             :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  areaPV                    :  derivedPT dimensionPT elevationPT powerPT   
+expressedPN             =  joulePV kiloPV kelvinPV   :  complexPT unitPT                            
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+speedIN 
+
+productPN dimensionPN   =  linearPV durationPV                :  basedimensionPT                             
+measurePN               =  referencePV evapotranspirationPV   :  measurePT                                   
+measurePN               =  windPV speedPV                     :  measurePT                                   
+expressedPN             =  kiloPV meterPV dayPV               :  complexPT unitPT                            
+expressedPN             =  milliPV meterPV dayPV              :  complexPT unitPT                            
+expressedPN             =  meterPV grayPV                     :  complexPT unitPT                            
+meterPN                 =  nbonePV                            :                                              
+measurePN               =  precipitationPV                    :  measurePT                                   
+durationPN              =  nbonePV                            :                                              
+productPN dimensionPN   =  meterPV                            :  derivedPT dimensionPT elevationPT powerPT   
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+energyIN areaIN meterIN 
+
+productPN dimensionPN   =  meterPV                                   :  derivedPT dimensionPT elevationPT powerPT   
+meterPN                 =  nbthreePV                                 :                                              
+productPN dimensionPN   =  areaPV                                    :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  massPV                                    :  basedimensionPT                             
+expressedPN             =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                            
+productPN dimensionPN   =  meterPV nutrientPV                        :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  areaPV                                    :  derivedPT dimensionPT elevationPT powerPT   
+measurePN               =  solarPV irradiancePV                      :  measurePT                                   
+massPN                  =  nbonePV                                   :                                              
+seamCN coreCN 
+dimensionCN
+derivedCN dimensionCN 
+
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN baseCN dimensionCN 
+derivedDC dimensionDC productDC  derivedCN dimensionCN productCN 
+
+
+energyIN 
+
+productPN dimensionPN   =  massPV               :  basedimensionPT                             
+productPN dimensionPN   =  areaPV               :  derivedPT dimensionPT elevationPT powerPT   
+productPN dimensionPN   =  meterPV nutrientPV   :  derivedPT dimensionPT elevationPT powerPT   
+massPN                  =  nbonePV              :                                              
+expressedPN             =  joulePV              :  complexPT unitPT                            
+meterPN                 =  nbtwoPV              :                                              
+durationPN              =  nbtwoPV              :                                              

@@ -1,0 +1,2548 @@
+<html>
+<head><title>One Way Overlap: russia2 --> russia1</title>
+<style>
+th {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:#003399;
+   text-align:left;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+td {
+   font-family:Arial;
+   font-size:11px;
+   color:#333333;
+   padding: 0 1 0 4;
+   white-space:nowrap;
+}
+span {
+   font-family:Arial;
+   font-size:11px;
+   font-weight:bold;
+   color:red;
+}
+.equivalence { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#0000FF; padding: 0 5; width:20; text-align:center; }
+.moregeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#00CCFF; padding: 0 5; width:20; text-align:center; }
+.lessgeneral { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#33CC00; padding: 0 5; width:20; text-align:center; }
+.overlapping { font-size: 14px; font-family:Symbol; font-weight:bolder; color:#FF9900; padding: 0 5; width:20; text-align:center; }
+.mismatching { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.unknown     { font-size: 14px; font-family:Symbol; font-weight:bolder; color:black  ; padding: 0 5; width:20; text-align:center; }
+.eval    { color:#666666  ; padding:0 3; }.maxeval { color:black    ; padding:0 3; }.noeval  { color:lightgray; padding:0 3; }.title   { color:white    ; background-color:#000000; }</style>
+</head>
+<body>
+<table border='1' cellpadding='1' cellspacing='0' bordercolor='#EAEAEA'>
+
+   <TR><TD style='background:black;color:white;'><font face='arial'>Root: DEFAULT_ROOT_CONCEPT</font></TD></TR>
+
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:0;'>|0|--DEFAULT_ROOT_CONCEPT(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,35</TD>
+    <TD class='maxeval'>0,52</TD>
+    <TD><span>284</span> <span class='equivalence'>&ordm;  </span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>182</span> <span class='moregeneral'>&Eacute;</span> Dimension</TD>
+    <TD><span>113</span> <span class='moregeneral'>&Eacute;</span> region</TD>
+    <TD><span>94</span> <span class='moregeneral'>&Eacute;</span> Spiritual_Product</TD>
+    <TD><span>69</span> <span class='moregeneral'>&Eacute;</span> tourist_information</TD>
+    <TD><span>69</span> <span class='moregeneral'>&Eacute;</span> overview</TD>
+    <TD><span>65</span> <span class='moregeneral'>&Eacute;</span> time</TD>
+    <TD><span>61</span> <span class='moregeneral'>&Eacute;</span> public_space</TD>
+    <TD><span>53</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>49</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>20</span> <span class='moregeneral'>&Eacute;</span> culture_and_art</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>18</span> <span class='moregeneral'>&Eacute;</span> festival</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> time_slot</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>13</span> <span class='moregeneral'>&Eacute;</span> language</TD>
+    <TD><span>13</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> month</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>8</span> <span class='moregeneral'>&Eacute;</span> Material</TD>
+    <TD><span>8</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>8</span> <span class='moregeneral'>&Eacute;</span> public_place</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> living_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> human_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> person</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> consumption_information</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> currency</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> author</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> recreation_sports</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> activity</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> travel_event</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> train_travel</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> season</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> unit</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> length_unit</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> food</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> drink</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> singing</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> architecture</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> area_unit</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> direction</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--locatable_thing(0)</TH>
+    <TD class='eval'>0,65</TD>
+    <TD class='eval'>0,45</TD>
+    <TD class='eval'>0,54</TD>
+    <TD><span>22</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>18</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>15</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>15</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>13</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>4</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>2</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> train_travel</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--attractions_of_city(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,88</TD>
+    <TD class='maxeval'>0,93</TD>
+    <TD><span>30</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>24</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--culture_offer(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>8</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>8</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>8</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--museum(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> museum</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--garden(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_place</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> garden</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--cathedral(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> cathedral</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--church(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--theatre(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--cinema(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--sight(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD class='maxeval'>0,96</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>10</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--church(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--monument(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> monument</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--alpine_vista(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--palace(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> palace</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--square(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_place</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> square</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--cathedral(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> cathedral</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--fortress(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> fortress</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--hilltop_view(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--arcade(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--waterfall(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--industry(0)</TH>
+    <TD class='maxeval'>0,14</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,25</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--oil(1)</TH>
+    <TD class='maxeval'>0,14</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,25</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--coal(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--agricultural(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--timber(1)</TH>
+    <TD class='maxeval'>0,14</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,25</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--construction_equipment(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--iron_ore(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--automotive(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--infrastructure(0)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,31</TD>
+    <TD class='eval'>0,38</TD>
+    <TD><span>26</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>19</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>7</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> train_travel</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--means_of_transport(0)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--ship(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--battleship(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--cruiser(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--boat(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--steamship(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--plane(1)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--taxi(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--bus(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--transfer(0)</TH>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,25</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> train_travel</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--land_transfer(0)</TH>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,25</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> train_travel</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--drive(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--railway(1)</TH>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,25</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> train_travel</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--river_transfer(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--flight(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--building(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,31</TD>
+    <TD class='maxeval'>0,47</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>11</span> <span class='equivalence'>&ordm;  </span> public_building</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--fortress(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> fortress</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--accomodation(0)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> palace</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--hotel(1)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> palace</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--appartment(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--palace(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> palace</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--cathedral(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> cathedral</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--church(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> church</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--restaurant(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:28;'>|1|--immaterial_thing(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,16</TD>
+    <TD class='maxeval'>0,28</TD>
+    <TD><span>48</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>25</span> <span class='equivalence'>&ordm;  </span> Spiritual_Product</TD>
+    <TD><span>23</span> <span class='moregeneral'>&Eacute;</span> Dimension</TD>
+    <TD><span>20</span> <span class='moregeneral'>&Eacute;</span> time</TD>
+    <TD><span>18</span> <span class='moregeneral'>&Eacute;</span> tourist_information</TD>
+    <TD><span>18</span> <span class='moregeneral'>&Eacute;</span> overview</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> time_slot</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> month</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> consumption_information</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> currency</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> language</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> culture_and_art</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> festival</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> season</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> unit</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> length_unit</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> singing</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> area_unit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--art(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--literature(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--architecture(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--ballet(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--cinema(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--music(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--musical_performance(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--musical_composition(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--fact(0)</TH>
+    <TD class='maxeval'>0,71</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> language</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> culture_and_art</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> singing</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--economical_fact(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--inflation(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--GDP_per_head(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--GDP(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--annual_growth(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--political_fact(0)</TH>
+    <TD class='maxeval'>0,71</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> language</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> culture_and_art</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> singing</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--population(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--government(1)</TH>
+    <TD class='maxeval'>0,40</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,57</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> language</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--religion(3)</TH>
+    <TD class='maxeval'>0,29</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,44</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> language</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> culture_and_art</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> singing</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--language(3)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> tourist_information</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> overview</TD>
+    <TD><span>3</span> <span class='equivalence'>&ordm;  </span> language</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--surface_area(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--travel_event(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--lodging(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--pay_bills(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--adventure(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--woodcarving(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--hiking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--embroidery(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--bicycling(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--kayaking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--jaunt(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--trekking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--skiing(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--mountaineering(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--eating(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--measurement(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,18</TD>
+    <TD class='maxeval'>0,30</TD>
+    <TD><span>26</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>19</span> <span class='equivalence'>&ordm;  </span> Dimension</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> time</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> time_slot</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> month</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>7</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>7</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>7</span> <span class='overlapping'>&Ccedil;</span> consumption_information</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> currency</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> season</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> unit</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> length_unit</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> area_unit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--rate(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--growth_rate(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--unit(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,93</TD>
+    <TD class='maxeval'>0,97</TD>
+    <TD><span>23</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>19</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> time_slot</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> month</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>4</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>4</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>4</span> <span class='overlapping'>&Ccedil;</span> consumption_information</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> currency</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> season</TD>
+    <TD><span>3</span> <span class='equivalence'>&ordm;  </span> unit</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> length_unit</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> area_unit</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--length_unit(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD class='maxeval'>0,89</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> unit</TD>
+    <TD><span>2</span> <span class='equivalence'>&ordm;  </span> length_unit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--monetary__unit(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,75</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> tourist_information</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> overview</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> consumption_information</TD>
+    <TD><span>2</span> <span class='equivalence'>&ordm;  </span> currency</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--volume_unit(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--time_unit(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,67</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD><span>16</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>16</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> time_slot</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> month</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> season</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--season(4)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,62</TD>
+    <TD class='maxeval'>0,77</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> time</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> time_slot</TD>
+    <TD><span>4</span> <span class='equivalence'>&ordm;  </span> season</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--month(12)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,62</TD>
+    <TD class='maxeval'>0,77</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> time</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> time_slot</TD>
+    <TD><span>12</span> <span class='equivalence'>&ordm;  </span> month</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--day(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--electromagnetic_unit(2)</TH>
+    <TD class='eval'>0,33</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,40</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> consumption_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> currency</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--area_unit(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD class='maxeval'>0,89</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> unit</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> area_unit</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--level(3)</TH>
+    <TD class='eval'>0,33</TD>
+    <TD class='eval'>0,67</TD>
+    <TD class='eval'>0,44</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> consumption_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> currency</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--gender(2)</TH>
+    <TD class='maxeval'>0,29</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,44</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--ethnic(3)</TH>
+    <TD class='maxeval'>0,25</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,40</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> language</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--culture(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> culture_and_art</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> festival</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--adventure(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--woodcarving(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--hiking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--embroidery(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--bicycling(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--kayaking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--jaunt(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--trekking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--skiing(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--mountaineering(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--festival(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> culture_and_art</TD>
+    <TD><span>6</span> <span class='equivalence'>&ordm;  </span> festival</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:28;'>|1|--nameable_thing(0)</TH>
+    <TD class='eval'>0,85</TD>
+    <TD class='eval'>0,38</TD>
+    <TD class='eval'>0,52</TD>
+    <TD><span>214</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>141</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>98</span> <span class='moregeneral'>&Eacute;</span> region</TD>
+    <TD><span>65</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>48</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>48</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>46</span> <span class='moregeneral'>&Eacute;</span> public_space</TD>
+    <TD><span>42</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>42</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>40</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>13</span> <span class='overlapping'>&Ccedil;</span> culture_and_art</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> festival</TD>
+    <TD><span>10</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>9</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>9</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>8</span> <span class='moregeneral'>&Eacute;</span> Material</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> living_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> human_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> person</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> author</TD>
+    <TD><span>6</span> <span class='unknown'    >?</span> language</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> public_place</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> train_travel</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> food</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> drink</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> architecture</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> direction</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--material_thing(0)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,27</TD>
+    <TD class='eval'>0,41</TD>
+    <TD><span>151</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>105</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>68</span> <span class='moregeneral'>&Eacute;</span> region</TD>
+    <TD><span>45</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>41</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>41</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>36</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> public_space</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> language</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> train_travel</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> Material</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> food</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> drink</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> direction</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--physical_thing(0)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,42</TD>
+    <TD class='eval'>0,56</TD>
+    <TD><span>151</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>105</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>68</span> <span class='moregeneral'>&Eacute;</span> region</TD>
+    <TD><span>45</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>41</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>41</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>36</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> public_space</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> language</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> train_travel</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='overlapping'>&Ccedil;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> food</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> drink</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> direction</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--payment(3)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--causal_agent(0)</TH>
+    <TD class='eval'>0,20</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,29</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> language</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--risk(0)</TH>
+    <TD class='eval'>0,20</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,29</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> language</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--health_risk(5)</TH>
+    <TD class='eval'>0,20</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,29</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>5</span> <span class='unknown'    >?</span> language</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--danger(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--infrastructure(0)</TH>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,31</TD>
+    <TD class='eval'>0,38</TD>
+    <TD><span>26</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>19</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>16</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> public_building</TD>
+    <TD><span>7</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> train_travel</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--means_of_transport(0)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--ship(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:196;'>|7|--battleship(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--cruiser(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:196;'>|7|--boat(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--steamship(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--plane(1)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--taxi(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--bus(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--transfer(0)</TH>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,25</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> train_travel</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--land_transfer(0)</TH>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,25</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> train_travel</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--drive(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:196;'>|7|--railway(1)</TH>
+    <TD class='eval'>0,17</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,25</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> recreation_sports</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> activity</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> travel_event</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> train_travel</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--river_transfer(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--flight(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--building(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,31</TD>
+    <TD class='maxeval'>0,47</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>11</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>11</span> <span class='equivalence'>&ordm;  </span> public_building</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--fortress(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> fortress</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--accomodation(0)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> palace</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:196;'>|7|--hotel(1)</TH>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD class='eval'>0,83</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> palace</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--appartment(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--palace(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> palace</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--cathedral(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> cathedral</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--church(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> church</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--restaurant(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--location(1)</TH>
+    <TD class='eval'>0,95</TD>
+    <TD class='eval'>0,30</TD>
+    <TD class='eval'>0,46</TD>
+    <TD><span>111</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>82</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>52</span> <span class='moregeneral'>&Eacute;</span> region</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>29</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>29</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>29</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>29</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>29</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> direction</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--region(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,30</TD>
+    <TD class='maxeval'>0,46</TD>
+    <TD><span>106</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>79</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>52</span> <span class='equivalence'>&ordm;  </span> region</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>27</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>27</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>27</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>27</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>27</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--area(0)</TH>
+    <TD class='eval'>0,74</TD>
+    <TD class='eval'>0,70</TD>
+    <TD class='eval'>0,72</TD>
+    <TD><span>56</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>54</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>52</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>36</span> <span class='moregeneral'>&Eacute;</span> political_region</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>16</span> <span class='moregeneral'>&Eacute;</span> geographical_environment</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--political_area(1)</TH>
+    <TD class='eval'>0,58</TD>
+    <TD class='eval'>0,78</TD>
+    <TD class='eval'>0,67</TD>
+    <TD><span>40</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>38</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>36</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>36</span> <span class='equivalence'>&ordm;  </span> political_region</TD>
+    <TD><span>19</span> <span class='moregeneral'>&Eacute;</span> country</TD>
+    <TD><span>14</span> <span class='moregeneral'>&Eacute;</span> city</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> town</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--town(3)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>3</span> <span class='equivalence'>&ordm;  </span> town</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:224;'>|8|--continent(7)</TH>
+    <TD class='eval'>0,40</TD>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,53</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>6</span> <span class='unknown'    >?</span> country</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--city(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>14</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>14</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>14</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>14</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>14</span> <span class='equivalence'>&ordm;  </span> city</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:252;'>|9|--ordinary_city(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> city</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:252;'>|9|--capital_city(8)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> city</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:224;'>|8|--country(10)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>10</span> <span class='equivalence'>&ordm;  </span> country</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--district(3)</TH>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> political_region</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> country</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--nature_area(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,67</TD>
+    <TD class='maxeval'>0,80</TD>
+    <TD><span>16</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>16</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>16</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>16</span> <span class='equivalence'>&ordm;  </span> geographical_environment</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> mountain</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> valley</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> peninsula</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--peninsula(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> peninsula</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:224;'>|8|--gulf(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--natur_reserve(1)</TH>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> valley</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:224;'>|8|--mountain(2)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>2</span> <span class='equivalence'>&ordm;  </span> mountain</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--vacation_area(1)</TH>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> river</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:224;'>|8|--maritime_reserve(1)</TH>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD class='eval'>0,80</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> valley</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--forest(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:224;'>|8|--island(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:224;'>|8|--waterway(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,88</TD>
+    <TD class='maxeval'>0,93</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>10</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>5</span> <span class='moregeneral'>&Eacute;</span> sea</TD>
+    <TD><span>4</span> <span class='moregeneral'>&Eacute;</span> river</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> lake</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:252;'>|9|--sea(5)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>5</span> <span class='equivalence'>&ordm;  </span> sea</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:252;'>|9|--lake(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> lake</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:252;'>|9|--river(4)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> geographical_environment</TD>
+    <TD><span>4</span> <span class='equivalence'>&ordm;  </span> river</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:252;'>|9|--canal(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--zone(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,78</TD>
+    <TD class='maxeval'>0,88</TD>
+    <TD><span>50</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>25</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>25</span> <span class='overlapping'>&Ccedil;</span> tourist_information</TD>
+    <TD><span>25</span> <span class='overlapping'>&Ccedil;</span> overview</TD>
+    <TD><span>25</span> <span class='moregeneral'>&Eacute;</span> time_zone</TD>
+    <TD><span>25</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>25</span> <span class='overlapping'>&Ccedil;</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:196;'>|7|--time_zone(25)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,78</TD>
+    <TD class='maxeval'>0,88</TD>
+    <TD><span>50</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>25</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>25</span> <span class='lessgeneral'>&Igrave;</span> tourist_information</TD>
+    <TD><span>25</span> <span class='lessgeneral'>&Igrave;</span> overview</TD>
+    <TD><span>25</span> <span class='equivalence'>&ordm;  </span> time_zone</TD>
+    <TD><span>25</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>25</span> <span class='lessgeneral'>&Igrave;</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--space(2)</TH>
+    <TD class='eval'>0,29</TD>
+    <TD class='eval'>0,05</TD>
+    <TD class='eval'>0,08</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--food(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,62</TD>
+    <TD class='maxeval'>0,77</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> food</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> drink</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--drink(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> food</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> drink</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--alcohol(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> consumer_goods</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> food</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> drink</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--document(0)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--written_document(0)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:168;'>|6|--approval(1)</TH>
+    <TD class='eval'>0,14</TD>
+    <TD class='eval'>0,50</TD>
+    <TD class='eval'>0,22</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:56;'>|2|--ethnic(3)</TH>
+    <TD class='maxeval'>0,25</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,40</TD>
+    <TD><span>5</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>3</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> language</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--partial_material_thing(0)</TH>
+    <TD class='eval'>0,78</TD>
+    <TD class='eval'>0,62</TD>
+    <TD class='eval'>0,69</TD>
+    <TD><span>46</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>34</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>24</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>7</span> <span class='overlapping'>&Ccedil;</span> Material</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> living_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> human_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> person</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> author</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>5</span> <span class='overlapping'>&Ccedil;</span> Spiritual_Product</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> time</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> culture_and_art</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> architecture</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--attractions_of_city(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,88</TD>
+    <TD class='maxeval'>0,93</TD>
+    <TD><span>30</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>30</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>24</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+    <TD><span>3</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--culture_offer(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,83</TD>
+    <TD class='maxeval'>0,91</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>8</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>8</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>8</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>6</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> museum</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> garden</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--museum(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> museum</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--garden(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_place</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> garden</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--cathedral(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> cathedral</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--church(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--theatre(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--cinema(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--sight(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD class='maxeval'>0,96</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> Dimension</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> region</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> public_space</TD>
+    <TD><span>10</span> <span class='overlapping'>&Ccedil;</span> public_building</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> fortress</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> palace</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> cathedral</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> monument</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> church</TD>
+    <TD><span>2</span> <span class='overlapping'>&Ccedil;</span> public_place</TD>
+    <TD><span>2</span> <span class='moregeneral'>&Eacute;</span> square</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--church(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> church</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--monument(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> monument</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--alpine_vista(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--palace(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> palace</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--square(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_place</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> square</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--cathedral(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> cathedral</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--fortress(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,86</TD>
+    <TD class='maxeval'>0,92</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Dimension</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> region</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_space</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> public_building</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> fortress</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--hilltop_view(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--arcade(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:140;'>|5|--waterfall(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--industry(0)</TH>
+    <TD class='maxeval'>0,14</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,25</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--oil(1)</TH>
+    <TD class='maxeval'>0,14</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,25</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--coal(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--agricultural(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--timber(1)</TH>
+    <TD class='maxeval'>0,14</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,25</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> tourist_information</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> overview</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time_zone</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Dimension</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> time</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--construction_equipment(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--iron_ore(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--automotive(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:84;'>|3|--living_being(0)</TH>
+    <TD class='eval'>0,70</TD>
+    <TD class='eval'>0,35</TD>
+    <TD class='eval'>0,47</TD>
+    <TD><span>8</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>7</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>7</span> <span class='equivalence'>&ordm;  </span> living_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> human_being</TD>
+    <TD><span>7</span> <span class='moregeneral'>&Eacute;</span> person</TD>
+    <TD><span>6</span> <span class='moregeneral'>&Eacute;</span> author</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> culture_and_art</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> architecture</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--animal(4)</TH>
+    <TD class='maxeval'>0,50</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,67</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>4</span> <span class='lessgeneral'>&Igrave;</span> living_being</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> human_being</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> person</TD>
+    <TD><span>4</span> <span class='unknown'    >?</span> author</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--plant(3)</TH>
+    <TD class='maxeval'>0,33</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,50</TD>
+    <TD><span>3</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>2</span> <span class='lessgeneral'>&Igrave;</span> living_being</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> human_being</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> person</TD>
+    <TD><span>2</span> <span class='unknown'    >?</span> author</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> Spiritual_Product</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> culture_and_art</TD>
+    <TD><span>1</span> <span class='unknown'    >?</span> architecture</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--human_being(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,33</TD>
+    <TD class='maxeval'>0,50</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> living_being</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> human_being</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> person</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:140;'>|5|--person(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>0,33</TD>
+    <TD class='maxeval'>0,50</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> living_being</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> human_being</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> person</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--inhabitant(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> living_being</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> human_being</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> person</TD>
+    <TD><span>1</span> <span class='moregeneral'>&Eacute;</span> president</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:196;'>|7|--president(1)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> Material</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> living_being</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> human_being</TD>
+    <TD><span>1</span> <span class='lessgeneral'>&Igrave;</span> person</TD>
+    <TD><span>1</span> <span class='equivalence'>&ordm;  </span> president</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:168;'>|6|--traveller(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:56;'>|2|--culture(0)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>12</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>12</span> <span class='overlapping'>&Ccedil;</span> culture_and_art</TD>
+    <TD><span>12</span> <span class='moregeneral'>&Eacute;</span> festival</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--adventure(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--woodcarving(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--hiking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--embroidery(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--bicycling(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--kayaking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--jaunt(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--trekking(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:112;'>|4|--skiing(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#ebf0f3'>
+    <TH style='padding-left:112;'>|4|--mountaineering(0)</TH>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+    <TD class='noeval'>?.??</TD>
+  </TR>
+  <TR bgcolor='#f9f9f9'>
+    <TH style='padding-left:84;'>|3|--festival(6)</TH>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD class='maxeval'>1,00</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> DEFAULT_ROOT_CONCEPT</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> Spiritual_Product</TD>
+    <TD><span>6</span> <span class='lessgeneral'>&Igrave;</span> culture_and_art</TD>
+    <TD><span>6</span> <span class='equivalence'>&ordm;  </span> festival</TD>
+  </TR>
+  <TR>
+    <TD class='title' align='left'  >Global Evaluation</TD>
+    <TD class='title' align='center'>0,77</TD>
+    <TD class='title' align='center'>0,50</TD>
+    <TD class='title' align='center'>0,61</TD>
+  </TR>
+</table>
+</body>
+</html>

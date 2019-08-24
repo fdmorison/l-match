@@ -1,0 +1,27 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+extraIN economicIN radiationIN dailyIN 
+
+outputsPN                        =  solarPV declinationPV                     :  measurePT                        
+outputsPN                        =  dayPV sunrisePV                           :  measurePT                        
+minimumPN valuePN                =  nbzeroPV nbzeronbfivePV                   :                                   
+defaultPN valuePN                =  nbtwonbfivePV nbzeroPV                    :                                   
+outputsPN                        =  extraterrestrialPV radiationPV hourlyPV   :  measurePT                        
+inputsPN                         =  currentPV dayPV                           :  measurePT                        
+inputsPN                         =  latitudePV                                :  measurePT                        
+maximumPN valuePN                =  nbfournbtwoPV nbzeroPV                    :                                   
+interimPN contextPN              =  itemPV meterPV                            :  itemPT                           
+spatialPN contextPN              =  itemPV spacePV                            :  onePT dimensionalPT              
+defaultPN unitPN                 =  megaPV joulePV meterPV nutrientPV dayPV   :  complexPT unitPT                 
+outputsPN                        =  dayPV lenghtPV                            :  measurePT                        
+outputsPN                        =  dayPV anglePV                             :  measurePT                        
+outputsPN                        =  solarPV elevationPV                       :  measurePT                        
+observationPN                    =  solarPV irradiancePV                      :  measurePT                        
+outputsPN                        =  extraPV economicPV radiationPV dailyPV    :  measurePT                        
+meterPN samplingPN frequencyPN   =  dailyPV                                   :  meterPT samplingPT frequencyPT   
+implementedPN                    =  climaPV gsrPV adPV                        :  apescPT omponentsPT              
+outputsPN                        =  dayPV sunsetPV                            :  measurePT                        

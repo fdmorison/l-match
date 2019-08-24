@@ -1,0 +1,15 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+coursesCN
+collegeengineeringCN
+coursesCN
+collegeengineeringCN
+
+chemicalDC engeneeringDC  chemicalCN engeneeringCN 
+economicDC scienceDC engeneeringDC classDC  economicCN scienceCN engeneeringCN classCN 
+linguisticDC linguisticCN
+
+
+undergraduateIN researchIN 
+

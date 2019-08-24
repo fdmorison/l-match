@@ -1,0 +1,12 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+hectareIN dayIN 
+
+productPN   =  dayPV      :  unitPT derivedPT elevationPT powerPT   
+productPN   =  hectarePV  :  unitPT derivedPT elevationPT powerPT   

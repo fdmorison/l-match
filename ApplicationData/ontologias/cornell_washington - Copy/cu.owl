@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://www.mydomain.com.br/Ontology1211664473.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.mydomain.com.br/Ontology1211664473.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Classics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="College_of_arts_and_sciences"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#College_of_arts_and_sciences">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Courses"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="College_of_engineering">
+    <rdfs:subClassOf rdf:resource="#Courses"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Asian_Studies">
+    <rdfs:subClassOf rdf:resource="#College_of_arts_and_sciences"/>
+  </owl:Class>
+  <owl:Class rdf:ID="History">
+    <rdfs:subClassOf rdf:resource="#College_of_arts_and_sciences"/>
+  </owl:Class>
+  <Asian_Studies rdf:ID="Thai"/>
+  <Classics rdf:ID="Latin"/>
+  <Asian_Studies rdf:ID="Korean"/>
+  <History rdf:ID="Ancient_european_history"/>
+  <College_of_arts_and_sciences rdf:ID="Mathematics"/>
+  <College_of_engineering rdf:ID="Civil_and_enviromental_engineering"/>
+  <History rdf:ID="Medieval_renaissance_and_early_modern_european_history"/>
+  <History rdf:ID="Latin_american_history"/>
+  <College_of_engineering rdf:ID="Electrical_and_computer_engineering"/>
+  <Asian_Studies rdf:ID="Chinese"/>
+  <College_of_arts_and_sciences rdf:ID="English"/>
+  <Asian_Studies rdf:ID="Vietnamese"/>
+  <Asian_Studies rdf:ID="Hindi"/>
+  <Asian_Studies rdf:ID="Sanskrit"/>
+  <History rdf:ID="Asian_history"/>
+  <Asian_Studies rdf:ID="Japanese"/>
+  <History rdf:ID="American_history"/>
+  <College_of_arts_and_sciences rdf:ID="Economics"/>
+  <History rdf:ID="Modern_european_history"/>
+  <College_of_engineering rdf:ID="Chemical_engineering"/>
+  <College_of_engineering rdf:ID="Material_sciences_and_engineering"/>
+  <College_of_engineering rdf:ID="Earth_and_atmosferic_sciences">
+    <rdf:type rdf:resource="#College_of_arts_and_sciences"/>
+  </College_of_engineering>
+  <Asian_Studies rdf:ID="Indonesian"/>
+  <Classics rdf:ID="Greek"/>
+  <College_of_arts_and_sciences rdf:ID="Computer_science"/>
+  <College_of_arts_and_sciences rdf:ID="Astronomy"/>
+  <College_of_arts_and_sciences rdf:ID="Linguistics"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

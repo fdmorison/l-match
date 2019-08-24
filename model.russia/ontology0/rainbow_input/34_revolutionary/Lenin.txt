@@ -1,0 +1,34 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+studentDC studentCN
+novelDC novelCN
+
+
+leninIN 
+
+existPN       =  stpetersburgPV         :  cityPT        
+animalPN      =  leninPV                :                
+birthplacePN  =  ulyanovskPV            :  townPT        
+studyPN       =  universityPV kazanPV   :  universityPT  
+labelPN       =  leninPV                :                

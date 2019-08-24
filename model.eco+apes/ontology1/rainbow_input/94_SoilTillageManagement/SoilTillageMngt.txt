@@ -1,0 +1,10 @@
+seamCN agroCN areaCN 
+actionsCN 
+agroCN actionsCN 
+agroCN manageCN 
+
+groundDC tillageDC manageDC  groundCN tillageCN manageCN 
+
+
+groundIN tillageIN mngtIN 
+

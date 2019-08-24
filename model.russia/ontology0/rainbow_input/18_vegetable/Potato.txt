@@ -1,0 +1,18 @@
+defaultrootconceptCN
+animalCN
+consumerCN goodsCN 
+foodCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+foodCN
+drinkCN
+alcoholCN
+vegetableDC vegetableCN
+
+
+potatoIN 
+
+labelPN   =  potatoPV   :    

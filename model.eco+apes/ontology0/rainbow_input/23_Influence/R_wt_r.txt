@@ -1,0 +1,13 @@
+ecologicalCN dataCN 
+contextualCN dataCN 
+
+seamCN coreCN 
+measureCN
+actDC actCN
+
+
+rIN wtIN rIN 
+
+directionPN   =  undefinedPV             :  signPT              
+measurePN     =  waterPV temperaturePV   :  temperaturePT       
+measurePN     =  respirationPV ratePV    :  absolutePT ratePT   

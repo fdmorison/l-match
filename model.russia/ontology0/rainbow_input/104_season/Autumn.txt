@@ -1,0 +1,12 @@
+defaultrootconceptCN
+dimensionCN 
+clockCN
+clockCN slotCN 
+
+defaultrootconceptCN
+seasonDC seasonCN
+
+
+autumnIN
+
+labelPN   =  autumnPV  :    

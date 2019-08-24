@@ -1,0 +1,11 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+testIN
+
+implementedPN   =  demoPV componentPV   :  apescPT omponentsPT   
+implementedPN   =  agroforestryPV       :  apescPT omponentsPT   

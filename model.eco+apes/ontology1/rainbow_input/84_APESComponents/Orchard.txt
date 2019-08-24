@@ -1,0 +1,10 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+orchardIN 
+
+consistsPN modelPN   =  lintulnbonePV            :  activePT   
+consistsPN modelPN   =  supitPV vanPV kappelPV   :  setPT      

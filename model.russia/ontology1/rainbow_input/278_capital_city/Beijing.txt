@@ -1,0 +1,26 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+capitalDC cityDC  capitalCN cityCN 
+
+
+beijingIN
+
+nameablePN   =  beijingPV      :                      
+cityPN       =  chinaPV        :  countryPT           
+railwayPN    =  vladivostokPV  :  ordinaryPT cityPT   
+labelPN      =  beijingPV      :                      

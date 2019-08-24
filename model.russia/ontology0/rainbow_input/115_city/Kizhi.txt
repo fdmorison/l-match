@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityDC cityCN
+
+
+kizhiIN 
+
+sightPN cityPN                     =  birchPV churchPV       :  churchPT        
+locatablePN stpetersburgPN         =  northPV                :  directionPT     
+distancePN unitPN areaPN           =  kilometerPV            :  durationunitPT  
+distancePN stpetersburgPN cityPN   =  nbthreenbtwonbzeroPV   :                  
+countryPN cityPN                   =  russiaPV               :  countryPT       
+labelPN                            =  kizhiPV                :                  

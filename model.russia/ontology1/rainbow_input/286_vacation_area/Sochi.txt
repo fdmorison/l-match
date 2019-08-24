@@ -1,0 +1,22 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+naturCN areaCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+geographicalCN environmentCN 
+vacationDC areaDC  vacationCN areaCN 
+
+
+sochiIN 
+
+closePN   =  blackPV seaPV   :  seaPT  
+labelPN   =  sochiPV         :         

@@ -1,0 +1,20 @@
+measureCN dataCN 
+unitCN measureCN 
+derivedunitCN
+derivedCN unitCN complexCN dimensionCN 
+derivedCN unitCN exponentiationCN 
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitDC frequencyDC  unitCN frequencyCN 
+
+
+hertzIN
+
+operationPN   =  exponentiationPV   :  operationPT                              
+unitPN        =  grayPV             :  unitPT meterPT                           
+expoentPN     =  nbonePV nbzeroPV   :                                           
+dimensionPN   =  frequencyPV        :  complexPT dimensionPT exponentiationPT   

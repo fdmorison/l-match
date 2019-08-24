@@ -1,0 +1,19 @@
+measureCN dataCN 
+unitCN measureCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC temperatureDC  unitCN temperatureCN 
+
+
+kelvinIN
+
+waterPN boilingPN itemPN     =  nbthreenbsevennbthreePV nbonenbthreenbthreenbninePV kPV   :                   
+formulaPN correspondencePN   =                                                            :                   
+dimensionPN                  =  temperaturePV                                             :  basedimensionPT  
+waterPN meltingPN itemPN     =  nbtwonbsevennbthreePV nbonenbfivePV kPV                   :                   

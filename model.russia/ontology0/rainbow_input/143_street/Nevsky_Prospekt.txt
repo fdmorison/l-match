@@ -1,0 +1,21 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN placeCN 
+shopCN placeCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+streetDC streetCN
+
+
+nevskyIN prospektIN 
+
+liePN     =  stpetersburgPV        :  cityPT  
+areaPN    =  nevskyPV prospektPV   :          
+labelPN   =  nevskyPV prospektPV   :          

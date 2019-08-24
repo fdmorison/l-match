@@ -1,0 +1,20 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+sightCN
+nameableCN 
+partialCN animalCN 
+museumDC museumCN
+
+
+hermitageIN museumIN 
+
+liePN     =  stpetersburgPV         :  cityPT  
+areaPN    =  hermitagePV museumPV   :          
+labelPN   =  hermitagePV museumPV   :          

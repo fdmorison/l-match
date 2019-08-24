@@ -1,0 +1,15 @@
+ecologicalCN dataCN 
+measureCN
+meterCN correspondentCN rateCN measureCN 
+
+seamCN coreCN 
+measureCN
+specificDC rateDC  specificCN rateCN 
+
+
+plantIN productIN rateIN 
+
+unitPN measurePN    =  gramPV diffusePV kiloPV diffusePV dayPV   :  unitPT specificPT ratePT   
+measurePN           =  rPV wtPV pprPV                            :  actPT                      
+materialPN          =  biomassPV                                 :  materialPT                 
+absolutePN ratePN   =  productPV ratePV                          :  absolutePT ratePT          

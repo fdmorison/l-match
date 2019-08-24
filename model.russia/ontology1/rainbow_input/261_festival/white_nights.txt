@@ -1,0 +1,22 @@
+defaultrootconceptCN
+defaultrootconceptCN
+nameableCN 
+immaterialCN 
+cultureCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+cultureCN artCN 
+festivalCN
+dimensionCN 
+areaCN
+festivalDC festivalCN
+
+
+whiteIN nightsIN 
+
+nameablePN   =  whitePV nightsPV   :                      
+isPN         =  junePV             :  monthPT             
+isPN         =  stpetersburgPV     :  ordinaryPT cityPT   
+labelPN      =  whitePV nightsPV   :                      

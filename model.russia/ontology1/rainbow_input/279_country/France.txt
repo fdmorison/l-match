@@ -1,0 +1,24 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+countryDC countryCN
+
+
+franceIN 
+
+memberPN           =  truePV     :                     
+capitalPN cityPN   =  parisPV    :  capitalPT cityPT   
+borderPN           =  germanyPV  :  countryPT          
+labelPN            =  francePV   :                     

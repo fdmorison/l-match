@@ -1,0 +1,31 @@
+@direction cu -> wu
+
+# Mapeamentos de equivalência
+equivalence Courses                                Courses
+equivalence College_of_arts_and_sciences           College_of_Arts_and_Sciences
+equivalence Asian_Studies                          Asian_Languages_and_Literature
+equivalence Classics                               Classics
+equivalence History                                History
+equivalence College_of_engineering                 College_of_Engineering
+equivalence Chemical_and_Biomolecular_Engineering  Chemical_engeneering
+equivalence Civil_and_enviromental_engineering     Civil_and_enviromental_engeneering
+equivalence Electrical_and_computer_engineering    Electrical_Engeneering
+equivalence Earth_and_atmosferic_sciences          Earth_and_Space_Sciences
+equivalence Material_sciences_and_engineering      Materials_Science_and_EngeneeringClass
+equivalence Chinese Chinese
+equivalence Indonesian Indonesian
+equivalence Korean Korean
+equivalence Japanese Japanese
+equivalence Sanskrit Sanskrit
+equivalence Hindi Hindi
+equivalence Vietnamese Vietnamese
+equivalence Thai Thai
+equivalence History History
+equivalence Classics Classics
+equivalence GreekClass Greek
+equivalence LatinClass Latin
+
+# Mapeamentos de mais geral
+# Mapeamentos de menos geral
+# Mapeamentos de sobreposicao
+# Mapeamentos de diferença

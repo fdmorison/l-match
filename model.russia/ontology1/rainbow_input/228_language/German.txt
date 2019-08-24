@@ -1,0 +1,15 @@
+defaultrootconceptCN
+immaterialCN 
+factCN
+politicalCN factCN 
+
+defaultrootconceptCN
+immaterialCN productCN 
+touristCN informationCN 
+overviewCN
+languageDC languageCN
+
+
+germanIN 
+
+labelPN   =  germanPV   :    

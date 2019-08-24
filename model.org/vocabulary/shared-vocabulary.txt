@@ -1,0 +1,7 @@
+affiliated <- affiliatedWith affiliatedWith 
+employee <- Employee Employee 
+head <- headOf headOf 
+lab <- Laboratory Laboratory 
+organization <- Organization Organization 
+uscbchemicalengineering <- USCB_Chemical_Engineering USCB_Chemical_Engineering 
+works <- worksFor worksFor 

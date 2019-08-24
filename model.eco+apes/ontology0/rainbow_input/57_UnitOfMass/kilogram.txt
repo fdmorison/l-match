@@ -1,0 +1,20 @@
+measureCN dataCN 
+unitCN measureCN 
+measureCN dataCN 
+mixCN unitCN 
+unitCN measureCN 
+unitCN materialCN 
+baseunitCN
+
+seamCN coreCN 
+unitCN
+derivedunitCN
+linearCN unitCN 
+unitCN derivedCN changingCN dimensionCN 
+unitCN derivedCN scaleCN 
+unitDC massDC  unitCN massCN 
+
+
+kiloIN
+
+dimensionPN  =  massPV  :  basedimensionPT  

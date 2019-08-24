@@ -1,0 +1,15 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+windIN speedIN cellIN 
+
+minimumPN valuePN     =  nbzeroPV nbzeroPV        :                        
+interimPN contextPN   =  itemPV meterPV           :  itemPT                
+defaultPN unitPN      =  meterPV grayPV           :  complexPT unitPT      
+defaultPN valuePN     =  nbzeroPV nbfivePV        :                        
+spatialPN contextPN   =  itemPV spacePV           :  onePT dimensionalPT   
+maximumPN valuePN     =  nbonenbzeroPV nbzeroPV   :                        
+observationPN         =  windPV speedPV           :  measurePT             

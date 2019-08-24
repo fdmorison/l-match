@@ -1,0 +1,12 @@
+seamCN coreCN 
+unitCN
+derivedunitCN
+
+measureCN dataCN 
+complexDC unitDC  complexCN unitCN 
+
+
+coulombIN
+
+productPN   =  grayPV   :  baseunitPT  
+productPN   =  amperPV  :  baseunitPT  

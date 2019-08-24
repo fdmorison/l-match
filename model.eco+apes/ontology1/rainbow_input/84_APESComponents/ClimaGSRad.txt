@@ -1,0 +1,17 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+climaIN gsrIN adIN 
+
+consistsPN modelPN   =  liuPV jordanPV                           :  setPT   
+consistsPN modelPN   =  extraterrestrialPV radiationPV modelPV   :  setPT   
+consistsPN modelPN   =  supitPV vanPV kappelPV                   :  setPT   
+consistsPN modelPN   =  winslowPV alPV                           :  setPT   
+consistsPN modelPN   =  campbellPV donatelliPV                   :  setPT   
+consistsPN modelPN   =  thortonPV constantPV                     :  setPT   
+consistsPN modelPN   =  bristowPV campbellPV                     :  setPT   
+consistsPN modelPN   =  campbellPV                               :  setPT   
+consistsPN modelPN   =  woodwardPV alPV                          :  setPT   

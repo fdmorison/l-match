@@ -1,0 +1,17 @@
+seamCN coreCN 
+dimensionCN
+
+measureCN dataCN 
+basedimensionDC basedimensionCN
+
+
+temperatureIN
+
+expressedPN    =  kelvinPV                                                      :  baseunitPT                    
+expressedPN    =  degreePV fahrenheitPV                                         :  unitPT derivedPT shiftingPT   
+expressedPN    =  degreePV celsiusPV                                            :  unitPT derivedPT shiftingPT   
+expressedPN    =  degreePV celsiusPV bynbonePV nbeightPV interimPV instancePV   :  unitPT derivedPT scalePT      
+symbolPN       =  tPV                                                           :                                
+measurePN      =  airPV temperaturePV                                           :  measurePT                     
+measurePN      =  groundPV temperaturePV                                        :  measurePT                     
+temperaturePN  =  nbonePV                                                       :                                

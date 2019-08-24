@@ -1,0 +1,11 @@
+defaultrootconceptCN
+dimensionCN 
+clockCN
+
+defaultrootconceptCN
+clockDC headDC  clockCN headCN 
+
+
+nbfourIN pmIN 
+
+labelPN   =  nbfourPV pmPV   :    

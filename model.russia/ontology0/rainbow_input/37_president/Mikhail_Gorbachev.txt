@@ -1,0 +1,19 @@
+defaultrootconceptCN
+animalCN
+existCN
+humanCN
+personCN
+
+defaultrootconceptCN
+nameableCN 
+partialCN animalCN 
+existCN
+humanCN
+personCN
+inhabitantCN
+presidentDC presidentCN
+
+
+mikhailIN gorbachevIN 
+
+labelPN   =  mikhailPV gorbachevPV   :    

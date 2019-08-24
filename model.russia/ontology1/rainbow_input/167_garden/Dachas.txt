@@ -1,0 +1,24 @@
+defaultrootconceptCN
+nameableCN 
+defaultrootconceptCN
+partialCN animalCN 
+locatableCN 
+attractionsCN cityCN 
+cultureCN offerCN 
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+museumCN
+cathedralCN
+churchCN
+gardenDC gardenCN
+
+
+dachasIN 
+
+labelPN   =  dachasPV   :    

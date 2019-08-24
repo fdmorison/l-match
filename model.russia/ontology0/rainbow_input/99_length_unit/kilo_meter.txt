@@ -1,0 +1,11 @@
+defaultrootconceptCN
+dimensionCN 
+unitCN
+
+defaultrootconceptCN
+durationunitDC durationunitCN
+
+
+kilometerIN
+
+labelPN   =  kilometerPV  :    

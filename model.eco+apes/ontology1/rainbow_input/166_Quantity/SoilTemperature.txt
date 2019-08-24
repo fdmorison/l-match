@@ -1,0 +1,13 @@
+seamCN coreCN 
+
+measureCN dataCN 
+measureDC measureCN
+
+
+groundIN temperatureIN 
+
+measurePN areaPN    =  groundPV                                   :  groundPT enviromentPT   
+measurePN           =  groundPV temperaturePV dailyPV             :  measurePT               
+measurePN           =  groundPV temperaturePV dailybyPV layerPV   :  measurePT               
+dataPN typePN       =  doublePV                                   :  floatPT                 
+measuredimensionPN  =  temperaturePV                              :  basedimensionPT         

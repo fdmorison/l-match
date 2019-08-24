@@ -1,0 +1,26 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+cityCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+cityCN
+ordinaryDC cityDC  ordinaryCN cityCN 
+
+
+irkutskIN
+
+nameablePN   =  irkutskPV  :             
+isPN         =  falsePV    :             
+cityPN       =  russiaPV   :  countryPT  
+labelPN      =  irkutskPV  :             

@@ -1,0 +1,35 @@
+defaultrootconceptCN
+defaultrootconceptCN
+immaterialCN productCN 
+dimensionCN 
+touristCN informationCN 
+clockCN
+overviewCN
+clockCN slotCN 
+consumptionCN informationCN 
+
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+districtCN
+clockdistrictCN
+openDC dayDC  openCN dayCN 
+
+
+bankIN dayIN normalIN 
+
+weekdayPN    =  fridayPV                :  weekdayPT        
+weekdayPN    =  thursdayPV              :  weekdayPT        
+hasPN        =  nbonePV pmPV            :  clockPT headPT   
+hasPN        =  nbsixPV pmPV            :  clockPT headPT   
+labelPN      =  bankPV dayPV normalPV   :                   
+weekdayPN    =  wednsdayPV              :  weekdayPT        
+weekdayPN    =  tuesdayPV               :  weekdayPT        
+beginnPN     =  nbninePV amPV           :  clockPT headPT   
+beginnPN     =  nbtwoPV pmPV            :  clockPT headPT   
+weekdayPN    =  mondayPV                :  weekdayPT        
+clockunitPN  =  clockPV                 :  clockunitPT      
+hasPN        =  nbsevenPV pmPV          :  clockPT headPT   

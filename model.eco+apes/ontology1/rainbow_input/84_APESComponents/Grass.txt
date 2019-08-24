@@ -1,0 +1,9 @@
+modelCN areaCN 
+modelCN componentCN 
+
+apescDC omponentsDC  apescCN omponentsCN 
+
+
+grassIN 
+
+consistsPN modelPN   =  crosPV duruPV   :  activePT   

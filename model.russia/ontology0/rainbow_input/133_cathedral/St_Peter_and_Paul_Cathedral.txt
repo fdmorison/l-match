@@ -1,0 +1,24 @@
+defaultrootconceptCN
+dimensionCN 
+areaCN
+publicCN spaceCN 
+publicCN buildingCN 
+
+defaultrootconceptCN
+locatableCN 
+attractionsCN cityCN 
+infrastructureCN
+buildingCN
+nameableCN 
+animalCN
+animalCN
+partialCN animalCN 
+cathedralDC cathedralCN
+
+
+stIN peterIN paulIN cathedralIN 
+
+knownPN publicPN spacePN   =  peterPV                           :  czarPT  
+liePN                      =  stpetersburgPV                    :  cityPT  
+areaPN                     =  stPV peterPV paulPV cathedralPV   :          
+labelPN                    =  stPV peterPV paulPV cathedralPV   :          

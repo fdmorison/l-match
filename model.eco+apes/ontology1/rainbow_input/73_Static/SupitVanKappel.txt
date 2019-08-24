@@ -1,0 +1,15 @@
+modelCN areaCN 
+modelCN 
+biophysicalCN modelCN 
+
+setDC  setCN 
+
+
+supitIN vanIN kappelIN 
+
+inputsPN        =  extraPV economicPV radiationPV dailyPV   :  measurePT             
+inputsPN        =  slopePV aspectPV componentPV             :  measurePT             
+inputsPN        =  airPV temperaturePV dailyPV rangePV      :  measurePT             
+outputsPN       =  globalPV solarPV radiationPV             :  measurePT             
+implementedPN   =  orchardPV                                :  apescPT omponentsPT   
+implementedPN   =  climaPV gsrPV adPV                       :  apescPT omponentsPT   

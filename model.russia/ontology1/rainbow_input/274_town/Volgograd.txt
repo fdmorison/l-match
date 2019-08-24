@@ -1,0 +1,23 @@
+defaultrootconceptCN
+nameableCN 
+animalCN
+animalCN
+locatableCN
+areaCN
+areaCN
+politicalareaCN
+
+defaultrootconceptCN
+animalCN
+immaterialCN productCN 
+dimensionCN 
+areaCN
+politicalareaCN
+townDC townCN
+
+
+volgogradIN
+
+nameablePN   =  volgogradPV  :                     
+railwayPN    =  beijingPV    :  capitalPT cityPT   
+labelPN      =  volgogradPV  :                     

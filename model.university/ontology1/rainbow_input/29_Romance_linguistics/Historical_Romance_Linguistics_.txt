@@ -1,0 +1,9 @@
+coursesCN
+collegeartsscienceCN
+linguisticCN
+
+latinDC linguisticDC  latinCN linguisticCN 
+
+
+ancientIN latinIN linguisticIN 
+

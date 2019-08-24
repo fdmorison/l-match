@@ -1,0 +1,582 @@
+a <- a U.S.A. 
+accomodation <- accomodation 
+active <- active activity 
+adventure <- risk adventure 
+africa <- africa 
+agent <- agent 
+agricultural <- agricultural 
+air <- air 
+alcohol <- alcohol 
+alpine <- alpine 
+am <- am 
+ameriaca <- ameriaca 
+america <- america 
+amsterdam <- amsterdam 
+andrei <- andrei 
+animal <- physical material_thing material physical_thing Material animal 
+animist <- animist 
+annual <- annual 
+antarctica <- antarctica 
+antique <- antique be_used_for Antique old used 
+appartment <- appartment 
+approval <- approval 
+april <- april April 
+arbat <- arbat 
+arcade <- arcade 
+archipelago <- archipelago 
+architecture <- architecture 
+arctic <- arctic 
+area <- area region 
+areaunit <- area_unit 
+arms <- arms 
+army <- army 
+art <- artwork art 
+asia <- asia 
+attend <- attend 
+attractions <- attractions 
+august <- august 
+author <- author source 
+automotive <- riding automotive 
+autumn <- Autumn autumn 
+azov <- azov 
+backdrop <- backdrop 
+baikal <- baikal 
+balalaika <- balalaika 
+ballet <- ballet 
+bank <- bank banking 
+bar <- bar 
+basil <- basil 
+bath <- bath 
+battleship <- battleship 
+bear <- bear pay 
+beginn <- beginn 
+beijing <- beijing Beijing 
+belgium <- belgium 
+berlin <- Berlin berlin 
+bicycling <- bicycling 
+bills <- bills 
+birch <- wooden birch 
+birthplace <- has_birthplace birthplace 
+black <- black red painted 
+blackpaid <- Red_Square 
+boat <- boat 
+boeing <- boeing 
+bolshoi <- bolshoi 
+border <- march border has_border March 
+boutique <- boutique 
+bread <- bread 
+budapest <- budapest 
+budget <- budget 
+building <- construction building 
+bus <- bus 
+business <- business 
+cafe <- cafe 
+canada <- canada 
+canal <- canal 
+capital <- capital special 
+card <- card 
+carnival <- circus carnival 
+cash <- cash 
+casino <- casino 
+caspian <- caspian 
+caspiansea <- Caspian_Sea 
+cathedral <- cathedral 
+caucasus <- caucasus 
+causal <- causal 
+caviar <- caviar 
+cellular <- cellular 
+certificate <- certificate 
+certifikate <- certifikate 
+chechnya <- chechnya 
+check <- training train check 
+cheque <- cheque 
+china <- china China 
+christ <- saviour christ savior 
+christmas <- christmas 
+church <- church 
+cinema <- film cinema 
+circle <- circle 
+circuse <- circuse 
+cititzen <- cititzen 
+city <- belong_to___city city 
+classic <- classic 
+clock <- time clock 
+clockdistrict <- time_zone 
+clockunit <- has_time_unit time_unit 
+close <- close is_close_to closed closed_on 
+clothes <- clothes 
+club <- club 
+coal <- coal 
+company <- company 
+composer <- composer 
+composition <- composition 
+concept <- concept 
+concert <- concert 
+conservatory <- conservatory 
+consumer <- consumer 
+consumption <- consumption 
+continent <- continent 
+convenience <- convenience 
+cooperative <- cooperative 
+country <- country has_country state 
+credit <- credit 
+creditcard <- credit_card 
+cruise <- cruise 
+cruiser <- cruiser 
+culture <- culture 
+cure <- cure 
+currency <- currency 
+czar <- czar 
+czech <- czech 
+dachas <- dachas 
+dagestan <- dagestan 
+dance <- dance 
+dancer <- dancer 
+danger <- danger 
+day <- hour day hours 
+december <- December december 
+decorative <- decorative 
+deer <- deer 
+default <- default 
+defaultrootconcept <- DEFAULT_ROOT_CONCEPT 
+defaultrootrelation <- DEFAULT_ROOT_RELATION 
+demetrius <- demetrius 
+departure <- departure 
+designer <- designer 
+destination <- destination has_destination 
+device <- device 
+dimension <- dimension 
+diphtheria <- diphtheria 
+direction <- direction 
+disco <- disco 
+disease <- disease 
+distance <- distance 
+district <- zone district 
+dnepr <- dnepr 
+document <- belong_to___document document 
+dollar <- Dollar dollar us_dollar 
+dom <- dom 
+dombai <- dombai 
+don <- don 
+dostoyevsky <- dostoyevsky 
+drink <- drink 
+drive <- drive 
+duck <- duck 
+duration <- duration length 
+durationunit <- length_unit has_length_unit has_duration_unit 
+earth <- earth land 
+east <- east 
+easter <- easter 
+eating <- eating 
+economical <- economical 
+electromagnetic <- electromagnetic 
+electronic <- electronic 
+embroidery <- embroidery 
+encephalitis <- encephalitis 
+english <- english English 
+entertainment <- entertainment 
+environment <- environment 
+equipment <- equipment 
+ethnic <- ethnic 
+eu <- eu 
+europe <- europe 
+event <- event 
+example <- example 
+exist <- lived_in lived living live_in living_being live exist_in exist 
+fact <- fact 
+far <- far 
+february <- february February 
+federation <- federation 
+fee <- fee 
+female <- female 
+festival <- festival has_festival 
+flight <- flight 
+flow <- flow 
+folk <- folk 
+food <- food 
+foreign <- foreign 
+forest <- wood forest 
+fortress <- fortress 
+founded <- founded 
+france <- france 
+friday <- friday 
+fruit <- fruit 
+gallery <- gallery 
+garden <- garden has_garden 
+gdp <- gdp 
+gender <- gender 
+geographical <- geographical 
+german <- german 
+germany <- Germany germany 
+gmt <- gmt 
+gmtutcnbeight <- GMT_UTC-8 GMT_UTC_8 
+gmtutcnbfive <- GMT_UTC-5 GMT_UTC_5 
+gmtutcnbfour <- GMT_UTC-4 GMT_UTC_4 
+gmtutcnbnine <- GMT_UTC-9 GMT_UTC_9 
+gmtutcnbone <- GMT_UTC-1 GMT_UTC_1 
+gmtutcnbonenbone <- GMT_UTC_11 GMT_UTC-11 
+gmtutcnbonenbthree <- GMT_UTC_13 
+gmtutcnbonenbtwo <- GMT_UTC_12 GMT_UTC-12 
+gmtutcnbonenbzero <- GMT_UTC_10 GMT_UTC-10 
+gmtutcnbseven <- GMT_UTC-7 GMT_UTC_7 
+gmtutcnbsix <- GMT_UTC-6 GMT_UTC_6 
+gmtutcnbthree <- GMT_UTC-3 GMT_UTC_3 
+gmtutcnbtwo <- GMT_UTC-2 GMT_UTC_2 
+goncharev <- goncharev 
+goods <- goods 
+gorbachev <- gorbachev 
+gorky <- gorky 
+government <- government 
+gps <- gps 
+grand <- titanic grand 
+griboyedova <- griboyedova 
+growth <- growth 
+gulf <- gulf 
+gun <- gun 
+hall <- hall 
+hand <- hand 
+handwork <- handwork 
+hard <- hard 
+has <- has 
+hat <- hat 
+head <- point head 
+health <- health 
+hepatltis <- hepatltis 
+hermitage <- hermitage 
+hertz <- hertz 
+higher <- higher 
+hiking <- hiking 
+hill <- hill 
+hilltop <- hilltop 
+hilton <- hilton 
+history <- history 
+holland <- holland 
+horseback <- horseback 
+hotel <- hotel 
+human <- human human_being 
+hungary <- hungary 
+hungry <- hungry 
+hunting <- hunting 
+hydrotherapy <- hydrotherapy 
+ice <- ice 
+icecream <- icecream 
+ilino <- ilino 
+immaterial <- immaterial spiritual 
+inch <- inch 
+include <- include included 
+industry <- industry 
+inflation <- inflation 
+information <- information 
+infrastructure <- infrastructure 
+ingushetia <- ingushetia 
+inhabitant <- inhabitant 
+inspector <- inspector 
+instrument <- instrument 
+interred <- interred 
+irkutsk <- irkutsk Irkutsk 
+iron <- iron 
+is <- is 
+isaac <- isaac 
+islam <- islam 
+island <- island islands 
+ivan <- ivan 
+izmailovski <- izmailovski 
+january <- january January 
+japan <- japan 
+jaunt <- traveler jaunt traveller travel 
+jauntevent <- travel_event 
+july <- July july 
+june <- June june 
+kamchatka <- kamchatka 
+kayaking <- kayaking 
+kazan <- Kazan kazan 
+kilo <- kilo 
+kilometer <- kilo_meter kilometer 
+kizhi <- kizhi 
+km <- km 
+known <- known 
+kola <- kola 
+kremlin <- kremlin Kremlin 
+krisis <- krisis 
+kuril <- kuril 
+lacquerware <- lacquerware 
+lake <- lake 
+lakebaikal <- Lake_Baikal 
+language <- has_language language 
+laptop <- laptop 
+lenin <- lenin 
+leo <- leo 
+level <- plane level 
+lie <- rest lie 
+literature <- literature 
+local <- local 
+locatable <- locatable location position 
+lodging <- lodging 
+lukoil <- lukoil 
+major <- major 
+male <- male 
+mall <- mall 
+mamayev <- mamayev 
+manezh <- manezh 
+mariinsky <- mariinsky 
+maritime <- maritime 
+market <- market 
+massage <- massage 
+may <- may May 
+means <- means 
+measurement <- measurement 
+meat <- meat 
+member <- member 
+memorabilia <- memorabilia 
+meta <- meta 
+meter <- meter 
+method <- method 
+metric <- metric 
+mid <- middle mid 
+mikhail <- mikhail 
+mile <- mile 
+milkailovsky <- milkailovsky 
+millennium <- millennium 
+mineral <- mineral 
+minute <- minute 
+monday <- monday 
+monetary <- monetary 
+month <- month 
+monument <- monument 
+moscow <- moscow Moscow 
+mountain <- mountain mountaineering 
+mouth <- mouth 
+mud <- mud 
+murmansk <- murmansk 
+museam <- museam 
+museum <- museum 
+mushroom <- mushroom 
+music <- music musical 
+musician <- musician 
+nameable <- nameable 
+natur <- nature natur 
+nbeight <- nbeight 
+nbfive <- nbfive 
+nbfour <- nbfour 
+nbnine <- nbnine 
+nbone <- nbone 
+nbonenbone <- nbonenbone 
+nbonenbthree <- nbonenbthree 
+nbonenbtwo <- nbonenbtwo 
+nbonenbzero <- nbonenbzero 
+nbseven <- nbseven 
+nbsevennbfournbseven <- nbsevennbfournbseven 
+nbsix <- nbsix 
+nbthree <- nbthree 
+nbthreedays <- nbthreedays 
+nbthreemonths <- nbthreemonths 
+nbtwo <- nbtwo 
+nbtwonbfour <- nbtwonbfour 
+nbzero <- nbzero 
+need <- need needed 
+neva <- neva Neva 
+nevsky <- nevsky 
+nicholas <- nicholas 
+nightlife <- nightlife 
+nights <- nights 
+normal <- normal 
+north <- northeast northwest north 
+novel <- novel revolutionary 
+november <- november November 
+novgorod <- novgorod Novgorod 
+novosibirsk <- novosibirsk 
+object <- object 
+observed <- observed 
+oceania <- oceania 
+october <- October october 
+odessa <- odessa 
+offer <- pass_by offer pass has_offer 
+oil <- oil 
+onega <- onega 
+onion <- onion 
+open <- surface open 
+openarea <- surface_area 
+opera <- opera 
+ordinary <- ordinary 
+ore <- ore 
+orel <- orel 
+organisation <- organisation 
+orthodox <- traditional orthodox 
+others <- others 
+outer <- outer 
+overview <- overview 
+pacific <- pacific 
+paid <- square be_paid_for paid 
+palace <- palace 
+panorama <- view panorama vista 
+paris <- paris 
+park <- park 
+partial <- partial 
+partner <- partner 
+passport <- passport 
+paul <- paul 
+pavlovsk <- pavlovsk 
+payment <- payment 
+pearce <- pearce 
+peninsula <- peninsula 
+performance <- performance 
+person <- belong_to___person person 
+peter <- peter 
+peterpaulfortress <- Peter_and_Paul_Fortress Peter_Paul_fortress 
+petersburg <- petersburg 
+petrodvorets <- petrodvorets 
+petrozavodsk <- petrozavodsk 
+phone <- phone 
+photocopy <- photocopy 
+physician <- physician 
+pine <- pine 
+place <- take_place_at has_place rate place take_place_on range 
+plant <- plant 
+plaque <- plaque 
+pm <- pm 
+poland <- poland 
+pole <- pole 
+political <- political 
+politicalarea <- political_region political_area 
+population <- population 
+potato <- potato 
+potitical <- potitical 
+prague <- prague 
+president <- president has_president 
+product <- product 
+prospekt <- prospekt 
+public <- public 
+pushkin <- pushkin 
+putin <- putin 
+pyatigorsk <- pyatigorsk 
+rabies <- rabies 
+railway <- railway 
+rain <- rain 
+recreation <- recreation 
+registered <- registered 
+relation <- relation 
+religion <- religion 
+reserve <- reserve 
+restaurant <- restaurant 
+river <- along_river river 
+rivertransport <- rivertransport 
+robber <- robber 
+rock <- stone rock 
+root <- root 
+rouble <- ruble rouble 
+russia <- Russia russia 
+russian <- russian Russian 
+sakharov <- sakharov 
+samovar <- samovar 
+saturday <- saturday 
+sauna <- sauna 
+sawn <- sawn 
+scale <- scale 
+scarves <- scarves 
+sculpture <- sculpture 
+sea <- sea 
+season <- season 
+second <- second 
+september <- september September 
+service <- service 
+ship <- ship transport 
+shirt <- shirt 
+shop <- sponsor shopping shop 
+shouldnot <- shouldnot 
+showed <- showed 
+siberian <- siberian 
+sight <- sight visual 
+simple <- simple 
+singing <- singing 
+skating <- skating 
+ski <- skiing ski 
+slot <- slot 
+sochi <- sochi 
+sofia <- sofia 
+sold <- sold 
+sophia <- sophia 
+south <- southwest south southeast 
+souvenir <- souvenir 
+soviet <- soviet 
+space <- space 
+sport <- sport sports 
+spring <- Spring spring 
+sq <- sq 
+st <- st 
+stadium <- stadium 
+steamship <- steamship 
+store <- store 
+stpetersburg <- stpetersburg St_Petersburg St.Petersburg 
+street <- street 
+student <- student 
+study <- study 
+summer <- Summer summer 
+sunday <- sunday 
+suzdal <- suzdal 
+swimming <- swimming 
+tatar <- tatar 
+taxi <- taxi 
+tchaikovsky <- tchaikovsky 
+theatre <- theatre 
+thursday <- thursday 
+tiger <- tiger 
+timber <- timber 
+tolstoy <- tolstoy 
+top <- top 
+tour <- tour 
+tourist <- tourist 
+tower <- tower 
+town <- town 
+trading <- trading 
+trans <- trans 
+transfer <- transfer 
+transsiberian <- Trans-Siberian Trans_Siberian 
+trekking <- trekking 
+tretyakov <- tretyakov 
+tuesday <- tuesday 
+tula <- tula 
+turgenev <- turgenev 
+type <- type 
+typhoid <- typhoid 
+ude <- ude 
+ukrainian <- ukrainian 
+ulan <- ulan 
+ulyanovsk <- ulyanovsk Ulyanovsk 
+unit <- unit 
+university <- university 
+ural <- ural 
+ussuri <- ussuri 
+utc <- utc 
+vacation <- vacation 
+valley <- valley 
+vegetable <- vegetable 
+village <- village 
+visa <- Visa visa 
+vitoslavlitsy <- vitoslavlitsy 
+vladimir <- vladimir 
+vladimirovich <- vladimirovich 
+vladivostok <- Vladivostok vladivostok 
+vodka <- vodka Vodka 
+volga <- Volga volga 
+volgograd <- Volgograd volgograd 
+volt <- volt 
+volume <- volume 
+vosstaniye <- vosstaniye 
+wall <- wall 
+war <- war 
+warsaw <- warsaw 
+water <- water 
+waterfall <- waterfall 
+waterway <- waterway 
+wednsday <- wednsday 
+week <- week 
+weekday <- weekday 
+west <- west 
+white <- white 
+winter <- winter Winter 
+wolf <- wolf 
+woodcarving <- woodcarving 
+written <- written 
+yakutsk <- yakutsk 
+year <- year 
+zhanra <- zhanra 
